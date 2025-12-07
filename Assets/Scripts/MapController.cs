@@ -7,10 +7,18 @@ public class MapController : MonoBehaviour
     public List<GameObject> terrainChunks;              //pre prefaby terrain chunkov
     public GameObject player;
     public float checkerRadius;
-    Vector3 noTerrainPosition;              // na dalsiu poziciu kde nie je terrain chunk
+    public Vector3 noTerrainPosition;              // na dalsiu poziciu kde nie je terrain chunk
     public LayerMask terrainMask;           // ktory je teren a ktory nie
     public GameObject currentChunk;
     PlayerMovement playerMovement;
+
+    [Header("Optimization")]
+    public List<GameObject> spawnedChunks;        // zoznam spawnnutych chunkov pre optimalizaciu
+    GameObject latestChunk;
+    public float maxOpDist;         // must be greater than the length and width of a tilemap
+    float opDist;
+    float optimizerCooldown;
+    public float optimizerCooldownDuration;
 
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
@@ -23,6 +31,7 @@ public class MapController : MonoBehaviour
     void Update()
     {
         ChunkChecker();
+        ChunkOptimizer();
     }
 
     void ChunkChecker() 
@@ -102,6 +111,34 @@ public class MapController : MonoBehaviour
     void SpawnChunk()  
     {
         int randomIndex = Random.Range(0, terrainChunks.Count);
-        Instantiate(terrainChunks[randomIndex], noTerrainPosition, Quaternion.identity);
+        latestChunk = Instantiate(terrainChunks[randomIndex], noTerrainPosition, Quaternion.identity);
+        spawnedChunks.Add(latestChunk);
+    }
+
+    void ChunkOptimizer() 
+    {
+        optimizerCooldown -= Time.deltaTime;
+
+        if (optimizerCooldown <= 0f)
+        {
+            optimizerCooldown = optimizerCooldownDuration;
+        }
+        else
+        {
+            return;
+        }
+
+        foreach (GameObject chunk in spawnedChunks)
+            {
+                opDist = Vector3.Distance(player.transform.position, chunk.transform.position);
+                if (opDist > maxOpDist)
+                {
+                    chunk.SetActive(false);
+                }
+                else
+                {
+                    chunk.SetActive(true);
+                }
+            }
     }
 }
