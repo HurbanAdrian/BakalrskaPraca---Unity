@@ -61,12 +61,23 @@
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\6000.2.9f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.UIToolkit.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scripts\ChunkTrigger.cs" />
-    <Compile Include="Assets\Scripts\MapController.cs" />
-    <Compile Include="Assets\Scripts\CameraMovement.cs" />
-    <Compile Include="Assets\Scripts\PlayerMovement.cs" />
-    <Compile Include="Assets\Scripts\PropRandomizer.cs" />
-    <Compile Include="Assets\Scripts\PlayerAnimator.cs" />
+    <Compile Include="Assets\Scripts\Map\ChunkTrigger.cs" />
+    <Compile Include="Assets\Scripts\Weapons\Weapon Base\ProjectileWeaponBehaviour.cs" />
+    <Compile Include="Assets\Scripts\Weapons\Weapon Base\WeaponController.cs" />
+    <Compile Include="Assets\Scripts\Weapons\WeaponScriptableObject.cs" />
+    <Compile Include="Assets\Scripts\Weapons\Weapon Behaviours\GarlicBehaviour.cs" />
+    <Compile Include="Assets\Scripts\Player\PlayerMovement.cs" />
+    <Compile Include="Assets\Scripts\Map\PropRandomizer.cs" />
+    <Compile Include="Assets\Scripts\Enemy\EnemyMovement.cs" />
+    <Compile Include="Assets\Scripts\Weapons\Weapon Behaviours\KnifeBehaviour.cs" />
+    <Compile Include="Assets\Scripts\Enemy\EnemyStats.cs" />
+    <Compile Include="Assets\Scripts\Weapons\Weapon Base\MeleeWeaponBehaviour.cs" />
+    <Compile Include="Assets\Scripts\Player\CameraMovement.cs" />
+    <Compile Include="Assets\Scripts\Weapons\Weapon Controllers\KnifeController.cs" />
+    <Compile Include="Assets\Scripts\Map\MapController.cs" />
+    <Compile Include="Assets\Scripts\Player\PlayerAnimator.cs" />
+    <Compile Include="Assets\Scripts\Weapons\Weapon Controllers\GarlicController.cs" />
+    <Compile Include="Assets\Scripts\Enemy\EnemyScriptableObject.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
