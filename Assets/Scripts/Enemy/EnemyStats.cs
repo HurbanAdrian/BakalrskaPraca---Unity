@@ -30,4 +30,14 @@ public class EnemyStats : MonoBehaviour
     {
         Destroy(gameObject);
     }
+
+    private void OnCollisionStay2D(Collision2D collision)
+    {
+        // Kontrola kolizie a referencia na poskodenie pouzitim TakeDamage() metody v PlayerStats
+        if (collision.gameObject.CompareTag("Player"))
+        {
+            PlayerStats playerStats = collision.gameObject.GetComponent<PlayerStats>();
+            playerStats.TakeDamage(currentDamage);
+        }
+    }
 }

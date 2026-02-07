@@ -421,7 +421,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &875010896
 Transform:
   m_ObjectHideFlags: 0
@@ -523,7 +523,9 @@ GameObject:
   - component: {fileID: 2143560739}
   - component: {fileID: 2143560741}
   - component: {fileID: 2143560740}
+  - component: {fileID: 2143560743}
   - component: {fileID: 2143560742}
+  - component: {fileID: 2143560744}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -691,11 +693,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 602d94422c78a5147af3bd63cf72c0bf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerMovement
-  moveSpeed: 5
   LastHorizontalVector: 0
   LastVerticalVector: 0
   moveDir: {x: 0, y: 0}
   lastMovedVector: {x: 0, y: 0}
+  characterData: {fileID: 11400000, guid: aabca5315ae323f47bd323f3968116e5, type: 2}
 --- !u!95 &2143560740
 Animator:
   serializedVersion: 7
@@ -742,6 +744,54 @@ SortingGroup:
   m_SortingLayer: 4
   m_SortingOrder: 20
   m_SortAtRoot: 0
+--- !u!114 &2143560743
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2143560734}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dad72d4502db0e8439178a53ee285915, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerStats
+  characterData: {fileID: 11400000, guid: aabca5315ae323f47bd323f3968116e5, type: 2}
+  experience: 0
+  level: 1
+  experienceCap: 0
+  invincibilityDuration: 0.5
+  levelRanges:
+  - startLevel: 1
+    endLevel: 3
+    experienceCapIncrease: 100
+  - startLevel: 4
+    endLevel: 7
+    experienceCapIncrease: 200
+  - startLevel: 8
+    endLevel: 11
+    experienceCapIncrease: 300
+  - startLevel: 12
+    endLevel: 15
+    experienceCapIncrease: 400
+  - startLevel: 16
+    endLevel: 19
+    experienceCapIncrease: 500
+  - startLevel: 20
+    endLevel: 9999
+    experienceCapIncrease: 600
+--- !u!114 &2143560744
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2143560734}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7ba66b044078c154393f825fc09f984b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerCollector
 --- !u!1001 &4260915073860362140
 PrefabInstance:
   m_ObjectHideFlags: 0
