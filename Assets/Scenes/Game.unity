@@ -119,9 +119,9 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!1 &380294676 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 5728887627985963006, guid: ec41cc3fcf2223e4ca7dd1efa1b06e78, type: 3}
+--- !u!4 &380294680 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7921896326898220269, guid: ec41cc3fcf2223e4ca7dd1efa1b06e78, type: 3}
   m_PrefabInstance: {fileID: 5943889894693280596}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &519420028
@@ -479,20 +479,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 97e6377ad63bbd144b349af7244db640, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::MapController
+  referenceCamera: {fileID: 519420031}
+  checkInterval: 0.5
   terrainChunks:
-  - {fileID: 5728887627985963006, guid: ec41cc3fcf2223e4ca7dd1efa1b06e78, type: 3}
-  - {fileID: 5728887627985963006, guid: 0ef76242d4721074a8be3387cd89ac7c, type: 3}
-  - {fileID: 5728887627985963006, guid: 143f5f5f65f29c5449fb96775a20ac88, type: 3}
-  player: {fileID: 2143560734}
-  checkerRadius: 0.2
-  noTerrainPosition: {x: 0, y: 0, z: 0}
+  - {fileID: 557516763986559413, guid: ec41cc3fcf2223e4ca7dd1efa1b06e78, type: 3}
+  - {fileID: 557516763986559413, guid: 0ef76242d4721074a8be3387cd89ac7c, type: 3}
+  - {fileID: 557516763986559413, guid: 143f5f5f65f29c5449fb96775a20ac88, type: 3}
+  chunkSize: {x: 20, y: 20}
   terrainMask:
     serializedVersion: 2
     m_Bits: 64
-  currentChunk: {fileID: 380294676}
-  spawnedChunks: []
-  maxOpDist: 60
-  optimizerCooldownDuration: 1
+  deleteCulledChunks: 0
 --- !u!4 &1352117321
 Transform:
   m_ObjectHideFlags: 0
@@ -505,7 +502,8 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 380294680}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2143560734
@@ -859,7 +857,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 1352117321}
     m_Modifications:
     - target: {fileID: 5728887627985963006, guid: ec41cc3fcf2223e4ca7dd1efa1b06e78, type: 3}
       propertyPath: m_Name
@@ -883,15 +881,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7921896326898220269, guid: ec41cc3fcf2223e4ca7dd1efa1b06e78, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 7921896326898220269, guid: ec41cc3fcf2223e4ca7dd1efa1b06e78, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 7921896326898220269, guid: ec41cc3fcf2223e4ca7dd1efa1b06e78, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 7921896326898220269, guid: ec41cc3fcf2223e4ca7dd1efa1b06e78, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -917,6 +915,5 @@ SceneRoots:
   - {fileID: 519420032}
   - {fileID: 619394802}
   - {fileID: 2143560736}
-  - {fileID: 5943889894693280596}
   - {fileID: 1352117321}
   - {fileID: 4260915073860362140}

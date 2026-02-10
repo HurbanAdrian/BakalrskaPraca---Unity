@@ -1,144 +1,168 @@
-using NUnit.Framework;
 using System.Collections.Generic;
+using System.Collections;
 using UnityEngine;
+using System.Linq;
 
 public class MapController : MonoBehaviour
 {
-    public List<GameObject> terrainChunks;              //pre prefaby terrain chunkov
-    public GameObject player;
-    public float checkerRadius;
-    public Vector3 noTerrainPosition;              // na dalsiu poziciu kde nie je terrain chunk
-    public LayerMask terrainMask;           // ktory je teren a ktory nie
-    public GameObject currentChunk;
-    PlayerMovement playerMovement;
 
-    [Header("Optimization")]
-    public List<GameObject> spawnedChunks;        // zoznam spawnnutych chunkov pre optimalizaciu
-    GameObject latestChunk;
-    public float maxOpDist;         // must be greater than the length and width of a tilemap
-    float opDist;
-    float optimizerCooldown;
-    public float optimizerCooldownDuration;
+    public Camera referenceCamera;
+    public float checkInterval = 0.5f;
 
+    [Header("Chunk Settings")]
+    public PropRandomizer[] terrainChunks;
+    public Vector2 chunkSize = new Vector2(20f, 20f);
+    public LayerMask terrainMask = 1;
+    public bool deleteCulledChunks = false;
 
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
+    // UloûÌ polohu a veækosù poslednej kamery.
+    // UrËÌme, Ëi je potrebnÈ vykonaù kontroly.
+    Vector3 lastCameraPosition;
+    Rect lastCameraRect;
+    float cullDistanceSqr;
+
     void Start()
     {
-        playerMovement = FindFirstObjectByType<PlayerMovement>();
+        // VypÌöe chyby, keÔ nie s˙ priradenÈ dÙleûitÈ premennÈ.
+        if (!referenceCamera) 
+            Debug.LogError("MapController cannot work without a reference camera.");
+
+        if (terrainChunks.Length < 1)
+            Debug.LogError("There are no Terrain Chunks assigned, so the map cannot be dynamically generated.");
+
+        // Spustenie korutiny na kontrolu mapy.
+        StartCoroutine(HandleMapCheck());
+        HandleChunkSpawning(Vector2.zero, true);
     }
 
-    // Update is called once per frame
-    void Update()
+    void Reset()
     {
-        ChunkChecker();
-        ChunkOptimizer();
+        referenceCamera = Camera.main;
     }
 
-    void ChunkChecker() 
+    // Korutina, ktor· sa periodicky sp˙öùa na kontrolu a vytv·ranie nov˝ch ËastÌ mapy.
+    IEnumerator HandleMapCheck()
     {
-        if (!currentChunk)
+        for(;;) 
         {
-            return;
-        }
+            yield return new WaitForSeconds(checkInterval);
 
-        if (playerMovement.moveDir.x > 0 && playerMovement.moveDir.y == 0)      // doprava
-        {
-            if (!Physics2D.OverlapCircle(currentChunk.transform.Find("Right").position, checkerRadius, terrainMask))
-            {
-                noTerrainPosition = currentChunk.transform.Find("Right").position;
-                SpawnChunk();       // zavolat az potom co nastavime noterrainposition
-                Debug.Log("Spawning chunk at: " + noTerrainPosition);
+            // Aktualizovaù mapu iba v prÌpade, ûe je platn· jedna z t˝chto podmienok.
+            Vector3 moveDelta = referenceCamera.transform.position - lastCameraPosition;
+            bool hasCamWidthChanged = !Mathf.Approximately(referenceCamera.pixelWidth - lastCameraRect.width, 0),
+                 hasCamHeightChanged = !Mathf.Approximately(referenceCamera.pixelHeight - lastCameraRect.height, 0);
+
+            if (hasCamWidthChanged || hasCamHeightChanged || moveDelta.magnitude > 0.1f) {
+                HandleChunkCulling();
+                HandleChunkSpawning(moveDelta, true);
             }
-        }
-        else if (playerMovement.moveDir.x < 0 && playerMovement.moveDir.y == 0) // dolava
-        {
-            if (!Physics2D.OverlapCircle(currentChunk.transform.Find("Left").position, checkerRadius, terrainMask))
-            {
-                noTerrainPosition = currentChunk.transform.Find("Left").position;
-                SpawnChunk();
-            }
-        }
-        else if(playerMovement.moveDir.y > 0 && playerMovement.moveDir.x == 0) // hore
-        {
-            if (!Physics2D.OverlapCircle(currentChunk.transform.Find("Up").position, checkerRadius, terrainMask))
-            {
-                noTerrainPosition = currentChunk.transform.Find("Up").position;
-                SpawnChunk();
-            }
-        }
-        else if (playerMovement.moveDir.y < 0 && playerMovement.moveDir.x == 0) // dole
-        {
-            if (!Physics2D.OverlapCircle(currentChunk.transform.Find("Down").position, checkerRadius, terrainMask))
-            {
-                noTerrainPosition = currentChunk.transform.Find("Down").position;
-                SpawnChunk();
-            }
-        }
-        else if (playerMovement.moveDir.x > 0 && playerMovement.moveDir.y > 0)      // doprava hore
-        {
-            if (!Physics2D.OverlapCircle(currentChunk.transform.Find("Right Up").position, checkerRadius, terrainMask))
-            {
-                noTerrainPosition = currentChunk.transform.Find("Right Up").position;
-                SpawnChunk();       // zavolat az potom co nastavime noterrainposition
-            }
-        }
-        else if (playerMovement.moveDir.x > 0 && playerMovement.moveDir.y < 0)      // doprava dole
-        {
-            if (!Physics2D.OverlapCircle(currentChunk.transform.Find("Right Down").position, checkerRadius, terrainMask))
-            {
-                noTerrainPosition = currentChunk.transform.Find("Right Down").position;
-                SpawnChunk();       // zavolat az potom co nastavime noterrainposition
-            }
-        }
-        else if (playerMovement.moveDir.x < 0 && playerMovement.moveDir.y > 0)      // dolava hore
-        {
-            if (!Physics2D.OverlapCircle(currentChunk.transform.Find("Left Up").position, checkerRadius, terrainMask))
-            {
-                noTerrainPosition = currentChunk.transform.Find("Left Up").position;
-                SpawnChunk();       // zavolat az potom co nastavime noterrainposition
-            }
-        }
-        else if (playerMovement.moveDir.x < 0 && playerMovement.moveDir.y < 0)      // dolava dole
-        {
-            if (!Physics2D.OverlapCircle(currentChunk.transform.Find("Left Down").position, checkerRadius, terrainMask))
-            {
-                noTerrainPosition = currentChunk.transform.Find("Left Down").position;
-                SpawnChunk();       // zavolat az potom co nastavime noterrainposition
-            }
+
+            lastCameraPosition = referenceCamera.transform.position;
+            lastCameraRect = referenceCamera.pixelRect;
         }
     }
 
-    void SpawnChunk()  
+    // ZÌska obdÂûnik, ktor˝ predstavuje oblasù, ktor˙ kamera pokr˝va v hernom svete.
+    public Rect GetWorldRectFromViewport() 
     {
-        int randomIndex = Random.Range(0, terrainChunks.Count);
-        latestChunk = Instantiate(terrainChunks[randomIndex], noTerrainPosition, Quaternion.identity);
-        spawnedChunks.Add(latestChunk);
+        if (!referenceCamera) 
+        {
+            Debug.LogError("Reference camera not found. Using Main Camera instead.");
+            referenceCamera = Camera.main;
+        }
+
+        Vector2 minPoint = referenceCamera.ViewportToWorldPoint(referenceCamera.rect.min),
+                maxPoint = referenceCamera.ViewportToWorldPoint(referenceCamera.rect.max);
+        Vector2 size = new Vector2(maxPoint.x - minPoint.x, maxPoint.y - minPoint.y);
+        cullDistanceSqr = Mathf.Max(size.sqrMagnitude, chunkSize.sqrMagnitude) * 3;
+
+        return new Rect(minPoint, size);
     }
 
-    void ChunkOptimizer() 
+    // ZÌska vöetky body, ktorÈ musÌme skontrolovaù na chunky.
+    public Vector2[] GetCheckedPoints()
     {
-        optimizerCooldown -= Time.deltaTime;
+        Rect viewArea = GetWorldRectFromViewport();
+        Vector2Int tileCount = new Vector2Int(
+            (int)Mathf.Ceil(viewArea.width / chunkSize.x) + 1,
+            (int)Mathf.Ceil(viewArea.height / chunkSize.y) + 1
+        );
 
-        if (optimizerCooldown <= 0f)
+        HashSet<Vector2> result = new HashSet<Vector2>();
+        for (int y = -1; y < tileCount.y; y++)
         {
-            optimizerCooldown = optimizerCooldownDuration;
-        }
-        else
-        {
-            return;
-        }
-
-        foreach (GameObject chunk in spawnedChunks)
+            for (int x = -1; x < tileCount.x; x++)
             {
-                opDist = Vector3.Distance(player.transform.position, chunk.transform.position);
-                if (opDist > maxOpDist)
-                {
-                    chunk.SetActive(false);
-                }
-                else
-                {
-                    chunk.SetActive(true);
-                }
+                result.Add(new Vector2(
+                    viewArea.min.x + chunkSize.x * x,
+                    viewArea.min.y + chunkSize.y * y
+                ));
             }
+        }
+
+        return result.ToArray();
+    }
+
+    void HandleChunkSpawning(Vector2 moveDelta, bool checkWithoutDelta = false)
+    {
+
+        HashSet<Vector2> spawnedPositions = new HashSet<Vector2>();
+        Vector2 currentPosition = referenceCamera.transform.position;
+
+        // Skontroluje vöetky body v˝rezu, ktorÈ n·s zaujÌmaj˙.
+        foreach (Vector3 vp in GetCheckedPoints())
+        {
+            if(!checkWithoutDelta) {
+                // Væavo/Vpravo kontrolujte iba vtedy, ak sa pohybujeme.
+                if (moveDelta.x > 0 && vp.x < 0.5f) continue;
+                else if (moveDelta.x < 0 && vp.x > 0.5f) continue;
+
+                // Hore / dole kontrolujte iba vtedy, ak sa pohybujeme.
+                if (moveDelta.y > 0 && vp.y < 0.5f) continue;
+                else if (moveDelta.y < 0 && vp.y > 0.5f) continue;
+            }
+
+            // Snapne kontrolovan˙ pozÌciu k najbliûöej pozÌcii v blokoch.
+            Vector3 checkedPosition = SnapPosition(vp);
+
+            // Ak pozÌcia nem· ûiadne chunky, tak sa vytvorÌ chunk.
+            if (!spawnedPositions.Contains(checkedPosition) && !Physics2D.OverlapPoint(checkedPosition, terrainMask))
+                SpawnChunk(checkedPosition);
+
+            spawnedPositions.Add(checkedPosition);
+        }
+    }
+
+    // Zaokruhli Vector na najblizsiu poziciu danu chunkSizom
+    Vector3 SnapPosition(Vector3 position)
+    {
+        return new Vector3(
+            Mathf.Round(position.x / chunkSize.x) * chunkSize.x,
+            Mathf.Round(position.y / chunkSize.y) * chunkSize.y, 
+            transform.position.z
+        );
+    }
+
+    // Spawne chunk na danej pozicii
+    PropRandomizer SpawnChunk(Vector3 spawnPosition, int variant = -1)
+    {
+        if (terrainChunks.Length < 1) return null;
+        int rand = variant < 0 ? Random.Range(0, terrainChunks.Length) : variant;
+        PropRandomizer chunk = Instantiate(terrainChunks[rand], transform);
+        chunk.transform.position = spawnPosition;
+        return chunk;
+    }
+
+    // Rozhodne ci chunk bude ukazany alebo schovany
+    void HandleChunkCulling()
+    {
+        for(int i = transform.childCount - 1; i >= 0; i--)
+        {
+            Transform chunk = transform.GetChild(i);
+            Vector2 dist = referenceCamera.transform.position - chunk.position;
+            bool cull = dist.sqrMagnitude > cullDistanceSqr;
+            chunk.gameObject.SetActive(!cull);
+            if(deleteCulledChunks && cull) Destroy(chunk.gameObject);
+        }
     }
 }

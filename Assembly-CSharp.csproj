@@ -48,7 +48,6 @@
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\6000.2.9f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.UIToolkit.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scripts\Map\ChunkTrigger.cs" />
     <Compile Include="Assets\Scripts\Weapons\Weapon Base\ProjectileWeaponBehaviour.cs" />
     <Compile Include="Assets\Scripts\Weapons\Weapon Base\WeaponController.cs" />
     <Compile Include="Assets\Scripts\Player\CharacterScriptableObject.cs" />
