@@ -10,6 +10,6 @@ public class KnifeBehaviour : ProjectileWeaponBehaviour
 
     void Update()
     {
-        transform.position += weaponData.Speed * Time.deltaTime * direction;        // nastavime movement noza
+        transform.position += currentSpeed * Time.deltaTime * direction;        // nastavime movement noza
     }
 }

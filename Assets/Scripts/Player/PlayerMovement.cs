@@ -13,12 +13,13 @@ public class PlayerMovement : MonoBehaviour
 
     // Referencie
     Rigidbody2D rb;
-    public CharacterScriptableObject characterData;
+    PlayerStats player;
 
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
+        player = GetComponent<PlayerStats>();
         rb = GetComponent<Rigidbody2D>();
         lastMovedVector = new Vector2(1, 0f);      // default last moved right  lebo ak by sme sa nepohli tak by to bolo (0,0) a tak by nevedel kam hodit noz
     }
@@ -61,6 +62,6 @@ public class PlayerMovement : MonoBehaviour
 
     void Move()
     {
-        rb.linearVelocity = new Vector2(moveDir.x * characterData.MoveSpeed, moveDir.y * characterData.MoveSpeed);
+        rb.linearVelocity = new Vector2(moveDir.x * player.currentMoveSpeed, moveDir.y * player.currentMoveSpeed);
     }
 }

@@ -48,6 +48,8 @@
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\6000.2.9f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.UIToolkit.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\PickUps\PickUp.cs" />
+    <Compile Include="Assets\Scripts\Enemy\EnemySpawner.cs" />
     <Compile Include="Assets\Scripts\Weapons\Weapon Base\ProjectileWeaponBehaviour.cs" />
     <Compile Include="Assets\Scripts\Weapons\Weapon Base\WeaponController.cs" />
     <Compile Include="Assets\Scripts\Player\CharacterScriptableObject.cs" />
@@ -59,6 +61,7 @@
     <Compile Include="Assets\Scripts\PickUps\HealthPotion.cs" />
     <Compile Include="Assets\Scripts\Enemy\EnemyMovement.cs" />
     <Compile Include="Assets\Scripts\BreakableProps.cs" />
+    <Compile Include="Assets\Scripts\CharacterSelector.cs" />
     <Compile Include="Assets\Scripts\DropRateManager.cs" />
     <Compile Include="Assets\Scripts\Weapons\Weapon Behaviours\KnifeBehaviour.cs" />
     <Compile Include="Assets\Scripts\Enemy\EnemyStats.cs" />
@@ -70,6 +73,7 @@
     <Compile Include="Assets\Scripts\Map\MapController.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerAnimator.cs" />
     <Compile Include="Assets\Scripts\PickUps\ExperienceGem.cs" />
+    <Compile Include="Assets\Scripts\SceneController.cs" />
     <Compile Include="Assets\Scripts\Weapons\Weapon Controllers\GarlicController.cs" />
     <Compile Include="Assets\Scripts\Enemy\EnemyScriptableObject.cs" />
   </ItemGroup>

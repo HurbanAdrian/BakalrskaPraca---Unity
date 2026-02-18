@@ -5,14 +5,24 @@ using UnityEngine;
 
 public class PlayerStats : MonoBehaviour
 {
-    public CharacterScriptableObject characterData;
+    CharacterScriptableObject characterData;
 
     // Sucastne staty
-    float currentHealth;
-    float currentRecovery;
-    float currentMoveSpeed;
-    float currentMight;
-    float currentProjectileSpeed;
+    [HideInInspector]
+    public float currentHealth;
+    [HideInInspector]
+    public float currentRecovery;
+    [HideInInspector]
+    public float currentMoveSpeed;
+    [HideInInspector]
+    public float currentMight;
+    [HideInInspector]
+    public float currentProjectileSpeed;
+    [HideInInspector]
+    public float currentMagnet;
+
+    // Zbrane
+    public List<GameObject> spawnedWeapons;
 
     // Skusenosti a level hraca
     [Header("Experience/level")]
@@ -39,12 +49,19 @@ public class PlayerStats : MonoBehaviour
 
     void Awake()
     {
+        characterData = CharacterSelector.GetData();
+        CharacterSelector.instance.DestroySingleton();
+
         // Inicializacia statov z characterData
         currentHealth = characterData.MaxHealth;
         currentRecovery = characterData.Recovery;
         currentMoveSpeed = characterData.MoveSpeed;
         currentMight = characterData.Might;
         currentProjectileSpeed = characterData.ProjectileSpeed;
+        currentMagnet = characterData.Magnet;
+
+        // spawnutie zaciatocnej zbrane
+        SpawnWeapon(characterData.StartingWeapon);
     }
 
     void Start()
@@ -63,6 +80,8 @@ public class PlayerStats : MonoBehaviour
         {
             isInvincible = false;
         }
+
+        Recover();
     }
 
     public void IncreaseExperience(int amount)
@@ -123,5 +142,28 @@ public class PlayerStats : MonoBehaviour
                 currentHealth = characterData.MaxHealth;
             }
         }
+    }
+
+    void Recover()
+    {
+            // Obnovovanie zdravia o hodnotu Recovery kazdu sekundu, ale nikdy neprekroci MaxHealth
+            if (currentHealth < characterData.MaxHealth)
+            {
+                currentHealth += currentRecovery * Time.deltaTime;
+    
+                if (currentHealth > characterData.MaxHealth)
+                {
+                    currentHealth = characterData.MaxHealth;
+                }
+        }
+    }
+
+    public void SpawnWeapon(GameObject weapon)
+    {
+        // spawnutie zaciatocnej zbrane
+        GameObject spawnedWeapon = Instantiate(weapon, transform.position, Quaternion.identity);
+        spawnedWeapon.transform.SetParent(transform);     // nastavenie hraca ako rodica spawnutej zbrane, aby sa pohybovala spolu s nim
+        spawnedWeapons.Add(spawnedWeapon);
+
     }
 }
