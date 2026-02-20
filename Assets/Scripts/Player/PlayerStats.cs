@@ -21,9 +21,6 @@ public class PlayerStats : MonoBehaviour
     [HideInInspector]
     public float currentMagnet;
 
-    // Zbrane
-    public List<GameObject> spawnedWeapons;
-
     // Skusenosti a level hraca
     [Header("Experience/level")]
     public int experience = 0;
@@ -47,10 +44,18 @@ public class PlayerStats : MonoBehaviour
 
     public List<LevelRange> levelRanges;
 
+    InventoryManager inventory;
+    public int weaponIndex;
+    public int passiveItemIndex;
+
+    public GameObject firstPassiveItemTest, secondPassiveItemTest, secondWeaponTest;
+
     void Awake()
     {
         characterData = CharacterSelector.GetData();
         CharacterSelector.instance.DestroySingleton();
+
+        inventory = GetComponent<InventoryManager>();
 
         // Inicializacia statov z characterData
         currentHealth = characterData.MaxHealth;
@@ -62,6 +67,10 @@ public class PlayerStats : MonoBehaviour
 
         // spawnutie zaciatocnej zbrane
         SpawnWeapon(characterData.StartingWeapon);
+        SpawnWeapon(secondWeaponTest);
+
+        SpawnPassiveItem(firstPassiveItemTest);
+        SpawnPassiveItem(secondPassiveItemTest);
     }
 
     void Start()
@@ -160,10 +169,35 @@ public class PlayerStats : MonoBehaviour
 
     public void SpawnWeapon(GameObject weapon)
     {
+        // Kontrola ci hrac uz nema maximum zbraní
+        if (weaponIndex >= inventory.weaponSlots.Count - 1)
+        {
+            Debug.LogWarning("Player already has maximum number of weapons. Cannot spawn more.");
+            return;
+        }
+
         // spawnutie zaciatocnej zbrane
         GameObject spawnedWeapon = Instantiate(weapon, transform.position, Quaternion.identity);
         spawnedWeapon.transform.SetParent(transform);     // nastavenie hraca ako rodica spawnutej zbrane, aby sa pohybovala spolu s nim
-        spawnedWeapons.Add(spawnedWeapon);
+        inventory.AddWeapon(weaponIndex, spawnedWeapon.GetComponent<WeaponController>());       // pridanie spawnutej zbrane do slotu v inventory
 
+        weaponIndex++;     // posunutie indexu pre zbrane, aby sa dalsia zbran pridala do dalsieho slotu
     }
+
+
+    public void SpawnPassiveItem(GameObject passiveItem)
+    {
+        if (passiveItemIndex >= inventory.passiveItemSlots.Count - 1)
+        {
+            Debug.LogWarning("Player already has maximum number of weapons. Cannot spawn more.");
+            return;
+        }
+
+        GameObject spawnedPassiveItem = Instantiate(passiveItem, transform.position, Quaternion.identity);
+        spawnedPassiveItem.transform.SetParent(transform);
+        inventory.AddPassiveItem(passiveItemIndex, spawnedPassiveItem.GetComponent<PassiveItem>());
+
+        passiveItemIndex++;
+    }
+
 }

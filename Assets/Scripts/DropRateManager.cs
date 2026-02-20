@@ -18,6 +18,12 @@ public class DropRateManager : MonoBehaviour
 
     void OnDestroy()
     {
+        // Skontrolujeme ci je scena nahrata, aby sme predišli chybam pri znièení objektu v neaktivnej scéne || Overuje ci sme v Play mode, aby sme predišli chybam pri znièení objektu v editore
+        if (!gameObject.scene.isLoaded)
+        {
+            return;
+        }
+
         float randomValue = UnityEngine.Random.Range(0f, 100f);
         List<Drops> possibleDrops = new List<Drops>();
 
