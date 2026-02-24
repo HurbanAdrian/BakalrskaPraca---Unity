@@ -14,7 +14,7 @@ public class PlayerCollector : MonoBehaviour
 
     void Update()
     {
-        collectorCollider.radius = player.currentMagnet;     // nastavime radius kolidera na zaklade magnet statov hraca
+        collectorCollider.radius = player.CurrentMagnet;     // nastavime radius kolidera na zaklade magnet statov hraca
     }
 
     void OnTriggerEnter2D(Collider2D collision)

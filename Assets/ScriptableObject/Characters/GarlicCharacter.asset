@@ -12,6 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3cb7945408906fb4998d515f6c578ddf, type: 3}
   m_Name: GarlicCharacter
   m_EditorClassIdentifier: Assembly-CSharp::CharacterScriptableObject
+  icon: {fileID: 3934776110834691092, guid: 13612378f87c0a240bc1cb199ad9e0ce, type: 3}
+  characterName: Garlic Boy
   startingWeapon: {fileID: 898048742974126621, guid: ff44284cc6ae58e4c8e72ad881dfac0d, type: 3}
   maxHealth: 1000
   recovery: 1
