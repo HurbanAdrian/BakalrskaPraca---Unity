@@ -2,6 +2,7 @@ using NUnit.Framework;
 using System;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class PlayerStats : MonoBehaviour
 {
@@ -137,6 +138,11 @@ public class PlayerStats : MonoBehaviour
     public int weaponIndex;
     public int passiveItemIndex;
 
+    [Header("UI")]
+    public Image healthBar;
+    public Image expBar;
+    public Text levelText;
+
     public GameObject firstPassiveItemTest, secondPassiveItemTest, secondWeaponTest;
 
     void Awake()
@@ -156,10 +162,10 @@ public class PlayerStats : MonoBehaviour
 
         // spawnutie zaciatocnej zbrane
         SpawnWeapon(characterData.StartingWeapon);
-        SpawnWeapon(secondWeaponTest);
+        //SpawnWeapon(secondWeaponTest);
 
         SpawnPassiveItem(firstPassiveItemTest);
-        SpawnPassiveItem(secondPassiveItemTest);
+        //SpawnPassiveItem(secondPassiveItemTest);
     }
 
     void Start()
@@ -176,6 +182,10 @@ public class PlayerStats : MonoBehaviour
         GameManager.instance.currentMagnetDisplay.text = "Magnet: " + CurrentMagnet;
 
         GameManager.instance.AssignChosenCharacterUI(characterData);
+
+        UpdateHealthBar();
+        UpdateExpBar();
+        UpdateLevelText();
     }
 
     void Update()
@@ -196,6 +206,8 @@ public class PlayerStats : MonoBehaviour
     {
         experience += amount;
         LevelUpChecker();
+
+        UpdateExpBar();
     }
 
     void LevelUpChecker() 
@@ -213,6 +225,9 @@ public class PlayerStats : MonoBehaviour
                     break;
                 }
             }
+            UpdateLevelText();
+
+            GameManager.instance.StartLevelUp();
         }
     }
 
@@ -230,7 +245,24 @@ public class PlayerStats : MonoBehaviour
             {
                 Kill();
             }
+
+            UpdateHealthBar();
         }
+    }
+
+    void UpdateHealthBar()
+    {
+        healthBar.fillAmount = CurrentHealth / characterData.MaxHealth;
+    }
+
+    void UpdateExpBar()
+    {
+        expBar.fillAmount = (float)experience / experienceCap;
+    }
+
+    void UpdateLevelText()
+    {
+        levelText.text = "LV " + level.ToString();
     }
 
     public void Kill()

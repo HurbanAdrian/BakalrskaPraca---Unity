@@ -33,6 +33,14 @@ public class WeaponScriptableObject : ScriptableObject
     public GameObject NextLevelPrefab { get => nextLevelPrefab; private set => nextLevelPrefab = value; }
 
     [SerializeField]
+    string itemName;
+    public string ItemName { get => itemName; private set => itemName = value; }
+
+    [SerializeField]
+    string description;         // ak je upgrade zbrane, tak popis toho co sa zmeni
+    public string Description { get => description; private set => description = value; }
+
+    [SerializeField]
     Sprite icon;        // nema byt mozne ho editnut v hre, iba v editore
     public Sprite Icon { get => icon; private set => icon = value; }
 }
