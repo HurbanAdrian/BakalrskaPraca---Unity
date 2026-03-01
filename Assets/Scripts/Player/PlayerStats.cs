@@ -3,6 +3,7 @@ using System;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 
 public class PlayerStats : MonoBehaviour
 {
@@ -22,7 +23,7 @@ public class PlayerStats : MonoBehaviour
         get { return currentHealth; }
         set 
         {
-            // skontrolovat ci sa aktualne zdravie zmenilo, aby sme predišli zbytocnym updateom a volaniam metod
+            // skontrolovat ci sa aktualne zdravie zmenilo, aby sme prediï¿½li zbytocnym updateom a volaniam metod
             if (currentHealth != value)
             {
                 // Update statu v realnom case, pridavnu logiku pri zmene zdravia (napr. aktualizacia UI) mozeme pridat sem
@@ -141,7 +142,7 @@ public class PlayerStats : MonoBehaviour
     [Header("UI")]
     public Image healthBar;
     public Image expBar;
-    public Text levelText;
+    public TMP_Text levelText;
 
     public GameObject firstPassiveItemTest, secondPassiveItemTest, secondWeaponTest;
 
@@ -287,6 +288,8 @@ public class PlayerStats : MonoBehaviour
                 CurrentHealth = characterData.MaxHealth;
             }
         }
+
+        UpdateHealthBar();
     }
 
     void Recover()
@@ -305,7 +308,7 @@ public class PlayerStats : MonoBehaviour
 
     public void SpawnWeapon(GameObject weapon)
     {
-        // Kontrola ci hrac uz nema maximum zbraní
+        // Kontrola ci hrac uz nema maximum zbranï¿½
         if (weaponIndex >= inventory.weaponSlots.Count - 1)
         {
             Debug.LogWarning("Player already has maximum number of weapons. Cannot spawn more.");

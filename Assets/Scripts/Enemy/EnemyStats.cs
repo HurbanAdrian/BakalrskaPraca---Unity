@@ -60,8 +60,13 @@ public class EnemyStats : MonoBehaviour
         }
     }
 
+
     private void OnDestroy()
     {
+        if (!gameObject.scene.isLoaded)
+        {
+            return;
+        }
         EnemySpawner es = FindAnyObjectByType<EnemySpawner>();
         es.OnEnemyKilled();
     }

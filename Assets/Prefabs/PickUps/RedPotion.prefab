@@ -11,8 +11,9 @@ GameObject:
   - component: {fileID: 3962027362865265775}
   - component: {fileID: 1692151298013203374}
   - component: {fileID: -4011831585397889272}
-  - component: {fileID: -2432058167871317153}
+  - component: {fileID: -7108845888667337245}
   - component: {fileID: -1088097967774713086}
+  - component: {fileID: 6889232585571701144}
   m_Layer: 0
   m_Name: RedPotion
   m_TagString: Untagged
@@ -139,7 +140,7 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 0.40625, y: 0.59375}
   m_EdgeRadius: 0
---- !u!114 &-2432058167871317153
+--- !u!114 &-7108845888667337245
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -179,3 +180,18 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &6889232585571701144
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2428821176796300438}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4565b0c4ef5d80e41b4b3b47ac6e1e51, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::BobbingAnimation
+  frequency: 3
+  amplitude: 0.1
+  direction: {x: 0, y: 1, z: 0}

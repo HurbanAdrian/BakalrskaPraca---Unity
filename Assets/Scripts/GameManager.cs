@@ -2,6 +2,7 @@ using NUnit.Framework;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 
 public class GameManager : MonoBehaviour
 {
@@ -16,7 +17,7 @@ public class GameManager : MonoBehaviour
         LevelUp
     }
 
-    // Uloženie aktuálneho a predchádzajúceho stavu hry
+    // Uloï¿½enie aktuï¿½lneho a predchï¿½dzajï¿½ceho stavu hry
     public GameState currentState;
     public GameState previousState;
 
@@ -27,25 +28,25 @@ public class GameManager : MonoBehaviour
 
     [Header("Current Stat Displays")]
     // Sucasne stat displeje
-    public Text currentHealthDisplay;
-    public Text currentRecoveryDisplay;
-    public Text currentSpeedDisplay;
-    public Text currentMightDisplay;
-    public Text currentProjectileSpeedDisplay;
-    public Text currentMagnetDisplay;
+    public TMP_Text currentHealthDisplay;
+    public TMP_Text currentRecoveryDisplay;
+    public TMP_Text currentSpeedDisplay;
+    public TMP_Text currentMightDisplay;
+    public TMP_Text currentProjectileSpeedDisplay;
+    public TMP_Text currentMagnetDisplay;
 
     [Header("Results Screen Displays")]
     public Image chosenCharacterImage;
-    public Text chosenCharacterName;
-    public Text levelReachedDisplay;
-    public Text timeSurvivedDisplay;
+    public TMP_Text chosenCharacterName;
+    public TMP_Text levelReachedDisplay;
+    public TMP_Text timeSurvivedDisplay;
     public List<Image> chosenWeaponsUI = new List<Image>(6);
     public List<Image> chosenPassiveItemsUI = new List<Image>(6);
 
     [Header("Stopwatch")]
     public float timeLimit; // casovy limit pre hru v sekundach
     float stopwatchTime;    // cas, ktory uplynul od zaciatku stopwatchu
-    public Text stopwatchDisplay; // UI text pro zobrazenie casu
+    public TMP_Text stopwatchDisplay; // UI text pro zobrazenie casu
 
     public bool isGameOver = false;
     public bool choosingUpgrade = false;        // ci je hrac v level up stave
@@ -71,7 +72,7 @@ public class GameManager : MonoBehaviour
 
     void Update()
     {
-        // Zadefinovanie spravania pre jednotlivé stavy hry
+        // Zadefinovanie spravania pre jednotlivï¿½ stavy hry
         switch (currentState)
         {
             case GameState.Gameplay:
@@ -88,7 +89,7 @@ public class GameManager : MonoBehaviour
                 if (!isGameOver)
                 {
                     isGameOver = true;
-                    Time.timeScale = 0; // Zastaví èas v hre
+                    Time.timeScale = 0; // Zastavï¿½ ï¿½as v hre
 
                     Debug.Log("GAME OVER");
                     DisplayResults();
@@ -99,14 +100,14 @@ public class GameManager : MonoBehaviour
                 if (!choosingUpgrade)
                 {
                     choosingUpgrade = true;
-                    Time.timeScale = 0; // Zastaví èas v hre
+                    Time.timeScale = 0; // Zastavï¿½ ï¿½as v hre
 
                     Debug.Log("LEVEL UP - Upgrades shown");
                     levelUpScreen.SetActive(true);
                 }
                 break;
             default:
-                Debug.LogError("Neznámy stav hry: " + currentState);
+                Debug.LogError("Neznï¿½my stav hry: " + currentState);
                 break;
         }
     }
@@ -122,8 +123,8 @@ public class GameManager : MonoBehaviour
         {
             previousState = currentState;
             ChangeState(GameState.Paused);
-            Time.timeScale = 0; // Zastaví èas v hre
-            pauseScreen.SetActive(true); // Zobrazí pozastavenú obrazovku
+            Time.timeScale = 0; // Zastavï¿½ ï¿½as v hre
+            pauseScreen.SetActive(true); // Zobrazï¿½ pozastavenï¿½ obrazovku
             Debug.Log("Hra pozastavena");
         }
     }
@@ -133,7 +134,7 @@ public class GameManager : MonoBehaviour
         if (currentState == GameState.Paused)
         {
             ChangeState(previousState);
-            Time.timeScale = 1; // Obnoví èas v hre
+            Time.timeScale = 1; // Obnovï¿½ ï¿½as v hre
             pauseScreen.SetActive(false);
             Debug.Log("Hra obnovena");
         }
@@ -224,13 +225,13 @@ public class GameManager : MonoBehaviour
 
     void UpdateStopwatch()
     {
-        stopwatchTime += Time.deltaTime; // Pøidá èas, který uplynul od posledního snímku
+        stopwatchTime += Time.deltaTime; // Pï¿½idï¿½ ï¿½as, kterï¿½ uplynul od poslednï¿½ho snï¿½mku
 
         UpdateStopwatchDisplay();
 
         if (stopwatchTime >= timeLimit)
         {
-            GameOver();
+            playerObject.SendMessage("Kill");        // Zavolï¿½ metodu Die na objektu hrï¿½ï¿½e
         }
     }
 
@@ -251,7 +252,7 @@ public class GameManager : MonoBehaviour
     public void EndLevelUp()
     {
         choosingUpgrade = false;
-        Time.timeScale = 1; // Obnoví èas v hre
+        Time.timeScale = 1; // Obnovï¿½ ï¿½as v hre
         levelUpScreen.SetActive(false);
         ChangeState(GameState.Gameplay);
     }

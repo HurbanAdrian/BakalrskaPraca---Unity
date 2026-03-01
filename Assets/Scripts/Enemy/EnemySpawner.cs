@@ -33,6 +33,7 @@ public class EnemySpawner : MonoBehaviour
     public int maxEnemiesAllowed;           // max povolenych nepriatelov
     public bool maxEnemiesReached = false;  // flag ci mame max nepriatelov
     public float waveInterval;              // Interval medzi vlnami
+    bool isWaveActive = false;                      // flag ci je vlna aktivna
 
     [Header("Spawn Positions")]
     public List<Transform> relativeSpawnPoints;     // list na ulozenie vsetkych relativnych spawn pointov nepriatelov
@@ -51,7 +52,7 @@ public class EnemySpawner : MonoBehaviour
     void Update()
     {
         // kontrola ci sucastna vlna skoncila a ma zacat dalsia. zavolanie korutiny
-        if (currentWaveIndex < waves.Count && waves[currentWaveIndex].spawnCount == 0)
+        if (currentWaveIndex < waves.Count && waves[currentWaveIndex].spawnCount == 0 && !isWaveActive)
         {
             StartCoroutine(BeginNextWave());
         }
@@ -69,12 +70,15 @@ public class EnemySpawner : MonoBehaviour
 
     IEnumerator BeginNextWave()
     {
+        isWaveActive = true;
+
         // Vlna pre 'WaveInterval' sekund pred zacatim dalsej vlny
         yield return new WaitForSeconds(waveInterval);
 
         // Ak mame dalsie vlny po sucastnej, tak sa na ne presunieme
         if (currentWaveIndex < waves.Count - 1)
         {
+            isWaveActive = false;
             currentWaveIndex++;
             CalculateWaveQuota();
         }
@@ -104,27 +108,21 @@ public class EnemySpawner : MonoBehaviour
                 // skontroluj ci MIN cislo spawnutych nepriatelov v tejto skupine este nedosiahlo pocet nepriatelov, ktorych treba spawnut v tejto skupine
                 if (group.spawnCount < group.enemyCount)
                 {
-                    // Limit poctu spawnutych neprietelov v jednom case
-                    if (enemiesAlive >= maxEnemiesAllowed)
-                    {
-                        maxEnemiesReached = true;
-                        return;
-                    }
-
                     // Spawnovanie nepriatela na nahodnej pozicii blizko pri hracovi
                     Instantiate(group.enemyPrefab, player.position + relativeSpawnPoints[Random.Range(0, relativeSpawnPoints.Count)].position, Quaternion.identity);
 
                     group.spawnCount++;
                     waves[currentWaveIndex].spawnCount++;
                     enemiesAlive++;
+
+                    // Limit poctu spawnutych neprietelov v jednom case
+                    if (enemiesAlive >= maxEnemiesAllowed)
+                    {
+                        maxEnemiesReached = true;
+                        return;
+                    }
                 }
             }
-        }
-
-        // reset maxEnemiesReached ak ich je menej
-        if (enemiesAlive < maxEnemiesAllowed)
-        {
-            maxEnemiesReached = false;
         }
     }
 
@@ -132,5 +130,11 @@ public class EnemySpawner : MonoBehaviour
     public void OnEnemyKilled()
     {
         enemiesAlive--;
+
+        // reset maxEnemiesReached ak ich je menej
+        if (enemiesAlive < maxEnemiesAllowed)
+        {
+            maxEnemiesReached = false;
+        }
     }
 }

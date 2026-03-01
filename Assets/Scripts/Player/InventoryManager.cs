@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem.UI;
 using UnityEngine.UI;
+using TMPro;
 
 public class InventoryManager : MonoBehaviour
 {
@@ -34,13 +35,13 @@ public class InventoryManager : MonoBehaviour
     [System.Serializable]
     public class UpgradeUI
     {
-        public Text upgradeNameDisplay;
-        public Text upgradeDescriptionDisplay;
+        public TMP_Text upgradeNameDisplay;
+        public TMP_Text upgradeDescriptionDisplay;
         public Image upgradeIcon;
         public Button upgradeButton;
     }
 
-    // Zoznam možných upgradov pre zbrane a pasivne itemy, které se budou ponukat pri levelupe
+    // Zoznam moï¿½nï¿½ch upgradov pre zbrane a pasivne itemy, kterï¿½ se budou ponukat pri levelupe
     public List<WeaponUpgrade> weaponUpgradeOptions = new List<WeaponUpgrade>();
     public List<PassiveItemUpgrade> passiveItemUpgradeOptions = new List<PassiveItemUpgrade>();
     public List<UpgradeUI> upgradeUIOptions = new List<UpgradeUI>();        // List pre UI upragdy moznosti, ktore budu dostupne v level up screene
@@ -57,7 +58,7 @@ public class InventoryManager : MonoBehaviour
     {
         weaponSlots[slotIndex] = weapon;
         weaponLevels[slotIndex] = weapon.weaponData.Level;
-        weaponUiSlotImages[slotIndex].enabled = true;                       // povolí zobrazenie ikony zbrane v UI
+        weaponUiSlotImages[slotIndex].enabled = true;                       // povolï¿½ zobrazenie ikony zbrane v UI
         weaponUiSlotImages[slotIndex].sprite = weapon.weaponData.Icon;     // aktualizuje ikonu zbrane v UI
 
         if (GameManager.instance != null && GameManager.instance.choosingUpgrade)
@@ -71,7 +72,7 @@ public class InventoryManager : MonoBehaviour
     {
         passiveItemSlots[slotIndex] = item;
         passiveItemLevels[slotIndex] = item.passiveItemData.Level;
-        passiveItemUiSlotImages[slotIndex].enabled = true;                       // povolí zobrazenie ikony itemu v UI
+        passiveItemUiSlotImages[slotIndex].enabled = true;                       // povolï¿½ zobrazenie ikony itemu v UI
         passiveItemUiSlotImages[slotIndex].sprite = item.passiveItemData.Icon;
 
         if (GameManager.instance != null && GameManager.instance.choosingUpgrade)
@@ -85,7 +86,7 @@ public class InventoryManager : MonoBehaviour
         if (weaponSlots.Count > slotIndex)
         {
             WeaponController weapon = weaponSlots[slotIndex];
-            if (weapon.weaponData.NextLevelPrefab == null)          // kontrola, èi existuje další level pro tuto zbraò
+            if (weapon.weaponData.NextLevelPrefab == null)          // kontrola, ï¿½i existuje dalï¿½ï¿½ level pro tuto zbraï¿½
             {
                 Debug.LogWarning("No next level prefab for this weapon - " + weapon.name);
                 return;
@@ -93,7 +94,7 @@ public class InventoryManager : MonoBehaviour
             GameObject upgradedWeapon = Instantiate(weapon.weaponData.NextLevelPrefab, transform.position, Quaternion.identity);
             upgradedWeapon.transform.SetParent(transform);      // nastavenie zbrane ako potomok k hracovi
             AddWeapon(slotIndex, upgradedWeapon.GetComponent<WeaponController>());
-            Destroy(weapon.gameObject);             // znièí povodnu zbran
+            Destroy(weapon.gameObject);             // zniï¿½ï¿½ povodnu zbran
             weaponLevels[slotIndex] = upgradedWeapon.GetComponent<WeaponController>().weaponData.Level;     // aktualizuje level zbrane v poli
 
             weaponUpgradeOptions[upgradeIndex].weaponData = upgradedWeapon.GetComponent<WeaponController>().weaponData;     // aktualizuje data zbrane v upgrade moznosti, aby sa pri dalsom levelupe ponukala dalsia upgrade moznost
@@ -110,7 +111,7 @@ public class InventoryManager : MonoBehaviour
         if (passiveItemSlots.Count > slotIndex)
         {
             PassiveItem item = passiveItemSlots[slotIndex];
-            if (item.passiveItemData.NextLevelPrefab == null)          // kontrola, èi existuje další level pro tento item
+            if (item.passiveItemData.NextLevelPrefab == null)          // kontrola, ï¿½i existuje dalï¿½ï¿½ level pro tento item
             {
                 Debug.LogWarning("No next level prefab for this passive item - " + item.name);
                 return;
@@ -118,7 +119,7 @@ public class InventoryManager : MonoBehaviour
             GameObject upgradedItem = Instantiate(item.passiveItemData.NextLevelPrefab, transform.position, Quaternion.identity);
             upgradedItem.transform.SetParent(transform);      // nastavenie itemu ako potomok k hracovi
             AddPassiveItem(slotIndex, upgradedItem.GetComponent<PassiveItem>());
-            Destroy(item.gameObject);             // znièí povodny item
+            Destroy(item.gameObject);             // zniï¿½ï¿½ povodny item
             passiveItemLevels[slotIndex] = upgradedItem.GetComponent<PassiveItem>().passiveItemData.Level;     // aktualizuje level itemu v poli
 
             passiveItemUpgradeOptions[upgradeIndex].passiveItemData = upgradedItem.GetComponent<PassiveItem>().passiveItemData;     // aktualizuje data itemu v upgrade moznosti, aby sa pri dalsom levelupe ponukala dalsia upgrade moznost
@@ -160,13 +161,13 @@ public class InventoryManager : MonoBehaviour
             // Ak je upgrade typu zbran
             if (upgradeType == 1)
             {
-                WeaponUpgrade chosenWeaponUpgrade = availableWeaponUpgrades[Random.Range(0, availableWeaponUpgrades.Count)];      // nejaky random upgrade z listu zbraní
+                WeaponUpgrade chosenWeaponUpgrade = availableWeaponUpgrades[Random.Range(0, availableWeaponUpgrades.Count)];      // nejaky random upgrade z listu zbranï¿½
 
-                availableWeaponUpgrades.Remove(chosenWeaponUpgrade);     // odstrani zvolenu zbran z dostupných upgradou, aby sa neopakovala
+                availableWeaponUpgrades.Remove(chosenWeaponUpgrade);     // odstrani zvolenu zbran z dostupnï¿½ch upgradou, aby sa neopakovala
 
                 if (chosenWeaponUpgrade != null)
                 {
-                    EnableUpgradeUI(upgradeOption);       // povolí zobrazenie UI pre tento upgrade
+                    EnableUpgradeUI(upgradeOption);       // povolï¿½ zobrazenie UI pre tento upgrade
 
                     bool newWeapon = false;
                     // Hladame ci je nova zbran alebo nie
@@ -224,11 +225,11 @@ public class InventoryManager : MonoBehaviour
             {
                 PassiveItemUpgrade chosenPassiveItemUpgrade = availablePassiveItemUpgrades[Random.Range(0, availablePassiveItemUpgrades.Count)];      // nejaky random upgrade z listu pasivnych itemov
 
-                availablePassiveItemUpgrades.Remove(chosenPassiveItemUpgrade);     // odstrani zvoleny item z dostupných upgradou, aby sa neopakoval
+                availablePassiveItemUpgrades.Remove(chosenPassiveItemUpgrade);     // odstrani zvoleny item z dostupnï¿½ch upgradou, aby sa neopakoval
 
                 if (chosenPassiveItemUpgrade != null)
                 {
-                    EnableUpgradeUI(upgradeOption);       // povolí zobrazenie UI pre tento upgrade
+                    EnableUpgradeUI(upgradeOption);       // povolï¿½ zobrazenie UI pre tento upgrade
 
                     bool newPassiveItem = false;
                     // Hladame ci je novy item alebo nie
