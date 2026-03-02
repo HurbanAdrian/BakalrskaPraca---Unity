@@ -144,8 +144,6 @@ public class PlayerStats : MonoBehaviour
     public Image expBar;
     public TMP_Text levelText;
 
-    public GameObject firstPassiveItemTest, secondPassiveItemTest, secondWeaponTest;
-
     void Awake()
     {
         characterData = CharacterSelector.GetData();
@@ -163,10 +161,6 @@ public class PlayerStats : MonoBehaviour
 
         // spawnutie zaciatocnej zbrane
         SpawnWeapon(characterData.StartingWeapon);
-        //SpawnWeapon(secondWeaponTest);
-
-        SpawnPassiveItem(firstPassiveItemTest);
-        //SpawnPassiveItem(secondPassiveItemTest);
     }
 
     void Start()

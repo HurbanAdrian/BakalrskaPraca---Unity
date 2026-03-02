@@ -46,6 +46,8 @@ public class InventoryManager : MonoBehaviour
     public List<PassiveItemUpgrade> passiveItemUpgradeOptions = new List<PassiveItemUpgrade>();
     public List<UpgradeUI> upgradeUIOptions = new List<UpgradeUI>();        // List pre UI upragdy moznosti, ktore budu dostupne v level up screene
 
+    public List<WeaponEvolutionBlueprint> weaponEvolutionBlueprints = new List<WeaponEvolutionBlueprint>();
+
     PlayerStats player;
 
     void Start()
@@ -306,6 +308,70 @@ public class InventoryManager : MonoBehaviour
     void EnableUpgradeUI(UpgradeUI ui)
     {
         ui.upgradeNameDisplay.transform.parent.gameObject.SetActive(true);
+    }
+
+    public List<WeaponEvolutionBlueprint> GetPossibleEvolution()
+    {
+        List<WeaponEvolutionBlueprint> possibleEvolutions = new List<WeaponEvolutionBlueprint>();
+
+        foreach (var weapon in weaponSlots)
+        {
+            if (weapon != null)
+            {
+                foreach (var catalyst in passiveItemSlots)
+                {
+                    if (catalyst != null)
+                    {
+                        foreach (var blueprint in weaponEvolutionBlueprints)
+                        {
+                            if (weapon.weaponData.Level >= blueprint.baseWeaponData.Level && catalyst.passiveItemData.Level >= blueprint.catalystPassiveItemData.Level)
+                            {
+                                possibleEvolutions.Add(blueprint);
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        return possibleEvolutions;
+    }
+
+    public void EvolveWeapon(WeaponEvolutionBlueprint evolution)
+    {
+        for (int i = 0; i < weaponSlots.Count; i++)
+        {
+            WeaponController weapon = weaponSlots[i];
+
+            if (!weapon) continue;
+
+            for (int j = 0; j < passiveItemSlots.Count; j++)
+            {
+                PassiveItem catalyst = passiveItemSlots[j];
+
+                if (!catalyst) continue;
+                
+                if (weapon.weaponData.Level >= evolution.baseWeaponData.Level && catalyst.passiveItemData.Level >= evolution.catalystPassiveItemData.Level)
+                {
+                    GameObject evolvedWeapon = Instantiate(evolution.evolvedWeapon, transform.position, Quaternion.identity);
+                    WeaponController evolvedWeaponController = evolvedWeapon.GetComponent<WeaponController>();
+
+                    evolvedWeapon.transform.SetParent(transform);
+                    AddWeapon(i, evolvedWeaponController);
+                    Destroy(weapon.gameObject);
+
+                    // Update Levelu a Ikonky
+                    weaponLevels[i] = evolvedWeaponController.weaponData.Level;
+                    weaponUiSlotImages[i].sprite = evolvedWeaponController.weaponData.Icon;
+
+                    // Update upgradnutelnych moznosti
+                    weaponUpgradeOptions.RemoveAt(evolvedWeaponController.weaponData.EvolvedUpgradeToRemove);
+
+                    Debug.Log("Weapon evolved into: " + evolution.evolvedWeapon.name);
+                    return;
+                }
+            }
+        }
     }
 
 }
