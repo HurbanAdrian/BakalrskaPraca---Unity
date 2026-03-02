@@ -12,6 +12,8 @@ public class MeleeWeaponBehaviour : MonoBehaviour
     protected float currentCooldownDuration;
     protected float currentPierce;
 
+    protected PlayerStats playerStats;
+
     void Awake()
     {
         currentDamage = weaponData.Damage;
@@ -21,11 +23,25 @@ public class MeleeWeaponBehaviour : MonoBehaviour
     }
     public float getCurrentDamage()
     {
-        return currentDamage *= FindAnyObjectByType<PlayerStats>().CurrentMight;
+        // Ak sme nahodou hraca nenasli v Start (alebo Start este nebezal), najdeme ho teraz
+        if (playerStats == null)
+        {
+            playerStats = FindAnyObjectByType<PlayerStats>();
+        }
+
+        if (playerStats != null)
+        {
+            return currentDamage * playerStats.CurrentMight;
+        }
+
+        return currentDamage;
     }
 
     protected virtual void Start()
     {
+        // Najdi hraca len raz pri vytvoreni projektilu
+        playerStats = FindAnyObjectByType<PlayerStats>();
+
         Destroy(gameObject, destroyAfterSeconds);
     }
 

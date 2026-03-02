@@ -56,6 +56,12 @@ public class EnemyStats : MonoBehaviour
         currentHealth -= dmg;
         StartCoroutine(DamageFlash());
 
+        // Vytvorime text pop up
+        if (dmg > 0)
+        {
+            GameManager.GenerateFloatingText(Mathf.FloorToInt(dmg).ToString(), transform);
+        }
+
         if (knockbackForce > 0)
         {
             // Ziskanie smeru knockbacku
@@ -121,7 +127,7 @@ public class EnemyStats : MonoBehaviour
         if (collision.gameObject.CompareTag("Player"))
         {
             PlayerStats playerStats = collision.gameObject.GetComponent<PlayerStats>();
-            playerStats.TakeDamage(currentDamage);
+            playerStats.TakeDamage(currentDamage, collision.GetContact(0).point);       // berieme prvy contact point z kolizie na lokaciu
         }
     }
 

@@ -228,7 +228,7 @@ public class PlayerStats : MonoBehaviour
         }
     }
 
-    public void TakeDamage(float damage)
+    public void TakeDamage(float damage, Vector3? position = null)
     {
         // Poskodenie dostane iba ak nema snimky neporazitelnosti
         if (!isInvincible) 
@@ -237,7 +237,7 @@ public class PlayerStats : MonoBehaviour
 
             if (damageEffect)
             {
-                Instantiate(damageEffect, transform.position, Quaternion.identity);
+                Instantiate(damageEffect, position ?? transform.position, Quaternion.identity);
             }
 
             invincibilityTimer = invincibilityDuration;
