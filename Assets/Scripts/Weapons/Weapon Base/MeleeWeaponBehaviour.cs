@@ -34,7 +34,7 @@ public class MeleeWeaponBehaviour : MonoBehaviour
         if (collision.CompareTag("Enemy"))
         {
             EnemyStats enemyStats = collision.GetComponent<EnemyStats>();
-            enemyStats.TakeDamage(getCurrentDamage());
+            enemyStats.TakeDamage(getCurrentDamage(), transform.position);
         }
         else if (collision.CompareTag("Prop"))
         {
