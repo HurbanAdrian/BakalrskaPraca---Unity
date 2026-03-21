@@ -10196,6 +10196,7 @@ GameObject:
   - component: {fileID: 2143560743}
   - component: {fileID: 2143560742}
   - component: {fileID: 2143560744}
+  - component: {fileID: 2143560745}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -10425,6 +10426,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dad72d4502db0e8439178a53ee285915, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerStats
+  baseStats:
+    maxHealth: 0
+    recovery: 0
+    moveSpeed: 0
+    might: 0
+    speed: 0
+    magnet: 0
+  actualStats:
+    maxHealth: 0
+    recovery: 0
+    moveSpeed: 0
+    might: 0
+    speed: 0
+    magnet: 0
   damageEffect: {fileID: 2466496491383306640, guid: 3c6a1ddb85377fa4da6bc2e9cac2ce97, type: 3}
   experience: 0
   level: 1
@@ -10461,7 +10476,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2143560734}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: dda94f9736b50614686d2d40c440394a, type: 3}
   m_Name: 
@@ -10529,6 +10544,68 @@ MonoBehaviour:
     upgradeButton: {fileID: 1061423454}
   weaponEvolutionBlueprints:
   - {fileID: 11400000, guid: bbcb45b9065eb4b45a3bb7ca04399c17, type: 2}
+--- !u!114 &2143560745
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2143560734}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec5a514f92ed76840bdc9e0a71fe51f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerInventory
+  weaponSlots:
+  - item: {fileID: 0}
+    image: {fileID: 1074076489}
+  - item: {fileID: 0}
+    image: {fileID: 195323209}
+  - item: {fileID: 0}
+    image: {fileID: 1019777788}
+  - item: {fileID: 0}
+    image: {fileID: 2124051266}
+  - item: {fileID: 0}
+    image: {fileID: 1191284083}
+  - item: {fileID: 0}
+    image: {fileID: 759386897}
+  passiveSlots:
+  - item: {fileID: 0}
+    image: {fileID: 1075861001}
+  - item: {fileID: 0}
+    image: {fileID: 247917719}
+  - item: {fileID: 0}
+    image: {fileID: 1618037559}
+  - item: {fileID: 0}
+    image: {fileID: 1515645729}
+  - item: {fileID: 0}
+    image: {fileID: 2096520155}
+  - item: {fileID: 0}
+    image: {fileID: 843809358}
+  availableWeapons:
+  - {fileID: 11400000, guid: 9c4bb462de0a2604e871653e858d7ff6, type: 2}
+  - {fileID: 11400000, guid: 86875cc1d82ea0a42965577bc92b4ccd, type: 2}
+  availablePassives:
+  - {fileID: 11400000, guid: cccea09ef0ec1f44faf6ee0fea1c8feb, type: 2}
+  - {fileID: 11400000, guid: 5e539a7d44a86e946b64ce58f42a9e93, type: 2}
+  - {fileID: 11400000, guid: 51999ca1f538f4b42b883b76aad80d98, type: 2}
+  upgradeUIOptions:
+  - upgradeNameDisplay: {fileID: 1459276147}
+    upgradeDescriptionDisplay: {fileID: 2002585199}
+    upgradeIcon: {fileID: 714292064}
+    upgradeButton: {fileID: 1683829683}
+  - upgradeNameDisplay: {fileID: 1192414442}
+    upgradeDescriptionDisplay: {fileID: 1050524933}
+    upgradeIcon: {fileID: 482476275}
+    upgradeButton: {fileID: 462624869}
+  - upgradeNameDisplay: {fileID: 497467789}
+    upgradeDescriptionDisplay: {fileID: 556524601}
+    upgradeIcon: {fileID: 980273934}
+    upgradeButton: {fileID: 412556209}
+  - upgradeNameDisplay: {fileID: 1305042880}
+    upgradeDescriptionDisplay: {fileID: 597422878}
+    upgradeIcon: {fileID: 1436519545}
+    upgradeButton: {fileID: 1061423454}
 --- !u!1001 &2972730625318736652
 PrefabInstance:
   m_ObjectHideFlags: 0

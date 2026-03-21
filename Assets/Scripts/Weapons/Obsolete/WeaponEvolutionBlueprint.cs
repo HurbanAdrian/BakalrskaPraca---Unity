@@ -1,5 +1,6 @@
 using UnityEngine;
 
+[System.Obsolete("Toto nahradime WeaponData triedov.")]
 [CreateAssetMenu(fileName = "WeaponEvolutionBlueprint", menuName = "ScriptableObjects/WeaponEvolutionBlueprint")]
 public class WeaponEvolutionBlueprint : ScriptableObject
 {

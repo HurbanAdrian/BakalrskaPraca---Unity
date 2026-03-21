@@ -7,105 +7,171 @@ using TMPro;
 
 public class PlayerStats : MonoBehaviour
 {
-    CharacterScriptableObject characterData;
+    CharacterData characterData;
+    public CharacterData.Stats baseStats;
+    [SerializeField]
+    CharacterData.Stats actualStats;
 
-    // Sucastne staty
+    // Sucastne staty (neskor odstranit ostatne okrem healthu ak ich nevyuzijem)
     float currentHealth;
-    float currentRecovery;
-    float currentMoveSpeed;
-    float currentMight;
-    float currentProjectileSpeed;
-    float currentMagnet;
 
     #region Current Stats Properties
-    public float CurrentHealth 
-    { 
+    public float CurrentHealth
+    {
         get { return currentHealth; }
-        set 
+
+        // Ak sa pokúsime nastaviť aktuálne zdravie, používateľské rozhranie (UI) na obrazovke pauzy sa tiež aktualizuje.
+        set
         {
-            // skontrolovat ci sa aktualne zdravie zmenilo, aby sme predi�li zbytocnym updateom a volaniam metod
+            // Skontroluje, či sa hodnota zmenila
             if (currentHealth != value)
             {
-                // Update statu v realnom case, pridavnu logiku pri zmene zdravia (napr. aktualizacia UI) mozeme pridat sem
                 currentHealth = value;
                 if (GameManager.instance != null)
                 {
-                    GameManager.instance.currentHealthDisplay.text = "Health: " + currentHealth;
+                    GameManager.instance.currentHealthDisplay.text = string.Format(
+                        "Health: {0} / {1}",
+                        currentHealth, actualStats.maxHealth
+                    );
                 }
             }
         }
     }
 
-    public float CurrentRecovery 
-    { 
-        get { return currentRecovery; }
-        set 
+    public float MaxHealth
+    {
+        get { return actualStats.maxHealth; }
+
+        // Ak sa pokúsime nastaviť maximálne zdravie, používateľské rozhranie (UI) na obrazovke pauzy sa tiež aktualizuje.
+        set
         {
-            if (currentRecovery != value)
+            // Skontroluje, či sa hodnota zmenila
+            if (actualStats.maxHealth != value)
             {
-                currentRecovery = value;
-                if (GameManager.instance != null) {
-                    GameManager.instance.currentRecoveryDisplay.text = "Recovery: " + currentRecovery;
+                actualStats.maxHealth = value;
+                if (GameManager.instance != null)
+                {
+                    GameManager.instance.currentHealthDisplay.text = string.Format(
+                        "Health: {0} / {1}",
+                        currentHealth, actualStats.maxHealth // Tu som použil tvoje currentHealth
+                    );
+                }
+
+                // Aktualizuje hodnotu štatistiky v reálnom čase + pridanie dalsej logiky tu
+            }
+        }
+    }
+
+    public float CurrentRecovery
+    {
+        get { return Recovery; }
+        set { Recovery = value; }
+    }
+
+    public float Recovery
+    {
+        get { return actualStats.recovery; }
+        set
+        {
+            // Skontroluje, či sa hodnota zmenila
+            if (actualStats.recovery != value)
+            {
+                actualStats.recovery = value;
+                if (GameManager.instance != null)
+                {
+                    GameManager.instance.currentRecoveryDisplay.text = "Recovery: " + actualStats.recovery;
                 }
             }
         }
     }
 
-    public float CurrentMoveSpeed 
-    { 
-        get { return currentMoveSpeed; }
-        set 
+    public float CurrentMoveSpeed
+    {
+        get { return MoveSpeed; }
+        set { MoveSpeed = value; }
+    }
+
+    public float MoveSpeed
+    {
+        get { return actualStats.moveSpeed; }
+        set
         {
-            if (currentMoveSpeed != value)
+            // Skontroluje, či sa hodnota zmenila
+            if (actualStats.moveSpeed != value)
             {
-                currentMoveSpeed = value;
-                if (GameManager.instance != null) {
-                    GameManager.instance.currentSpeedDisplay.text = "Move Speed: " + currentMoveSpeed;
+                actualStats.moveSpeed = value;
+                if (GameManager.instance != null)
+                {
+                    GameManager.instance.currentSpeedDisplay.text = "Move Speed: " + actualStats.moveSpeed;
                 }
             }
         }
     }
 
-    public float CurrentMight 
-    { 
-        get { return currentMight; }
-        set 
+    public float CurrentMight
+    {
+        get { return Might; }
+        set { Might = value; }
+    }
+
+    public float Might
+    {
+        get { return actualStats.might; }
+        set
         {
-            if (currentMight != value)
+            // Skontroluje, či sa hodnota zmenila
+            if (actualStats.might != value)
             {
-                currentMight = value;
-                if (GameManager.instance != null) {
-                    GameManager.instance.currentMightDisplay.text = "Might: " + currentMight;
+                actualStats.might = value;
+                if (GameManager.instance != null)
+                {
+                    GameManager.instance.currentMightDisplay.text = "Might: " + actualStats.might;
                 }
             }
         }
     }
 
-    public float CurrentProjectileSpeed 
-    { 
-        get { return currentProjectileSpeed; }
-        set 
+    public float CurrentProjectileSpeed
+    {
+        get { return Speed; }
+        set { Speed = value; }
+    }
+
+    public float Speed
+    {
+        get { return actualStats.speed; }
+        set
         {
-            if (currentProjectileSpeed != value)
+            // Skontroluje, či sa hodnota zmenila
+            if (actualStats.speed != value)
             {
-                currentProjectileSpeed = value;
-                if (GameManager.instance != null) {
-                    GameManager.instance.currentProjectileSpeedDisplay.text = "Projectile Speed: " + currentProjectileSpeed;
+                actualStats.speed = value;
+                if (GameManager.instance != null)
+                {
+                    GameManager.instance.currentProjectileSpeedDisplay.text = "Projectile Speed: " + actualStats.speed;
                 }
             }
         }
     }
 
-    public float CurrentMagnet 
-    { 
-        get { return currentMagnet; }
-        set 
+    public float CurrentMagnet
+    {
+        get { return Magnet; }
+        set { Magnet = value; }
+    }
+
+    public float Magnet
+    {
+        get { return actualStats.magnet; }
+        set
         {
-            if (currentMagnet != value)
+            // Skontroluje, či sa hodnota zmenila
+            if (actualStats.magnet != value)
             {
-                currentMagnet = value;
-                if (GameManager.instance != null) {
-                    GameManager.instance.currentMagnetDisplay.text = "Magnet: " + currentMagnet;
+                actualStats.magnet = value;
+                if (GameManager.instance != null)
+                {
+                    GameManager.instance.currentMagnetDisplay.text = "Magnet: " + actualStats.magnet;
                 }
             }
         }
@@ -137,7 +203,7 @@ public class PlayerStats : MonoBehaviour
 
     public List<LevelRange> levelRanges;
 
-    InventoryManager inventory;
+    PlayerInventory inventory;
     public int weaponIndex;
     public int passiveItemIndex;
 
@@ -151,22 +217,17 @@ public class PlayerStats : MonoBehaviour
         characterData = CharacterSelector.GetData();
         CharacterSelector.instance.DestroySingleton();
 
-        inventory = GetComponent<InventoryManager>();
+        inventory = GetComponent<PlayerInventory>();
 
-        // Inicializacia statov z characterData
-        CurrentHealth = characterData.MaxHealth;
-        CurrentRecovery = characterData.Recovery;
-        CurrentMoveSpeed = characterData.MoveSpeed;
-        CurrentMight = characterData.Might;
-        CurrentProjectileSpeed = characterData.ProjectileSpeed;
-        CurrentMagnet = characterData.Magnet;
-
-        // spawnutie zaciatocnej zbrane
-        SpawnWeapon(characterData.StartingWeapon);
+        // Priradenie premenných
+        baseStats = actualStats = characterData.stats;
+        currentHealth = actualStats.maxHealth;
     }
 
     void Start()
     {
+        inventory.Add(characterData.StartingWeapon);
+
         // Inicializacia experienceCap na zaklade aktualneho levelu
         experienceCap = levelRanges[0].experienceCapIncrease;
 
@@ -197,6 +258,21 @@ public class PlayerStats : MonoBehaviour
         }
 
         Recover();
+    }
+
+    public void RecalculateStats()
+    {
+        actualStats = baseStats;
+
+        foreach (PlayerInventory.Slot s in inventory.passiveSlots)
+        {
+            Passive p = s.item as Passive;
+
+            if (p)
+            {
+                actualStats += p.GetBoosts();
+            }
+        }
     }
 
     public void IncreaseExperience(int amount)
@@ -237,7 +313,7 @@ public class PlayerStats : MonoBehaviour
 
             if (damageEffect)
             {
-                Instantiate(damageEffect, position ?? transform.position, Quaternion.identity);
+                Destroy(Instantiate(damageEffect, position ?? transform.position, Quaternion.identity), 5f);
             }
 
             invincibilityTimer = invincibilityDuration;
@@ -254,7 +330,7 @@ public class PlayerStats : MonoBehaviour
 
     void UpdateHealthBar()
     {
-        healthBar.fillAmount = CurrentHealth / characterData.MaxHealth;
+        healthBar.fillAmount = CurrentHealth / actualStats.maxHealth;
     }
 
     void UpdateExpBar()
@@ -272,7 +348,7 @@ public class PlayerStats : MonoBehaviour
         if (!GameManager.instance.isGameOver)
         {
             GameManager.instance.AssignLevelReachedUI(level);
-            GameManager.instance.AssignChosenWeaponsAndPassiveItemsUI(inventory.weaponUiSlotImages, inventory.passiveItemUiSlotImages);
+            //GameManager.instance.AssignChosenWeaponsAndPassiveItemsUI(inventory.weaponUiSlotImages, inventory.passiveItemUiSlotImages);
             GameManager.instance.GameOver();
         }
     }
@@ -280,13 +356,13 @@ public class PlayerStats : MonoBehaviour
     public void RestoreHealth(float amount)
     {
         // vylieci hraca o urcity amount, ale nikdy neprekroci MaxHealth definovany v characterData
-        if (CurrentHealth < characterData.MaxHealth)
+        if (CurrentHealth < actualStats.maxHealth)
         {
             CurrentHealth += amount;
 
-            if (CurrentHealth > characterData.MaxHealth)
+            if (CurrentHealth > actualStats.maxHealth)
             {
-                CurrentHealth = characterData.MaxHealth;
+                CurrentHealth = actualStats.maxHealth;
             }
         }
 
@@ -296,17 +372,18 @@ public class PlayerStats : MonoBehaviour
     void Recover()
     {
             // Obnovovanie zdravia o hodnotu Recovery kazdu sekundu, ale nikdy neprekroci MaxHealth
-            if (CurrentHealth < characterData.MaxHealth)
+            if (CurrentHealth < actualStats.maxHealth)
             {
                 CurrentHealth += CurrentRecovery * Time.deltaTime;
     
-                if (CurrentHealth > characterData.MaxHealth)
+                if (CurrentHealth > actualStats.maxHealth)
                 {
-                    CurrentHealth = characterData.MaxHealth;
+                    CurrentHealth = actualStats.maxHealth;
                 }
         }
     }
 
+    // Odstranim stara Obsolete funkcia zo starym manazerom
     public void SpawnWeapon(GameObject weapon)
     {
         // Kontrola ci hrac uz nema maximum zbran�
@@ -319,15 +396,15 @@ public class PlayerStats : MonoBehaviour
         // spawnutie zaciatocnej zbrane
         GameObject spawnedWeapon = Instantiate(weapon, transform.position, Quaternion.identity);
         spawnedWeapon.transform.SetParent(transform);     // nastavenie hraca ako rodica spawnutej zbrane, aby sa pohybovala spolu s nim
-        inventory.AddWeapon(weaponIndex, spawnedWeapon.GetComponent<WeaponController>());       // pridanie spawnutej zbrane do slotu v inventory
+        //inventory.AddWeapon(weaponIndex, spawnedWeapon.GetComponent<WeaponController>());       // pridanie spawnutej zbrane do slotu v inventory
 
         weaponIndex++;     // posunutie indexu pre zbrane, aby sa dalsia zbran pridala do dalsieho slotu
     }
 
-
+    // nebude treba spawnovat pasivne itemy samostatne uz
     public void SpawnPassiveItem(GameObject passiveItem)
     {
-        if (passiveItemIndex >= inventory.passiveItemSlots.Count - 1)
+        if (passiveItemIndex >= inventory.passiveSlots.Count - 1)
         {
             Debug.LogWarning("Player already has maximum number of weapons. Cannot spawn more.");
             return;
@@ -335,7 +412,7 @@ public class PlayerStats : MonoBehaviour
 
         GameObject spawnedPassiveItem = Instantiate(passiveItem, transform.position, Quaternion.identity);
         spawnedPassiveItem.transform.SetParent(transform);
-        inventory.AddPassiveItem(passiveItemIndex, spawnedPassiveItem.GetComponent<PassiveItem>());
+        //inventory.AddPassiveItem(passiveItemIndex, spawnedPassiveItem.GetComponent<PassiveItem>());
 
         passiveItemIndex++;
     }

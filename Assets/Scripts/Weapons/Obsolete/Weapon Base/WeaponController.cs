@@ -2,6 +2,7 @@ using System;
 using UnityEngine;
 
 // Base script pre vsetky Weapon Controllers
+[System.Obsolete("Toto nahradime WeaponData triedov.")]
 public class WeaponController : MonoBehaviour
 {
     [Header("Weapon stats")]

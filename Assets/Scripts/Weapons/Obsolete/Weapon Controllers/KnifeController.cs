@@ -1,5 +1,6 @@
 using UnityEngine;
 
+[System.Obsolete("Toto nahradime WeaponData triedov.")]
 public class KnifeController : WeaponController
 {
 

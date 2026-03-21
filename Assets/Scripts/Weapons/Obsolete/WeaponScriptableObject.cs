@@ -1,5 +1,6 @@
 using UnityEngine;
 
+[System.Obsolete("Toto nahradime WeaponData triedov.")]
 [CreateAssetMenu(fileName ="WeaponScriptableObject", menuName ="ScriptableObjects/Weapon")]
 public class WeaponScriptableObject : ScriptableObject
 {

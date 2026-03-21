@@ -165,6 +165,11 @@ public class GameManager : MonoBehaviour
 
         while (timeElapsed < duration)
         {
+            if (textObj == null || rect == null)
+            {
+                yield break;
+            }
+
             // Zmiznutie textu postupne cez alpha kanal
             textMeshPro.color = new Color(textMeshPro.color.r, textMeshPro.color.g, textMeshPro.color.b, 1 - timeElapsed / duration);
 
@@ -264,10 +269,10 @@ public class GameManager : MonoBehaviour
         resultScreen.SetActive(true);
     }
 
-    public void AssignChosenCharacterUI(CharacterScriptableObject chosenCharacterData)
+    public void AssignChosenCharacterUI(CharacterData chosenCharacterData)
     {
         chosenCharacterImage.sprite = chosenCharacterData.Icon;
-        chosenCharacterName.text = chosenCharacterData.CharacterName;
+        chosenCharacterName.text = chosenCharacterData.Name;
     }
 
     public void AssignLevelReachedUI(int levelReached)

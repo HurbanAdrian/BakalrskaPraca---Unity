@@ -2,6 +2,7 @@ using NUnit.Framework;
 using System.Collections.Generic;
 using UnityEngine;
 
+[System.Obsolete("Toto nahradime WeaponData triedov.")]
 public class GarlicBehaviour : MeleeWeaponBehaviour
 {
     List<GameObject> markedEnemies;

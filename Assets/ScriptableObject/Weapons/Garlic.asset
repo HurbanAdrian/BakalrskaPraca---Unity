@@ -1,0 +1,197 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ccc85475ce102724d9d5cf31f1cbd061, type: 3}
+  m_Name: Garlic
+  m_EditorClassIdentifier: Assembly-CSharp::WeaponData
+  icon: {fileID: 579569563849759094, guid: 550998172f8fa0c428e8e15be51dd56d, type: 3}
+  maxLevel: 8
+  evolutionData: []
+  behaviour: AuraWeapon
+  baseStats:
+    name: Garlic
+    description: Damages nearby enemies.
+    projectilePrefab: {fileID: 0}
+    auraPrefab: {fileID: -6151144943378912021, guid: 11b4daa245124ac47b4fbb2c56e8c5cd, type: 3}
+    hitEffect: {fileID: 0}
+    spawnVariance:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    lifeSpan: 0
+    damage: 555
+    damageVariance: 1
+    area: 1
+    speed: 0
+    cooldown: 1.3
+    projectileInterval: 0
+    knockback: 1
+    number: 1
+    piercing: 0
+    maxInstances: 50
+  linearGrowth:
+  - name: Level 2
+    description: 'Base Area up by 40%. Base Damage up by 2. '
+    projectilePrefab: {fileID: 0}
+    auraPrefab: {fileID: 0}
+    hitEffect: {fileID: 0}
+    spawnVariance:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    lifeSpan: 0
+    damage: 2
+    damageVariance: 0
+    area: 0.4
+    speed: 0
+    cooldown: 0
+    projectileInterval: 0
+    knockback: 0
+    number: 0
+    piercing: 0
+    maxInstances: 0
+  - name: Level 3
+    description: 'Base Area up by 20%. Base Damage up by 2. '
+    projectilePrefab: {fileID: 0}
+    auraPrefab: {fileID: 0}
+    hitEffect: {fileID: 0}
+    spawnVariance:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    lifeSpan: 0
+    damage: 2
+    damageVariance: 0
+    area: 0.2
+    speed: 0
+    cooldown: 0
+    projectileInterval: 0
+    knockback: 0
+    number: 0
+    piercing: 0
+    maxInstances: 0
+  - name: Level 4
+    description: 'Base Area up by 20%. Base Damage up by 2. '
+    projectilePrefab: {fileID: 0}
+    auraPrefab: {fileID: 0}
+    hitEffect: {fileID: 0}
+    spawnVariance:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    lifeSpan: 0
+    damage: 2
+    damageVariance: 0
+    area: 0.2
+    speed: 0
+    cooldown: 0
+    projectileInterval: 0
+    knockback: 0
+    number: 0
+    piercing: 0
+    maxInstances: 0
+  - name: Level 5
+    description: 'Base Area up by 20%. Base Damage up by 2. '
+    projectilePrefab: {fileID: 0}
+    auraPrefab: {fileID: 0}
+    hitEffect: {fileID: 0}
+    spawnVariance:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    lifeSpan: 0
+    damage: 2
+    damageVariance: 0
+    area: 0.2
+    speed: 0
+    cooldown: 0
+    projectileInterval: 0
+    knockback: 0
+    number: 0
+    piercing: 0
+    maxInstances: 0
+  - name: Level 6
+    description: 'Base Area up by 20%. Base Damage up by 2. '
+    projectilePrefab: {fileID: 0}
+    auraPrefab: {fileID: 0}
+    hitEffect: {fileID: 0}
+    spawnVariance:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    lifeSpan: 0
+    damage: 2
+    damageVariance: 0
+    area: 0.2
+    speed: 0
+    cooldown: 0
+    projectileInterval: 0
+    knockback: 0
+    number: 0
+    piercing: 0
+    maxInstances: 0
+  - name: Level 7
+    description: 'Base Area up by 20%. Base Damage up by 2. '
+    projectilePrefab: {fileID: 0}
+    auraPrefab: {fileID: 0}
+    hitEffect: {fileID: 0}
+    spawnVariance:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    lifeSpan: 0
+    damage: 2
+    damageVariance: 0
+    area: 0.2
+    speed: 0
+    cooldown: 0
+    projectileInterval: 0
+    knockback: 0
+    number: 0
+    piercing: 0
+    maxInstances: 0
+  - name: Level 8
+    description: 'Base Area up by 20%. Base Damage up by 2. '
+    projectilePrefab: {fileID: 0}
+    auraPrefab: {fileID: 0}
+    hitEffect: {fileID: 0}
+    spawnVariance:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    lifeSpan: 0
+    damage: 2
+    damageVariance: 0
+    area: 0.2
+    speed: 0
+    cooldown: 0
+    projectileInterval: 0
+    knockback: 0
+    number: 0
+    piercing: 0
+    maxInstances: 0
+  randomGrowth: []

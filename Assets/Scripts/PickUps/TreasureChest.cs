@@ -12,22 +12,35 @@ public class TreasureChest : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.gameObject.CompareTag("Player"))
+        PlayerInventory p = collision.GetComponent<PlayerInventory>();
+        if (p)
         {
-            OpenTreasureChest();
+            bool randomBool = Random.Range(0, 2) == 0;
+
+            OpenTreasureChest(p, randomBool);
+
             Destroy(gameObject);
         }
     }
 
-    public void OpenTreasureChest()
+    public void OpenTreasureChest(PlayerInventory inventory, bool isHigherTier)
     {
-        if (inventory.GetPossibleEvolution().Count <= 0)
+        // Prejde všetky zbrane a skontroluje, èi sa môžu vyvinú.
+        foreach (PlayerInventory.Slot s in inventory.weaponSlots)
         {
-            Debug.Log("No possible evolutions");
-            return;
-        }
+            Weapon w = s.item as Weapon;
+            if (w == null || w.data.evolutionData == null) continue; // Ignoruje zbraò, ak sa nemôže vyvinú. alebo nie je plny inventar
 
-        WeaponEvolutionBlueprint toEvolve = inventory.GetPossibleEvolution()[Random.Range(0, inventory.GetPossibleEvolution().Count)];
-        inventory.EvolveWeapon(toEvolve);
+            // Prejde všetky možné evolúcie zbrane.
+            foreach (ItemData.Evolution e in w.data.evolutionData)
+            {
+                // Pokúsi sa vyvinú zbrane iba cez evolúciu z truhlice s pokladom.
+                if (e.condition == ItemData.Evolution.Condition.treasureChest)
+                {
+                    bool attempt = w.AttemptEvolution(e, 0);
+                    if (attempt) return; // Ak je evolúcia úspešná, zastaví sa (ukonèí metódu).
+                }
+            }
+        }
     }
 }
