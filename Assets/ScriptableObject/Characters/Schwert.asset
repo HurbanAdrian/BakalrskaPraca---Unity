@@ -12,11 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: efd64e0688633374cb69e64236dad287, type: 3}
   m_Name: Schwert
   m_EditorClassIdentifier: Assembly-CSharp::CharacterData
-  icon: {fileID: 3934776110834691092, guid: 13612378f87c0a240bc1cb199ad9e0ce, type: 3}
+  icon: {fileID: -3295141935683125962, guid: 1a73c8254ae9e1246b5444bbf7f5de07, type: 3}
+  controller: {fileID: 22100000, guid: 3d1309561d8f7cb4daa898ac4a705554, type: 2}
   name: Schwert
   startingWeapon: {fileID: 11400000, guid: 9c4bb462de0a2604e871653e858d7ff6, type: 2}
   stats:
-    maxHealth: 1000
+    maxHealth: 10
     recovery: 0
     moveSpeed: 5
     might: 1

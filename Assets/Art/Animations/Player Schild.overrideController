@@ -1,0 +1,13 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Player Schild
+  m_Controller: {fileID: 9100000, guid: 0f4dde05c5b4f9845a66f41dabf8ecd1, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: c8bd3a3dfa875d44bae9a927c1a19e42, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 07d14a8c10025ce47a26d2beb4bd5f86, type: 2}

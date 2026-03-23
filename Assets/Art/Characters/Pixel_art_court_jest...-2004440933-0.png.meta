@@ -1,0 +1,533 @@
+fileFormatVersion: 2
+guid: b52cc12351b7822488245a1e31f2b54e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7606965376799902770
+    second: Pixel_art_court_jest...-2004440933-0_0
+  - first:
+      213: 7391699133996668127
+    second: Pixel_art_court_jest...-2004440933-0_1
+  - first:
+      213: -3358202268455362141
+    second: Pixel_art_court_jest...-2004440933-0_2
+  - first:
+      213: 2684738913627492334
+    second: Pixel_art_court_jest...-2004440933-0_3
+  - first:
+      213: 2574705702278727327
+    second: Pixel_art_court_jest...-2004440933-0_4
+  - first:
+      213: -899390536808382710
+    second: Pixel_art_court_jest...-2004440933-0_5
+  - first:
+      213: -9110199962586101009
+    second: Pixel_art_court_jest...-2004440933-0_6
+  - first:
+      213: 4164216293463264537
+    second: Pixel_art_court_jest...-2004440933-0_7
+  - first:
+      213: 2004434299697063662
+    second: Pixel_art_court_jest...-2004440933-0_8
+  - first:
+      213: -7614143492027040661
+    second: Pixel_art_court_jest...-2004440933-0_9
+  - first:
+      213: 4155031094852058979
+    second: Pixel_art_court_jest...-2004440933-0_10
+  - first:
+      213: 8527192014507792023
+    second: Pixel_art_court_jest...-2004440933-0_11
+  - first:
+      213: -1628139038059863272
+    second: Pixel_art_court_jest...-2004440933-0_12
+  - first:
+      213: -3286851762978808268
+    second: Pixel_art_court_jest...-2004440933-0_13
+  - first:
+      213: 2941291844717417769
+    second: Pixel_art_court_jest...-2004440933-0_14
+  - first:
+      213: -8767666070770032581
+    second: Pixel_art_court_jest...-2004440933-0_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Pixel_art_court_jest...-2004440933-0_0
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 595
+        width: 102
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec375211b41ae6690800000000000000
+      internalID: -7606965376799902770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel_art_court_jest...-2004440933-0_1
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 591
+        width: 102
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd41f601337949660800000000000000
+      internalID: 7391699133996668127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel_art_court_jest...-2004440933-0_2
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 595
+        width: 102
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a1aec054d44561d0800000000000000
+      internalID: -3358202268455362141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel_art_court_jest...-2004440933-0_3
+      rect:
+        serializedVersion: 2
+        x: 619
+        y: 591
+        width: 102
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eef4f6d41db124520800000000000000
+      internalID: 2684738913627492334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel_art_court_jest...-2004440933-0_4
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 403
+        width: 94
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f960f71e1313bb320800000000000000
+      internalID: 2574705702278727327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel_art_court_jest...-2004440933-0_5
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 403
+        width: 94
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0f303b6219b483f0800000000000000
+      internalID: -899390536808382710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel_art_court_jest...-2004440933-0_6
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 403
+        width: 98
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fea4745e661129180800000000000000
+      internalID: -9110199962586101009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel_art_court_jest...-2004440933-0_7
+      rect:
+        serializedVersion: 2
+        x: 623
+        y: 403
+        width: 98
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91d85cbe7a44ac930800000000000000
+      internalID: 4164216293463264537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel_art_court_jest...-2004440933-0_8
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 211
+        width: 102
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee66d09206e21db10800000000000000
+      internalID: 2004434299697063662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel_art_court_jest...-2004440933-0_9
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 207
+        width: 102
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6c30e0e5d0255690800000000000000
+      internalID: -7614143492027040661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel_art_court_jest...-2004440933-0_10
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 211
+        width: 102
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36ffb5734c2a9a930800000000000000
+      internalID: 4155031094852058979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel_art_court_jest...-2004440933-0_11
+      rect:
+        serializedVersion: 2
+        x: 619
+        y: 207
+        width: 102
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 796d84c45fba65670800000000000000
+      internalID: 8527192014507792023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel_art_court_jest...-2004440933-0_12
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 19
+        width: 94
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 813ee7fcb20b769e0800000000000000
+      internalID: -1628139038059863272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel_art_court_jest...-2004440933-0_13
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 19
+        width: 98
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43e184e6cb1c262d0800000000000000
+      internalID: -3286851762978808268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel_art_court_jest...-2004440933-0_14
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 19
+        width: 94
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9259221695191d820800000000000000
+      internalID: 2941291844717417769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel_art_court_jest...-2004440933-0_15
+      rect:
+        serializedVersion: 2
+        x: 623
+        y: 19
+        width: 94
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b30e186692ef25680800000000000000
+      internalID: -8767666070770032581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Pixel_art_court_jest...-2004440933-0_0: -7606965376799902770
+      Pixel_art_court_jest...-2004440933-0_1: 7391699133996668127
+      Pixel_art_court_jest...-2004440933-0_10: 4155031094852058979
+      Pixel_art_court_jest...-2004440933-0_11: 8527192014507792023
+      Pixel_art_court_jest...-2004440933-0_12: -1628139038059863272
+      Pixel_art_court_jest...-2004440933-0_13: -3286851762978808268
+      Pixel_art_court_jest...-2004440933-0_14: 2941291844717417769
+      Pixel_art_court_jest...-2004440933-0_15: -8767666070770032581
+      Pixel_art_court_jest...-2004440933-0_2: -3358202268455362141
+      Pixel_art_court_jest...-2004440933-0_3: 2684738913627492334
+      Pixel_art_court_jest...-2004440933-0_4: 2574705702278727327
+      Pixel_art_court_jest...-2004440933-0_5: -899390536808382710
+      Pixel_art_court_jest...-2004440933-0_6: -9110199962586101009
+      Pixel_art_court_jest...-2004440933-0_7: 4164216293463264537
+      Pixel_art_court_jest...-2004440933-0_8: 2004434299697063662
+      Pixel_art_court_jest...-2004440933-0_9: -7614143492027040661
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

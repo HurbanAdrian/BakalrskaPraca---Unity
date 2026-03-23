@@ -212,6 +212,8 @@ public class PlayerStats : MonoBehaviour
     public Image expBar;
     public TMP_Text levelText;
 
+    PlayerAnimator playerAnimator;
+
     void Awake()
     {
         characterData = CharacterSelector.GetData();
@@ -222,6 +224,12 @@ public class PlayerStats : MonoBehaviour
         // Priradenie premenných
         baseStats = actualStats = characterData.stats;
         currentHealth = actualStats.maxHealth;
+        
+        playerAnimator = GetComponent<PlayerAnimator>();
+        if (characterData.controller)
+        {
+            playerAnimator.SetAnimatorController(characterData.controller);
+        }
     }
 
     void Start()

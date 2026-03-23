@@ -1,0 +1,533 @@
+fileFormatVersion: 2
+guid: f246a1b6aaca9254594cbc3418ff2c2e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7575361245339860196
+    second: Pixel_art_female_due...-1246317183-0_0
+  - first:
+      213: -5065216043289290177
+    second: Pixel_art_female_due...-1246317183-0_1
+  - first:
+      213: -8185298964559900392
+    second: Pixel_art_female_due...-1246317183-0_2
+  - first:
+      213: -6594952613293165263
+    second: Pixel_art_female_due...-1246317183-0_3
+  - first:
+      213: 7721297297298495398
+    second: Pixel_art_female_due...-1246317183-0_4
+  - first:
+      213: 873275294928663340
+    second: Pixel_art_female_due...-1246317183-0_5
+  - first:
+      213: -1621971961481873069
+    second: Pixel_art_female_due...-1246317183-0_6
+  - first:
+      213: -1003345662466228407
+    second: Pixel_art_female_due...-1246317183-0_7
+  - first:
+      213: 7622296283332306894
+    second: Pixel_art_female_due...-1246317183-0_8
+  - first:
+      213: 675485594961369575
+    second: Pixel_art_female_due...-1246317183-0_9
+  - first:
+      213: -3822293964940650355
+    second: Pixel_art_female_due...-1246317183-0_10
+  - first:
+      213: 414759872544742560
+    second: Pixel_art_female_due...-1246317183-0_11
+  - first:
+      213: 7098581325104835045
+    second: Pixel_art_female_due...-1246317183-0_12
+  - first:
+      213: -3863549880785113403
+    second: Pixel_art_female_due...-1246317183-0_13
+  - first:
+      213: 4391211785559776321
+    second: Pixel_art_female_due...-1246317183-0_14
+  - first:
+      213: -8123624164966432944
+    second: Pixel_art_female_due...-1246317183-0_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Pixel_art_female_due...-1246317183-0_0
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 595
+        width: 74
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ec3eb9aae6112960800000000000000
+      internalID: 7575361245339860196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel_art_female_due...-1246317183-0_1
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 591
+        width: 66
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3ad12568dcb4b9b0800000000000000
+      internalID: -5065216043289290177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel_art_female_due...-1246317183-0_2
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 595
+        width: 78
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 811d80595f9f76e80800000000000000
+      internalID: -8185298964559900392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel_art_female_due...-1246317183-0_3
+      rect:
+        serializedVersion: 2
+        x: 635
+        y: 591
+        width: 66
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 135702e2a850a74a0800000000000000
+      internalID: -6594952613293165263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel_art_female_due...-1246317183-0_4
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 403
+        width: 70
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a719a29bfe872b60800000000000000
+      internalID: 7721297297298495398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel_art_female_due...-1246317183-0_5
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 403
+        width: 70
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c23f851014f7e1c00800000000000000
+      internalID: 873275294928663340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel_art_female_due...-1246317183-0_6
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 403
+        width: 70
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 359ba3838199d79e0800000000000000
+      internalID: -1621971961481873069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel_art_female_due...-1246317183-0_7
+      rect:
+        serializedVersion: 2
+        x: 631
+        y: 403
+        width: 78
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94f75c99f666312f0800000000000000
+      internalID: -1003345662466228407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel_art_female_due...-1246317183-0_8
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 211
+        width: 74
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec76dc4c516d7c960800000000000000
+      internalID: 7622296283332306894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel_art_female_due...-1246317183-0_9
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 207
+        width: 66
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e9d09ad19ecf5900800000000000000
+      internalID: 675485594961369575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel_art_female_due...-1246317183-0_10
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 211
+        width: 74
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d88d798e3eb74fac0800000000000000
+      internalID: -3822293964940650355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel_art_female_due...-1246317183-0_11
+      rect:
+        serializedVersion: 2
+        x: 639
+        y: 207
+        width: 66
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ac9d1618e581c500800000000000000
+      internalID: 414759872544742560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel_art_female_due...-1246317183-0_12
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 19
+        width: 70
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e96814fa1a338260800000000000000
+      internalID: 7098581325104835045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel_art_female_due...-1246317183-0_13
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 19
+        width: 70
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ceecc77ad9e16ac0800000000000000
+      internalID: -3863549880785113403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel_art_female_due...-1246317183-0_14
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 19
+        width: 70
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14c9cc37ad7b0fc30800000000000000
+      internalID: 4391211785559776321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel_art_female_due...-1246317183-0_15
+      rect:
+        serializedVersion: 2
+        x: 635
+        y: 19
+        width: 78
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05f756edcd6134f80800000000000000
+      internalID: -8123624164966432944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Pixel_art_female_due...-1246317183-0_0: 7575361245339860196
+      Pixel_art_female_due...-1246317183-0_1: -5065216043289290177
+      Pixel_art_female_due...-1246317183-0_10: -3822293964940650355
+      Pixel_art_female_due...-1246317183-0_11: 414759872544742560
+      Pixel_art_female_due...-1246317183-0_12: 7098581325104835045
+      Pixel_art_female_due...-1246317183-0_13: -3863549880785113403
+      Pixel_art_female_due...-1246317183-0_14: 4391211785559776321
+      Pixel_art_female_due...-1246317183-0_15: -8123624164966432944
+      Pixel_art_female_due...-1246317183-0_2: -8185298964559900392
+      Pixel_art_female_due...-1246317183-0_3: -6594952613293165263
+      Pixel_art_female_due...-1246317183-0_4: 7721297297298495398
+      Pixel_art_female_due...-1246317183-0_5: 873275294928663340
+      Pixel_art_female_due...-1246317183-0_6: -1621971961481873069
+      Pixel_art_female_due...-1246317183-0_7: -1003345662466228407
+      Pixel_art_female_due...-1246317183-0_8: 7622296283332306894
+      Pixel_art_female_due...-1246317183-0_9: 675485594961369575
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

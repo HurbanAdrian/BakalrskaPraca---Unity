@@ -41,4 +41,14 @@ public class PlayerAnimator : MonoBehaviour
             spriteRenderer.flipX = false;
         }
     }
+
+    public void SetAnimatorController(RuntimeAnimatorController c)
+    {
+        if (!animator)
+        {
+            animator = GetComponent<Animator>();
+        }
+
+        animator.runtimeAnimatorController = c;
+    }
 }
