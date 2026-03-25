@@ -6653,7 +6653,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7ba66b044078c154393f825fc09f984b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerCollector
-  pullSpeed: 300
+  pullSpeed: 10
 --- !u!58 &1432464858
 CircleCollider2D:
   m_ObjectHideFlags: 0

@@ -31,6 +31,9 @@ public class AuraWeapon : Weapon
     {
         if (!base.DoLevelUp()) return false;
 
+        // Zabezpecit ze Aura bude refreshnuta ak je priradena ina na vyssom leveli
+        OnEquip();
+
         // Ak je k tejto zbrani pripojen· aura, aktualizujeme ju (jej veækosù).
         if (currentAura)
         {

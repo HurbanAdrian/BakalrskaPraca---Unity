@@ -1,33 +1,33 @@
 using UnityEngine;
 
+[RequireComponent(typeof(CircleCollider2D))]
 public class PlayerCollector : MonoBehaviour
 {
     PlayerStats player;
-    CircleCollider2D collectorCollider;
+    CircleCollider2D detector;
     public float pullSpeed;
 
     void Start()
     {
-        player = FindAnyObjectByType<PlayerStats>();
-        collectorCollider = GetComponent<CircleCollider2D>();
+        player = GetComponentInParent<PlayerStats>();         // Collector je dieta hraca
     }
 
-    void Update()
+    public void SetRadius(float r)
     {
-        collectorCollider.radius = player.CurrentMagnet;     // nastavime radius kolidera na zaklade magnet statov hraca
+        if (!detector)
+        {
+            detector = GetComponent<CircleCollider2D>();
+        }
+
+        detector.radius = r;
     }
 
     void OnTriggerEnter2D(Collider2D collision)
     {
-        // Skontroluj, ci objekt, s ktorým sa hráè stretol, implementuje rozhranie ICollectible
-        if (collision.gameObject.TryGetComponent(out ICollectible collectible))
+        // Skontroluj, èi je GameObject typu Pickup.
+        if (collision.TryGetComponent(out PickUp p))
         {
-            Rigidbody2D rb = collision.gameObject.GetComponent<Rigidbody2D>();
-            Vector2 forceDirection = (transform.position - collision.transform.position).normalized;   // vypocitame smer sily od hraca k objektu
-            rb.AddForce(forceDirection * pullSpeed, ForceMode2D.Force);    // aplikujeme silu na objekt, aby sa priblizil k hracovi, je jedno ci dame ForceMode2D.Force, defaultne tam je tak
-
-            // Ak áno, zavolaj metódu Collect() na tomto objekte
-            collectible.Collect();
+            p.Collect(player, pullSpeed);
         }
     }
 }

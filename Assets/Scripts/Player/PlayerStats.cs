@@ -203,6 +203,7 @@ public class PlayerStats : MonoBehaviour
 
     public List<LevelRange> levelRanges;
 
+    PlayerCollector collector;
     PlayerInventory inventory;
     public int weaponIndex;
     public int passiveItemIndex;
@@ -223,9 +224,11 @@ public class PlayerStats : MonoBehaviour
         }
 
         inventory = GetComponent<PlayerInventory>();
+        collector = GetComponentInChildren<PlayerCollector>();
 
         // Priradenie premenných
         baseStats = actualStats = characterData.stats;
+        collector.SetRadius(actualStats.magnet);
         currentHealth = actualStats.maxHealth;
         
         playerAnimator = GetComponent<PlayerAnimator>();
@@ -284,6 +287,8 @@ public class PlayerStats : MonoBehaviour
                 actualStats += p.GetBoosts();
             }
         }
+
+        collector.SetRadius(actualStats.magnet);
     }
 
     public void IncreaseExperience(int amount)

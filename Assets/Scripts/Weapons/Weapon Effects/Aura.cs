@@ -18,6 +18,14 @@ public class Aura : WeaponEffect
         // Prejdeme každý cie¾ ovplyvnený aurou a znížime mu cooldown aury. Ak cooldown dosiahne 0, udelíme mu poškodenie.
         foreach (KeyValuePair<EnemyStats, float> pair in affectedTargsCopy)
         {
+            // Je mozne ze nepriatelia v Liste zomru na inu zbran. Pair.Key bude potom null tak ho odstranime.
+            if (!pair.Key)
+            {
+                targetsToUnaffect.Remove(pair.Key);
+                affectedTargets.Remove(pair.Key);
+                continue;
+            }
+
             affectedTargets[pair.Key] -= Time.deltaTime;
 
             // Zmenil som ifko pair.Value <= 0
@@ -35,6 +43,12 @@ public class Aura : WeaponEffect
                     Weapon.Stats stats = weapon.GetStats();
                     affectedTargets[pair.Key] = stats.cooldown;
                     pair.Key.TakeDamage(GetDamage(), transform.position, stats.knockback);
+
+                    // Ak mame hitEffect tak ho spustit
+                    if (stats.hitEffect)
+                    {
+                        Destroy(Instantiate(stats.hitEffect, pair.Key.transform.position, Quaternion.identity), 5f);
+                    }
                 }
             }
         }

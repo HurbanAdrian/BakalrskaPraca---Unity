@@ -11,9 +11,8 @@ GameObject:
   - component: {fileID: 8353454672502049447}
   - component: {fileID: 8567036212616587318}
   - component: {fileID: 2651529595831359466}
-  - component: {fileID: -8896064981490598171}
   - component: {fileID: -875070153668529972}
-  - component: {fileID: 1919221735180419917}
+  - component: {fileID: 8943805529658005687}
   m_Layer: 0
   m_Name: BlueGem
   m_TagString: Untagged
@@ -130,20 +129,6 @@ CircleCollider2D:
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
   m_Radius: 0.105
---- !u!114 &-8896064981490598171
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1222974267670475714}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 354e7c8b99d55aa47be9ff26933bfa01, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::ExperienceGem
-  hasBeenCollected: 0
-  experienceAmount: 100
 --- !u!50 &-875070153668529972
 Rigidbody2D:
   serializedVersion: 5
@@ -159,7 +144,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDamping: 0
   m_AngularDamping: 0.05
-  m_GravityScale: 1
+  m_GravityScale: 0
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
@@ -171,7 +156,7 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!114 &1919221735180419917
+--- !u!114 &8943805529658005687
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -180,9 +165,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 1222974267670475714}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4565b0c4ef5d80e41b4b3b47ac6e1e51, type: 3}
+  m_Script: {fileID: 11500000, guid: 628bcd0e76d874449abe4d8b096ec9ec, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::BobbingAnimation
-  frequency: 3
-  amplitude: 0.1
-  direction: {x: 0, y: 1, z: 0}
+  m_EditorClassIdentifier: Assembly-CSharp::PickUp
+  lifespan: 0.5
+  bobbingAnimation:
+    frequency: 2
+    direction: {x: 0, y: 0.3}
+  experience: 120
+  health: 0

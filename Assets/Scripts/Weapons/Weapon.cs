@@ -16,7 +16,7 @@ public abstract class Weapon : Item
         [Header("Visuals")]
         public Projectile projectilePrefab;  // Ak pridame prefab, tak sa projektil bude spawnovat z tejto zbrane na cooldowne
         public Aura auraPrefab;              // Ak pridame prefab, tak sa aura spawne ked budeme mat equipnutu zbran
-        public ParticleSystem hitEffect;
+        public ParticleSystem hitEffect, procEffect;
         public Rect spawnVariance;
 
         [Header("Values")]
@@ -34,6 +34,7 @@ public abstract class Weapon : Item
             result.projectilePrefab = s2.projectilePrefab ?? s1.projectilePrefab;
             result.auraPrefab = s2.auraPrefab ?? s1.auraPrefab;
             result.hitEffect = s2.hitEffect == null ? s1.hitEffect : s2.hitEffect;
+            result.procEffect = s2.procEffect == null ? s1.procEffect : s2.procEffect;
             result.spawnVariance = s2.spawnVariance;
             result.lifeSpan = s1.lifeSpan + s2.lifeSpan;
             result.damage = s1.damage + s2.damage;

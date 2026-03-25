@@ -46,6 +46,12 @@ public class ProjectileWeapon : Weapon
 
         float spawnAngle = GetSpawnAngle();
 
+        // Ak existuje procEffect, tak ho spustime na hracovi
+        if (currentStats.procEffect)
+        {
+            Destroy(Instantiate(currentStats.procEffect, owner.transform), 5f);
+        }
+
         Projectile prefab = Instantiate(
             currentStats.projectilePrefab,
             owner.transform.position + (Vector3)GetSpawnOffset(spawnAngle),

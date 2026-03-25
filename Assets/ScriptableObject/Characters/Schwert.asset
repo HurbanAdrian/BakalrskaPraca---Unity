@@ -15,11 +15,11 @@ MonoBehaviour:
   icon: {fileID: -3295141935683125962, guid: 1a73c8254ae9e1246b5444bbf7f5de07, type: 3}
   controller: {fileID: 22100000, guid: 3d1309561d8f7cb4daa898ac4a705554, type: 2}
   name: Schwert
-  startingWeapon: {fileID: 11400000, guid: 86875cc1d82ea0a42965577bc92b4ccd, type: 2}
+  startingWeapon: {fileID: 11400000, guid: 0415dc4983280c84388a4a5de6fb2822, type: 2}
   stats:
     maxHealth: 1000
     recovery: 0
     moveSpeed: 5
     might: 1
     speed: 1
-    magnet: 30
+    magnet: 1.8

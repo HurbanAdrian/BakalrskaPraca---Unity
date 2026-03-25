@@ -32,6 +32,11 @@ public class WhipWeapon : ProjectileWeapon
             currentSpawnYOffset
         );
 
+        if (currentStats.procEffect)
+        {
+            Destroy(Instantiate(currentStats.procEffect, owner.transform), 5f);
+        }
+
         // A vytvor kópiu projektilu.
         Projectile prefab = Instantiate(
             currentStats.projectilePrefab,
