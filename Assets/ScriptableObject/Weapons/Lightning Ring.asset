@@ -10,28 +10,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ccc85475ce102724d9d5cf31f1cbd061, type: 3}
-  m_Name: Garlic
+  m_Name: Lightning Ring
   m_EditorClassIdentifier: Assembly-CSharp::WeaponData
-  icon: {fileID: 579569563849759094, guid: 550998172f8fa0c428e8e15be51dd56d, type: 3}
+  icon: {fileID: 1088959089, guid: a52cdfd54faf94849b0bfcddbeb832e3, type: 3}
   maxLevel: 8
-  evolutionData:
-  - name: Soul Eater
-    condition: 1
-    consumes: 2
-    evolutionLevel: 2
-    catalysts:
-    - itemType: {fileID: 11400000, guid: 51999ca1f538f4b42b883b76aad80d98, type: 2}
-      level: 1
-    outcome:
-      itemType: {fileID: 11400000, guid: 10b6d09449893014d9e5e9838874eeed, type: 2}
-      level: 1
-  behaviour: AuraWeapon
+  evolutionData: []
+  behaviour: LightningRingWeapon
   baseStats:
-    name: Garlic
-    description: Damages nearby enemies.
+    name: Lightning Ring
+    description: Strikes at random enemies.
     projectilePrefab: {fileID: 0}
-    auraPrefab: {fileID: -6151144943378912021, guid: 11b4daa245124ac47b4fbb2c56e8c5cd, type: 3}
-    hitEffect: {fileID: 0}
+    auraPrefab: {fileID: 0}
+    hitEffect: {fileID: 4750635529850016636, guid: b14ec3e4d7a0c4841bfb99adac14ed6f, type: 3}
     spawnVariance:
       serializedVersion: 2
       x: 0
@@ -39,19 +29,19 @@ MonoBehaviour:
       width: 0
       height: 0
     lifeSpan: 0
-    damage: 5
-    damageVariance: 1
+    damage: 15
+    damageVariance: 2
     area: 1
     speed: 0
-    cooldown: 1.3
-    projectileInterval: 0
+    cooldown: 4.5
+    projectileInterval: 0.05
     knockback: 1
-    number: 1
+    number: 2
     piercing: 0
     maxInstances: 50
   linearGrowth:
   - name: Level 2
-    description: 'Base Area up by 40%. Base Damage up by 2. '
+    description: 'Fires 1 more projectile. '
     projectilePrefab: {fileID: 0}
     auraPrefab: {fileID: 0}
     hitEffect: {fileID: 0}
@@ -62,18 +52,18 @@ MonoBehaviour:
       width: 0
       height: 0
     lifeSpan: 0
-    damage: 2
+    damage: 0
     damageVariance: 0
-    area: 0.4
+    area: 0
     speed: 0
     cooldown: 0
     projectileInterval: 0
     knockback: 0
-    number: 0
+    number: 1
     piercing: 0
     maxInstances: 0
   - name: Level 3
-    description: 'Base Area up by 20%. Base Damage up by 2. '
+    description: 'Base Area up by 100%. Base Damage up by 10. '
     projectilePrefab: {fileID: 0}
     auraPrefab: {fileID: 0}
     hitEffect: {fileID: 0}
@@ -84,9 +74,9 @@ MonoBehaviour:
       width: 0
       height: 0
     lifeSpan: 0
-    damage: 2
+    damage: 10
     damageVariance: 0
-    area: 0.2
+    area: 1
     speed: 0
     cooldown: 0
     projectileInterval: 0
@@ -95,7 +85,7 @@ MonoBehaviour:
     piercing: 0
     maxInstances: 0
   - name: Level 4
-    description: 'Base Area up by 20%. Base Damage up by 2. '
+    description: 'Fires 1 more projectile. '
     projectilePrefab: {fileID: 0}
     auraPrefab: {fileID: 0}
     hitEffect: {fileID: 0}
@@ -106,18 +96,18 @@ MonoBehaviour:
       width: 0
       height: 0
     lifeSpan: 0
-    damage: 2
+    damage: 0
     damageVariance: 0
-    area: 0.2
+    area: 0
     speed: 0
     cooldown: 0
     projectileInterval: 0
     knockback: 0
-    number: 0
+    number: 1
     piercing: 0
     maxInstances: 0
   - name: Level 5
-    description: 'Base Area up by 20%. Base Damage up by 2. '
+    description: 'Base Area up by 100%. Base Damage up by 10. '
     projectilePrefab: {fileID: 0}
     auraPrefab: {fileID: 0}
     hitEffect: {fileID: 0}
@@ -128,9 +118,9 @@ MonoBehaviour:
       width: 0
       height: 0
     lifeSpan: 0
-    damage: 2
+    damage: 10
     damageVariance: 0
-    area: 0.2
+    area: 1
     speed: 0
     cooldown: 0
     projectileInterval: 0
@@ -139,7 +129,7 @@ MonoBehaviour:
     piercing: 0
     maxInstances: 0
   - name: Level 6
-    description: 'Base Area up by 20%. Base Damage up by 2. '
+    description: 'Fires 1 more projectile. '
     projectilePrefab: {fileID: 0}
     auraPrefab: {fileID: 0}
     hitEffect: {fileID: 0}
@@ -150,18 +140,18 @@ MonoBehaviour:
       width: 0
       height: 0
     lifeSpan: 0
-    damage: 2
+    damage: 0
     damageVariance: 0
-    area: 0.2
+    area: 0
     speed: 0
     cooldown: 0
     projectileInterval: 0
     knockback: 0
-    number: 0
+    number: 1
     piercing: 0
     maxInstances: 0
   - name: Level 7
-    description: 'Base Area up by 20%. Base Damage up by 2. '
+    description: 'Base Area up by 100%. Base Damage up by 10. '
     projectilePrefab: {fileID: 0}
     auraPrefab: {fileID: 0}
     hitEffect: {fileID: 0}
@@ -172,9 +162,9 @@ MonoBehaviour:
       width: 0
       height: 0
     lifeSpan: 0
-    damage: 2
+    damage: 10
     damageVariance: 0
-    area: 0.2
+    area: 1
     speed: 0
     cooldown: 0
     projectileInterval: 0
@@ -183,7 +173,7 @@ MonoBehaviour:
     piercing: 0
     maxInstances: 0
   - name: Level 8
-    description: 'Base Area up by 20%. Base Damage up by 2. '
+    description: 'Fires 1 more projectile. '
     projectilePrefab: {fileID: 0}
     auraPrefab: {fileID: 0}
     hitEffect: {fileID: 0}
@@ -194,14 +184,14 @@ MonoBehaviour:
       width: 0
       height: 0
     lifeSpan: 0
-    damage: 2
+    damage: 0
     damageVariance: 0
-    area: 0.2
+    area: 0
     speed: 0
     cooldown: 0
     projectileInterval: 0
     knockback: 0
-    number: 0
+    number: 1
     piercing: 0
     maxInstances: 0
   randomGrowth: []

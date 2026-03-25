@@ -103,15 +103,15 @@ public abstract class Weapon : Item
     // Level up zbrane a vypocet jej korespondujucich statov
     public override bool DoLevelUp()
     {
-        base.DoLevelUp();
-
         if (!CanLevelUp())
         {
             Debug.LogWarning(string.Format("Cannot level up {0} to level {1}, max level of {2} already reached.", name, currentLevel, data.maxLevel));
             return false;
         }
 
-        currentStats += data.GetLevelData(currentLevel + 1);
+        base.DoLevelUp();
+
+        currentStats += data.GetLevelData(currentLevel);
         return true;
     }
 

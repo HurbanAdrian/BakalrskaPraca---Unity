@@ -139,6 +139,7 @@ public class GameManager : MonoBehaviour
 
         // Parentnut text k canvasu
         textObj.transform.SetParent(instance.damageTextCanvas.transform);
+        textObj.transform.SetSiblingIndex(0);
         textObj.transform.localScale = Vector3.one;             // pre istotu keby Unity chcel menit scale pri parentovani
 
         // Neukladáme si pozíciu na obrazovke, ale pozíciu vo SVETE.
@@ -165,6 +166,7 @@ public class GameManager : MonoBehaviour
 
         while (timeElapsed < duration)
         {
+            // Keby nepriatel zomrel skor akoby text zmizol
             if (textObj == null || rect == null)
             {
                 yield break;
@@ -280,7 +282,7 @@ public class GameManager : MonoBehaviour
         levelReachedDisplay.text = levelReached.ToString();
     }
 
-    public void AssignChosenWeaponsAndPassiveItemsUI(List<Image> chosenWeaponsData, List<Image> chosenItemsData)
+    public void AssignChosenWeaponsAndPassiveItemsUI(List<PlayerInventory.Slot> chosenWeaponsData, List<PlayerInventory.Slot> chosenItemsData)
     {
         if (chosenWeaponsData.Count != chosenWeaponsUI.Count || chosenItemsData.Count != chosenPassiveItemsUI.Count)
         {
@@ -292,10 +294,10 @@ public class GameManager : MonoBehaviour
         for (int i = 0; i < chosenWeaponsData.Count; i++)
         {
             // Kontrola ci zbrane maju sprite a ak ano tak ich zobrazit v UI, ak nie tak skryt ten slot
-            if (chosenWeaponsData[i].sprite)
+            if (chosenWeaponsData[i].image.sprite)
             {
                 chosenWeaponsUI[i].enabled = true;
-                chosenWeaponsUI[i].sprite = chosenWeaponsData[i].sprite;
+                chosenWeaponsUI[i].sprite = chosenWeaponsData[i].image.sprite;
             }
             else
             {
@@ -306,10 +308,10 @@ public class GameManager : MonoBehaviour
         // Pridelenie zvolenych dat itemov
         for (int i = 0; i < chosenItemsData.Count; i++)
         {
-            if (chosenItemsData[i].sprite)
+            if (chosenItemsData[i].image.sprite)
             {
                 chosenPassiveItemsUI[i].enabled = true;
-                chosenPassiveItemsUI[i].sprite = chosenItemsData[i].sprite;
+                chosenPassiveItemsUI[i].sprite = chosenItemsData[i].image.sprite;
             }
             else
             {

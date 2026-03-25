@@ -17,7 +17,7 @@ MonoBehaviour:
   name: Schild
   startingWeapon: {fileID: 11400000, guid: 86875cc1d82ea0a42965577bc92b4ccd, type: 2}
   stats:
-    maxHealth: 10
+    maxHealth: 1000
     recovery: 0
     moveSpeed: 5
     might: 1

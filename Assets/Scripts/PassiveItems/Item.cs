@@ -90,7 +90,7 @@ public abstract class Item : MonoBehaviour
 
     public virtual bool CanLevelUp()
     {
-        return currentLevel <= maxLevel;
+        return currentLevel < maxLevel;
     }
 
     // Vždy, keï sa predmet vylepší na ïalší level, pokús sa o jeho evolúciu.
