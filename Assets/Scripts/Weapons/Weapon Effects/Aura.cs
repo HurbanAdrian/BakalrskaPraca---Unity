@@ -41,7 +41,7 @@ public class Aura : WeaponEffect
                 {
                     // Resetujeme cooldown a udelíme poškodenie.
                     Weapon.Stats stats = weapon.GetStats();
-                    affectedTargets[pair.Key] = stats.cooldown;
+                    affectedTargets[pair.Key] = stats.cooldown * Owner.Stats.cooldown;
                     pair.Key.TakeDamage(GetDamage(), transform.position, stats.knockback);
 
                     // Ak mame hitEffect tak ho spustit

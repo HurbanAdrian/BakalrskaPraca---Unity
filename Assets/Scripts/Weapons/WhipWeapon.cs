@@ -11,7 +11,8 @@ public class WhipWeapon : ProjectileWeapon
         if (!currentStats.projectilePrefab)
         {
             Debug.LogWarning(string.Format("Projectile prefab has not been set for {0}", name));
-            currentCooldown = data.baseStats.cooldown;
+            ActivateCooldown(true);
+            currentAttackCount = 0;
             return false;
         }
 
@@ -59,7 +60,7 @@ public class WhipWeapon : ProjectileWeapon
 
         // Priraï štatistiky.
         prefab.weapon = this;
-        currentCooldown = data.baseStats.cooldown;
+        ActivateCooldown(true);
         attackCount--;
 
         // Urèi, kde sa má vytvori ïalší projektil.
@@ -73,7 +74,11 @@ public class WhipWeapon : ProjectileWeapon
         if (attackCount > 0)
         {
             currentAttackCount = attackCount;
-            currentAttackInterval = data.baseStats.projectileInterval;
+            currentAttackInterval = currentStats.projectileInterval;
+        }
+        else
+        {
+            currentAttackCount = 0;
         }
 
         return true;

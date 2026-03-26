@@ -17,8 +17,8 @@ public class AuraWeapon : Weapon
             currentAura.weapon = this;
             currentAura.owner = owner;
 
-            // Okamžité aplikovanie ve¾kosti pri nasadení zbrane
-            currentAura.transform.localScale = new Vector3(currentStats.area, currentStats.area, currentStats.area);
+            float area = GetArea();
+            currentAura.transform.localScale = new Vector3(area, area, area);
         }
     }
 

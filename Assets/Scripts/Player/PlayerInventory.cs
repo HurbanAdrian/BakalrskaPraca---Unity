@@ -181,9 +181,9 @@ public class PlayerInventory : MonoBehaviour
             // Spawni GameObject zbrane.
             GameObject go = new GameObject(data.baseStats.name + " Controller");
             Weapon spawnedWeapon = (Weapon)go.AddComponent(weaponType);
-            spawnedWeapon.Initialise(data);
             spawnedWeapon.transform.SetParent(transform); // Nastav zbraò ako potomka hráèa
             spawnedWeapon.transform.localPosition = Vector2.zero;
+            spawnedWeapon.Initialise(data);
             spawnedWeapon.OnEquip();
 
             // Priraï zbraò do slotu (aktualizuje UI).

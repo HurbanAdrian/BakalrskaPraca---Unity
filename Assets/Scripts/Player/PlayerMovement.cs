@@ -15,6 +15,7 @@ public class PlayerMovement : MonoBehaviour
     Rigidbody2D rb;
     PlayerStats player;
 
+    public const float DEFAULT_MOVESPEED = 5f;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -71,6 +72,6 @@ public class PlayerMovement : MonoBehaviour
         {
             return;
         }
-        rb.linearVelocity = new Vector2(moveDir.x * player.CurrentMoveSpeed, moveDir.y * player.CurrentMoveSpeed);
+        rb.linearVelocity = moveDir * DEFAULT_MOVESPEED * player.Stats.moveSpeed;
     }
 }

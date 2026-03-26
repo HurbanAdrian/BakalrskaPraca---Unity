@@ -71,25 +71,7 @@ public abstract class Weapon : Item
         this.data = data;
         currentStats = data.baseStats;
         movement = GetComponentInParent<PlayerMovement>();
-        currentCooldown = currentStats.cooldown;
-    }
-
-    protected virtual void Awake()
-    {
-        if (data)
-        {
-            // Priradit staty co najskor
-            currentStats = data.baseStats;
-        }
-    }
-
-    protected virtual void Start()
-    {
-        // Neinicializovat zbran ak nema priradene data
-        if (data)
-        {
-            Initialise(data);
-        }
+        ActivateCooldown();
     }
 
     protected virtual void Update()
@@ -97,7 +79,7 @@ public abstract class Weapon : Item
         currentCooldown -= Time.deltaTime;
         if (currentCooldown <= 0f)
         {
-            Attack(currentStats.number);
+            Attack(currentStats.number + owner.Stats.amount);
         }
     }
 
@@ -127,7 +109,7 @@ public abstract class Weapon : Item
     {
         if (CanAttack())
         {
-            currentCooldown += currentStats.cooldown;
+            ActivateCooldown();
             return true;
         }
         return false;
@@ -135,11 +117,32 @@ public abstract class Weapon : Item
 
     public virtual float GetDamage()
     {
-        return currentStats.GetDamage() * owner.CurrentMight;
+        return currentStats.GetDamage() * owner.Stats.might;
     }
 
     public virtual Stats GetStats()
     {
         return currentStats;
     }
+
+    public virtual float GetArea()
+    {
+        return currentStats.area * owner.Stats.area;
+    }
+
+    // Ak <Strict> je true, tak iba ked currentCooldown < 0. Zatial co false aktivuje cooldown aj ked este nepresiel cas
+    public virtual bool ActivateCooldown(bool strict = false)
+    {
+        // KeÔ je povolen˝ reûim <strict> a cooldown eöte neskonËil, neobnovuj (neprehlbuj) cooldown.
+        if (strict && currentCooldown > 0) return false;
+
+        // VypoËÌtaj, ak˝ bude cooldown po zohæadnenÌ ötatistiky redukcie cooldownu u hr·Ëskej postavy.
+        float actualCooldown = currentStats.cooldown * Owner.Stats.cooldown;
+
+        // Obmedz maxim·lny cooldown na hodnotu <actualCooldown>, aby sme nemohli zv˝öiù cooldown nad t˙to hranicu, ak by sme t˙to funkciu n·hodou zavolali viackr·t.
+        currentCooldown = Mathf.Min(actualCooldown, currentCooldown + actualCooldown);
+
+        return true;
+    }
+
 }

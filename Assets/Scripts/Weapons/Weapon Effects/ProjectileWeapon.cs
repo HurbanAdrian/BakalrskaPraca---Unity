@@ -35,7 +35,8 @@ public class ProjectileWeapon : Weapon
         if (!currentStats.projectilePrefab)
         {
             Debug.LogWarning($"Weapon {name} has no projectile prefab assigned.");
-            currentCooldown = data.baseStats.cooldown;
+            ActivateCooldown();
+            currentAttackCount = 0;
             return false;
         }
 
@@ -61,17 +62,18 @@ public class ProjectileWeapon : Weapon
         prefab.weapon = this;
         prefab.owner = owner;
 
-        if (currentCooldown <= 0)
-        {
-            currentCooldown += currentStats.cooldown;
-        }
+        ActivateCooldown(true);
 
         attackCount--;
 
         if (attackCount > 0)
         {
             currentAttackCount = attackCount;
-            currentAttackInterval = data.baseStats.projectileInterval;
+            currentAttackInterval = currentStats.projectileInterval;
+        }
+        else
+        {
+            currentAttackCount = 0;
         }
 
         return true;
