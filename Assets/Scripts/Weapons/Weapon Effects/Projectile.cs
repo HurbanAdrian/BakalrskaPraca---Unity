@@ -103,7 +103,7 @@ public class Projectile : WeaponEffect
             piercing--;
             if (stats.hitEffect)
             {
-                Destroy(Instantiate(stats.hitEffect, transform.position, Quaternion.identity), 5f);
+                Destroy(Instantiate(stats.hitEffect, transform.position, Quaternion.identity).gameObject, 5f);
             }
         }
         else if (p)
@@ -114,7 +114,7 @@ public class Projectile : WeaponEffect
             Weapon.Stats stats = weapon.GetStats();
             if (stats.hitEffect)
             {
-                Destroy(Instantiate(stats.hitEffect, transform.position, Quaternion.identity), 5f);
+                Destroy(Instantiate(stats.hitEffect, transform.position, Quaternion.identity).gameObject, 5f);
             }
         }
 

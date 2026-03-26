@@ -48,19 +48,11 @@ public class PlayerInventory : MonoBehaviour
     public List<Slot> weaponSlots = new List<Slot>(6);
     public List<Slot> passiveSlots = new List<Slot>(6);
 
-    [System.Serializable]
-    public class UpgradeUI
-    {
-        public TMP_Text upgradeNameDisplay;
-        public TMP_Text upgradeDescriptionDisplay;
-        public Image upgradeIcon;
-        public Button upgradeButton;
-    }
-
     [Header("UI Elements")]
     public List<WeaponData> availableWeapons = new List<WeaponData>();   // Zoznam moností vylepšení pre zbrane
     public List<PassiveData> availablePassives = new List<PassiveData>(); // Zoznam moností vylepšení pre pasívne predmety
-    public List<UpgradeUI> upgradeUIOptions = new List<UpgradeUI>();      // Zoznam UI prvkov pre okná vylepšení prítomnıch v scéne
+
+    public UIUpgradeWindow upgradeWindow;
 
     PlayerStats player;
 
@@ -261,201 +253,102 @@ public class PlayerInventory : MonoBehaviour
         return -1;
     }
 
-    public void LevelUpWeapon(int slotIndex, int upgradeIndex)
+    // Overload, aby sme mohli poui ItemData aj Item na vylepšenie predmetu v inventári.
+    public bool LevelUp(ItemData data)
     {
-        if (weaponSlots.Count > slotIndex)
-        {
-            Weapon weapon = weaponSlots[slotIndex].item as Weapon;
-
-            if (weapon == null) return;
-
-            // Nevylepšuj zbraò, ak je u na maximálnej úrovni.
-            if (!weapon.DoLevelUp())
-            {
-                Debug.LogWarning(string.Format(
-                    "Failed to level up {0}.",
-                    weapon.name
-                ));
-                return;
-            }
-        }
-
-        if (GameManager.instance != null && GameManager.instance.choosingUpgrade)
-        {
-            GameManager.instance.EndLevelUp();
-        }
+        Item item = Get(data);
+        if (item) return LevelUp(item);
+        return false;
     }
 
-    public void LevelUpPassiveItem(int slotIndex, int upgradeIndex)
+    // Zvıši úroveò vybranej zbrane v inventári hráèa.
+    public bool LevelUp(Item item)
     {
-        if (passiveSlots.Count > slotIndex)
+        // Pokúsi sa zvıši úroveò predmetu.
+        if (!item.DoLevelUp())
         {
-            Passive p = passiveSlots[slotIndex].item as Passive;
-
-            // MOJA OPRAVA: Pridaná poistka, aby hra nespadla, ak je slot prázdny.
-            if (p == null) return;
-
-            if (!p.DoLevelUp())
-            {
-                Debug.LogWarning(string.Format(
-                    "Failed to level up {0}.",
-                    p.name
-                ));
-                return;
-            }
+            Debug.LogWarning(string.Format(
+                "Nepodarilo sa zvıši úroveò pre {0}.",
+                item.name
+            ));
+            return false;
         }
 
+        // Následne zatvorí obrazovku vıberu vylepšenia.
         if (GameManager.instance != null && GameManager.instance.choosingUpgrade)
         {
             GameManager.instance.EndLevelUp();
         }
 
-        player.RecalculateStats();
+        // Ak ide o pasívny predmet, prepoèítaj štatistiky hráèa.
+        if (item is Passive) player.RecalculateStats();
+
+        return true;
+    }
+
+    // Skontroluje zoznam slotov a zistí, èi v òom zostali nejaké vo¾né miesta.
+    int GetSlotsLeft(List<Slot> slots)
+    {
+        int count = 0;
+
+        foreach (Slot s in slots)
+        {
+            if (s.IsEmpty()) count++;
+        }
+
+        return count;
     }
 
     // Urèuje, aké monosti vylepšení by sa mali zobrazi.
     void ApplyUpgradeOptions()
     {
-        // 1. KROK: Vytvoríme si zoznamy IBA PLATNİCH vylepšení
-        List<WeaponData> availableWeaponUpgrades = new List<WeaponData>();
-        foreach (WeaponData wd in availableWeapons)
-        {
-            // POISTKA 1: Ak je v Unity inšpektore prázdne políèko, ignoruj ho
-            if (wd == null) continue;
+        List<ItemData> availableUpgrades = new List<ItemData>();                // Prazdny List ktory budeme filtrovat
+        List<ItemData> allUpgrades = new List<ItemData>(availableWeapons);      // Vsetky upgrady
+        allUpgrades.AddRange(availablePassives);
 
-            Weapon w = Get(wd);
-            if (w != null && w.currentLevel < wd.maxLevel)
+        // Zistenie poètu vo¾nıch slotov.
+        int weaponSlotsLeft = GetSlotsLeft(weaponSlots);
+        int passiveSlotsLeft = GetSlotsLeft(passiveSlots);
+
+        // Filtrovanie dostupnıch vylepšení.
+        foreach (ItemData data in allUpgrades)
+        {
+            Item obj = Get(data);
+            if (obj)
             {
-                // Zbraò u máme a dá sa ešte vylepši
-                availableWeaponUpgrades.Add(wd);
+                // Ak predmet máme, pridaj ho len ak nie je na max leveli.
+                if (obj.currentLevel < data.maxLevel) availableUpgrades.Add(data);
             }
-            // POISTKA 2: Bezpeèná kontrola na prázdne sloty
-            else if (w == null && weaponSlots.Exists(s => s != null && s.IsEmpty()))
+            else
             {
-                // Zbraò ešte nemáme a MÁME pre òu vo¾nı slot
-                availableWeaponUpgrades.Add(wd);
+                // Ak predmet nemáme, pridaj ho len ak je vo¾nı slot.
+                if (data is WeaponData && weaponSlotsLeft > 0) availableUpgrades.Add(data);
+                else if (data is PassiveData && passiveSlotsLeft > 0) availableUpgrades.Add(data);
             }
         }
 
-        List<PassiveData> availablePassiveItemUpgrades = new List<PassiveData>();
-        foreach (PassiveData pd in availablePassives)
+        // Zobraz UI okno vylepšení, ak ešte máme nejaké dostupné vylepšenia.
+        int availUpgradeCount = availableUpgrades.Count;
+        if (availUpgradeCount > 0)
         {
-            // POISTKA 1: Ak je v Unity inšpektore prázdne políèko, ignoruj ho
-            if (pd == null) continue;
+            // Vıpoèet šance na extra predmet na základe štatistiky Luck (Šastie).
+            bool getExtraItem = 1f - 1f / player.Stats.luck > UnityEngine.Random.value;
 
-            Passive p = Get(pd);
-            if (p != null && p.currentLevel < pd.maxLevel)
-            {
-                // Predmet u máme a dá sa ešte vylepši
-                availablePassiveItemUpgrades.Add(pd);
-            }
-            else if (p == null && passiveSlots.Exists(s => s != null && s.IsEmpty()))
-            {
-                // Predmet ešte nemáme a MÁME preò vo¾nı slot
-                availablePassiveItemUpgrades.Add(pd);
-            }
+            if (getExtraItem || availUpgradeCount < 4)
+                upgradeWindow.SetUpUpgrades(this, availableUpgrades, 4);
+            else
+                upgradeWindow.SetUpUpgrades(this, availableUpgrades, 3, "Increase your Luck stat for a chance to get 4 items!");
         }
-
-        // 2. KROK: Prejdeme všetky UI sloty na obrazovke pre vylepšenia
-        foreach (UpgradeUI upgradeOption in upgradeUIOptions)
+        // Ak u iadne upgrady nie sú, ale hra je v reime vıberu, ukonèi Level Up.
+        else if (GameManager.instance != null && GameManager.instance.choosingUpgrade)
         {
-            // Ak u nie sú v ponuke iadne platné vylepšenia, tento a ïalšie UI sloty vypneme
-            if (availableWeaponUpgrades.Count == 0 && availablePassiveItemUpgrades.Count == 0)
-            {
-                DisableUpgradeUI(upgradeOption);
-                continue; // Pokraèujeme na ïalší slot, aby sme ho tie vypli
-            }
-
-            // Urèíme, èi ideme rebova zbraò alebo pasívny predmet
-            int upgradeType;
-            if (availableWeaponUpgrades.Count == 0) upgradeType = 2;
-            else if (availablePassiveItemUpgrades.Count == 0) upgradeType = 1;
-            else upgradeType = UnityEngine.Random.Range(1, 3);
-
-            // Zapneme UI slot, pretoe vieme, e doòho máme èo vloi
-            EnableUpgradeUI(upgradeOption);
-
-            if (upgradeType == 1) // REBUJEME ZBRAÒ
-            {
-                WeaponData chosenWeaponUpgrade = availableWeaponUpgrades[UnityEngine.Random.Range(0, availableWeaponUpgrades.Count)];
-                availableWeaponUpgrades.Remove(chosenWeaponUpgrade); // Odstránime, aby sa neukázala 2x
-
-                Weapon w = Get(chosenWeaponUpgrade);
-                if (w != null)
-                {
-                    // Vylepšenie existujúcej zbrane
-                    int slotIndex = weaponSlots.FindIndex(s => s.item == w);
-                    upgradeOption.upgradeButton.onClick.AddListener(() => LevelUpWeapon(slotIndex, 0));
-
-                    Weapon.Stats nextLevel = chosenWeaponUpgrade.GetLevelData(w.currentLevel + 1);
-                    upgradeOption.upgradeDescriptionDisplay.text = nextLevel.description;
-                    upgradeOption.upgradeNameDisplay.text = nextLevel.name;
-                    upgradeOption.upgradeIcon.sprite = chosenWeaponUpgrade.icon;
-                }
-                else
-                {
-                    // Pridanie úplne novej zbrane
-                    upgradeOption.upgradeButton.onClick.AddListener(() => Add(chosenWeaponUpgrade));
-                    upgradeOption.upgradeDescriptionDisplay.text = chosenWeaponUpgrade.baseStats.description;
-                    upgradeOption.upgradeNameDisplay.text = chosenWeaponUpgrade.baseStats.name;
-                    upgradeOption.upgradeIcon.sprite = chosenWeaponUpgrade.icon;
-                }
-            }
-            else if (upgradeType == 2) // REBUJEME PASÍVNY PREDMET
-            {
-                PassiveData chosenPassiveUpgrade = availablePassiveItemUpgrades[UnityEngine.Random.Range(0, availablePassiveItemUpgrades.Count)];
-                availablePassiveItemUpgrades.Remove(chosenPassiveUpgrade); // Odstránime, aby sa neukázal 2x
-
-                Passive p = Get(chosenPassiveUpgrade);
-                if (p != null)
-                {
-                    // Vylepšenie existujúceho pasívneho predmetu
-                    int slotIndex = passiveSlots.FindIndex(s => s.item == p);
-                    upgradeOption.upgradeButton.onClick.AddListener(() => LevelUpPassiveItem(slotIndex, 0));
-
-                    Passive.Modifier nextLevel = chosenPassiveUpgrade.GetLevelData(p.currentLevel + 1);
-                    upgradeOption.upgradeDescriptionDisplay.text = nextLevel.description;
-                    upgradeOption.upgradeNameDisplay.text = nextLevel.name;
-                    upgradeOption.upgradeIcon.sprite = chosenPassiveUpgrade.icon;
-                }
-                else
-                {
-                    // Pridanie úplne nového pasívneho predmetu
-                    upgradeOption.upgradeButton.onClick.AddListener(() => Add(chosenPassiveUpgrade));
-                    Passive.Modifier nextLevel = chosenPassiveUpgrade.baseStats;
-                    upgradeOption.upgradeDescriptionDisplay.text = nextLevel.description;
-                    upgradeOption.upgradeNameDisplay.text = nextLevel.name;
-                    upgradeOption.upgradeIcon.sprite = chosenPassiveUpgrade.icon;
-                }
-            }
-        }
-    }
-
-    void RemoveUpgradeOptions()
-    {
-        foreach (UpgradeUI upgradeOption in upgradeUIOptions)
-        {
-            // Odstráni všetky predchádzajúce funkcie priradené k tlaèidlu, aby sa nespúšali viackrát.
-            upgradeOption.upgradeButton.onClick.RemoveAllListeners();
-            DisableUpgradeUI(upgradeOption);    // Zavoláme metódu DisableUpgradeUI, aby sme vypli všetky UI monosti predtım, ne na ne aplikujeme vylepšenia
+            GameManager.instance.EndLevelUp();
         }
     }
 
     public void RemoveAndApplyUpgrades()
     {
-        RemoveUpgradeOptions();
         ApplyUpgradeOptions();
     }
 
-    void DisableUpgradeUI(UpgradeUI ui)
-    {
-        // Vypne celı hernı objekt, ktorı je rodièom (parent) tohto textu (èie vypne celé okno/tlaèidlo pre danı upgrade).
-        ui.upgradeNameDisplay.transform.parent.gameObject.SetActive(false);
-    }
-
-    void EnableUpgradeUI(UpgradeUI ui)
-    {
-        // Zapne celı hernı objekt, ktorı je rodièom (parent) tohto textu.
-        ui.upgradeNameDisplay.transform.parent.gameObject.SetActive(true);
-    }
 }

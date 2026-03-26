@@ -33,12 +33,12 @@ public class LightningRingWeapon : ProjectileWeapon
         {
             DamageArea(target.transform.position, GetArea(), GetDamage());
 
-            Instantiate(currentStats.hitEffect, target.transform.position, Quaternion.identity);
+            Destroy(Instantiate(currentStats.hitEffect, target.transform.position, Quaternion.identity).gameObject, 5f);
         }
 
         if (currentStats.procEffect)
         {
-            Destroy(Instantiate(currentStats.procEffect, owner.transform), 5f);
+            Destroy(Instantiate(currentStats.procEffect, owner.transform).gameObject, 5f);
         }
 
         // Ak máme viac ako 1 útok (poèet útokov je väèší ako 0).

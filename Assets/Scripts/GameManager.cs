@@ -32,6 +32,7 @@ public class GameManager : MonoBehaviour
     public GameObject pauseScreen;
     public GameObject resultScreen;
     public GameObject levelUpScreen;
+    int stackedLevelUps = 0;
 
     [Header("Current Stat Displays")]
     // Sucasne stat displeje
@@ -55,11 +56,11 @@ public class GameManager : MonoBehaviour
     float stopwatchTime;    // cas, ktory uplynul od zaciatku stopwatchu
     public TMP_Text stopwatchDisplay; // UI text pro zobrazenie casu
 
-    public bool isGameOver = false;
-    public bool choosingUpgrade = false;        // ci je hrac v level up stave
-
     // Referencia na hraca objekt
     public GameObject playerObject;
+
+    public bool isGameOver { get { return currentState == GameState.GameOver; } }
+    public bool choosingUpgrade { get { return currentState == GameState.LevelUp; } }
 
     void Awake()
     {
@@ -92,26 +93,7 @@ public class GameManager : MonoBehaviour
                 CheckForPauseAndResume();
                 break;
             case GameState.GameOver:
-                // Kod pre stav konca hry
-                if (!isGameOver)
-                {
-                    isGameOver = true;
-                    Time.timeScale = 0; // Zastav� �as v hre
-
-                    Debug.Log("GAME OVER");
-                    DisplayResults();
-                }
-                break;
             case GameState.LevelUp:
-                // Kod pro stav level up
-                if (!choosingUpgrade)
-                {
-                    choosingUpgrade = true;
-                    Time.timeScale = 0; // Zastav� �as v hre
-
-                    Debug.Log("LEVEL UP - Upgrades shown");
-                    levelUpScreen.SetActive(true);
-                }
                 break;
             default:
                 Debug.LogError("Nezn�my stav hry: " + currentState);
@@ -211,6 +193,7 @@ public class GameManager : MonoBehaviour
 
     public void ChangeState(GameState newState)
     {
+        previousState = currentState;
         currentState = newState;
     }
 
@@ -218,11 +201,9 @@ public class GameManager : MonoBehaviour
     {
         if (currentState != GameState.Paused)
         {
-            previousState = currentState;
             ChangeState(GameState.Paused);
             Time.timeScale = 0; // Zastav� �as v hre
             pauseScreen.SetActive(true); // Zobraz� pozastaven� obrazovku
-            Debug.Log("Hra pozastavena");
         }
     }
 
@@ -233,7 +214,6 @@ public class GameManager : MonoBehaviour
             ChangeState(previousState);
             Time.timeScale = 1; // Obnov� �as v hre
             pauseScreen.SetActive(false);
-            Debug.Log("Hra obnovena");
         }
     }
 
@@ -263,7 +243,10 @@ public class GameManager : MonoBehaviour
     public void GameOver()
     {
         timeSurvivedDisplay.text = stopwatchDisplay.text;
+
         ChangeState(GameState.GameOver);
+        Time.timeScale = 0f;
+        DisplayResults();
     }
 
     void DisplayResults()
@@ -343,15 +326,27 @@ public class GameManager : MonoBehaviour
     public void StartLevelUp()
     {
         ChangeState(GameState.LevelUp);
-        playerObject.SendMessage("RemoveAndApplyUpgrades");
+
+        if (levelUpScreen.activeSelf) stackedLevelUps++;
+        else 
+        {
+            Time.timeScale = 0f;
+            levelUpScreen.SetActive(true);
+            playerObject.SendMessage("RemoveAndApplyUpgrades");
+        }
     }
 
     public void EndLevelUp()
     {
-        choosingUpgrade = false;
         Time.timeScale = 1; // Obnov� �as v hre
         levelUpScreen.SetActive(false);
         ChangeState(GameState.Gameplay);
+
+        if (stackedLevelUps > 0)
+        {
+            stackedLevelUps--;
+            StartLevelUp();
+        }
     }
 
 }

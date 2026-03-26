@@ -8,11 +8,8 @@ using UnityEngine;
 public abstract class Weapon : Item
 {
     [System.Serializable]
-    public struct Stats
+    public class Stats : LevelData
     {
-        public string name;
-        public string description;
-
         [Header("Visuals")]
         public Projectile projectilePrefab;  // Ak pridame prefab, tak sa projektil bude spawnovat z tejto zbrane na cooldowne
         public Aura auraPrefab;              // Ak pridame prefab, tak sa aura spawne ked budeme mat equipnutu zbran
@@ -94,7 +91,7 @@ public abstract class Weapon : Item
 
         base.DoLevelUp();
 
-        currentStats += data.GetLevelData(currentLevel);
+        currentStats += (Stats)data.GetLevelData(currentLevel);
         return true;
     }
 

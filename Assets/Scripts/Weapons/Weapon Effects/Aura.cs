@@ -47,7 +47,7 @@ public class Aura : WeaponEffect
                     // Ak mame hitEffect tak ho spustit
                     if (stats.hitEffect)
                     {
-                        Destroy(Instantiate(stats.hitEffect, pair.Key.transform.position, Quaternion.identity), 5f);
+                        Destroy(Instantiate(stats.hitEffect, pair.Key.transform.position, Quaternion.identity).gameObject, 5f);
                     }
                 }
             }

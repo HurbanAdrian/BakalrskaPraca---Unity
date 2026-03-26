@@ -156,7 +156,7 @@ public class PlayerStats : MonoBehaviour
 
     void LevelUpChecker() 
     {
-        if (experience >= experienceCap)
+        while (experience >= experienceCap)
         {
             level++;
             experience -= experienceCap; // resetovanie skusenosti po level up
@@ -190,7 +190,7 @@ public class PlayerStats : MonoBehaviour
                 // Ak je priradený efekt poškodenia, prehraj ho.
                 if (damageEffect)
                 {
-                    Destroy(Instantiate(damageEffect, position ?? transform.position, Quaternion.identity), 5f);
+                    Destroy(Instantiate(damageEffect, position ?? transform.position, Quaternion.identity).gameObject, 5f);
                 }
 
                 if (CurrentHealth <= 0)
@@ -202,7 +202,7 @@ public class PlayerStats : MonoBehaviour
             else
             {
                 // Ak je priradený efekt zablokovania (vďaka armoru), prehraj ho.
-                if (blockedEffect) Destroy(Instantiate(blockedEffect, position ?? transform.position, Quaternion.identity), 5f);
+                if (blockedEffect) Destroy(Instantiate(blockedEffect, position ?? transform.position, Quaternion.identity).gameObject, 5f);
             }
 
             // Nastav časovač nesmrteľnosti a aktivuj ju.

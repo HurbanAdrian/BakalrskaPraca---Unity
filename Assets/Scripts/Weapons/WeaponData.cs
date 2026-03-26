@@ -10,8 +10,10 @@ public class WeaponData : ItemData
     public Weapon.Stats[] randomGrowth;
 
     // Vrati narast statov / popis dalsieho levelu
-    public Weapon.Stats GetLevelData(int level)
+    public override Item.LevelData GetLevelData(int level)
     {
+        if (level <= 1) return baseStats;
+
         // Zoberie Staty z dalsieho levelu
         if (level - 2 < linearGrowth.Length)
         {

@@ -50,7 +50,7 @@ public class ProjectileWeapon : Weapon
         // Ak existuje procEffect, tak ho spustime na hracovi
         if (currentStats.procEffect)
         {
-            Destroy(Instantiate(currentStats.procEffect, owner.transform), 5f);
+            Destroy(Instantiate(currentStats.procEffect, owner.transform).gameObject, 5f);
         }
 
         Projectile prefab = Instantiate(

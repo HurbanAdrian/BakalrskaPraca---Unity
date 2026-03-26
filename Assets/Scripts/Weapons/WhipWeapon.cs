@@ -35,7 +35,7 @@ public class WhipWeapon : ProjectileWeapon
 
         if (currentStats.procEffect)
         {
-            Destroy(Instantiate(currentStats.procEffect, owner.transform), 5f);
+            Destroy(Instantiate(currentStats.procEffect, owner.transform).gameObject, 5f);
         }
 
         // A vytvor kópiu projektilu.
