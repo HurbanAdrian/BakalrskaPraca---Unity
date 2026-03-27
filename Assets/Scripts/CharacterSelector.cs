@@ -25,33 +25,39 @@ public class CharacterSelector : MonoBehaviour
 
     public static CharacterData GetData()
     {
-        if (instance && instance.characterData)
+        // Ak prich·dzame z menu a m·me postavu, vr·ù ju
+        if (instance != null && instance.characterData != null)
+        {
             return instance.characterData;
+        }
+        
+        // Ak sme hru zapli priamo v mape (Editor), n·jdi n·hodn˙ postavu
+        #if UNITY_EDITOR
+        string[] guids = AssetDatabase.FindAssets("t:ScriptableObject");
+        List<CharacterData> characters = new List<CharacterData>();
+        
+        foreach (string guid in guids)
+        {
+            string path = AssetDatabase.GUIDToAssetPath(guid);
+            CharacterData cd = AssetDatabase.LoadAssetAtPath<CharacterData>(path);
+            if (cd != null)
+            {
+                characters.Add(cd);
+            }
+        }
+
+        if (characters.Count > 0)
+        {
+            int randomIndex = Random.Range(0, characters.Count);
+            Debug.Log("<color=green>SpustenÈ z Editora: N·hodne vybran· postava -> " + characters[randomIndex].name + "</color>");
+            return characters[randomIndex];
+        }
         else
         {
-            // Nahodne zvol postavu ak hrame z Editora
-            #if UNITY_EDITOR
-            string[] allAssetPaths = AssetDatabase.GetAllAssetPaths();
-            List<CharacterData> characters = new List<CharacterData>();
-            foreach (string assetPath in allAssetPaths)
-            {
-                if (assetPath.EndsWith(".asset"))
-                {
-                    CharacterData characterData = AssetDatabase.LoadAssetAtPath<CharacterData>(assetPath);
-                    if (characterData != null)
-                    {
-                        characters.Add(characterData);
-                    }
-                }
-            }
-
-            if (characters.Count > 0)
-            {
-                int randomIndex = Random.Range(0, characters.Count);
-                return characters[randomIndex];
-            }
-            #endif
+            Debug.LogError("POZOR: V celom projekte sa nenaöiel ani jeden CharacterData asset!");
         }
+        #endif
+
         return null;
     }
 

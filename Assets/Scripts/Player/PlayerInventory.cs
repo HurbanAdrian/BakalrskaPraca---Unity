@@ -10,7 +10,6 @@ public class PlayerInventory : MonoBehaviour
     public class Slot
     {
         public Item item;
-        public Image image; // Referencia na UI obrázok (ikonku) v inventári
 
         // Priradí predmet do tohto slotu a aktualizuje UI
         public void Assign(Item assignedItem)
@@ -21,14 +20,10 @@ public class PlayerInventory : MonoBehaviour
             if (item is Weapon)
             {
                 Weapon w = item as Weapon;
-                image.enabled = true;
-                image.sprite = w.data.icon;
             }
             else
             {
                 Passive p = item as Passive;
-                image.enabled = true;
-                image.sprite = p.data.icon;
             }
 
             Debug.Log(string.Format("Assigned {0} to player.", item.name));
@@ -38,8 +33,6 @@ public class PlayerInventory : MonoBehaviour
         public void Clear()
         {
             item = null;
-            image.enabled = false;
-            image.sprite = null;
         }
 
         public bool IsEmpty() { return item == null; }
@@ -47,6 +40,7 @@ public class PlayerInventory : MonoBehaviour
 
     public List<Slot> weaponSlots = new List<Slot>(6);
     public List<Slot> passiveSlots = new List<Slot>(6);
+    public UIInventoryIconsDisplay weaponUI, passiveUI;
 
     [Header("UI Elements")]
     public List<WeaponData> availableWeapons = new List<WeaponData>();   // Zoznam možností vylepšení pre zbrane
@@ -110,6 +104,7 @@ public class PlayerInventory : MonoBehaviour
                 weaponSlots[i].Clear();
                 w.OnUnequip();
                 Destroy(w.gameObject);
+                weaponUI.Refresh();
                 return true;
             }
         }
@@ -132,6 +127,7 @@ public class PlayerInventory : MonoBehaviour
                 passiveSlots[i].Clear();
                 p.OnUnequip();
                 Destroy(p.gameObject);
+                passiveUI.Refresh();
                 return true;
             }
         }
@@ -180,6 +176,7 @@ public class PlayerInventory : MonoBehaviour
 
             // Priraï zbraò do slotu (aktualizuje UI).
             weaponSlots[slotNum].Assign(spawnedWeapon);
+            weaponUI.Refresh();
 
             // Zatvor UI pre Level Up, ak je zapnuté.
             if (GameManager.instance != null && GameManager.instance.choosingUpgrade)
@@ -232,6 +229,7 @@ public class PlayerInventory : MonoBehaviour
 
         // Priradíme pasívny predmet do slotu v UI.
         passiveSlots[slotNum].Assign(p);
+        passiveUI.Refresh();
 
         // Ak je práve zapnuté okno s výberom level-upu, zatvoríme ho.
         if (GameManager.instance != null && GameManager.instance.choosingUpgrade)
@@ -273,6 +271,9 @@ public class PlayerInventory : MonoBehaviour
             ));
             return false;
         }
+
+        weaponUI.Refresh();
+        passiveUI.Refresh();
 
         // Následne zatvorí obrazovku výberu vylepšenia.
         if (GameManager.instance != null && GameManager.instance.choosingUpgrade)

@@ -48,8 +48,6 @@ public class GameManager : MonoBehaviour
     public TMP_Text chosenCharacterName;
     public TMP_Text levelReachedDisplay;
     public TMP_Text timeSurvivedDisplay;
-    public List<Image> chosenWeaponsUI = new List<Image>(6);
-    public List<Image> chosenPassiveItemsUI = new List<Image>(6);
 
     [Header("Stopwatch")]
     public float timeLimit; // casovy limit pre hru v sekundach
@@ -263,44 +261,6 @@ public class GameManager : MonoBehaviour
     public void AssignLevelReachedUI(int levelReached)
     {
         levelReachedDisplay.text = levelReached.ToString();
-    }
-
-    public void AssignChosenWeaponsAndPassiveItemsUI(List<PlayerInventory.Slot> chosenWeaponsData, List<PlayerInventory.Slot> chosenItemsData)
-    {
-        if (chosenWeaponsData.Count != chosenWeaponsUI.Count || chosenItemsData.Count != chosenPassiveItemsUI.Count)
-        {
-            Debug.LogError("Listy pre Zbrane a Itemy maju roznu dlzku");
-            return;
-        }
-
-        // Pridelenie zvolenych dat zbrani
-        for (int i = 0; i < chosenWeaponsData.Count; i++)
-        {
-            // Kontrola ci zbrane maju sprite a ak ano tak ich zobrazit v UI, ak nie tak skryt ten slot
-            if (chosenWeaponsData[i].image.sprite)
-            {
-                chosenWeaponsUI[i].enabled = true;
-                chosenWeaponsUI[i].sprite = chosenWeaponsData[i].image.sprite;
-            }
-            else
-            {
-                chosenWeaponsUI[i].enabled = false;
-            }
-        }
-
-        // Pridelenie zvolenych dat itemov
-        for (int i = 0; i < chosenItemsData.Count; i++)
-        {
-            if (chosenItemsData[i].image.sprite)
-            {
-                chosenPassiveItemsUI[i].enabled = true;
-                chosenPassiveItemsUI[i].sprite = chosenItemsData[i].image.sprite;
-            }
-            else
-            {
-                chosenPassiveItemsUI[i].enabled = false;
-            }
-        }
     }
 
     void UpdateStopwatch()
