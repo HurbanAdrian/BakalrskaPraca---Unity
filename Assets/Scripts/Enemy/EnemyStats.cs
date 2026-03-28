@@ -4,19 +4,12 @@ using UnityEngine;
 [RequireComponent(typeof(SpriteRenderer))]
 public class EnemyStats : MonoBehaviour
 {
-    public EnemyScriptableObject enemyData;
-
     // Sucastne staty
-    [HideInInspector]
     public float currentMoveSpeed;
-    [HideInInspector]
     public float currentHealth;
-    [HideInInspector]
     public float currentDamage;
 
-    public float despawnDistance = 20;
     Transform player;
-    EnemySpawner spawner;
 
     [Header("Damage Feedback")]
     public Color damageColor = new Color(1f, 0f, 0f);
@@ -26,29 +19,20 @@ public class EnemyStats : MonoBehaviour
     SpriteRenderer spriteRenderer;
     EnemyMovement movement;
 
+    public static int count;
+
     void Start()
     {
         player = FindAnyObjectByType<PlayerStats>().transform;
-        spawner = FindAnyObjectByType<EnemySpawner>();
 
         spriteRenderer = GetComponent<SpriteRenderer>();
         originalColor = spriteRenderer.color;
         movement = GetComponent<EnemyMovement>();
     }
 
-    void Update()
-    {
-        if (Vector2.Distance(transform.position, player.position) >= despawnDistance)
-        {
-            ReturnEnemy();
-        }
-    }
-
     void Awake()
     {
-        currentMoveSpeed = enemyData.MoveSpeed;
-        currentHealth = enemyData.MaxHealth;
-        currentDamage = enemyData.Damage;
+        count++;
     }
 
     public void TakeDamage(float dmg, Vector2 sourcePosition, float knockbackForce = 5f, float knockbackDuration = 0.2f)
@@ -104,6 +88,10 @@ public class EnemyStats : MonoBehaviour
 
     public void Kill()
     {
+        // Aktivaovanie Dropov
+        DropRateManager drops = GetComponent<DropRateManager>();
+        if (drops) drops.active = true;
+
         // 1. ZastavÌme DamageFlash, aby neprepÌsal farbu sp‰ù
         StopAllCoroutines();
 
@@ -139,25 +127,7 @@ public class EnemyStats : MonoBehaviour
             return;
         }
 
-        if (spawner != null)
-        {
-            spawner.OnEnemyKilled();
-        }
-    }
-
-    void ReturnEnemy()
-    {
-        if (spawner != null && player != null)
-        {
-            // ZastavÌme vöetky efekty (ak ho pr·ve niekto knockbackol alebo blik·)
-            StopAllCoroutines();
-
-            // Vr·time farbu na pÙvodn˙ (aby neostal zaseknut˝ damageColor)
-            spriteRenderer.color = originalColor;
-
-            // Presun
-            transform.position = player.position + spawner.relativeSpawnPoints[Random.Range(0, spawner.relativeSpawnPoints.Count)].position;
-        }
+        count--;
     }
 
 }

@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+[System.Obsolete("Nahradime novym")]
 public class EnemySpawner : MonoBehaviour
 {
     [System.Serializable]

@@ -25,10 +25,16 @@ public class PickUp : MonoBehaviour
     public int experience;
     public int health;
 
+    PlayerStats playerReference;
+    [Tooltip("Ak je predmet od hráèa ïalej ako toto èíslo, znièí sa kvôli výkonu.")]
+    public float despawnDistance = 50f;
+
     protected virtual void Start()
     {
         initialPosition = transform.position;
         initialOffset = Random.Range(0, bobbingAnimation.frequency);
+
+        playerReference = FindAnyObjectByType<PlayerStats>();
     }
 
     protected virtual void Update()
@@ -49,6 +55,18 @@ public class PickUp : MonoBehaviour
         }
         else
         {
+            // --- OPTIMALIZÁCIA: Kontrola vzdialenosti ---
+            if (playerReference != null)
+            {
+                Vector2 distanceToPlayer = playerReference.transform.position - transform.position;
+
+                if (distanceToPlayer.sqrMagnitude > despawnDistance * despawnDistance)
+                {
+                    Destroy(gameObject);
+                    return;
+                }
+            }
+
             // Spracuj animáciu (poskakovanie) objektu. Vypocet novej pozicie na zaklade sinusovej funkcie
             transform.position = initialPosition + bobbingAnimation.direction * Mathf.Sin((Time.time + initialOffset) * bobbingAnimation.frequency);  
         }
@@ -61,7 +79,7 @@ public class PickUp : MonoBehaviour
             this.target = target;
             this.speed = speed;
             if (lifespan > 0) this.lifespan = lifespan;                 // ak nebude moct dobehnut hraca tak sa znici a aplikuje svoje efekty (fail save)
-            Destroy(gameObject, Mathf.Max(0.01f, this.lifespan));
+            Invoke("GrantRewardsAndDestroy", Mathf.Max(0.01f, this.lifespan));
             return true;
         }
 

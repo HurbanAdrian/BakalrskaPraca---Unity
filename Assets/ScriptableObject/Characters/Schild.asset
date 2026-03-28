@@ -15,7 +15,7 @@ MonoBehaviour:
   icon: {fileID: -5741442669704772464, guid: d406c4dac5e6cfe44a03af7517b7f5e6, type: 3}
   controller: {fileID: 22100000, guid: 60be2816a8288924380135315a566d57, type: 2}
   name: Schild
-  startingWeapon: {fileID: 11400000, guid: 9c4bb462de0a2604e871653e858d7ff6, type: 2}
+  startingWeapon: {fileID: 11400000, guid: 012ee86752c48c444a628d250c074c6e, type: 2}
   stats:
     maxHealth: 100
     recovery: 0

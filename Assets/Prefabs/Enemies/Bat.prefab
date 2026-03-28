@@ -175,6 +175,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ee5e21282ee13094a9fdf74b2e5d2386, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemyMovement
+  outOfFrameAction: 1
 --- !u!114 &1341883916288525644
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -187,11 +188,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 30fa78532a9f0604a9876de6dfd844a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemyStats
-  enemyData: {fileID: 11400000, guid: 68838254c2c093c4d8980be2794bffbe, type: 2}
-  currentMoveSpeed: 0
-  currentHealth: 0
-  currentDamage: 0
-  despawnDistance: 20
+  currentMoveSpeed: 1
+  currentHealth: 10
+  currentDamage: 3
   damageColor: {r: 1, g: 0, b: 0, a: 1}
   damageFlashDuration: 0.2
   deathFadeTime: 0.6
@@ -207,6 +206,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 47a4d6570a8ea544cbfcbe8eff136544, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DropRateManager
+  active: 0
   drops:
   - name: BlueGem
     itemPrefab: {fileID: 1222974267670475714, guid: 53400b4a5de059a449a4e75e6179cf5b, type: 3}

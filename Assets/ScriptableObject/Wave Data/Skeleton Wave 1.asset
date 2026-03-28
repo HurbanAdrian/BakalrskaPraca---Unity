@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c6f3a1e224501ba4a8cafb6aa3702acf, type: 3}
+  m_Name: Skeleton Wave 1
+  m_EditorClassIdentifier: Assembly-CSharp::WaveData
+  possibleSpawnPrefabs:
+  - {fileID: 2748197468396091637, guid: 76dfef1b8ad0168468721287feab0d89, type: 3}
+  spawnInterval: {x: 1.5, y: 2.5}
+  spawnsPerTick: {x: 2, y: 3}
+  duration: 60
+  startingCount: 0
+  totalSpawns: 4294967295
+  exitConditions: 1
+  mustKillAll: 0
+  spawnCount: 0
