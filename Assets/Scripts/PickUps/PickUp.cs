@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class PickUp : MonoBehaviour
+public class PickUp : Sortable
 {
     public float lifespan = 0.5f;
     protected PlayerStats target;   // Ak má predmet cie¾, letí smerom k nemu.
@@ -26,21 +26,24 @@ public class PickUp : MonoBehaviour
     public int health;
 
     PlayerStats playerReference;
-    [Tooltip("Ak je predmet od hráèa ïalej ako toto èíslo, znièí sa kvôli výkonu.")]
-    public float despawnDistance = 50f;
 
-    protected virtual void Start()
+    protected override void Start()
     {
+        base.Start();
         initialPosition = transform.position;
         initialOffset = Random.Range(0, bobbingAnimation.frequency);
 
         playerReference = FindAnyObjectByType<PlayerStats>();
     }
 
-    protected virtual void Update()
+    protected override void Update()
     {
+        base.Update();
         if (target)
         {
+            // Zrých¾ujeme gem každým framom, aby hráèa ZARUÈENE dobehol
+            speed += 20f * Time.deltaTime;
+
             // Presuò predmet smerom k hráèovi a skontroluj vzdialenos medzi nimi.
             Vector2 distance = target.transform.position - transform.position;
 
@@ -55,18 +58,6 @@ public class PickUp : MonoBehaviour
         }
         else
         {
-            // --- OPTIMALIZÁCIA: Kontrola vzdialenosti ---
-            if (playerReference != null)
-            {
-                Vector2 distanceToPlayer = playerReference.transform.position - transform.position;
-
-                if (distanceToPlayer.sqrMagnitude > despawnDistance * despawnDistance)
-                {
-                    Destroy(gameObject);
-                    return;
-                }
-            }
-
             // Spracuj animáciu (poskakovanie) objektu. Vypocet novej pozicie na zaklade sinusovej funkcie
             transform.position = initialPosition + bobbingAnimation.direction * Mathf.Sin((Time.time + initialOffset) * bobbingAnimation.frequency);  
         }
@@ -78,8 +69,8 @@ public class PickUp : MonoBehaviour
         {
             this.target = target;
             this.speed = speed;
-            if (lifespan > 0) this.lifespan = lifespan;                 // ak nebude moct dobehnut hraca tak sa znici a aplikuje svoje efekty (fail save)
-            Invoke("GrantRewardsAndDestroy", Mathf.Max(0.01f, this.lifespan));
+            //if (lifespan > 0) this.lifespan = lifespan;                 // ak nebude moct dobehnut hraca tak sa znici a aplikuje svoje efekty (fail save)
+            //Invoke("GrantRewardsAndDestroy", Mathf.Max(0.01f, this.lifespan));
             return true;
         }
 

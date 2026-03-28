@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class PlayerMovement : MonoBehaviour
+public class PlayerMovement : Sortable
 {
     [HideInInspector]
     public float LastHorizontalVector;
@@ -18,16 +18,18 @@ public class PlayerMovement : MonoBehaviour
     public const float DEFAULT_MOVESPEED = 5f;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+    protected override void Start()
     {
+        base.Start();
         player = GetComponent<PlayerStats>();
         rb = GetComponent<Rigidbody2D>();
         lastMovedVector = new Vector2(1, 0f);      // default last moved right  lebo ak by sme sa nepohli tak by to bolo (0,0) a tak by nevedel kam hodit noz
     }
 
     // Update is called once per frame
-    void Update()
+    protected override void Update()
     {
+        base.Update();
         InputManagement();
     }
 

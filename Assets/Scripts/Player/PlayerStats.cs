@@ -21,6 +21,11 @@ public class PlayerStats : MonoBehaviour
         }
     }
 
+    public CharacterData.Stats Actual
+    {
+        get { return actualStats; }
+    }
+
     // Sucastne staty (neskor odstranit ostatne okrem healthu ak ich nevyuzijem)
     float currentHealth;
 

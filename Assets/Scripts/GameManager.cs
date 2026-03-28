@@ -1,4 +1,3 @@
-using NUnit.Framework;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
@@ -54,8 +53,7 @@ public class GameManager : MonoBehaviour
     float stopwatchTime;    // cas, ktory uplynul od zaciatku stopwatchu
     public TMP_Text stopwatchDisplay; // UI text pro zobrazenie casu
 
-    // Referencia na hraca objekt
-    public GameObject playerObject;
+    PlayerStats[] players;
 
     public bool isGameOver { get { return currentState == GameState.GameOver; } }
     public bool choosingUpgrade { get { return currentState == GameState.LevelUp; } }
@@ -65,8 +63,34 @@ public class GameManager : MonoBehaviour
         return stopwatchTime;
     }
 
+    public static float GetCumulativeCurse()
+    {
+        if (!instance) return 1;
+
+        float totalCurse = 0;
+        foreach (PlayerStats p in instance.players)
+        {
+            totalCurse += p.Actual.curse;
+        }
+        return Mathf.Max(1, 1 + totalCurse);
+    }
+
+    public static int GetCumulativeLevels()
+    {
+        if (!instance) return 1;
+
+        int totalLevel = 0;
+        foreach (PlayerStats p in instance.players)
+        {
+            totalLevel += p.level;
+        }
+        return Mathf.Max(1, totalLevel);
+    }
+
     void Awake()
     {
+        players = FindObjectsByType<PlayerStats>(FindObjectsInactive.Exclude, FindObjectsSortMode.None);
+
         // Singleton pattern pre GameManager
         if (instance == null)
         {
@@ -102,6 +126,8 @@ public class GameManager : MonoBehaviour
                 Debug.LogError("Nezn�my stav hry: " + currentState);
                 break;
         }
+
+        Sortable.ReactivateAll();
     }
 
     IEnumerator GenerateFloatingTextCorutine(string text, Transform target, float duration = 1f, float speed = 50f)
@@ -276,7 +302,10 @@ public class GameManager : MonoBehaviour
 
         if (stopwatchTime >= timeLimit)
         {
-            playerObject.SendMessage("Kill");        // Zavol� metodu Die na objektu hr��e
+            foreach (PlayerStats p in players)
+            {
+                p.SendMessage("Kill");
+            }
         }
     }
 
@@ -297,7 +326,10 @@ public class GameManager : MonoBehaviour
         {
             Time.timeScale = 0f;
             levelUpScreen.SetActive(true);
-            playerObject.SendMessage("RemoveAndApplyUpgrades");
+            foreach (PlayerStats p in players)
+            {
+                p.SendMessage("RemoveAndApplyUpgrades");
+            }
         }
     }
 

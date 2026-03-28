@@ -1,0 +1,533 @@
+fileFormatVersion: 2
+guid: e50a3c6d1d858824e8a23b659fd96d52
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8320121183309048159
+    second: A_hunched_humanoid_f...-405847946-0_0
+  - first:
+      213: -146033864350339858
+    second: A_hunched_humanoid_f...-405847946-0_1
+  - first:
+      213: 8283745568665219775
+    second: A_hunched_humanoid_f...-405847946-0_2
+  - first:
+      213: -8644796988334248872
+    second: A_hunched_humanoid_f...-405847946-0_3
+  - first:
+      213: -3977040654282481013
+    second: A_hunched_humanoid_f...-405847946-0_4
+  - first:
+      213: 5586338516694586805
+    second: A_hunched_humanoid_f...-405847946-0_5
+  - first:
+      213: -9092049489157777414
+    second: A_hunched_humanoid_f...-405847946-0_6
+  - first:
+      213: -6796700462673332210
+    second: A_hunched_humanoid_f...-405847946-0_7
+  - first:
+      213: -954303924159086197
+    second: A_hunched_humanoid_f...-405847946-0_8
+  - first:
+      213: 2487018582973358429
+    second: A_hunched_humanoid_f...-405847946-0_9
+  - first:
+      213: 2939693223445329449
+    second: A_hunched_humanoid_f...-405847946-0_10
+  - first:
+      213: -4097115804188409973
+    second: A_hunched_humanoid_f...-405847946-0_11
+  - first:
+      213: -4682710465040885471
+    second: A_hunched_humanoid_f...-405847946-0_12
+  - first:
+      213: 8845733013332545752
+    second: A_hunched_humanoid_f...-405847946-0_13
+  - first:
+      213: -3041943676436401970
+    second: A_hunched_humanoid_f...-405847946-0_14
+  - first:
+      213: 9116550422228476
+    second: A_hunched_humanoid_f...-405847946-0_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: A_hunched_humanoid_f...-405847946-0_0
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 595
+        width: 86
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a659ac9dddf88c80800000000000000
+      internalID: -8320121183309048159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A_hunched_humanoid_f...-405847946-0_1
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 591
+        width: 78
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eec683e59fe29fdf0800000000000000
+      internalID: -146033864350339858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A_hunched_humanoid_f...-405847946-0_2
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 595
+        width: 86
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb2b10e94b6c5f270800000000000000
+      internalID: 8283745568665219775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A_hunched_humanoid_f...-405847946-0_3
+      rect:
+        serializedVersion: 2
+        x: 627
+        y: 591
+        width: 78
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85c68f2f0f2870880800000000000000
+      internalID: -8644796988334248872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A_hunched_humanoid_f...-405847946-0_4
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 403
+        width: 58
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b82a430a896bec8c0800000000000000
+      internalID: -3977040654282481013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A_hunched_humanoid_f...-405847946-0_5
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 403
+        width: 74
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b5d9a28849a68d40800000000000000
+      internalID: 5586338516694586805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A_hunched_humanoid_f...-405847946-0_6
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 403
+        width: 62
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af79a7e492d82d180800000000000000
+      internalID: -9092049489157777414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A_hunched_humanoid_f...-405847946-0_7
+      rect:
+        serializedVersion: 2
+        x: 627
+        y: 403
+        width: 78
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e087f9d80f44da1a0800000000000000
+      internalID: -6796700462673332210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A_hunched_humanoid_f...-405847946-0_8
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 211
+        width: 86
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b818cb813a1a1c2f0800000000000000
+      internalID: -954303924159086197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A_hunched_humanoid_f...-405847946-0_9
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 207
+        width: 82
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d512ce3793aa38220800000000000000
+      internalID: 2487018582973358429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A_hunched_humanoid_f...-405847946-0_10
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 211
+        width: 86
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 926f41c5963ebc820800000000000000
+      internalID: 2939693223445329449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A_hunched_humanoid_f...-405847946-0_11
+      rect:
+        serializedVersion: 2
+        x: 631
+        y: 207
+        width: 78
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8ff5bf22ee1427c0800000000000000
+      internalID: -4097115804188409973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A_hunched_humanoid_f...-405847946-0_12
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 19
+        width: 62
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 129db3164aba30fb0800000000000000
+      internalID: -4682710465040885471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A_hunched_humanoid_f...-405847946-0_13
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 19
+        width: 74
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d0d1a51f4b52ca70800000000000000
+      internalID: 8845733013332545752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A_hunched_humanoid_f...-405847946-0_14
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 19
+        width: 62
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec0334bd758d8c5d0800000000000000
+      internalID: -3041943676436401970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A_hunched_humanoid_f...-405847946-0_15
+      rect:
+        serializedVersion: 2
+        x: 639
+        y: 19
+        width: 78
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cfd6e7d4473602000800000000000000
+      internalID: 9116550422228476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      A_hunched_humanoid_f...-405847946-0_0: -8320121183309048159
+      A_hunched_humanoid_f...-405847946-0_1: -146033864350339858
+      A_hunched_humanoid_f...-405847946-0_10: 2939693223445329449
+      A_hunched_humanoid_f...-405847946-0_11: -4097115804188409973
+      A_hunched_humanoid_f...-405847946-0_12: -4682710465040885471
+      A_hunched_humanoid_f...-405847946-0_13: 8845733013332545752
+      A_hunched_humanoid_f...-405847946-0_14: -3041943676436401970
+      A_hunched_humanoid_f...-405847946-0_15: 9116550422228476
+      A_hunched_humanoid_f...-405847946-0_2: 8283745568665219775
+      A_hunched_humanoid_f...-405847946-0_3: -8644796988334248872
+      A_hunched_humanoid_f...-405847946-0_4: -3977040654282481013
+      A_hunched_humanoid_f...-405847946-0_5: 5586338516694586805
+      A_hunched_humanoid_f...-405847946-0_6: -9092049489157777414
+      A_hunched_humanoid_f...-405847946-0_7: -6796700462673332210
+      A_hunched_humanoid_f...-405847946-0_8: -954303924159086197
+      A_hunched_humanoid_f...-405847946-0_9: 2487018582973358429
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -30,6 +30,6 @@ public class ChargingEnemyMovement : EnemyMovement
     // Namiesto neustáleho sledovania hráèa sa len pohybujeme v smere, ktorý sme si urèili na zaèiatku.
     public override void Move()
     {
-        transform.position += (Vector3)chargeDirection * enemy.currentMoveSpeed * Time.deltaTime;
+        transform.position += (Vector3)chargeDirection * stats.Actual.moveSpeed * Time.deltaTime;
     }
 }

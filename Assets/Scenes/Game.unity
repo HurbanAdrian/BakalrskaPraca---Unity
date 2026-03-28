@@ -1518,6 +1518,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: b88deec0f4713fb4ab1d7412f68cda66, type: 2}
   referenceCamera: {fileID: 519420031}
   maximumEnemyCount: 300
+  boostedByCurse: 1
 --- !u!114 &213911803
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13797,7 +13798,6 @@ MonoBehaviour:
   timeSurvivedDisplay: {fileID: 1450404935}
   timeLimit: 600
   stopwatchDisplay: {fileID: 685005720}
-  playerObject: {fileID: 2143560734}
 --- !u!4 &1710406489
 Transform:
   m_ObjectHideFlags: 0
@@ -16968,6 +16968,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 602d94422c78a5147af3bd63cf72c0bf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerMovement
+  sortingActive: 1
+  deactivateOffScreen: 0
+  destroyDistance: 50
   LastHorizontalVector: 0
   LastVerticalVector: 0
   moveDir: {x: 0, y: 0}

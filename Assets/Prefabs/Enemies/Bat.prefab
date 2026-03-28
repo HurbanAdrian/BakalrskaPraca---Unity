@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: -3125412256594117771}
   - component: {fileID: 1341883916288525644}
   - component: {fileID: 5791092344264768520}
+  - component: {fileID: -8854181383017157532}
   m_Layer: 0
   m_Name: Bat
   m_TagString: Enemy
@@ -176,6 +177,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemyMovement
   outOfFrameAction: 1
+  knockbackVariance: 2
 --- !u!114 &1341883916288525644
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -188,9 +190,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 30fa78532a9f0604a9876de6dfd844a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemyStats
-  currentMoveSpeed: 1
-  currentHealth: 10
-  currentDamage: 3
+  baseStats:
+    maxHealth: 10
+    moveSpeed: 1
+    damage: 3
+    knockbackMultiplier: 1
+    resistances:
+      freeze: 0
+      kill: 0
+      debuff: 0
+    curseBoosts: 3
+    levelBoosts: 0
   damageColor: {r: 1, g: 0, b: 0, a: 1}
   damageFlashDuration: 0.2
   deathFadeTime: 0.6
@@ -211,3 +221,30 @@ MonoBehaviour:
   - name: BlueGem
     itemPrefab: {fileID: 1222974267670475714, guid: 53400b4a5de059a449a4e75e6179cf5b, type: 3}
     dropRate: 50
+--- !u!50 &-8854181383017157532
+Rigidbody2D:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6757600472617176067}
+  m_BodyType: 1
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0

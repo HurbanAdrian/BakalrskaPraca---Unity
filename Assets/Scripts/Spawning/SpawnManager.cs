@@ -15,6 +15,7 @@ public class SpawnManager : MonoBehaviour
     
     float spawnTimer; // »asovaË na urËenie, kedy vytvoriù Ôalöiu skupinu
     float currentWaveDuration = 0f;
+    public bool boostedByCurse = true;
 
     public static SpawnManager instance;
 
@@ -51,7 +52,7 @@ public class SpawnManager : MonoBehaviour
             // Ak nespÂÚame podmienky pre spawn (napr. limit nepriateæov), preskoËÌme cyklus
             if (!CanSpawn())
             {
-                spawnTimer += data[currentWaveIndex].GetSpawnInterval();
+                ActivateCooldown();
                 return;
             }
 
@@ -62,16 +63,21 @@ public class SpawnManager : MonoBehaviour
             foreach(GameObject prefab in spawns)
             {
                 // Ak poËas procesu prekroËÌme limit, zastavÌme sa
-                if (!CanSpawn()) continue;
+                if (!CanSpawn()) break;
 
                 // SamotnÈ vytvorenie nepriateæa na n·hodnej pozÌcii
                 existingSpawns.Add(Instantiate(prefab, GeneratePosition(), Quaternion.identity));
                 currentWaveSpawnCount++;
             }
 
-            // Regener·cia ËasovaËa pre ÔalöÌ spawn
-            spawnTimer += data[currentWaveIndex].GetSpawnInterval();
+            ActivateCooldown();
         }
+    }
+
+    public void ActivateCooldown()
+    {
+        float curseBoost = boostedByCurse ? GameManager.GetCumulativeCurse() : 1;
+        spawnTimer += data[currentWaveIndex].GetSpawnInterval() / curseBoost;
     }
 
     // SpÂÚame podmienky na pokraËovanie vytv·rania nepriateæov?
@@ -141,14 +147,24 @@ public class SpawnManager : MonoBehaviour
         // Vygeneruje n·hodnÈ ËÌsla pre osi X a Y (0 aû 1 v r·mci viewportu)
         float x = Random.Range(0f, 1f), y = Random.Range(0f, 1f);
 
-        // N·hodne vyberieme, Ëi "zaokr˙hlime" X alebo Y na hranicu (0 alebo 1),
-        // aby nepriateæ vznikol tesne za okrajom obrazovky.
-        switch(Random.Range(0, 2)) {
-            case 0: default:
-                return instance.referenceCamera.ViewportToWorldPoint(new Vector3(Mathf.Round(x), y));
+        Vector3 spawnPos = Vector3.zero;
+
+        // N·hodne vyberieme, Ëi "zaokr˙hlime" X alebo Y na hranicu (0 alebo 1), aby nepriateæ vznikol tesne za okrajom obrazovky.
+        switch (Random.Range(0, 2))
+        {
+            case 0:
+            default:
+                spawnPos = instance.referenceCamera.ViewportToWorldPoint(new Vector3(Mathf.Round(x), y));
+                break;
             case 1:
-                return instance.referenceCamera.ViewportToWorldPoint(new Vector3(x, Mathf.Round(y)));
+                spawnPos = instance.referenceCamera.ViewportToWorldPoint(new Vector3(x, Mathf.Round(y)));
+                break;
         }
+
+        // Vynulujeme Z-s˙radnicu, aby nepriatelia nezostali prilepenÌ na kamere
+        spawnPos.z = 0;
+
+        return spawnPos;
     }
 
     // Kontrola, Ëi je objekt v z·bere kamery

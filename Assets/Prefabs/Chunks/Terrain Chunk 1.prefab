@@ -214,6 +214,8 @@ MonoBehaviour:
   - {fileID: 750413235995783370, guid: 1614a30ada1600f4089e384be36f73a8, type: 3}
   - {fileID: 7928428649556263540, guid: bb0023a4c6c6bcd40bf6861212daca2e, type: 3}
   - {fileID: 1380980522863900545, guid: bdfff3f3ae95eaa4dba65a9aa89aeb9c, type: 3}
+  - {fileID: 944834006493110654, guid: 9f2f25a2f15edcd45ab309b6d03a40e4, type: 3}
+  - {fileID: 4169427814629505766, guid: c1625e1018c22c54ab52bd192ed99728, type: 3}
 --- !u!61 &7923941588274167203
 BoxCollider2D:
   m_ObjectHideFlags: 0

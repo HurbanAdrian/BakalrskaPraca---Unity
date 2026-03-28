@@ -1,8 +1,8 @@
 using UnityEngine;
 
-public class EnemyMovement : MonoBehaviour
+public class EnemyMovement : Sortable
 {
-    protected EnemyStats enemy;
+    protected EnemyStats stats;
     protected Transform player;
 
     protected Vector2 knockbackVelocity;
@@ -13,14 +13,21 @@ public class EnemyMovement : MonoBehaviour
 
     protected bool spawnedOutOfFrame = false;
 
-    protected SpriteRenderer spriteRenderer;
+    [System.Flags]
+    public enum KnockbackVariance { duration = 1, velocity = 2 }
+    public KnockbackVariance knockbackVariance = KnockbackVariance.velocity;
 
-    protected virtual void Start()
+    protected SpriteRenderer spriteRenderer;
+    protected Rigidbody2D rb;
+
+    protected override void Start()
     {
+        base.Start();
         spawnedOutOfFrame = !SpawnManager.IsWithinBoundaries(transform);
-        enemy = GetComponent<EnemyStats>();
+        stats = GetComponent<EnemyStats>();
 
         spriteRenderer = GetComponent<SpriteRenderer>();
+        rb = GetComponent<Rigidbody2D>();
 
         // Vyberie náhodného hráèa na obrazovke namiesto toho, aby vždy vybral toho prvého. Toto umožòuje podporu pre lokálny multiplayer.
         PlayerMovement[] allPlayers = FindObjectsByType<PlayerMovement>(FindObjectsInactive.Exclude, FindObjectsSortMode.None);
@@ -30,17 +37,42 @@ public class EnemyMovement : MonoBehaviour
         }
     }
 
-    protected virtual void Update()
+    protected override void Update()
     {
+        base.Update();
         if (knockbackDuration > 0)
         {
-            transform.position += (Vector3)knockbackVelocity * Time.deltaTime;
+            if (rb == null)
+            {
+                transform.position += (Vector3)knockbackVelocity * Time.deltaTime;
+            }
+
             knockbackDuration -= Time.deltaTime;
         }
         else
         {
-            Move();
+            if (rb == null)
+            {
+                Move();
+            }
             HandleOutOfFrameAction();
+        }
+    }
+
+    protected virtual void FixedUpdate()
+    {
+        // Ak MÁME fyziku, všetok pohyb riešime v 50 FPS FixedUpdate cykle
+        if (rb != null)
+        {
+            if (knockbackDuration > 0)
+            {
+                rb.linearVelocity = knockbackVelocity;
+            }
+            else
+            {
+                // Voláme tvoju funkciu Move(), ale tentokrát bezpeène vo vnútri FixedUpdate!
+                Move();
+            }
         }
     }
 
@@ -80,14 +112,43 @@ public class EnemyMovement : MonoBehaviour
             return;
         }
 
-        knockbackVelocity = velocity;
-        knockbackDuration = duration;
+        // Ignoruj zmeny knockbacku, ak je typ variability nastavený na none (0).
+        if (knockbackVariance == 0) return;
+
+        // Faktor zmeny zmeníme len ak multiplier nie je 0 alebo 1.
+        float pow = 1;
+        bool reducesVelocity = (knockbackVariance & KnockbackVariance.velocity) > 0;
+        bool reducesDuration = (knockbackVariance & KnockbackVariance.duration) > 0;
+
+        if (reducesVelocity && reducesDuration) pow = 0.5f;
+
+        // Skontroluj, ktoré hodnoty knockbacku majú by ovplyvnené štatistikami (multiplierom).
+        knockbackVelocity = velocity * (reducesVelocity ? Mathf.Pow(stats.Actual.knockbackMultiplier, pow) : 1);
+        knockbackDuration = duration * (reducesDuration ? Mathf.Pow(stats.Actual.knockbackMultiplier, pow) : 1);
     }
 
     public virtual void Move()
     {
-        // Neustále presúvaj nepriate¾a smerom k hráèovi.
-        transform.position = Vector2.MoveTowards(transform.position, player.transform.position, enemy.currentMoveSpeed * Time.deltaTime);
+        Vector2 direction = (player.transform.position - transform.position).normalized;
+        // Ak existuje rigidbody, použi ho na pohyb namiesto priameho posúvania pozície (transform). Optimalizacia vykonu
+        if (rb)
+        {
+            rb.MovePosition(Vector2.MoveTowards(
+                rb.position,
+                player.transform.position,
+                stats.Actual.moveSpeed * Time.deltaTime)
+            );
+            //rb.linearVelocity = direction * stats.Actual.moveSpeed;
+        }
+        else
+        {
+            // Neustále presúvaj nepriate¾a smerom k hráèovi (cez transform).
+            transform.position = Vector2.MoveTowards(
+                transform.position,
+                player.transform.position,
+                stats.Actual.moveSpeed * Time.deltaTime
+            );
+        }
 
         if (spriteRenderer != null && player != null)
         {
@@ -95,12 +156,12 @@ public class EnemyMovement : MonoBehaviour
             float directionX = player.position.x - transform.position.x;
 
             // Ak je hráè na¾avo, preklop sprite (flipX = true). Ak je napravo, nepreklápaj (flipX = false).
-            // Poznámka: Predpokladáme, že pôvodná animácia zombie smeruje doprava. (directionX > 0) inac
-            if (directionX < 0)
+            // Poznámka: Predpokladáme, že pôvodná animácia zombie smeruje doprava. (directionX > 0) inac -> 0,1 aby nenastal flickering v hordach
+            if (directionX < -0.1f)
             {
                 spriteRenderer.flipX = true;
             }
-            else if (directionX > 0)
+            else if (directionX > 0.1f)
             {
                 spriteRenderer.flipX = false;
             }

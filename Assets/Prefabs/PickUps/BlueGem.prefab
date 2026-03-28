@@ -168,6 +168,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 628bcd0e76d874449abe4d8b096ec9ec, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PickUp
+  sortingActive: 1
+  deactivateOffScreen: 1
+  destroyDistance: 200
   lifespan: 0.5
   bobbingAnimation:
     frequency: 2

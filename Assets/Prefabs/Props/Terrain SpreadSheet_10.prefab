@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 8065011881134034436}
   - component: {fileID: 4100655490010299077}
   - component: {fileID: -5562911320258525875}
+  - component: {fileID: -1924808336508331784}
   - component: {fileID: -6800374860204723023}
   - component: {fileID: 5498570011594708019}
   m_Layer: 0
@@ -100,7 +101,7 @@ BoxCollider2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3641962176212063317}
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 3
   m_Density: 1
   m_Material: {fileID: 0}
@@ -139,6 +140,42 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!58 &-1924808336508331784
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3641962176212063317}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 6200000, guid: 6990301489bdc14498441a68f83691de, type: 2}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: -0.07971829, y: -0.013286382}
+  m_Radius: 0.40699533
 --- !u!114 &-6800374860204723023
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -164,6 +201,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 47a4d6570a8ea544cbfcbe8eff136544, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DropRateManager
+  active: 1
   drops:
   - name: RedPotion
     itemPrefab: {fileID: 2428821176796300438, guid: 4eb3a859afa277545b9d954d1f75cb5c, type: 3}
