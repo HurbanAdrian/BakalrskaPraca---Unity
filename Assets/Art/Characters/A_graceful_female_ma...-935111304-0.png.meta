@@ -1,0 +1,533 @@
+fileFormatVersion: 2
+guid: f5e1179975796b74ba357d218cb28432
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8981837213366991892
+    second: A_graceful_female_ma...-935111304-0_0
+  - first:
+      213: -9139336710297335886
+    second: A_graceful_female_ma...-935111304-0_1
+  - first:
+      213: -3690071777206450939
+    second: A_graceful_female_ma...-935111304-0_2
+  - first:
+      213: -5601964082522562105
+    second: A_graceful_female_ma...-935111304-0_3
+  - first:
+      213: -3208781982672558232
+    second: A_graceful_female_ma...-935111304-0_4
+  - first:
+      213: 3244084299886421341
+    second: A_graceful_female_ma...-935111304-0_5
+  - first:
+      213: -6822472609012047232
+    second: A_graceful_female_ma...-935111304-0_6
+  - first:
+      213: -6027308859499929006
+    second: A_graceful_female_ma...-935111304-0_7
+  - first:
+      213: -2028013795280104205
+    second: A_graceful_female_ma...-935111304-0_8
+  - first:
+      213: 3047017513258887157
+    second: A_graceful_female_ma...-935111304-0_9
+  - first:
+      213: 1450138260001102519
+    second: A_graceful_female_ma...-935111304-0_10
+  - first:
+      213: -5918409207715624357
+    second: A_graceful_female_ma...-935111304-0_11
+  - first:
+      213: -4669318169558158794
+    second: A_graceful_female_ma...-935111304-0_12
+  - first:
+      213: 1321706125303456502
+    second: A_graceful_female_ma...-935111304-0_13
+  - first:
+      213: -2009492590124569547
+    second: A_graceful_female_ma...-935111304-0_14
+  - first:
+      213: 8541382006957014772
+    second: A_graceful_female_ma...-935111304-0_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: A_graceful_female_ma...-935111304-0_0
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 595
+        width: 106
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41cbf159b55e5ac70800000000000000
+      internalID: 8981837213366991892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A_graceful_female_ma...-935111304-0_1
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 591
+        width: 102
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b74a0c2fad8a2180800000000000000
+      internalID: -9139336710297335886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A_graceful_female_ma...-935111304-0_2
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 595
+        width: 110
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5054aebf44b3accc0800000000000000
+      internalID: -3690071777206450939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A_graceful_female_ma...-935111304-0_3
+      rect:
+        serializedVersion: 2
+        x: 619
+        y: 591
+        width: 102
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c1eeb0f853d142b0800000000000000
+      internalID: -5601964082522562105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A_graceful_female_ma...-935111304-0_4
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 403
+        width: 74
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 867e021a9cd1873d0800000000000000
+      internalID: -3208781982672558232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A_graceful_female_ma...-935111304-0_5
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 399
+        width: 90
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d55e62c9b7d450d20800000000000000
+      internalID: 3244084299886421341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A_graceful_female_ma...-935111304-0_6
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 403
+        width: 74
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08221022f45b151a0800000000000000
+      internalID: -6822472609012047232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A_graceful_female_ma...-935111304-0_7
+      rect:
+        serializedVersion: 2
+        x: 619
+        y: 403
+        width: 98
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25221fdb682ba5ca0800000000000000
+      internalID: -6027308859499929006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A_graceful_female_ma...-935111304-0_8
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 211
+        width: 102
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f4dcb4b23c0bd3e0800000000000000
+      internalID: -2028013795280104205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A_graceful_female_ma...-935111304-0_9
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 207
+        width: 102
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f7a036d84e294a20800000000000000
+      internalID: 3047017513258887157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A_graceful_female_ma...-935111304-0_10
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 211
+        width: 106
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ba9196701def1410800000000000000
+      internalID: 1450138260001102519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A_graceful_female_ma...-935111304-0_11
+      rect:
+        serializedVersion: 2
+        x: 623
+        y: 207
+        width: 102
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5a85b2ce269ddda0800000000000000
+      internalID: -5918409207715624357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A_graceful_female_ma...-935111304-0_12
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 19
+        width: 74
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63275382ddf333fb0800000000000000
+      internalID: -4669318169558158794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A_graceful_female_ma...-935111304-0_13
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 15
+        width: 90
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f2ab20e7b4a75210800000000000000
+      internalID: 1321706125303456502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A_graceful_female_ma...-935111304-0_14
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 19
+        width: 74
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53c68d2d229dc14e0800000000000000
+      internalID: -2009492590124569547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A_graceful_female_ma...-935111304-0_15
+      rect:
+        serializedVersion: 2
+        x: 627
+        y: 19
+        width: 98
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4fef59f5ea5198670800000000000000
+      internalID: 8541382006957014772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      A_graceful_female_ma...-935111304-0_0: 8981837213366991892
+      A_graceful_female_ma...-935111304-0_1: -9139336710297335886
+      A_graceful_female_ma...-935111304-0_10: 1450138260001102519
+      A_graceful_female_ma...-935111304-0_11: -5918409207715624357
+      A_graceful_female_ma...-935111304-0_12: -4669318169558158794
+      A_graceful_female_ma...-935111304-0_13: 1321706125303456502
+      A_graceful_female_ma...-935111304-0_14: -2009492590124569547
+      A_graceful_female_ma...-935111304-0_15: 8541382006957014772
+      A_graceful_female_ma...-935111304-0_2: -3690071777206450939
+      A_graceful_female_ma...-935111304-0_3: -5601964082522562105
+      A_graceful_female_ma...-935111304-0_4: -3208781982672558232
+      A_graceful_female_ma...-935111304-0_5: 3244084299886421341
+      A_graceful_female_ma...-935111304-0_6: -6822472609012047232
+      A_graceful_female_ma...-935111304-0_7: -6027308859499929006
+      A_graceful_female_ma...-935111304-0_8: -2028013795280104205
+      A_graceful_female_ma...-935111304-0_9: 3047017513258887157
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

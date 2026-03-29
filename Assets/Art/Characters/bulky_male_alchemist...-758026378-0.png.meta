@@ -1,0 +1,533 @@
+fileFormatVersion: 2
+guid: e6bfa3033b68ca74eba5e39eb3a08454
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1205855302521936121
+    second: bulky_male_alchemist...-758026378-0_0
+  - first:
+      213: 5325226907772373697
+    second: bulky_male_alchemist...-758026378-0_1
+  - first:
+      213: 7090476518453182259
+    second: bulky_male_alchemist...-758026378-0_2
+  - first:
+      213: 6503081559591892617
+    second: bulky_male_alchemist...-758026378-0_3
+  - first:
+      213: -4570165179913650647
+    second: bulky_male_alchemist...-758026378-0_4
+  - first:
+      213: 6641812450364544907
+    second: bulky_male_alchemist...-758026378-0_5
+  - first:
+      213: -339740592368795942
+    second: bulky_male_alchemist...-758026378-0_6
+  - first:
+      213: 8781363244069682149
+    second: bulky_male_alchemist...-758026378-0_7
+  - first:
+      213: 1122589647032267300
+    second: bulky_male_alchemist...-758026378-0_8
+  - first:
+      213: -3691266859471294212
+    second: bulky_male_alchemist...-758026378-0_9
+  - first:
+      213: 4166225078453182411
+    second: bulky_male_alchemist...-758026378-0_10
+  - first:
+      213: -8136016327993948789
+    second: bulky_male_alchemist...-758026378-0_11
+  - first:
+      213: 6272375515390966684
+    second: bulky_male_alchemist...-758026378-0_12
+  - first:
+      213: -6187314258222474104
+    second: bulky_male_alchemist...-758026378-0_13
+  - first:
+      213: 4475694137525498808
+    second: bulky_male_alchemist...-758026378-0_14
+  - first:
+      213: -3982925881617011637
+    second: bulky_male_alchemist...-758026378-0_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: bulky_male_alchemist...-758026378-0_0
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 595
+        width: 94
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 707a8a2cdf0f34fe0800000000000000
+      internalID: -1205855302521936121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulky_male_alchemist...-758026378-0_1
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 591
+        width: 86
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1cacf1a88a107e940800000000000000
+      internalID: 5325226907772373697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulky_male_alchemist...-758026378-0_2
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 595
+        width: 94
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33f76aa93de666260800000000000000
+      internalID: 7090476518453182259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulky_male_alchemist...-758026378-0_3
+      rect:
+        serializedVersion: 2
+        x: 619
+        y: 591
+        width: 90
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9863ed049369f3a50800000000000000
+      internalID: 6503081559591892617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulky_male_alchemist...-758026378-0_4
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 403
+        width: 78
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92e336e8bf28390c0800000000000000
+      internalID: -4570165179913650647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulky_male_alchemist...-758026378-0_5
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 403
+        width: 86
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b87deb8db357c2c50800000000000000
+      internalID: 6641812450364544907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulky_male_alchemist...-758026378-0_6
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 403
+        width: 78
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: adeb3143bbff84bf0800000000000000
+      internalID: -339740592368795942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulky_male_alchemist...-758026378-0_7
+      rect:
+        serializedVersion: 2
+        x: 619
+        y: 403
+        width: 90
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ebf176485badd970800000000000000
+      internalID: 8781363244069682149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulky_male_alchemist...-758026378-0_8
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 211
+        width: 94
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 422b3e3165d349f00800000000000000
+      internalID: 1122589647032267300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulky_male_alchemist...-758026378-0_9
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 207
+        width: 86
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf0ba06395cf5ccc0800000000000000
+      internalID: -3691266859471294212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulky_male_alchemist...-758026378-0_10
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 211
+        width: 94
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bcf968f92a761d930800000000000000
+      internalID: 4166225078453182411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulky_male_alchemist...-758026378-0_11
+      rect:
+        serializedVersion: 2
+        x: 627
+        y: 207
+        width: 90
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8584239140171f80800000000000000
+      internalID: -8136016327993948789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulky_male_alchemist...-758026378-0_12
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 19
+        width: 74
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9b7cbc7c44fb0750800000000000000
+      internalID: 6272375515390966684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulky_male_alchemist...-758026378-0_13
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 19
+        width: 86
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88c90f4c67e322aa0800000000000000
+      internalID: -6187314258222474104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulky_male_alchemist...-758026378-0_14
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 19
+        width: 78
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b37186da1cdc1e30800000000000000
+      internalID: 4475694137525498808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulky_male_alchemist...-758026378-0_15
+      rect:
+        serializedVersion: 2
+        x: 635
+        y: 19
+        width: 90
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4c228b530ec9b8c0800000000000000
+      internalID: -3982925881617011637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      bulky_male_alchemist...-758026378-0_0: -1205855302521936121
+      bulky_male_alchemist...-758026378-0_1: 5325226907772373697
+      bulky_male_alchemist...-758026378-0_10: 4166225078453182411
+      bulky_male_alchemist...-758026378-0_11: -8136016327993948789
+      bulky_male_alchemist...-758026378-0_12: 6272375515390966684
+      bulky_male_alchemist...-758026378-0_13: -6187314258222474104
+      bulky_male_alchemist...-758026378-0_14: 4475694137525498808
+      bulky_male_alchemist...-758026378-0_15: -3982925881617011637
+      bulky_male_alchemist...-758026378-0_2: 7090476518453182259
+      bulky_male_alchemist...-758026378-0_3: 6503081559591892617
+      bulky_male_alchemist...-758026378-0_4: -4570165179913650647
+      bulky_male_alchemist...-758026378-0_5: 6641812450364544907
+      bulky_male_alchemist...-758026378-0_6: -339740592368795942
+      bulky_male_alchemist...-758026378-0_7: 8781363244069682149
+      bulky_male_alchemist...-758026378-0_8: 1122589647032267300
+      bulky_male_alchemist...-758026378-0_9: -3691266859471294212
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

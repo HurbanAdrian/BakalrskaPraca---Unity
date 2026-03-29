@@ -1,0 +1,533 @@
+fileFormatVersion: 2
+guid: b66ea2c7535fced4e897bbab7967360a
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4521493731458147385
+    second: blindfolded_monk_in_...-587856420-0_0
+  - first:
+      213: -1751119634057100172
+    second: blindfolded_monk_in_...-587856420-0_1
+  - first:
+      213: -410682338656188661
+    second: blindfolded_monk_in_...-587856420-0_2
+  - first:
+      213: -254678042951510800
+    second: blindfolded_monk_in_...-587856420-0_3
+  - first:
+      213: -8450689826872805299
+    second: blindfolded_monk_in_...-587856420-0_4
+  - first:
+      213: -3579618063143607128
+    second: blindfolded_monk_in_...-587856420-0_5
+  - first:
+      213: 6727585453517268643
+    second: blindfolded_monk_in_...-587856420-0_6
+  - first:
+      213: 6812935585882571956
+    second: blindfolded_monk_in_...-587856420-0_7
+  - first:
+      213: 7150144842070564124
+    second: blindfolded_monk_in_...-587856420-0_8
+  - first:
+      213: -5678367058691095535
+    second: blindfolded_monk_in_...-587856420-0_9
+  - first:
+      213: -1698986301235515926
+    second: blindfolded_monk_in_...-587856420-0_10
+  - first:
+      213: -4980903785408271673
+    second: blindfolded_monk_in_...-587856420-0_11
+  - first:
+      213: -3510969080957562808
+    second: blindfolded_monk_in_...-587856420-0_12
+  - first:
+      213: -2238144838466141952
+    second: blindfolded_monk_in_...-587856420-0_13
+  - first:
+      213: -3617759265674994898
+    second: blindfolded_monk_in_...-587856420-0_14
+  - first:
+      213: -2670924031196425088
+    second: blindfolded_monk_in_...-587856420-0_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: blindfolded_monk_in_...-587856420-0_0
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 595
+        width: 78
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 934e7b5c7929fbe30800000000000000
+      internalID: 4521493731458147385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blindfolded_monk_in_...-587856420-0_1
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 591
+        width: 74
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47480dc78f5c2b7e0800000000000000
+      internalID: -1751119634057100172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blindfolded_monk_in_...-587856420-0_2
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 595
+        width: 78
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b070fd0c696fc4af0800000000000000
+      internalID: -410682338656188661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blindfolded_monk_in_...-587856420-0_3
+      rect:
+        serializedVersion: 2
+        x: 631
+        y: 591
+        width: 74
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f498c55ba3377cf0800000000000000
+      internalID: -254678042951510800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blindfolded_monk_in_...-587856420-0_4
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 403
+        width: 66
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d483d3a406e19ba80800000000000000
+      internalID: -8450689826872805299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blindfolded_monk_in_...-587856420-0_5
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 403
+        width: 74
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a4e0c25654a25ec0800000000000000
+      internalID: -3579618063143607128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blindfolded_monk_in_...-587856420-0_6
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 407
+        width: 66
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a66bf0635f2d5d50800000000000000
+      internalID: 6727585453517268643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blindfolded_monk_in_...-587856420-0_7
+      rect:
+        serializedVersion: 2
+        x: 623
+        y: 403
+        width: 86
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b40622a1d86c8e50800000000000000
+      internalID: 6812935585882571956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blindfolded_monk_in_...-587856420-0_8
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 211
+        width: 78
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1d153cc9da6a3360800000000000000
+      internalID: 7150144842070564124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blindfolded_monk_in_...-587856420-0_9
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 207
+        width: 66
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1140072de336231b0800000000000000
+      internalID: -5678367058691095535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blindfolded_monk_in_...-587856420-0_10
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 211
+        width: 78
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aed2a9ce5fcfb68e0800000000000000
+      internalID: -1698986301235515926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blindfolded_monk_in_...-587856420-0_11
+      rect:
+        serializedVersion: 2
+        x: 635
+        y: 207
+        width: 70
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ca675aa56640eab0800000000000000
+      internalID: -4980903785408271673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blindfolded_monk_in_...-587856420-0_12
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 19
+        width: 66
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84015280938864fc0800000000000000
+      internalID: -3510969080957562808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blindfolded_monk_in_...-587856420-0_13
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 19
+        width: 74
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0010a5ba02380f0e0800000000000000
+      internalID: -2238144838466141952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blindfolded_monk_in_...-587856420-0_14
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 19
+        width: 66
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2b50969d132bcdc0800000000000000
+      internalID: -3617759265674994898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blindfolded_monk_in_...-587856420-0_15
+      rect:
+        serializedVersion: 2
+        x: 635
+        y: 19
+        width: 86
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0849b7aaeb8feead0800000000000000
+      internalID: -2670924031196425088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      blindfolded_monk_in_...-587856420-0_0: 4521493731458147385
+      blindfolded_monk_in_...-587856420-0_1: -1751119634057100172
+      blindfolded_monk_in_...-587856420-0_10: -1698986301235515926
+      blindfolded_monk_in_...-587856420-0_11: -4980903785408271673
+      blindfolded_monk_in_...-587856420-0_12: -3510969080957562808
+      blindfolded_monk_in_...-587856420-0_13: -2238144838466141952
+      blindfolded_monk_in_...-587856420-0_14: -3617759265674994898
+      blindfolded_monk_in_...-587856420-0_15: -2670924031196425088
+      blindfolded_monk_in_...-587856420-0_2: -410682338656188661
+      blindfolded_monk_in_...-587856420-0_3: -254678042951510800
+      blindfolded_monk_in_...-587856420-0_4: -8450689826872805299
+      blindfolded_monk_in_...-587856420-0_5: -3579618063143607128
+      blindfolded_monk_in_...-587856420-0_6: 6727585453517268643
+      blindfolded_monk_in_...-587856420-0_7: 6812935585882571956
+      blindfolded_monk_in_...-587856420-0_8: 7150144842070564124
+      blindfolded_monk_in_...-587856420-0_9: -5678367058691095535
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

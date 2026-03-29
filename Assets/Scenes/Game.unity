@@ -1532,7 +1532,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EventManager
   events:
-  - {fileID: 11400000, guid: 8b4ca7d47a007394d834fa77220aef56, type: 2}
+  - {fileID: 11400000, guid: c7965b992e825f24090fb946a449f260, type: 2}
   - {fileID: 11400000, guid: 8b4ca7d47a007394d834fa77220aef56, type: 2}
   firstTriggerDelay: 180
   triggerInterval: 30
@@ -13509,7 +13509,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1222974267670475714, guid: 53400b4a5de059a449a4e75e6179cf5b, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8353454672502049447, guid: 53400b4a5de059a449a4e75e6179cf5b, type: 3}
       propertyPath: m_LocalPosition.x
@@ -15252,6 +15252,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::UIStatsDisplay
   player: {fileID: 2143560743}
+  character: {fileID: 0}
   displayCurrentHealth: 1
   updateInEditor: 1
 --- !u!1 &1911301582

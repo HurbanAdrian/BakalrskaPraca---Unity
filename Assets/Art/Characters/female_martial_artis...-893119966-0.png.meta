@@ -1,0 +1,533 @@
+fileFormatVersion: 2
+guid: 831d56123471d15499b8436d9618b621
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4731060141279761881
+    second: female_martial_artis...-893119966-0_0
+  - first:
+      213: -8690222893738463995
+    second: female_martial_artis...-893119966-0_1
+  - first:
+      213: 9223166058563062647
+    second: female_martial_artis...-893119966-0_2
+  - first:
+      213: 8825261039556059228
+    second: female_martial_artis...-893119966-0_3
+  - first:
+      213: -802555065770153867
+    second: female_martial_artis...-893119966-0_4
+  - first:
+      213: -1152788167776988670
+    second: female_martial_artis...-893119966-0_5
+  - first:
+      213: -8902058009840547608
+    second: female_martial_artis...-893119966-0_6
+  - first:
+      213: 6758165579477321837
+    second: female_martial_artis...-893119966-0_7
+  - first:
+      213: 6207165444668734125
+    second: female_martial_artis...-893119966-0_8
+  - first:
+      213: 6034357301122000596
+    second: female_martial_artis...-893119966-0_9
+  - first:
+      213: 3267992883752390821
+    second: female_martial_artis...-893119966-0_10
+  - first:
+      213: -5956291351470817226
+    second: female_martial_artis...-893119966-0_11
+  - first:
+      213: -8987055481203405578
+    second: female_martial_artis...-893119966-0_12
+  - first:
+      213: 5568782919857461827
+    second: female_martial_artis...-893119966-0_13
+  - first:
+      213: 769713940629148383
+    second: female_martial_artis...-893119966-0_14
+  - first:
+      213: -510851834929455550
+    second: female_martial_artis...-893119966-0_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: female_martial_artis...-893119966-0_0
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 595
+        width: 66
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d55dfbd12a18a140800000000000000
+      internalID: 4731060141279761881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: female_martial_artis...-893119966-0_1
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 591
+        width: 62
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50d60c72250266780800000000000000
+      internalID: -8690222893738463995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: female_martial_artis...-893119966-0_2
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 595
+        width: 70
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77b4711f9a44fff70800000000000000
+      internalID: 9223166058563062647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: female_martial_artis...-893119966-0_3
+      rect:
+        serializedVersion: 2
+        x: 639
+        y: 591
+        width: 62
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5065d04820a97a70800000000000000
+      internalID: 8825261039556059228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: female_martial_artis...-893119966-0_4
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 403
+        width: 66
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57864187b60ccd4f0800000000000000
+      internalID: -802555065770153867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: female_martial_artis...-893119966-0_5
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 403
+        width: 66
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2021166e4497000f0800000000000000
+      internalID: -1152788167776988670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: female_martial_artis...-893119966-0_6
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 403
+        width: 66
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e88889b769857480800000000000000
+      internalID: -8902058009840547608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: female_martial_artis...-893119966-0_7
+      rect:
+        serializedVersion: 2
+        x: 635
+        y: 403
+        width: 70
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d68840ac9c3d9cd50800000000000000
+      internalID: 6758165579477321837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: female_martial_artis...-893119966-0_8
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 211
+        width: 66
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: daa3f8fb518442650800000000000000
+      internalID: 6207165444668734125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: female_martial_artis...-893119966-0_9
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 207
+        width: 66
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d669257ef75eb350800000000000000
+      internalID: 6034357301122000596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: female_martial_artis...-893119966-0_10
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 211
+        width: 70
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a0d094963e3a5d20800000000000000
+      internalID: 3267992883752390821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: female_martial_artis...-893119966-0_11
+      rect:
+        serializedVersion: 2
+        x: 635
+        y: 207
+        width: 66
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 630c9d8d290075da0800000000000000
+      internalID: -5956291351470817226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: female_martial_artis...-893119966-0_12
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 19
+        width: 66
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6fcc422c7a0974380800000000000000
+      internalID: -8987055481203405578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: female_martial_artis...-893119966-0_13
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 19
+        width: 66
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34add599f8a484d40800000000000000
+      internalID: 5568782919857461827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: female_martial_artis...-893119966-0_14
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 19
+        width: 66
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd2ddd930c29eaa00800000000000000
+      internalID: 769713940629148383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: female_martial_artis...-893119966-0_15
+      rect:
+        serializedVersion: 2
+        x: 639
+        y: 19
+        width: 70
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24e5c2676f619e8f0800000000000000
+      internalID: -510851834929455550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      female_martial_artis...-893119966-0_0: 4731060141279761881
+      female_martial_artis...-893119966-0_1: -8690222893738463995
+      female_martial_artis...-893119966-0_10: 3267992883752390821
+      female_martial_artis...-893119966-0_11: -5956291351470817226
+      female_martial_artis...-893119966-0_12: -8987055481203405578
+      female_martial_artis...-893119966-0_13: 5568782919857461827
+      female_martial_artis...-893119966-0_14: 769713940629148383
+      female_martial_artis...-893119966-0_15: -510851834929455550
+      female_martial_artis...-893119966-0_2: 9223166058563062647
+      female_martial_artis...-893119966-0_3: 8825261039556059228
+      female_martial_artis...-893119966-0_4: -802555065770153867
+      female_martial_artis...-893119966-0_5: -1152788167776988670
+      female_martial_artis...-893119966-0_6: -8902058009840547608
+      female_martial_artis...-893119966-0_7: 6758165579477321837
+      female_martial_artis...-893119966-0_8: 6207165444668734125
+      female_martial_artis...-893119966-0_9: 6034357301122000596
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

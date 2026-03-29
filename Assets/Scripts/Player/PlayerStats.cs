@@ -80,11 +80,7 @@ public class PlayerStats : EntityStats
 
     void Awake()
     {
-        characterData = CharacterSelector.GetData();
-        if (CharacterSelector.instance != null)
-        {
-            CharacterSelector.instance.DestroySingleton();
-        }
+        characterData = UICharacterSelector.GetData();
 
         inventory = GetComponent<PlayerInventory>();
         collector = GetComponentInChildren<PlayerCollector>();

@@ -1,0 +1,533 @@
+fileFormatVersion: 2
+guid: 0a63e8fd564428f42967e7947f0f533f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -883781339283421473
+    second: female_mage_with_dar...-697-0_0
+  - first:
+      213: 7861169142790495274
+    second: female_mage_with_dar...-697-0_1
+  - first:
+      213: 5169420171379740373
+    second: female_mage_with_dar...-697-0_2
+  - first:
+      213: 5749314956216930070
+    second: female_mage_with_dar...-697-0_3
+  - first:
+      213: 1166138815049420299
+    second: female_mage_with_dar...-697-0_4
+  - first:
+      213: -7141957259666786111
+    second: female_mage_with_dar...-697-0_5
+  - first:
+      213: -5953859822590301184
+    second: female_mage_with_dar...-697-0_6
+  - first:
+      213: -3977807028976285832
+    second: female_mage_with_dar...-697-0_7
+  - first:
+      213: 287626601134082920
+    second: female_mage_with_dar...-697-0_8
+  - first:
+      213: -283393864023029117
+    second: female_mage_with_dar...-697-0_9
+  - first:
+      213: 1291324936950505221
+    second: female_mage_with_dar...-697-0_10
+  - first:
+      213: 4781560142803832618
+    second: female_mage_with_dar...-697-0_11
+  - first:
+      213: 1801479884592458561
+    second: female_mage_with_dar...-697-0_12
+  - first:
+      213: -2472027275571792893
+    second: female_mage_with_dar...-697-0_13
+  - first:
+      213: 7485886929675634767
+    second: female_mage_with_dar...-697-0_14
+  - first:
+      213: -3791920582996413852
+    second: female_mage_with_dar...-697-0_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: female_mage_with_dar...-697-0_0
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 595
+        width: 78
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd684eced8d2cb3f0800000000000000
+      internalID: -883781339283421473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: female_mage_with_dar...-697-0_1
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 591
+        width: 78
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2c1a436fab781d60800000000000000
+      internalID: 7861169142790495274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: female_mage_with_dar...-697-0_2
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 595
+        width: 78
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5de04d1d1487db740800000000000000
+      internalID: 5169420171379740373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: female_mage_with_dar...-697-0_3
+      rect:
+        serializedVersion: 2
+        x: 631
+        y: 591
+        width: 78
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61f8623dd7ba9cf40800000000000000
+      internalID: 5749314956216930070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: female_mage_with_dar...-697-0_4
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 403
+        width: 74
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0ec0d5e215fe2010800000000000000
+      internalID: 1166138815049420299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: female_mage_with_dar...-697-0_5
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 403
+        width: 78
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c8f98846bba2ec90800000000000000
+      internalID: -7141957259666786111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: female_mage_with_dar...-697-0_6
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 403
+        width: 74
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00ce8084904af5da0800000000000000
+      internalID: -5953859822590301184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: female_mage_with_dar...-697-0_7
+      rect:
+        serializedVersion: 2
+        x: 627
+        y: 403
+        width: 82
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87701dc159dfbc8c0800000000000000
+      internalID: -3977807028976285832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: female_mage_with_dar...-697-0_8
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 211
+        width: 78
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86bcc8caedaddf300800000000000000
+      internalID: 287626601134082920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: female_mage_with_dar...-697-0_9
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 207
+        width: 78
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38ac16b38ce211cf0800000000000000
+      internalID: -283393864023029117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: female_mage_with_dar...-697-0_10
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 211
+        width: 78
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50fd98c3035bbe110800000000000000
+      internalID: 1291324936950505221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: female_mage_with_dar...-697-0_11
+      rect:
+        serializedVersion: 2
+        x: 631
+        y: 207
+        width: 78
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2f0df7bd938b5240800000000000000
+      internalID: 4781560142803832618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: female_mage_with_dar...-697-0_12
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 19
+        width: 70
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14b252f0964200910800000000000000
+      internalID: 1801479884592458561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: female_mage_with_dar...-697-0_13
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 19
+        width: 78
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 304777c4a4891bdd0800000000000000
+      internalID: -2472027275571792893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: female_mage_with_dar...-697-0_14
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 19
+        width: 74
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f484e08208633e760800000000000000
+      internalID: 7485886929675634767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: female_mage_with_dar...-697-0_15
+      rect:
+        serializedVersion: 2
+        x: 635
+        y: 19
+        width: 82
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 462b10af154606bc0800000000000000
+      internalID: -3791920582996413852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      female_mage_with_dar...-697-0_0: -883781339283421473
+      female_mage_with_dar...-697-0_1: 7861169142790495274
+      female_mage_with_dar...-697-0_10: 1291324936950505221
+      female_mage_with_dar...-697-0_11: 4781560142803832618
+      female_mage_with_dar...-697-0_12: 1801479884592458561
+      female_mage_with_dar...-697-0_13: -2472027275571792893
+      female_mage_with_dar...-697-0_14: 7485886929675634767
+      female_mage_with_dar...-697-0_15: -3791920582996413852
+      female_mage_with_dar...-697-0_2: 5169420171379740373
+      female_mage_with_dar...-697-0_3: 5749314956216930070
+      female_mage_with_dar...-697-0_4: 1166138815049420299
+      female_mage_with_dar...-697-0_5: -7141957259666786111
+      female_mage_with_dar...-697-0_6: -5953859822590301184
+      female_mage_with_dar...-697-0_7: -3977807028976285832
+      female_mage_with_dar...-697-0_8: 287626601134082920
+      female_mage_with_dar...-697-0_9: -283393864023029117
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

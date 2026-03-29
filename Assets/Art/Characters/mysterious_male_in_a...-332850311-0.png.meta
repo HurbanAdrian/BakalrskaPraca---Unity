@@ -1,0 +1,533 @@
+fileFormatVersion: 2
+guid: 412bcdb1e0f8d134fbe2e88a2a15e0db
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3392022779738140961
+    second: mysterious_male_in_a...-332850311-0_0
+  - first:
+      213: 6868735034200458606
+    second: mysterious_male_in_a...-332850311-0_1
+  - first:
+      213: -2001233260831772674
+    second: mysterious_male_in_a...-332850311-0_2
+  - first:
+      213: -4717351047163017196
+    second: mysterious_male_in_a...-332850311-0_3
+  - first:
+      213: -1931843832527114475
+    second: mysterious_male_in_a...-332850311-0_4
+  - first:
+      213: 5549636720229987449
+    second: mysterious_male_in_a...-332850311-0_5
+  - first:
+      213: -9004068942288971085
+    second: mysterious_male_in_a...-332850311-0_6
+  - first:
+      213: -1635331196301922176
+    second: mysterious_male_in_a...-332850311-0_7
+  - first:
+      213: 9152507405558944643
+    second: mysterious_male_in_a...-332850311-0_8
+  - first:
+      213: 3182479361954747234
+    second: mysterious_male_in_a...-332850311-0_9
+  - first:
+      213: -4141181245006783615
+    second: mysterious_male_in_a...-332850311-0_10
+  - first:
+      213: 3103969776939173034
+    second: mysterious_male_in_a...-332850311-0_11
+  - first:
+      213: -7548394938404649121
+    second: mysterious_male_in_a...-332850311-0_12
+  - first:
+      213: -631750352211249771
+    second: mysterious_male_in_a...-332850311-0_13
+  - first:
+      213: -6755311054412311769
+    second: mysterious_male_in_a...-332850311-0_14
+  - first:
+      213: -2451348428066896249
+    second: mysterious_male_in_a...-332850311-0_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: mysterious_male_in_a...-332850311-0_0
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 595
+        width: 70
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fdecca7e04d1de0d0800000000000000
+      internalID: -3392022779738140961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mysterious_male_in_a...-332850311-0_1
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 591
+        width: 66
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e658cc91f16a25f50800000000000000
+      internalID: 6868735034200458606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mysterious_male_in_a...-332850311-0_2
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 595
+        width: 70
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: effec67c3f03a34e0800000000000000
+      internalID: -2001233260831772674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mysterious_male_in_a...-332850311-0_3
+      rect:
+        serializedVersion: 2
+        x: 635
+        y: 591
+        width: 66
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4180809573a988eb0800000000000000
+      internalID: -4717351047163017196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mysterious_male_in_a...-332850311-0_4
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 403
+        width: 62
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51f21b80546b035e0800000000000000
+      internalID: -1931843832527114475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mysterious_male_in_a...-332850311-0_5
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 403
+        width: 70
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 974b5cd9135440d40800000000000000
+      internalID: 5549636720229987449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mysterious_male_in_a...-332850311-0_6
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 403
+        width: 62
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ba1db9a00f1b0380800000000000000
+      internalID: -9004068942288971085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mysterious_male_in_a...-332850311-0_7
+      rect:
+        serializedVersion: 2
+        x: 627
+        y: 403
+        width: 78
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0803f4af0f22e49e0800000000000000
+      internalID: -1635331196301922176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mysterious_male_in_a...-332850311-0_8
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 211
+        width: 70
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38319784efc340f70800000000000000
+      internalID: 9152507405558944643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mysterious_male_in_a...-332850311-0_9
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 207
+        width: 62
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26313524e107a2c20800000000000000
+      internalID: 3182479361954747234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mysterious_male_in_a...-332850311-0_10
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 211
+        width: 70
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18b5cdc39919786c0800000000000000
+      internalID: -4141181245006783615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mysterious_male_in_a...-332850311-0_11
+      rect:
+        serializedVersion: 2
+        x: 639
+        y: 207
+        width: 62
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa4020c0114831b20800000000000000
+      internalID: 3103969776939173034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mysterious_male_in_a...-332850311-0_12
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 19
+        width: 62
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f57c800fbc6be3790800000000000000
+      internalID: -7548394938404649121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mysterious_male_in_a...-332850311-0_13
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 19
+        width: 70
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59578bdd6629b37f0800000000000000
+      internalID: -631750352211249771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mysterious_male_in_a...-332850311-0_14
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 19
+        width: 62
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7231c7e13605042a0800000000000000
+      internalID: -6755311054412311769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mysterious_male_in_a...-332850311-0_15
+      rect:
+        serializedVersion: 2
+        x: 639
+        y: 19
+        width: 78
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7864c5ca79f0bfdd0800000000000000
+      internalID: -2451348428066896249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      mysterious_male_in_a...-332850311-0_0: -3392022779738140961
+      mysterious_male_in_a...-332850311-0_1: 6868735034200458606
+      mysterious_male_in_a...-332850311-0_10: -4141181245006783615
+      mysterious_male_in_a...-332850311-0_11: 3103969776939173034
+      mysterious_male_in_a...-332850311-0_12: -7548394938404649121
+      mysterious_male_in_a...-332850311-0_13: -631750352211249771
+      mysterious_male_in_a...-332850311-0_14: -6755311054412311769
+      mysterious_male_in_a...-332850311-0_15: -2451348428066896249
+      mysterious_male_in_a...-332850311-0_2: -2001233260831772674
+      mysterious_male_in_a...-332850311-0_3: -4717351047163017196
+      mysterious_male_in_a...-332850311-0_4: -1931843832527114475
+      mysterious_male_in_a...-332850311-0_5: 5549636720229987449
+      mysterious_male_in_a...-332850311-0_6: -9004068942288971085
+      mysterious_male_in_a...-332850311-0_7: -1635331196301922176
+      mysterious_male_in_a...-332850311-0_8: 9152507405558944643
+      mysterious_male_in_a...-332850311-0_9: 3182479361954747234
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,533 @@
+fileFormatVersion: 2
+guid: 170a0530335cbf24c9809dfaba95c982
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4579852684366527335
+    second: female_dryad_assassi...-196058660-0_0
+  - first:
+      213: -28589477543424556
+    second: female_dryad_assassi...-196058660-0_1
+  - first:
+      213: 1906917709802535482
+    second: female_dryad_assassi...-196058660-0_2
+  - first:
+      213: 2372276818899345415
+    second: female_dryad_assassi...-196058660-0_3
+  - first:
+      213: -786172234487672318
+    second: female_dryad_assassi...-196058660-0_4
+  - first:
+      213: -7889552992221471967
+    second: female_dryad_assassi...-196058660-0_5
+  - first:
+      213: -2435570383155888526
+    second: female_dryad_assassi...-196058660-0_6
+  - first:
+      213: -2453306918563708677
+    second: female_dryad_assassi...-196058660-0_7
+  - first:
+      213: -3517839660031010003
+    second: female_dryad_assassi...-196058660-0_8
+  - first:
+      213: -667422156981146496
+    second: female_dryad_assassi...-196058660-0_9
+  - first:
+      213: -7066476537374564914
+    second: female_dryad_assassi...-196058660-0_10
+  - first:
+      213: -5193631188005985231
+    second: female_dryad_assassi...-196058660-0_11
+  - first:
+      213: -9147525299071871123
+    second: female_dryad_assassi...-196058660-0_12
+  - first:
+      213: -3058406244467070770
+    second: female_dryad_assassi...-196058660-0_13
+  - first:
+      213: 7806630691279165301
+    second: female_dryad_assassi...-196058660-0_14
+  - first:
+      213: -380833677905926568
+    second: female_dryad_assassi...-196058660-0_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: female_dryad_assassi...-196058660-0_0
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 595
+        width: 74
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76b394750c7ee8f30800000000000000
+      internalID: 4579852684366527335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: female_dryad_assassi...-196058660-0_1
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 591
+        width: 74
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ddc5ba850e6a9ff0800000000000000
+      internalID: -28589477543424556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: female_dryad_assassi...-196058660-0_2
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 595
+        width: 74
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3a7ea4cd8bb67a10800000000000000
+      internalID: 1906917709802535482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: female_dryad_assassi...-196058660-0_3
+      rect:
+        serializedVersion: 2
+        x: 635
+        y: 591
+        width: 74
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 700a36ba2350ce020800000000000000
+      internalID: 2372276818899345415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: female_dryad_assassi...-196058660-0_4
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 403
+        width: 78
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 202561f9484f615f0800000000000000
+      internalID: -786172234487672318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: female_dryad_assassi...-196058660-0_5
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 403
+        width: 78
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12bd40eaa5da28290800000000000000
+      internalID: -7889552992221471967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: female_dryad_assassi...-196058660-0_6
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 403
+        width: 78
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27ef78604ad133ed0800000000000000
+      internalID: -2435570383155888526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: female_dryad_assassi...-196058660-0_7
+      rect:
+        serializedVersion: 2
+        x: 627
+        y: 403
+        width: 78
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf080021b5a14fdd0800000000000000
+      internalID: -2453306918563708677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: female_dryad_assassi...-196058660-0_8
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 211
+        width: 78
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2b121fa77f1e2fc0800000000000000
+      internalID: -3517839660031010003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: female_dryad_assassi...-196058660-0_9
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 207
+        width: 74
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08ce9e99517dcb6f0800000000000000
+      internalID: -667422156981146496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: female_dryad_assassi...-196058660-0_10
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 211
+        width: 78
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ecd18207705deed90800000000000000
+      internalID: -7066476537374564914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: female_dryad_assassi...-196058660-0_11
+      rect:
+        serializedVersion: 2
+        x: 639
+        y: 207
+        width: 70
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 134638893f38ce7b0800000000000000
+      internalID: -5193631188005985231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: female_dryad_assassi...-196058660-0_12
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 19
+        width: 78
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d671ce6c4367d0180800000000000000
+      internalID: -9147525299071871123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: female_dryad_assassi...-196058660-0_13
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 19
+        width: 78
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec824bb89bb5e85d0800000000000000
+      internalID: -3058406244467070770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: female_dryad_assassi...-196058660-0_14
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 19
+        width: 78
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5775b5e9049b65c60800000000000000
+      internalID: 7806630691279165301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: female_dryad_assassi...-196058660-0_15
+      rect:
+        serializedVersion: 2
+        x: 639
+        y: 19
+        width: 78
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85669e5a9c107baf0800000000000000
+      internalID: -380833677905926568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      female_dryad_assassi...-196058660-0_0: 4579852684366527335
+      female_dryad_assassi...-196058660-0_1: -28589477543424556
+      female_dryad_assassi...-196058660-0_10: -7066476537374564914
+      female_dryad_assassi...-196058660-0_11: -5193631188005985231
+      female_dryad_assassi...-196058660-0_12: -9147525299071871123
+      female_dryad_assassi...-196058660-0_13: -3058406244467070770
+      female_dryad_assassi...-196058660-0_14: 7806630691279165301
+      female_dryad_assassi...-196058660-0_15: -380833677905926568
+      female_dryad_assassi...-196058660-0_2: 1906917709802535482
+      female_dryad_assassi...-196058660-0_3: 2372276818899345415
+      female_dryad_assassi...-196058660-0_4: -786172234487672318
+      female_dryad_assassi...-196058660-0_5: -7889552992221471967
+      female_dryad_assassi...-196058660-0_6: -2435570383155888526
+      female_dryad_assassi...-196058660-0_7: -2453306918563708677
+      female_dryad_assassi...-196058660-0_8: -3517839660031010003
+      female_dryad_assassi...-196058660-0_9: -667422156981146496
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

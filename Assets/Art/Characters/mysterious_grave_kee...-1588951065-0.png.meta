@@ -1,0 +1,533 @@
+fileFormatVersion: 2
+guid: 18ea2436af3720a44aa75dc3783d8cdc
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 9074885057071575134
+    second: mysterious_grave_kee...-1588951065-0_0
+  - first:
+      213: -4974468252415685324
+    second: mysterious_grave_kee...-1588951065-0_1
+  - first:
+      213: -1938674955387262179
+    second: mysterious_grave_kee...-1588951065-0_2
+  - first:
+      213: 6680175112579658001
+    second: mysterious_grave_kee...-1588951065-0_3
+  - first:
+      213: 8577382982188244238
+    second: mysterious_grave_kee...-1588951065-0_4
+  - first:
+      213: -7068730157159222203
+    second: mysterious_grave_kee...-1588951065-0_5
+  - first:
+      213: 3313273712780519015
+    second: mysterious_grave_kee...-1588951065-0_6
+  - first:
+      213: 8695064815052191406
+    second: mysterious_grave_kee...-1588951065-0_7
+  - first:
+      213: -7774358069861368133
+    second: mysterious_grave_kee...-1588951065-0_8
+  - first:
+      213: -5521327225001564167
+    second: mysterious_grave_kee...-1588951065-0_9
+  - first:
+      213: 6283190639656022684
+    second: mysterious_grave_kee...-1588951065-0_10
+  - first:
+      213: 7110617959965190522
+    second: mysterious_grave_kee...-1588951065-0_11
+  - first:
+      213: 2418079204071247092
+    second: mysterious_grave_kee...-1588951065-0_12
+  - first:
+      213: -4842171112491942024
+    second: mysterious_grave_kee...-1588951065-0_13
+  - first:
+      213: -2347721888648943339
+    second: mysterious_grave_kee...-1588951065-0_14
+  - first:
+      213: -3228772501778904208
+    second: mysterious_grave_kee...-1588951065-0_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: mysterious_grave_kee...-1588951065-0_0
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 595
+        width: 86
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e50704ce0e770fd70800000000000000
+      internalID: 9074885057071575134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mysterious_grave_kee...-1588951065-0_1
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 591
+        width: 70
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43d0e44fa7327fab0800000000000000
+      internalID: -4974468252415685324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mysterious_grave_kee...-1588951065-0_2
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 595
+        width: 86
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1b223d46617815e0800000000000000
+      internalID: -1938674955387262179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mysterious_grave_kee...-1588951065-0_3
+      rect:
+        serializedVersion: 2
+        x: 635
+        y: 591
+        width: 74
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11137be2fdfb4bc50800000000000000
+      internalID: 6680175112579658001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mysterious_grave_kee...-1588951065-0_4
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 403
+        width: 58
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0d9fcb906cf80770800000000000000
+      internalID: 8577382982188244238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mysterious_grave_kee...-1588951065-0_5
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 403
+        width: 66
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 544fe61bf53d6ed90800000000000000
+      internalID: -7068730157159222203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mysterious_grave_kee...-1588951065-0_6
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 403
+        width: 62
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7662ce523ec1bfd20800000000000000
+      internalID: 3313273712780519015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mysterious_grave_kee...-1588951065-0_7
+      rect:
+        serializedVersion: 2
+        x: 627
+        y: 403
+        width: 78
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea6fe2081631ba870800000000000000
+      internalID: 8695064815052191406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mysterious_grave_kee...-1588951065-0_8
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 211
+        width: 86
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bbeb839968eeb1490800000000000000
+      internalID: -7774358069861368133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mysterious_grave_kee...-1588951065-0_9
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 207
+        width: 70
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f7a611642e4063b0800000000000000
+      internalID: -5521327225001564167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mysterious_grave_kee...-1588951065-0_10
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 211
+        width: 86
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c92b1c4d890623750800000000000000
+      internalID: 6283190639656022684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mysterious_grave_kee...-1588951065-0_11
+      rect:
+        serializedVersion: 2
+        x: 631
+        y: 207
+        width: 70
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a79ec356c5dfda260800000000000000
+      internalID: 7110617959965190522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mysterious_grave_kee...-1588951065-0_12
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 19
+        width: 62
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4fc0d6d793ebe8120800000000000000
+      internalID: 2418079204071247092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mysterious_grave_kee...-1588951065-0_13
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 19
+        width: 66
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87f724237072dccb0800000000000000
+      internalID: -4842171112491942024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mysterious_grave_kee...-1588951065-0_14
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 19
+        width: 62
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 519abab81673b6fd0800000000000000
+      internalID: -2347721888648943339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mysterious_grave_kee...-1588951065-0_15
+      rect:
+        serializedVersion: 2
+        x: 639
+        y: 19
+        width: 78
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07b4be234881133d0800000000000000
+      internalID: -3228772501778904208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      mysterious_grave_kee...-1588951065-0_0: 9074885057071575134
+      mysterious_grave_kee...-1588951065-0_1: -4974468252415685324
+      mysterious_grave_kee...-1588951065-0_10: 6283190639656022684
+      mysterious_grave_kee...-1588951065-0_11: 7110617959965190522
+      mysterious_grave_kee...-1588951065-0_12: 2418079204071247092
+      mysterious_grave_kee...-1588951065-0_13: -4842171112491942024
+      mysterious_grave_kee...-1588951065-0_14: -2347721888648943339
+      mysterious_grave_kee...-1588951065-0_15: -3228772501778904208
+      mysterious_grave_kee...-1588951065-0_2: -1938674955387262179
+      mysterious_grave_kee...-1588951065-0_3: 6680175112579658001
+      mysterious_grave_kee...-1588951065-0_4: 8577382982188244238
+      mysterious_grave_kee...-1588951065-0_5: -7068730157159222203
+      mysterious_grave_kee...-1588951065-0_6: 3313273712780519015
+      mysterious_grave_kee...-1588951065-0_7: 8695064815052191406
+      mysterious_grave_kee...-1588951065-0_8: -7774358069861368133
+      mysterious_grave_kee...-1588951065-0_9: -5521327225001564167
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

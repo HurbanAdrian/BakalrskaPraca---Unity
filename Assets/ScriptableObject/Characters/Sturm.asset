@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: efd64e0688633374cb69e64236dad287, type: 3}
+  m_Name: Sturm
+  m_EditorClassIdentifier: Assembly-CSharp::CharacterData
+  icon: {fileID: 665293433842901031, guid: 9c95c6fe87d65f9429d88e497ad6fc74, type: 3}
+  controller: {fileID: 22100000, guid: 7a434fdd6969f114987531da0f51c420, type: 2}
+  name: Sturm
+  fullName: Linza Sturm
+  characterDescription: "A top-tier scholar from the Arcane University. She doesn\u2019t
+    just cast spells; she calculates the exact trajectory of every devastating bolt
+    that strikes from the heavens."
+  startingWeapon: {fileID: 11400000, guid: 0415dc4983280c84388a4a5de6fb2822, type: 2}
+  stats:
+    maxHealth: 100
+    recovery: 0
+    armor: 0
+    moveSpeed: 1
+    might: 1
+    area: 1.3
+    speed: 1
+    duration: 1
+    amount: 0
+    cooldown: 0.9
+    expGain: 1
+    luck: 1
+    growth: 1
+    greed: 1
+    curse: 1
+    magnet: 0
+    revival: 0

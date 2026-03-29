@@ -1,0 +1,533 @@
+fileFormatVersion: 2
+guid: b37869fe5a74113418d3f89c0f88d191
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7917198307073411676
+    second: A_soft_eyed_female_a...-1567370427-0_0
+  - first:
+      213: -3262364210745101088
+    second: A_soft_eyed_female_a...-1567370427-0_1
+  - first:
+      213: -1773213360057316825
+    second: A_soft_eyed_female_a...-1567370427-0_2
+  - first:
+      213: -8837748229876168511
+    second: A_soft_eyed_female_a...-1567370427-0_3
+  - first:
+      213: -8300462706675541649
+    second: A_soft_eyed_female_a...-1567370427-0_4
+  - first:
+      213: -7998816141891326901
+    second: A_soft_eyed_female_a...-1567370427-0_5
+  - first:
+      213: -5107356743902484862
+    second: A_soft_eyed_female_a...-1567370427-0_6
+  - first:
+      213: 4106649195983836360
+    second: A_soft_eyed_female_a...-1567370427-0_7
+  - first:
+      213: -7118139455537524535
+    second: A_soft_eyed_female_a...-1567370427-0_8
+  - first:
+      213: 7633290975423425581
+    second: A_soft_eyed_female_a...-1567370427-0_9
+  - first:
+      213: 2121662821225263132
+    second: A_soft_eyed_female_a...-1567370427-0_10
+  - first:
+      213: -5691481919923651488
+    second: A_soft_eyed_female_a...-1567370427-0_11
+  - first:
+      213: 9091820189197345197
+    second: A_soft_eyed_female_a...-1567370427-0_12
+  - first:
+      213: -7115891537718620912
+    second: A_soft_eyed_female_a...-1567370427-0_13
+  - first:
+      213: 1773882224460415514
+    second: A_soft_eyed_female_a...-1567370427-0_14
+  - first:
+      213: 5160825561883808538
+    second: A_soft_eyed_female_a...-1567370427-0_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: A_soft_eyed_female_a...-1567370427-0_0
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 595
+        width: 78
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a5b09a3616702290800000000000000
+      internalID: -7917198307073411676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A_soft_eyed_female_a...-1567370427-0_1
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 591
+        width: 74
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e4379af801c9b2d0800000000000000
+      internalID: -3262364210745101088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A_soft_eyed_female_a...-1567370427-0_2
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 595
+        width: 78
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72a8eca08d74467e0800000000000000
+      internalID: -1773213360057316825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A_soft_eyed_female_a...-1567370427-0_3
+      rect:
+        serializedVersion: 2
+        x: 631
+        y: 591
+        width: 78
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c8c4ef2fc20a5580800000000000000
+      internalID: -8837748229876168511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A_soft_eyed_female_a...-1567370427-0_4
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 403
+        width: 74
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f691a316525decc80800000000000000
+      internalID: -8300462706675541649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A_soft_eyed_female_a...-1567370427-0_5
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 403
+        width: 78
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4c28e6391f7ef090800000000000000
+      internalID: -7998816141891326901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A_soft_eyed_female_a...-1567370427-0_6
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 403
+        width: 74
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2862f72f9160f19b0800000000000000
+      internalID: -5107356743902484862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A_soft_eyed_female_a...-1567370427-0_7
+      rect:
+        serializedVersion: 2
+        x: 631
+        y: 403
+        width: 78
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c492cf8fafbdf830800000000000000
+      internalID: 4106649195983836360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A_soft_eyed_female_a...-1567370427-0_8
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 211
+        width: 78
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c05ef2f0e9473d90800000000000000
+      internalID: -7118139455537524535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A_soft_eyed_female_a...-1567370427-0_9
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 207
+        width: 78
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2cee4103b5eee960800000000000000
+      internalID: 7633290975423425581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A_soft_eyed_female_a...-1567370427-0_10
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 211
+        width: 78
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c10f8484819a17d10800000000000000
+      internalID: 2121662821225263132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A_soft_eyed_female_a...-1567370427-0_11
+      rect:
+        serializedVersion: 2
+        x: 635
+        y: 207
+        width: 74
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06c746d395bc301b0800000000000000
+      internalID: -5691481919923651488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A_soft_eyed_female_a...-1567370427-0_12
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 19
+        width: 74
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da125d2aa42ac2e70800000000000000
+      internalID: 9091820189197345197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A_soft_eyed_female_a...-1567370427-0_13
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 19
+        width: 82
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01dc21a19564f3d90800000000000000
+      internalID: -7115891537718620912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A_soft_eyed_female_a...-1567370427-0_14
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 19
+        width: 74
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a12c7561c781e9810800000000000000
+      internalID: 1773882224460415514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A_soft_eyed_female_a...-1567370427-0_15
+      rect:
+        serializedVersion: 2
+        x: 635
+        y: 19
+        width: 78
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1317db518fee9740800000000000000
+      internalID: 5160825561883808538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      A_soft_eyed_female_a...-1567370427-0_0: -7917198307073411676
+      A_soft_eyed_female_a...-1567370427-0_1: -3262364210745101088
+      A_soft_eyed_female_a...-1567370427-0_10: 2121662821225263132
+      A_soft_eyed_female_a...-1567370427-0_11: -5691481919923651488
+      A_soft_eyed_female_a...-1567370427-0_12: 9091820189197345197
+      A_soft_eyed_female_a...-1567370427-0_13: -7115891537718620912
+      A_soft_eyed_female_a...-1567370427-0_14: 1773882224460415514
+      A_soft_eyed_female_a...-1567370427-0_15: 5160825561883808538
+      A_soft_eyed_female_a...-1567370427-0_2: -1773213360057316825
+      A_soft_eyed_female_a...-1567370427-0_3: -8837748229876168511
+      A_soft_eyed_female_a...-1567370427-0_4: -8300462706675541649
+      A_soft_eyed_female_a...-1567370427-0_5: -7998816141891326901
+      A_soft_eyed_female_a...-1567370427-0_6: -5107356743902484862
+      A_soft_eyed_female_a...-1567370427-0_7: 4106649195983836360
+      A_soft_eyed_female_a...-1567370427-0_8: -7118139455537524535
+      A_soft_eyed_female_a...-1567370427-0_9: 7633290975423425581
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,533 @@
+fileFormatVersion: 2
+guid: 970aa4ccd95e23845ae7a833002d77b8
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3753267999578944420
+    second: female_mage_with_wit...-1851316857-0_0
+  - first:
+      213: -7639563388511184590
+    second: female_mage_with_wit...-1851316857-0_1
+  - first:
+      213: -8486677345607944078
+    second: female_mage_with_wit...-1851316857-0_2
+  - first:
+      213: 5585830366285853240
+    second: female_mage_with_wit...-1851316857-0_3
+  - first:
+      213: -1472780133679890257
+    second: female_mage_with_wit...-1851316857-0_4
+  - first:
+      213: -6505523004281793598
+    second: female_mage_with_wit...-1851316857-0_5
+  - first:
+      213: -7155060944846413146
+    second: female_mage_with_wit...-1851316857-0_6
+  - first:
+      213: -5572090428701997818
+    second: female_mage_with_wit...-1851316857-0_7
+  - first:
+      213: -8420103747936793926
+    second: female_mage_with_wit...-1851316857-0_8
+  - first:
+      213: -2840825658909008183
+    second: female_mage_with_wit...-1851316857-0_9
+  - first:
+      213: 6108982044486323561
+    second: female_mage_with_wit...-1851316857-0_10
+  - first:
+      213: -100323285151084209
+    second: female_mage_with_wit...-1851316857-0_11
+  - first:
+      213: 6888820157116312832
+    second: female_mage_with_wit...-1851316857-0_12
+  - first:
+      213: 5134392853642045026
+    second: female_mage_with_wit...-1851316857-0_13
+  - first:
+      213: -774683284263304509
+    second: female_mage_with_wit...-1851316857-0_14
+  - first:
+      213: -4860209650415691398
+    second: female_mage_with_wit...-1851316857-0_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: female_mage_with_wit...-1851316857-0_0
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 595
+        width: 102
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a37eb52c59461430800000000000000
+      internalID: 3753267999578944420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: female_mage_with_wit...-1851316857-0_1
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 591
+        width: 98
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23916b40391daf590800000000000000
+      internalID: -7639563388511184590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: female_mage_with_wit...-1851316857-0_2
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 595
+        width: 102
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 278fea32be3493a80800000000000000
+      internalID: -8486677345607944078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: female_mage_with_wit...-1851316857-0_3
+      rect:
+        serializedVersion: 2
+        x: 623
+        y: 591
+        width: 98
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 832fe068f1bd48d40800000000000000
+      internalID: 5585830366285853240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: female_mage_with_wit...-1851316857-0_4
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 403
+        width: 94
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa002c38542af8be0800000000000000
+      internalID: -1472780133679890257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: female_mage_with_wit...-1851316857-0_5
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 403
+        width: 94
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c3d6ab9b4db7b5a0800000000000000
+      internalID: -6505523004281793598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: female_mage_with_wit...-1851316857-0_6
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 403
+        width: 94
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a2a824dafd14bc90800000000000000
+      internalID: -7155060944846413146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: female_mage_with_wit...-1851316857-0_7
+      rect:
+        serializedVersion: 2
+        x: 627
+        y: 403
+        width: 94
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6050ddcf645fba2b0800000000000000
+      internalID: -5572090428701997818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: female_mage_with_wit...-1851316857-0_8
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 207
+        width: 98
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: abaca4cb048c52b80800000000000000
+      internalID: -8420103747936793926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: female_mage_with_wit...-1851316857-0_9
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 207
+        width: 98
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ced9e35d1c5398d0800000000000000
+      internalID: -2840825658909008183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: female_mage_with_wit...-1851316857-0_10
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 207
+        width: 98
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96dc8dc7dc677c450800000000000000
+      internalID: 6108982044486323561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: female_mage_with_wit...-1851316857-0_11
+      rect:
+        serializedVersion: 2
+        x: 623
+        y: 207
+        width: 98
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f419ed1f0849b9ef0800000000000000
+      internalID: -100323285151084209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: female_mage_with_wit...-1851316857-0_12
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 19
+        width: 94
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00de7723f610a9f50800000000000000
+      internalID: 6888820157116312832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: female_mage_with_wit...-1851316857-0_13
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 19
+        width: 94
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26663a2e817014740800000000000000
+      internalID: 5134392853642045026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: female_mage_with_wit...-1851316857-0_14
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 19
+        width: 94
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c28d0c48a5cf35f0800000000000000
+      internalID: -774683284263304509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: female_mage_with_wit...-1851316857-0_15
+      rect:
+        serializedVersion: 2
+        x: 623
+        y: 19
+        width: 94
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a791c0dc2111d8cb0800000000000000
+      internalID: -4860209650415691398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      female_mage_with_wit...-1851316857-0_0: 3753267999578944420
+      female_mage_with_wit...-1851316857-0_1: -7639563388511184590
+      female_mage_with_wit...-1851316857-0_10: 6108982044486323561
+      female_mage_with_wit...-1851316857-0_11: -100323285151084209
+      female_mage_with_wit...-1851316857-0_12: 6888820157116312832
+      female_mage_with_wit...-1851316857-0_13: 5134392853642045026
+      female_mage_with_wit...-1851316857-0_14: -774683284263304509
+      female_mage_with_wit...-1851316857-0_15: -4860209650415691398
+      female_mage_with_wit...-1851316857-0_2: -8486677345607944078
+      female_mage_with_wit...-1851316857-0_3: 5585830366285853240
+      female_mage_with_wit...-1851316857-0_4: -1472780133679890257
+      female_mage_with_wit...-1851316857-0_5: -6505523004281793598
+      female_mage_with_wit...-1851316857-0_6: -7155060944846413146
+      female_mage_with_wit...-1851316857-0_7: -5572090428701997818
+      female_mage_with_wit...-1851316857-0_8: -8420103747936793926
+      female_mage_with_wit...-1851316857-0_9: -2840825658909008183
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

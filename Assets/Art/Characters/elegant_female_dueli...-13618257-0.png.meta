@@ -1,0 +1,533 @@
+fileFormatVersion: 2
+guid: 08ac3a9036a53f147be4f81776154ce0
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1830821959973852115
+    second: elegant_female_dueli...-13618257-0_0
+  - first:
+      213: 7080011058755025585
+    second: elegant_female_dueli...-13618257-0_1
+  - first:
+      213: 4762538883729297394
+    second: elegant_female_dueli...-13618257-0_2
+  - first:
+      213: -7420077691676491588
+    second: elegant_female_dueli...-13618257-0_3
+  - first:
+      213: 381644995466589346
+    second: elegant_female_dueli...-13618257-0_4
+  - first:
+      213: -8693382402884637501
+    second: elegant_female_dueli...-13618257-0_5
+  - first:
+      213: -3620250105512798894
+    second: elegant_female_dueli...-13618257-0_6
+  - first:
+      213: -8020773683010367076
+    second: elegant_female_dueli...-13618257-0_7
+  - first:
+      213: 2307819580529671529
+    second: elegant_female_dueli...-13618257-0_8
+  - first:
+      213: -2322869415475471352
+    second: elegant_female_dueli...-13618257-0_9
+  - first:
+      213: -8355474817636506670
+    second: elegant_female_dueli...-13618257-0_10
+  - first:
+      213: -2658946331644727708
+    second: elegant_female_dueli...-13618257-0_11
+  - first:
+      213: 2262564265894304180
+    second: elegant_female_dueli...-13618257-0_12
+  - first:
+      213: -9023528148670552035
+    second: elegant_female_dueli...-13618257-0_13
+  - first:
+      213: 2835847357430045170
+    second: elegant_female_dueli...-13618257-0_14
+  - first:
+      213: 4080338177849791211
+    second: elegant_female_dueli...-13618257-0_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: elegant_female_dueli...-13618257-0_0
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 595
+        width: 78
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d3d93b5fd2686910800000000000000
+      internalID: 1830821959973852115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elegant_female_dueli...-13618257-0_1
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 591
+        width: 78
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ba3ee2eb80414260800000000000000
+      internalID: 7080011058755025585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elegant_female_dueli...-13618257-0_2
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 595
+        width: 74
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ff8ba9b1efe71240800000000000000
+      internalID: 4762538883729297394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elegant_female_dueli...-13618257-0_3
+      rect:
+        serializedVersion: 2
+        x: 631
+        y: 591
+        width: 78
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb082d517a6960990800000000000000
+      internalID: -7420077691676491588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elegant_female_dueli...-13618257-0_4
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 403
+        width: 74
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a47711f910eb4500800000000000000
+      internalID: 381644995466589346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elegant_female_dueli...-13618257-0_5
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 403
+        width: 74
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3cced6b93c6ea5780800000000000000
+      internalID: -8693382402884637501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elegant_female_dueli...-13618257-0_6
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 403
+        width: 74
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 255d6deb5b942cdc0800000000000000
+      internalID: -3620250105512798894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elegant_female_dueli...-13618257-0_7
+      rect:
+        serializedVersion: 2
+        x: 631
+        y: 403
+        width: 74
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c919d58c4dc70b090800000000000000
+      internalID: -8020773683010367076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elegant_female_dueli...-13618257-0_8
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 211
+        width: 78
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96d792f5ea5070020800000000000000
+      internalID: 2307819580529671529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elegant_female_dueli...-13618257-0_9
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 207
+        width: 78
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80c17fed29283cfd0800000000000000
+      internalID: -2322869415475471352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elegant_female_dueli...-13618257-0_10
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 211
+        width: 78
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d3ed0d2ce36b0c80800000000000000
+      internalID: -8355474817636506670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elegant_female_dueli...-13618257-0_11
+      rect:
+        serializedVersion: 2
+        x: 631
+        y: 207
+        width: 78
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46eec792666891bd0800000000000000
+      internalID: -2658946331644727708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elegant_female_dueli...-13618257-0_12
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 19
+        width: 74
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b95f16563e366f10800000000000000
+      internalID: 2262564265894304180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elegant_female_dueli...-13618257-0_13
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 19
+        width: 74
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d18e0cd15fcf5c280800000000000000
+      internalID: -9023528148670552035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elegant_female_dueli...-13618257-0_14
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 19
+        width: 74
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f919d88524fa5720800000000000000
+      internalID: 2835847357430045170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elegant_female_dueli...-13618257-0_15
+      rect:
+        serializedVersion: 2
+        x: 639
+        y: 19
+        width: 74
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be2933644f540a830800000000000000
+      internalID: 4080338177849791211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      elegant_female_dueli...-13618257-0_0: 1830821959973852115
+      elegant_female_dueli...-13618257-0_1: 7080011058755025585
+      elegant_female_dueli...-13618257-0_10: -8355474817636506670
+      elegant_female_dueli...-13618257-0_11: -2658946331644727708
+      elegant_female_dueli...-13618257-0_12: 2262564265894304180
+      elegant_female_dueli...-13618257-0_13: -9023528148670552035
+      elegant_female_dueli...-13618257-0_14: 2835847357430045170
+      elegant_female_dueli...-13618257-0_15: 4080338177849791211
+      elegant_female_dueli...-13618257-0_2: 4762538883729297394
+      elegant_female_dueli...-13618257-0_3: -7420077691676491588
+      elegant_female_dueli...-13618257-0_4: 381644995466589346
+      elegant_female_dueli...-13618257-0_5: -8693382402884637501
+      elegant_female_dueli...-13618257-0_6: -3620250105512798894
+      elegant_female_dueli...-13618257-0_7: -8020773683010367076
+      elegant_female_dueli...-13618257-0_8: 2307819580529671529
+      elegant_female_dueli...-13618257-0_9: -2322869415475471352
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

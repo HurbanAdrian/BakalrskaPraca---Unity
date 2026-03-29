@@ -1,0 +1,533 @@
+fileFormatVersion: 2
+guid: 9612f9eb7b3299e489e29bb02a5bb482
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3399225667296186901
+    second: four_armed_celestial...-1609016888-0_0
+  - first:
+      213: 8757094954282506836
+    second: four_armed_celestial...-1609016888-0_1
+  - first:
+      213: -4940767060926442686
+    second: four_armed_celestial...-1609016888-0_2
+  - first:
+      213: 3454206585863770242
+    second: four_armed_celestial...-1609016888-0_3
+  - first:
+      213: -689249797985864231
+    second: four_armed_celestial...-1609016888-0_4
+  - first:
+      213: 4993452318681099899
+    second: four_armed_celestial...-1609016888-0_5
+  - first:
+      213: 3059095831452392963
+    second: four_armed_celestial...-1609016888-0_6
+  - first:
+      213: 1005686146265149598
+    second: four_armed_celestial...-1609016888-0_7
+  - first:
+      213: -6688116742416323374
+    second: four_armed_celestial...-1609016888-0_8
+  - first:
+      213: -334660204996655146
+    second: four_armed_celestial...-1609016888-0_9
+  - first:
+      213: -6198234505520101702
+    second: four_armed_celestial...-1609016888-0_10
+  - first:
+      213: 1840532561286873081
+    second: four_armed_celestial...-1609016888-0_11
+  - first:
+      213: -7291683307270203575
+    second: four_armed_celestial...-1609016888-0_12
+  - first:
+      213: 3540345995065753452
+    second: four_armed_celestial...-1609016888-0_13
+  - first:
+      213: -5222187074544999495
+    second: four_armed_celestial...-1609016888-0_14
+  - first:
+      213: 8224487291037682932
+    second: four_armed_celestial...-1609016888-0_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: four_armed_celestial...-1609016888-0_0
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 599
+        width: 70
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bedab65f34683d0d0800000000000000
+      internalID: -3399225667296186901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: four_armed_celestial...-1609016888-0_1
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 591
+        width: 70
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45adf5eb673778970800000000000000
+      internalID: 8757094954282506836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: four_armed_celestial...-1609016888-0_2
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 599
+        width: 70
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 243578f098ede6bb0800000000000000
+      internalID: -4940767060926442686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: four_armed_celestial...-1609016888-0_3
+      rect:
+        serializedVersion: 2
+        x: 635
+        y: 591
+        width: 70
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2809933b69ecfef20800000000000000
+      internalID: 3454206585863770242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: four_armed_celestial...-1609016888-0_4
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 407
+        width: 58
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d5fa85e5fa4f66f0800000000000000
+      internalID: -689249797985864231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: four_armed_celestial...-1609016888-0_5
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 407
+        width: 70
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7e66d96d6e4c4540800000000000000
+      internalID: 4993452318681099899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: four_armed_celestial...-1609016888-0_6
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 407
+        width: 62
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30e199f6377147a20800000000000000
+      internalID: 3059095831452392963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: four_armed_celestial...-1609016888-0_7
+      rect:
+        serializedVersion: 2
+        x: 635
+        y: 403
+        width: 66
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e907aafb83ae4fd00800000000000000
+      internalID: 1005686146265149598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: four_armed_celestial...-1609016888-0_8
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 215
+        width: 70
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2dcaee702490f23a0800000000000000
+      internalID: -6688116742416323374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: four_armed_celestial...-1609016888-0_9
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 211
+        width: 66
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d707b0115c0b5bf0800000000000000
+      internalID: -334660204996655146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: four_armed_celestial...-1609016888-0_10
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 215
+        width: 70
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab6c7ef8e827bf9a0800000000000000
+      internalID: -6198234505520101702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: four_armed_celestial...-1609016888-0_11
+      rect:
+        serializedVersion: 2
+        x: 639
+        y: 211
+        width: 66
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ff3b09ec92ea8910800000000000000
+      internalID: 1840532561286873081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: four_armed_celestial...-1609016888-0_12
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 23
+        width: 58
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 947938f3aacbeca90800000000000000
+      internalID: -7291683307270203575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: four_armed_celestial...-1609016888-0_13
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 19
+        width: 70
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6ffed9cce5d12130800000000000000
+      internalID: 3540345995065753452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: four_armed_celestial...-1609016888-0_14
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 23
+        width: 62
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b3eb1726801787b0800000000000000
+      internalID: -5222187074544999495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: four_armed_celestial...-1609016888-0_15
+      rect:
+        serializedVersion: 2
+        x: 639
+        y: 19
+        width: 70
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4fc0402bd9f332270800000000000000
+      internalID: 8224487291037682932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      four_armed_celestial...-1609016888-0_0: -3399225667296186901
+      four_armed_celestial...-1609016888-0_1: 8757094954282506836
+      four_armed_celestial...-1609016888-0_10: -6198234505520101702
+      four_armed_celestial...-1609016888-0_11: 1840532561286873081
+      four_armed_celestial...-1609016888-0_12: -7291683307270203575
+      four_armed_celestial...-1609016888-0_13: 3540345995065753452
+      four_armed_celestial...-1609016888-0_14: -5222187074544999495
+      four_armed_celestial...-1609016888-0_15: 8224487291037682932
+      four_armed_celestial...-1609016888-0_2: -4940767060926442686
+      four_armed_celestial...-1609016888-0_3: 3454206585863770242
+      four_armed_celestial...-1609016888-0_4: -689249797985864231
+      four_armed_celestial...-1609016888-0_5: 4993452318681099899
+      four_armed_celestial...-1609016888-0_6: 3059095831452392963
+      four_armed_celestial...-1609016888-0_7: 1005686146265149598
+      four_armed_celestial...-1609016888-0_8: -6688116742416323374
+      four_armed_celestial...-1609016888-0_9: -334660204996655146
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

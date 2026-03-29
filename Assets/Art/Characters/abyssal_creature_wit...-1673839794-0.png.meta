@@ -1,0 +1,533 @@
+fileFormatVersion: 2
+guid: d929abe679da8e54db12922b699badb7
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5310788707746426340
+    second: abyssal_creature_wit...-1673839794-0_0
+  - first:
+      213: 1626839770267237983
+    second: abyssal_creature_wit...-1673839794-0_1
+  - first:
+      213: -5845284297223992729
+    second: abyssal_creature_wit...-1673839794-0_2
+  - first:
+      213: 2122771672282080398
+    second: abyssal_creature_wit...-1673839794-0_3
+  - first:
+      213: -1052716486252791820
+    second: abyssal_creature_wit...-1673839794-0_4
+  - first:
+      213: -5422555775230061887
+    second: abyssal_creature_wit...-1673839794-0_5
+  - first:
+      213: 5482134342397714265
+    second: abyssal_creature_wit...-1673839794-0_6
+  - first:
+      213: -4401953937501932737
+    second: abyssal_creature_wit...-1673839794-0_7
+  - first:
+      213: 4788902562903556919
+    second: abyssal_creature_wit...-1673839794-0_8
+  - first:
+      213: 4541664579619866290
+    second: abyssal_creature_wit...-1673839794-0_9
+  - first:
+      213: 3825946136090317963
+    second: abyssal_creature_wit...-1673839794-0_10
+  - first:
+      213: 7882984356689697555
+    second: abyssal_creature_wit...-1673839794-0_11
+  - first:
+      213: 3019307947293183000
+    second: abyssal_creature_wit...-1673839794-0_12
+  - first:
+      213: 4810409358152479983
+    second: abyssal_creature_wit...-1673839794-0_13
+  - first:
+      213: 2006828654348103145
+    second: abyssal_creature_wit...-1673839794-0_14
+  - first:
+      213: 16618475992018606
+    second: abyssal_creature_wit...-1673839794-0_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: abyssal_creature_wit...-1673839794-0_0
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 595
+        width: 98
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c125e9ddec94c46b0800000000000000
+      internalID: -5310788707746426340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abyssal_creature_wit...-1673839794-0_1
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 591
+        width: 90
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5eb145d622b39610800000000000000
+      internalID: 1626839770267237983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abyssal_creature_wit...-1673839794-0_2
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 595
+        width: 98
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76a8bccb6e061eea0800000000000000
+      internalID: -5845284297223992729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abyssal_creature_wit...-1673839794-0_3
+      rect:
+        serializedVersion: 2
+        x: 631
+        y: 591
+        width: 82
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e84a2a9c699957d10800000000000000
+      internalID: 2122771672282080398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abyssal_creature_wit...-1673839794-0_4
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 403
+        width: 70
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f774bbeeeff361f0800000000000000
+      internalID: -1052716486252791820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abyssal_creature_wit...-1673839794-0_5
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 403
+        width: 70
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c25baa90463fb4b0800000000000000
+      internalID: -5422555775230061887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abyssal_creature_wit...-1673839794-0_6
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 403
+        width: 70
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95fd5998324741c40800000000000000
+      internalID: 5482134342397714265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abyssal_creature_wit...-1673839794-0_7
+      rect:
+        serializedVersion: 2
+        x: 627
+        y: 403
+        width: 86
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f33b095673e19e2c0800000000000000
+      internalID: -4401953937501932737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abyssal_creature_wit...-1673839794-0_8
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 211
+        width: 102
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73303dd1289957240800000000000000
+      internalID: 4788902562903556919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abyssal_creature_wit...-1673839794-0_9
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 207
+        width: 82
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b647355fdb370f30800000000000000
+      internalID: 4541664579619866290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abyssal_creature_wit...-1673839794-0_10
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 211
+        width: 102
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8411737dbd781530800000000000000
+      internalID: 3825946136090317963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abyssal_creature_wit...-1673839794-0_11
+      rect:
+        serializedVersion: 2
+        x: 619
+        y: 207
+        width: 90
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31b537ea18cf56d60800000000000000
+      internalID: 7882984356689697555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abyssal_creature_wit...-1673839794-0_12
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 19
+        width: 66
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81c8ce1c49cb6e920800000000000000
+      internalID: 3019307947293183000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abyssal_creature_wit...-1673839794-0_13
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 19
+        width: 70
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe4b4e813d102c240800000000000000
+      internalID: 4810409358152479983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abyssal_creature_wit...-1673839794-0_14
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 19
+        width: 70
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ed6e7b4700b9db10800000000000000
+      internalID: 2006828654348103145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abyssal_creature_wit...-1673839794-0_15
+      rect:
+        serializedVersion: 2
+        x: 631
+        y: 19
+        width: 86
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eae66367a6a0b3000800000000000000
+      internalID: 16618475992018606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      abyssal_creature_wit...-1673839794-0_0: -5310788707746426340
+      abyssal_creature_wit...-1673839794-0_1: 1626839770267237983
+      abyssal_creature_wit...-1673839794-0_10: 3825946136090317963
+      abyssal_creature_wit...-1673839794-0_11: 7882984356689697555
+      abyssal_creature_wit...-1673839794-0_12: 3019307947293183000
+      abyssal_creature_wit...-1673839794-0_13: 4810409358152479983
+      abyssal_creature_wit...-1673839794-0_14: 2006828654348103145
+      abyssal_creature_wit...-1673839794-0_15: 16618475992018606
+      abyssal_creature_wit...-1673839794-0_2: -5845284297223992729
+      abyssal_creature_wit...-1673839794-0_3: 2122771672282080398
+      abyssal_creature_wit...-1673839794-0_4: -1052716486252791820
+      abyssal_creature_wit...-1673839794-0_5: -5422555775230061887
+      abyssal_creature_wit...-1673839794-0_6: 5482134342397714265
+      abyssal_creature_wit...-1673839794-0_7: -4401953937501932737
+      abyssal_creature_wit...-1673839794-0_8: 4788902562903556919
+      abyssal_creature_wit...-1673839794-0_9: 4541664579619866290
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

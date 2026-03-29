@@ -6,6 +6,7 @@ using TMPro;
 public class UIStatsDisplay : MonoBehaviour
 {
     public PlayerStats player; // Hráè, ktorého štatistiky toto rozhranie vykres¾uje.
+    public CharacterData character;
     public bool displayCurrentHealth = false;
     public bool updateInEditor = false;
     TextMeshProUGUI statNames, statValues;
@@ -24,9 +25,18 @@ public class UIStatsDisplay : MonoBehaviour
         }
     }
 
+    public CharacterData.Stats GetDisplayedStats()
+    {
+        // Vráti štatistiky hráèa v hernej scéne. V scéne výberu postavy vráti štatistiky postavy, pretože tam nie je priradená premenná 'player'.
+        if (player) return player.Stats;
+        else if (character) return character.stats;
+
+        return new CharacterData.Stats();
+    }
+
     public void UpdateStatFields()
     {
-        if (!player) return;
+        if (!player && !character) return;
 
         // Získaj referenciu na oba textové objekty pre vykreslenie názvov a hodnôt štatistík.
         if (!statNames) statNames = transform.GetChild(0).GetComponent<TextMeshProUGUI>();
@@ -37,7 +47,7 @@ public class UIStatsDisplay : MonoBehaviour
         StringBuilder values = new StringBuilder();
 
         // Pridaj aktuálne zdravie do okna štatistík.
-        if (displayCurrentHealth)
+        if (displayCurrentHealth && player != null)
         {
             names.AppendLine("Health");
             values.AppendLine(player.CurrentHealth.ToString());
@@ -51,7 +61,7 @@ public class UIStatsDisplay : MonoBehaviour
             names.AppendLine(field.Name);
 
             // Získaj hodnotu štatistiky.
-            object val = field.GetValue(player.Stats);
+            object val = field.GetValue(GetDisplayedStats());
             float fval = val is int ? (int)val : (float)val;
 
             // Vypíš to ako percento, ak má priradený atribút a je to typ float.

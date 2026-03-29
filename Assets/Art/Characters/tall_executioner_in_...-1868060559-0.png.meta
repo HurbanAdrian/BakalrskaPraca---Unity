@@ -1,0 +1,533 @@
+fileFormatVersion: 2
+guid: bb3b50048e463ff4ba46778a1d1276d5
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7941263191634410453
+    second: tall_executioner_in_...-1868060559-0_0
+  - first:
+      213: -4333806749124541762
+    second: tall_executioner_in_...-1868060559-0_1
+  - first:
+      213: -5493889772852498063
+    second: tall_executioner_in_...-1868060559-0_2
+  - first:
+      213: 1928540212986745785
+    second: tall_executioner_in_...-1868060559-0_3
+  - first:
+      213: -1864031941101516272
+    second: tall_executioner_in_...-1868060559-0_4
+  - first:
+      213: -1144970054162121332
+    second: tall_executioner_in_...-1868060559-0_5
+  - first:
+      213: 5043537109632945248
+    second: tall_executioner_in_...-1868060559-0_6
+  - first:
+      213: 2363678726458003418
+    second: tall_executioner_in_...-1868060559-0_7
+  - first:
+      213: -7078121892552260541
+    second: tall_executioner_in_...-1868060559-0_8
+  - first:
+      213: -4924175090990582993
+    second: tall_executioner_in_...-1868060559-0_9
+  - first:
+      213: 4301896068455008466
+    second: tall_executioner_in_...-1868060559-0_10
+  - first:
+      213: 5260610383945988069
+    second: tall_executioner_in_...-1868060559-0_11
+  - first:
+      213: -3865891069920003065
+    second: tall_executioner_in_...-1868060559-0_12
+  - first:
+      213: 813809527464547604
+    second: tall_executioner_in_...-1868060559-0_13
+  - first:
+      213: 7863747147607340195
+    second: tall_executioner_in_...-1868060559-0_14
+  - first:
+      213: -5132996344709978296
+    second: tall_executioner_in_...-1868060559-0_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: tall_executioner_in_...-1868060559-0_0
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 595
+        width: 78
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5dbf0455cc8053e60800000000000000
+      internalID: 7941263191634410453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tall_executioner_in_...-1868060559-0_1
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 591
+        width: 74
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb2cd3129b93bd3c0800000000000000
+      internalID: -4333806749124541762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tall_executioner_in_...-1868060559-0_2
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 595
+        width: 78
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 171b9f50c58c1c3b0800000000000000
+      internalID: -5493889772852498063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tall_executioner_in_...-1868060559-0_3
+      rect:
+        serializedVersion: 2
+        x: 635
+        y: 591
+        width: 70
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b3912a1b1d83ca10800000000000000
+      internalID: 1928540212986745785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tall_executioner_in_...-1868060559-0_4
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 403
+        width: 58
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01a89ac53d0a126e0800000000000000
+      internalID: -1864031941101516272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tall_executioner_in_...-1868060559-0_5
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 403
+        width: 74
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8df4335dcf3c10f0800000000000000
+      internalID: -1144970054162121332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tall_executioner_in_...-1868060559-0_6
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 403
+        width: 62
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06c0c27874e3ef540800000000000000
+      internalID: 5043537109632945248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tall_executioner_in_...-1868060559-0_7
+      rect:
+        serializedVersion: 2
+        x: 635
+        y: 403
+        width: 74
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: adf4da547497dc020800000000000000
+      internalID: 2363678726458003418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tall_executioner_in_...-1868060559-0_8
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 211
+        width: 74
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 344c185e3a575cd90800000000000000
+      internalID: -7078121892552260541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tall_executioner_in_...-1868060559-0_9
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 207
+        width: 70
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f23fda918d0d9abb0800000000000000
+      internalID: -4924175090990582993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tall_executioner_in_...-1868060559-0_10
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 211
+        width: 78
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d809ec8ea763bb30800000000000000
+      internalID: 4301896068455008466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tall_executioner_in_...-1868060559-0_11
+      rect:
+        serializedVersion: 2
+        x: 631
+        y: 207
+        width: 74
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e7f4d4b541710940800000000000000
+      internalID: 5260610383945988069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tall_executioner_in_...-1868060559-0_12
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 19
+        width: 62
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70c3015ed88995ac0800000000000000
+      internalID: -3865891069920003065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tall_executioner_in_...-1868060559-0_13
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 19
+        width: 74
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4155a57147b3b4b00800000000000000
+      internalID: 813809527464547604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tall_executioner_in_...-1868060559-0_14
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 19
+        width: 62
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a470a8ed54a12d60800000000000000
+      internalID: 7863747147607340195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tall_executioner_in_...-1868060559-0_15
+      rect:
+        serializedVersion: 2
+        x: 635
+        y: 19
+        width: 74
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 847ee20350fe3c8b0800000000000000
+      internalID: -5132996344709978296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      tall_executioner_in_...-1868060559-0_0: 7941263191634410453
+      tall_executioner_in_...-1868060559-0_1: -4333806749124541762
+      tall_executioner_in_...-1868060559-0_10: 4301896068455008466
+      tall_executioner_in_...-1868060559-0_11: 5260610383945988069
+      tall_executioner_in_...-1868060559-0_12: -3865891069920003065
+      tall_executioner_in_...-1868060559-0_13: 813809527464547604
+      tall_executioner_in_...-1868060559-0_14: 7863747147607340195
+      tall_executioner_in_...-1868060559-0_15: -5132996344709978296
+      tall_executioner_in_...-1868060559-0_2: -5493889772852498063
+      tall_executioner_in_...-1868060559-0_3: 1928540212986745785
+      tall_executioner_in_...-1868060559-0_4: -1864031941101516272
+      tall_executioner_in_...-1868060559-0_5: -1144970054162121332
+      tall_executioner_in_...-1868060559-0_6: 5043537109632945248
+      tall_executioner_in_...-1868060559-0_7: 2363678726458003418
+      tall_executioner_in_...-1868060559-0_8: -7078121892552260541
+      tall_executioner_in_...-1868060559-0_9: -4924175090990582993
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

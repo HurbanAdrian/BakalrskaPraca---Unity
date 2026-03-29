@@ -15,9 +15,12 @@ MonoBehaviour:
   icon: {fileID: -3295141935683125962, guid: 1a73c8254ae9e1246b5444bbf7f5de07, type: 3}
   controller: {fileID: 22100000, guid: 3d1309561d8f7cb4daa898ac4a705554, type: 2}
   name: Schwert
+  fullName: Ermenrich Schwert
+  characterDescription: A shadow unseen, until it's too late. From the cover of darkness,
+    he rains down steel with lethal precision.
   startingWeapon: {fileID: 11400000, guid: 012ee86752c48c444a628d250c074c6e, type: 2}
   stats:
-    maxHealth: 100
+    maxHealth: 110
     recovery: 0
     armor: 0
     moveSpeed: 1
@@ -25,7 +28,7 @@ MonoBehaviour:
     area: 1
     speed: 1
     duration: 1
-    amount: 0
+    amount: 1
     cooldown: 1
     expGain: 1
     luck: 1

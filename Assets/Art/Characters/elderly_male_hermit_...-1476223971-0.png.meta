@@ -1,0 +1,533 @@
+fileFormatVersion: 2
+guid: 5ab8985503dc8714e86c813036780386
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7112267718310632476
+    second: elderly_male_hermit_...-1476223971-0_0
+  - first:
+      213: -6223446315531331026
+    second: elderly_male_hermit_...-1476223971-0_1
+  - first:
+      213: 4710035613898070020
+    second: elderly_male_hermit_...-1476223971-0_2
+  - first:
+      213: 7030899581250472331
+    second: elderly_male_hermit_...-1476223971-0_3
+  - first:
+      213: 3699127040898183227
+    second: elderly_male_hermit_...-1476223971-0_4
+  - first:
+      213: -3678990309079182701
+    second: elderly_male_hermit_...-1476223971-0_5
+  - first:
+      213: -6482693446252978928
+    second: elderly_male_hermit_...-1476223971-0_6
+  - first:
+      213: 5751007295467081228
+    second: elderly_male_hermit_...-1476223971-0_7
+  - first:
+      213: 4839403824174308698
+    second: elderly_male_hermit_...-1476223971-0_8
+  - first:
+      213: -9051891769952557557
+    second: elderly_male_hermit_...-1476223971-0_9
+  - first:
+      213: -4187900052948064382
+    second: elderly_male_hermit_...-1476223971-0_10
+  - first:
+      213: 6806142858676412424
+    second: elderly_male_hermit_...-1476223971-0_11
+  - first:
+      213: 7131460112459866347
+    second: elderly_male_hermit_...-1476223971-0_12
+  - first:
+      213: 8807612462621859668
+    second: elderly_male_hermit_...-1476223971-0_13
+  - first:
+      213: 3934694835390286308
+    second: elderly_male_hermit_...-1476223971-0_14
+  - first:
+      213: 3882423114150197843
+    second: elderly_male_hermit_...-1476223971-0_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: elderly_male_hermit_...-1476223971-0_0
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 595
+        width: 94
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1c1261bec9d3b260800000000000000
+      internalID: 7112267718310632476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elderly_male_hermit_...-1476223971-0_1
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 591
+        width: 82
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2a9a0c9c80e1a9a0800000000000000
+      internalID: -6223446315531331026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elderly_male_hermit_...-1476223971-0_2
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 595
+        width: 94
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40855dd9f686d5140800000000000000
+      internalID: 4710035613898070020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elderly_male_hermit_...-1476223971-0_3
+      rect:
+        serializedVersion: 2
+        x: 619
+        y: 591
+        width: 90
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8980e7fae5c29160800000000000000
+      internalID: 7030899581250472331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elderly_male_hermit_...-1476223971-0_4
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 403
+        width: 70
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3037c3e170f55330800000000000000
+      internalID: 3699127040898183227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elderly_male_hermit_...-1476223971-0_5
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 407
+        width: 74
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3921b375ec991fcc0800000000000000
+      internalID: -3678990309079182701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elderly_male_hermit_...-1476223971-0_6
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 403
+        width: 70
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01d965c48a8d806a0800000000000000
+      internalID: -6482693446252978928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elderly_male_hermit_...-1476223971-0_7
+      rect:
+        serializedVersion: 2
+        x: 623
+        y: 403
+        width: 86
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0ecef24aaeafcf40800000000000000
+      internalID: 5751007295467081228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elderly_male_hermit_...-1476223971-0_8
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 211
+        width: 86
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5d93984324092340800000000000000
+      internalID: 4839403824174308698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elderly_male_hermit_...-1476223971-0_9
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 207
+        width: 78
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0622bae468316280800000000000000
+      internalID: -9051891769952557557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elderly_male_hermit_...-1476223971-0_10
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 211
+        width: 86
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 287e03d171791e5c0800000000000000
+      internalID: -4187900052948064382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elderly_male_hermit_...-1476223971-0_11
+      rect:
+        serializedVersion: 2
+        x: 627
+        y: 207
+        width: 82
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80028f59ed6447e50800000000000000
+      internalID: 6806142858676412424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elderly_male_hermit_...-1476223971-0_12
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 19
+        width: 74
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be0a90d203908f260800000000000000
+      internalID: 7131460112459866347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elderly_male_hermit_...-1476223971-0_13
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 19
+        width: 74
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45f11e9bedcea3a70800000000000000
+      internalID: 8807612462621859668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elderly_male_hermit_...-1476223971-0_14
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 19
+        width: 74
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e9800b1b18da9630800000000000000
+      internalID: 3934694835390286308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elderly_male_hermit_...-1476223971-0_15
+      rect:
+        serializedVersion: 2
+        x: 635
+        y: 19
+        width: 86
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35a30ba904321e530800000000000000
+      internalID: 3882423114150197843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      elderly_male_hermit_...-1476223971-0_0: 7112267718310632476
+      elderly_male_hermit_...-1476223971-0_1: -6223446315531331026
+      elderly_male_hermit_...-1476223971-0_10: -4187900052948064382
+      elderly_male_hermit_...-1476223971-0_11: 6806142858676412424
+      elderly_male_hermit_...-1476223971-0_12: 7131460112459866347
+      elderly_male_hermit_...-1476223971-0_13: 8807612462621859668
+      elderly_male_hermit_...-1476223971-0_14: 3934694835390286308
+      elderly_male_hermit_...-1476223971-0_15: 3882423114150197843
+      elderly_male_hermit_...-1476223971-0_2: 4710035613898070020
+      elderly_male_hermit_...-1476223971-0_3: 7030899581250472331
+      elderly_male_hermit_...-1476223971-0_4: 3699127040898183227
+      elderly_male_hermit_...-1476223971-0_5: -3678990309079182701
+      elderly_male_hermit_...-1476223971-0_6: -6482693446252978928
+      elderly_male_hermit_...-1476223971-0_7: 5751007295467081228
+      elderly_male_hermit_...-1476223971-0_8: 4839403824174308698
+      elderly_male_hermit_...-1476223971-0_9: -9051891769952557557
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

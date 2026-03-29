@@ -1,0 +1,533 @@
+fileFormatVersion: 2
+guid: 726d809ea3ba86a44b6b163ea7c2a5a8
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2768040729855701204
+    second: bulky_male_knight_in...-1785800567-0_0
+  - first:
+      213: 3849236135116342159
+    second: bulky_male_knight_in...-1785800567-0_1
+  - first:
+      213: -6349488140305394701
+    second: bulky_male_knight_in...-1785800567-0_2
+  - first:
+      213: 5797602335408752910
+    second: bulky_male_knight_in...-1785800567-0_3
+  - first:
+      213: 2736211530580796532
+    second: bulky_male_knight_in...-1785800567-0_4
+  - first:
+      213: 7404078986675972473
+    second: bulky_male_knight_in...-1785800567-0_5
+  - first:
+      213: -1119623617075862963
+    second: bulky_male_knight_in...-1785800567-0_6
+  - first:
+      213: -819831426291118056
+    second: bulky_male_knight_in...-1785800567-0_7
+  - first:
+      213: -5064440137003231744
+    second: bulky_male_knight_in...-1785800567-0_8
+  - first:
+      213: 3270402942813876093
+    second: bulky_male_knight_in...-1785800567-0_9
+  - first:
+      213: -8120029511364163974
+    second: bulky_male_knight_in...-1785800567-0_10
+  - first:
+      213: 744519990196039034
+    second: bulky_male_knight_in...-1785800567-0_11
+  - first:
+      213: -7709948983230545386
+    second: bulky_male_knight_in...-1785800567-0_12
+  - first:
+      213: -4961655207783174786
+    second: bulky_male_knight_in...-1785800567-0_13
+  - first:
+      213: -9018235918158133815
+    second: bulky_male_knight_in...-1785800567-0_14
+  - first:
+      213: 6290813125147665298
+    second: bulky_male_knight_in...-1785800567-0_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: bulky_male_knight_in...-1785800567-0_0
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 595
+        width: 78
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2f43253f91f599d0800000000000000
+      internalID: -2768040729855701204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulky_male_knight_in...-1785800567-0_1
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 591
+        width: 70
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f83053aeedb3b6530800000000000000
+      internalID: 3849236135116342159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulky_male_knight_in...-1785800567-0_2
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 595
+        width: 78
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f39a8b6d2612e7a0800000000000000
+      internalID: -6349488140305394701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulky_male_knight_in...-1785800567-0_3
+      rect:
+        serializedVersion: 2
+        x: 635
+        y: 591
+        width: 70
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0983076b98357050800000000000000
+      internalID: 5797602335408752910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulky_male_knight_in...-1785800567-0_4
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 403
+        width: 66
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 474a896d3e9f8f520800000000000000
+      internalID: 2736211530580796532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulky_male_knight_in...-1785800567-0_5
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 403
+        width: 70
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97961c12c9290c660800000000000000
+      internalID: 7404078986675972473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulky_male_knight_in...-1785800567-0_6
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 403
+        width: 70
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d422e06904c4670f0800000000000000
+      internalID: -1119623617075862963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulky_male_knight_in...-1785800567-0_7
+      rect:
+        serializedVersion: 2
+        x: 627
+        y: 403
+        width: 78
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 810573459af5f94f0800000000000000
+      internalID: -819831426291118056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulky_male_knight_in...-1785800567-0_8
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 211
+        width: 78
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00611b7278e77b9b0800000000000000
+      internalID: -5064440137003231744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulky_male_knight_in...-1785800567-0_9
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 207
+        width: 70
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7f20de262ec26d20800000000000000
+      internalID: 3270402942813876093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulky_male_knight_in...-1785800567-0_10
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 211
+        width: 78
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7643716e2cdf4f80800000000000000
+      internalID: -8120029511364163974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulky_male_knight_in...-1785800567-0_11
+      rect:
+        serializedVersion: 2
+        x: 635
+        y: 207
+        width: 74
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7defc78cf0155a00800000000000000
+      internalID: 744519990196039034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulky_male_knight_in...-1785800567-0_12
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 19
+        width: 70
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 612c822bf32c00590800000000000000
+      internalID: -7709948983230545386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulky_male_knight_in...-1785800567-0_13
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 19
+        width: 70
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7ded1260e8a42bb0800000000000000
+      internalID: -4961655207783174786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulky_male_knight_in...-1785800567-0_14
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 19
+        width: 70
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c5048d863ac8d280800000000000000
+      internalID: -9018235918158133815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulky_male_knight_in...-1785800567-0_15
+      rect:
+        serializedVersion: 2
+        x: 639
+        y: 19
+        width: 78
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 293aac805357d4750800000000000000
+      internalID: 6290813125147665298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      bulky_male_knight_in...-1785800567-0_0: -2768040729855701204
+      bulky_male_knight_in...-1785800567-0_1: 3849236135116342159
+      bulky_male_knight_in...-1785800567-0_10: -8120029511364163974
+      bulky_male_knight_in...-1785800567-0_11: 744519990196039034
+      bulky_male_knight_in...-1785800567-0_12: -7709948983230545386
+      bulky_male_knight_in...-1785800567-0_13: -4961655207783174786
+      bulky_male_knight_in...-1785800567-0_14: -9018235918158133815
+      bulky_male_knight_in...-1785800567-0_15: 6290813125147665298
+      bulky_male_knight_in...-1785800567-0_2: -6349488140305394701
+      bulky_male_knight_in...-1785800567-0_3: 5797602335408752910
+      bulky_male_knight_in...-1785800567-0_4: 2736211530580796532
+      bulky_male_knight_in...-1785800567-0_5: 7404078986675972473
+      bulky_male_knight_in...-1785800567-0_6: -1119623617075862963
+      bulky_male_knight_in...-1785800567-0_7: -819831426291118056
+      bulky_male_knight_in...-1785800567-0_8: -5064440137003231744
+      bulky_male_knight_in...-1785800567-0_9: 3270402942813876093
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

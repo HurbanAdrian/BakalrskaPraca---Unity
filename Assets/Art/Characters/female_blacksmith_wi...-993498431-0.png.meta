@@ -1,0 +1,533 @@
+fileFormatVersion: 2
+guid: ef7995be8a2283a48b6c8eb9398ffd94
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3694421077876308372
+    second: female_blacksmith_wi...-993498431-0_0
+  - first:
+      213: 7522883757180345990
+    second: female_blacksmith_wi...-993498431-0_1
+  - first:
+      213: -6198326550139620211
+    second: female_blacksmith_wi...-993498431-0_2
+  - first:
+      213: -2076773886035958531
+    second: female_blacksmith_wi...-993498431-0_3
+  - first:
+      213: -924798561367963474
+    second: female_blacksmith_wi...-993498431-0_4
+  - first:
+      213: -3152987045558364700
+    second: female_blacksmith_wi...-993498431-0_5
+  - first:
+      213: -5976000172347559421
+    second: female_blacksmith_wi...-993498431-0_6
+  - first:
+      213: 6739622650767157771
+    second: female_blacksmith_wi...-993498431-0_7
+  - first:
+      213: -5928553408776358113
+    second: female_blacksmith_wi...-993498431-0_8
+  - first:
+      213: 2355818593804555275
+    second: female_blacksmith_wi...-993498431-0_9
+  - first:
+      213: -3498149476192692958
+    second: female_blacksmith_wi...-993498431-0_10
+  - first:
+      213: 7370060575107474900
+    second: female_blacksmith_wi...-993498431-0_11
+  - first:
+      213: 6174839574374872184
+    second: female_blacksmith_wi...-993498431-0_12
+  - first:
+      213: -4504943320581198419
+    second: female_blacksmith_wi...-993498431-0_13
+  - first:
+      213: -1382558678876388826
+    second: female_blacksmith_wi...-993498431-0_14
+  - first:
+      213: 634409612571408893
+    second: female_blacksmith_wi...-993498431-0_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: female_blacksmith_wi...-993498431-0_0
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 595
+        width: 98
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 499788d7568354330800000000000000
+      internalID: 3694421077876308372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: female_blacksmith_wi...-993498431-0_1
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 591
+        width: 86
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68e5a415be6a66860800000000000000
+      internalID: 7522883757180345990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: female_blacksmith_wi...-993498431-0_2
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 595
+        width: 102
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d843e01c7de1bf9a0800000000000000
+      internalID: -6198326550139620211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: female_blacksmith_wi...-993498431-0_3
+      rect:
+        serializedVersion: 2
+        x: 619
+        y: 591
+        width: 94
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df4e4046721dd23e0800000000000000
+      internalID: -2076773886035958531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: female_blacksmith_wi...-993498431-0_4
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 403
+        width: 90
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea8ced4bb947a23f0800000000000000
+      internalID: -924798561367963474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: female_blacksmith_wi...-993498431-0_5
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 403
+        width: 90
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e5d510ccf65e34d0800000000000000
+      internalID: -3152987045558364700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: female_blacksmith_wi...-993498431-0_6
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 403
+        width: 90
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 302fc85618bf01da0800000000000000
+      internalID: -5976000172347559421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: female_blacksmith_wi...-993498431-0_7
+      rect:
+        serializedVersion: 2
+        x: 619
+        y: 403
+        width: 90
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0a2723c713f78d50800000000000000
+      internalID: 6739622650767157771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: female_blacksmith_wi...-993498431-0_8
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 211
+        width: 98
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1734f5e51c89bda0800000000000000
+      internalID: -5928553408776358113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: female_blacksmith_wi...-993498431-0_9
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 207
+        width: 94
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b041bf6878c81b020800000000000000
+      internalID: 2355818593804555275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: female_blacksmith_wi...-993498431-0_10
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 211
+        width: 98
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 225d05cd593147fc0800000000000000
+      internalID: -3498149476192692958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: female_blacksmith_wi...-993498431-0_11
+      rect:
+        serializedVersion: 2
+        x: 623
+        y: 207
+        width: 94
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d564687b07b74660800000000000000
+      internalID: 7370060575107474900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: female_blacksmith_wi...-993498431-0_12
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 19
+        width: 86
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87473af80ef61b550800000000000000
+      internalID: 6174839574374872184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: female_blacksmith_wi...-993498431-0_13
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 19
+        width: 90
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dad2d7b0be93b71c0800000000000000
+      internalID: -4504943320581198419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: female_blacksmith_wi...-993498431-0_14
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 19
+        width: 90
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6228078e43a20dce0800000000000000
+      internalID: -1382558678876388826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: female_blacksmith_wi...-993498431-0_15
+      rect:
+        serializedVersion: 2
+        x: 635
+        y: 19
+        width: 90
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df9796f6e20edc800800000000000000
+      internalID: 634409612571408893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      female_blacksmith_wi...-993498431-0_0: 3694421077876308372
+      female_blacksmith_wi...-993498431-0_1: 7522883757180345990
+      female_blacksmith_wi...-993498431-0_10: -3498149476192692958
+      female_blacksmith_wi...-993498431-0_11: 7370060575107474900
+      female_blacksmith_wi...-993498431-0_12: 6174839574374872184
+      female_blacksmith_wi...-993498431-0_13: -4504943320581198419
+      female_blacksmith_wi...-993498431-0_14: -1382558678876388826
+      female_blacksmith_wi...-993498431-0_15: 634409612571408893
+      female_blacksmith_wi...-993498431-0_2: -6198326550139620211
+      female_blacksmith_wi...-993498431-0_3: -2076773886035958531
+      female_blacksmith_wi...-993498431-0_4: -924798561367963474
+      female_blacksmith_wi...-993498431-0_5: -3152987045558364700
+      female_blacksmith_wi...-993498431-0_6: -5976000172347559421
+      female_blacksmith_wi...-993498431-0_7: 6739622650767157771
+      female_blacksmith_wi...-993498431-0_8: -5928553408776358113
+      female_blacksmith_wi...-993498431-0_9: 2355818593804555275
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
