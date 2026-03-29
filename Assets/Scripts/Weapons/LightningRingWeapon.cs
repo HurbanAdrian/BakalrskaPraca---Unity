@@ -92,7 +92,11 @@ public class LightningRingWeapon : ProjectileWeapon
         foreach (Collider2D t in targets)
         {
             EnemyStats es = t.GetComponent<EnemyStats>();
-            if (es) es.TakeDamage(damage, transform.position);
+            if (es)
+            {
+                es.TakeDamage(damage, transform.position);
+                ApplyBuffs(es);
+            }
         }
     }
 }

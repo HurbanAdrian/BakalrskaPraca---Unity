@@ -21,6 +21,8 @@ public abstract class Weapon : Item
         public float damage, damageVariance, area, speed, cooldown, projectileInterval, knockback;
         public int number, piercing, maxInstances;
 
+        public EntityStats.BuffInfo[] appliedBuffs;
+
         // Dovoli nam pouzit + operator na zlucenie 2 statov dokopy
         public static Stats operator +(Stats s1, Stats s2)
         {
@@ -43,6 +45,7 @@ public abstract class Weapon : Item
             result.piercing = s1.piercing + s2.piercing;
             result.projectileInterval = s1.projectileInterval + s2.projectileInterval;
             result.knockback = s1.knockback + s2.knockback;
+            result.appliedBuffs = s2.appliedBuffs == null || s2.appliedBuffs.Length <= 0 ? s1.appliedBuffs : s2.appliedBuffs; ;
 
             return result;
         }
@@ -95,6 +98,7 @@ public abstract class Weapon : Item
 
     public virtual bool CanAttack()
     {
+        if (Mathf.Approximately(owner.Stats.might, 0)) return false;
         return currentCooldown <= 0f;
     }
 
@@ -139,5 +143,15 @@ public abstract class Weapon : Item
 
         return true;
     }
+
+    // Zabezpeèí, aby zbraò aplikovala svoje buffy na zasiahnutý objekt typu EntityStats.
+    public void ApplyBuffs(EntityStats e)
+    {
+        foreach (EntityStats.BuffInfo b in GetStats().appliedBuffs)
+        {
+            e.ApplyBuff(b, owner.Actual.duration);
+        }
+    }
+
 
 }

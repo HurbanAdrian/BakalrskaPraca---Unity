@@ -44,6 +44,8 @@ public class Aura : WeaponEffect
                     affectedTargets[pair.Key] = stats.cooldown * Owner.Stats.cooldown;
                     pair.Key.TakeDamage(GetDamage(), transform.position, stats.knockback);
 
+                    weapon.ApplyBuffs(pair.Key);
+
                     // Ak mame hitEffect tak ho spustit
                     if (stats.hitEffect)
                     {
