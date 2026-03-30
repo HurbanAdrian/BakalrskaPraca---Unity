@@ -147,6 +147,9 @@ public abstract class Weapon : Item
     // Zabezpeèí, aby zbraò aplikovala svoje buffy na zasiahnutý objekt typu EntityStats.
     public void ApplyBuffs(EntityStats e)
     {
+        if (GetStats().appliedBuffs == null || GetStats().appliedBuffs.Length == 0)
+            return;
+
         foreach (EntityStats.BuffInfo b in GetStats().appliedBuffs)
         {
             e.ApplyBuff(b, owner.Actual.duration);

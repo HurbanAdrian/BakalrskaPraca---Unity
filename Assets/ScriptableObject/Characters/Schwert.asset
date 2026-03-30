@@ -18,7 +18,7 @@ MonoBehaviour:
   fullName: Ermenrich Schwert
   characterDescription: A shadow unseen, until it's too late. From the cover of darkness,
     he rains down steel with lethal precision.
-  startingWeapon: {fileID: 11400000, guid: 012ee86752c48c444a628d250c074c6e, type: 2}
+  startingWeapon: {fileID: 11400000, guid: 9c4bb462de0a2604e871653e858d7ff6, type: 2}
   stats:
     maxHealth: 110
     recovery: 0

@@ -151,7 +151,7 @@ public class PlayerStats : EntityStats
         // Premenná na uloženie všetkých kumulatívnych hodnôt násobiteľov
         CharacterData.Stats multiplier = new CharacterData.Stats
         {
-            maxHealth = 1f, recovery = 1f, armor = 1f, moveSpeed = 1f,
+            maxHealth = 1f, recovery = 1f, armor = 1f, moveSpeed = 1f, expGain = 1f,
             might = 1f, area = 1f, speed = 1f, duration = 1f, amount = 1, cooldown = 1f,
             luck = 1f, growth = 1f, greed = 1f, curse = 1f, magnet = 1f, revival = 1
         };

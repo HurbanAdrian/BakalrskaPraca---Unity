@@ -103,6 +103,8 @@ public class EnemyStats : EntityStats
     public float deathFadeTime = 0.6f;
     EnemyMovement movement;
 
+    bool isDead = false;
+
     public static int count;
 
     protected override void Start()
@@ -238,6 +240,8 @@ public class EnemyStats : EntityStats
 
     IEnumerator KillFade()
     {
+        if (sprite == null) yield break;
+
         // Èaká na koniec jedného snímku.
         WaitForEndOfFrame w = new WaitForEndOfFrame();
         float t = 0, origAlpha = sprite.color.a;
@@ -246,6 +250,8 @@ public class EnemyStats : EntityStats
         {
             yield return w;
             t += Time.deltaTime;
+
+            if (sprite == null) yield break;
 
             // Postupne znižujeme alfa kanál smerom k nule.
             sprite.color = new Color(
@@ -261,6 +267,9 @@ public class EnemyStats : EntityStats
 
     public override void Kill()
     {
+        if (isDead) return;
+        isDead = true;
+
         // Aktivaovanie Dropov
         DropRateManager drops = GetComponent<DropRateManager>();
         if (drops) drops.active = true;

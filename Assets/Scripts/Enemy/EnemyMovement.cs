@@ -20,6 +20,14 @@ public class EnemyMovement : Sortable
     protected SpriteRenderer spriteRenderer;
     protected Rigidbody2D rb;
 
+    [Header("Obstacle Avoidance")]
+    [Tooltip("Vrstva, na ktorej sa nach·dzaj˙ stromy a prek·ûky.")]
+    public LayerMask obstacleLayer;
+    [Tooltip("Ako Ôaleko pred seba nepriateæ pozer·.")]
+    public float obstacleCheckDistance = 0.5f;
+    [Tooltip("Ak˝ hrub˝ je l˙Ë hæadania prek·ûky (odpor˙Ëame polomer nepriateæa).")]
+    public float avoidanceRadius = 0.25f;
+
     protected override void Start()
     {
         base.Start();
@@ -129,25 +137,39 @@ public class EnemyMovement : Sortable
 
     public virtual void Move()
     {
-        Vector2 direction = (player.transform.position - transform.position).normalized;
-        // Ak existuje rigidbody, pouûi ho na pohyb namiesto priameho pos˙vania pozÌcie (transform). Optimalizacia vykonu
+        if (player == null) return;
+
+        Vector2 currentPos = rb ? rb.position : (Vector2)transform.position;
+        Vector2 directionToPlayer = ((Vector2)player.position - currentPos).normalized;
+        Vector2 movementDirection = directionToPlayer;
+
+        // RAYCAST (CIRCLECAST) AVOIDANCE
+        // VystrelÌme pred seba kruh, aby sme zistili, Ëi tam nie je prek·ûka
+        RaycastHit2D hit = Physics2D.CircleCast(currentPos, avoidanceRadius, directionToPlayer, obstacleCheckDistance, obstacleLayer);
+
+        if (hit.collider != null)
+        {
+            // ZistÌme kolmicu plochy, do ktorej sme narazili (smer, ktor˝m sa d· kÂzaù po prek·ûke)
+            Vector2 avoidDirection = Vector2.Perpendicular(hit.normal).normalized;
+
+            // Dot product n·m povie, Ëi ideme spr·vnym smerom (bliûöie k hr·Ëovi). Ak ideme na opaËn˙ stranu, otoËÌme to.
+            if (Vector2.Dot(avoidDirection, directionToPlayer) < 0)
+            {
+                avoidDirection = -avoidDirection;
+            }
+
+            // Namieöame pÙvodn˝ smer k hr·Ëovi a obch·dzacÌ smer (obch·dzacÌ m· v‰Ëöiu prioritu, preto * 2f)
+            movementDirection = (directionToPlayer + avoidDirection * 2f).normalized;
+        }
+
+        // Pohybujeme objektom nov˝m vypoËÌtan˝m smerom (uû nie cez MoveTowards, pretoûe ten chce konkrÈtny bod, my teraz menÌme "smer")
         if (rb)
         {
-            rb.MovePosition(Vector2.MoveTowards(
-                rb.position,
-                player.transform.position,
-                stats.Actual.moveSpeed * Time.deltaTime)
-            );
-            //rb.linearVelocity = direction * stats.Actual.moveSpeed;
+            rb.MovePosition(rb.position + movementDirection * (stats.Actual.moveSpeed * Time.deltaTime));
         }
         else
         {
-            // Neust·le pres˙vaj nepriateæa smerom k hr·Ëovi (cez transform).
-            transform.position = Vector2.MoveTowards(
-                transform.position,
-                player.transform.position,
-                stats.Actual.moveSpeed * Time.deltaTime
-            );
+            transform.position = (Vector2)transform.position + movementDirection * (stats.Actual.moveSpeed * Time.deltaTime);
         }
 
         if (spriteRenderer != null && player != null)

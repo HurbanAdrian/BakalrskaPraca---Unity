@@ -157,12 +157,12 @@ TextureImporter:
       name: plant repack_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 263
-        width: 65
-        height: 149
+        x: 1
+        y: 264
+        width: 63
+        height: 147
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -179,12 +179,12 @@ TextureImporter:
       name: plant repack_1
       rect:
         serializedVersion: 2
-        x: 70
-        y: 287
-        width: 109
-        height: 129
+        x: 71
+        y: 288
+        width: 107
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -201,12 +201,12 @@ TextureImporter:
       name: plant repack_2
       rect:
         serializedVersion: 2
-        x: 195
-        y: 287
-        width: 91
-        height: 129
+        x: 196
+        y: 288
+        width: 89
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -223,12 +223,12 @@ TextureImporter:
       name: plant repack_3
       rect:
         serializedVersion: 2
-        x: 287
-        y: 351
-        width: 129
-        height: 54
+        x: 288
+        y: 352
+        width: 128
+        height: 52
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -245,12 +245,12 @@ TextureImporter:
       name: plant repack_4
       rect:
         serializedVersion: 2
-        x: 299
-        y: 223
-        width: 42
-        height: 114
+        x: 300
+        y: 224
+        width: 40
+        height: 112
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -267,12 +267,12 @@ TextureImporter:
       name: plant repack_5
       rect:
         serializedVersion: 2
-        x: 358
-        y: 299
-        width: 52
-        height: 43
+        x: 359
+        y: 300
+        width: 50
+        height: 41
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -290,11 +290,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 223
-        width: 33
-        height: 34
+        y: 224
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -311,12 +311,12 @@ TextureImporter:
       name: plant repack_7
       rect:
         serializedVersion: 2
-        x: 32
-        y: 225
-        width: 33
-        height: 32
+        x: 33
+        y: 226
+        width: 31
+        height: 30
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -333,12 +333,12 @@ TextureImporter:
       name: plant repack_8
       rect:
         serializedVersion: 2
-        x: 64
-        y: 228
-        width: 29
-        height: 60
+        x: 65
+        y: 229
+        width: 27
+        height: 58
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -355,12 +355,12 @@ TextureImporter:
       name: plant repack_9
       rect:
         serializedVersion: 2
-        x: 99
-        y: 136
-        width: 86
-        height: 148
+        x: 100
+        y: 137
+        width: 84
+        height: 146
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -377,12 +377,12 @@ TextureImporter:
       name: plant repack_10
       rect:
         serializedVersion: 2
-        x: 192
-        y: 134
-        width: 96
-        height: 139
+        x: 193
+        y: 135
+        width: 94
+        height: 137
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -399,12 +399,12 @@ TextureImporter:
       name: plant repack_11
       rect:
         serializedVersion: 2
-        x: 350
-        y: 227
-        width: 66
-        height: 59
+        x: 351
+        y: 228
+        width: 64
+        height: 57
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -421,12 +421,12 @@ TextureImporter:
       name: plant repack_12
       rect:
         serializedVersion: 2
-        x: 9
-        y: 129
-        width: 78
-        height: 94
+        x: 10
+        y: 130
+        width: 76
+        height: 92
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -443,12 +443,12 @@ TextureImporter:
       name: plant repack_13
       rect:
         serializedVersion: 2
-        x: 290
-        y: 130
-        width: 62
-        height: 92
+        x: 291
+        y: 131
+        width: 60
+        height: 90
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -465,12 +465,12 @@ TextureImporter:
       name: plant repack_14
       rect:
         serializedVersion: 2
-        x: 351
-        y: 133
-        width: 62
-        height: 89
+        x: 352
+        y: 134
+        width: 60
+        height: 87
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -487,12 +487,12 @@ TextureImporter:
       name: plant repack_15
       rect:
         serializedVersion: 2
-        x: 0
-        y: 4
-        width: 128
-        height: 118
+        x: 1
+        y: 5
+        width: 126
+        height: 116
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -509,12 +509,12 @@ TextureImporter:
       name: plant repack_16
       rect:
         serializedVersion: 2
-        x: 128
-        y: 4
-        width: 97
-        height: 119
+        x: 129
+        y: 5
+        width: 95
+        height: 117
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -531,12 +531,12 @@ TextureImporter:
       name: plant repack_17
       rect:
         serializedVersion: 2
-        x: 224
-        y: 4
-        width: 97
-        height: 119
+        x: 225
+        y: 5
+        width: 95
+        height: 117
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -553,12 +553,12 @@ TextureImporter:
       name: plant repack_18
       rect:
         serializedVersion: 2
-        x: 319
-        y: 4
-        width: 97
-        height: 122
+        x: 320
+        y: 5
+        width: 96
+        height: 120
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -575,7 +575,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 419d5bc2c9b868344a4c8d2948998179
     internalID: 0
     vertices: []
     indices: 
@@ -583,7 +583,9 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":9.0,"y":4.0},"gridSpriteSize":{"x":32.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
       plant repack_0: -5025616332028490216
       plant repack_1: -1576992538768787543

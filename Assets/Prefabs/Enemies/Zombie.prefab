@@ -214,8 +214,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ee5e21282ee13094a9fdf74b2e5d2386, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemyMovement
+  sortingActive: 1
+  deactivateOffScreen: 0
+  destroyDistance: 200
   outOfFrameAction: 1
   knockbackVariance: 2
+  obstacleLayer:
+    serializedVersion: 2
+    m_Bits: 128
+  obstacleCheckDistance: 0.5
+  avoidanceRadius: 0.25
 --- !u!114 &4479702484960427650
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -239,6 +247,7 @@ MonoBehaviour:
       debuff: 0
     curseBoosts: 3
     levelBoosts: 0
+  attackEffects: []
   damageColor: {r: 1, g: 0, b: 0, a: 1}
   damageFlashDuration: 0.2
   deathFadeTime: 0.6
