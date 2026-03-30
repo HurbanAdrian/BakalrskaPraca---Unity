@@ -99,6 +99,7 @@ public class CharacterData : ScriptableObject
         luck = 1,
         greed = 1,
         growth = 1,
-        curse = 1
+        curse = 1,
+        magnet = 1.8f,
     };
 }

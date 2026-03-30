@@ -1,6 +1,7 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
+[System.Obsolete("Na nahradenie")]
 public class SceneController : MonoBehaviour
 {
     public void SceneChange(string sceneName)

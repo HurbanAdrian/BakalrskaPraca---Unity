@@ -75,7 +75,7 @@ public class UICharacterSelector : MonoBehaviour
     {
         // Aktualizácia polí so štatistikami na obrazovke výberu postavy.
         selected = statsUI.character = character;
-        statsUI.UpdateStatFields();
+        statsUI.UpdateFields();
 
         // Aktualizácia obsahu boxu s popisom postavy.
         characterFullName.text = character.FullName;

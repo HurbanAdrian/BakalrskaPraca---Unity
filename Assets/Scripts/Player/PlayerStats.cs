@@ -100,6 +100,13 @@ public class PlayerStats : EntityStats
     protected override void Start()
     {
         base.Start();
+
+        // Pridá globálny buff levelu, ak nejaký existuje.
+        if (UILevelSelector.globalBuff && UILevelSelector.globalBuffAffectsPlayer)
+        {
+            ApplyBuff(UILevelSelector.globalBuff);
+        }
+
         inventory.Add(characterData.StartingWeapon);
 
         // Inicializacia experienceCap na zaklade aktualneho levelu

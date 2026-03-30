@@ -17,6 +17,13 @@ public class GameManager : MonoBehaviour
         LevelUp
     }
 
+    private const float DEFAULT_TIME_LIMIT = 1800f;
+    private const float DEFAULT_CLOCK_SPEED = 1f;
+
+    // Helper properties
+    private float ClockSpeed => UILevelSelector.currentLevel?.clockSpeed ?? DEFAULT_CLOCK_SPEED;
+    private float TimeLimit => UILevelSelector.currentLevel?.timeLimit ?? DEFAULT_TIME_LIMIT;
+
     // Ulo�enie aktu�lneho a predch�dzaj�ceho stavu hry
     public GameState currentState;
     public GameState previousState;
@@ -52,6 +59,9 @@ public class GameManager : MonoBehaviour
     public float timeLimit; // casovy limit pre hru v sekundach
     float stopwatchTime;    // cas, ktory uplynul od zaciatku stopwatchu
     public TMP_Text stopwatchDisplay; // UI text pro zobrazenie casu
+
+    bool levelEnded = false;
+    public GameObject reaperPrefab;
 
     PlayerStats[] players;
 
@@ -90,6 +100,8 @@ public class GameManager : MonoBehaviour
     void Awake()
     {
         players = FindObjectsByType<PlayerStats>(FindObjectsInactive.Exclude, FindObjectsSortMode.None);
+
+        timeLimit = TimeLimit;
 
         // Singleton pattern pre GameManager
         if (instance == null)
@@ -294,18 +306,37 @@ public class GameManager : MonoBehaviour
         levelReachedDisplay.text = levelReached.ToString();
     }
 
+    public Vector2 GetRandomPlayerLocation()
+    {
+        int chosenPlayer = Random.Range(0, players.Length);
+        return new Vector2(players[chosenPlayer].transform.position.x, players[chosenPlayer].transform.position.y);
+    }
+
     void UpdateStopwatch()
     {
-        stopwatchTime += Time.deltaTime; // P�id� �as, kter� uplynul od posledn�ho sn�mku
+        stopwatchTime += Time.deltaTime * ClockSpeed;
 
         UpdateStopwatchDisplay();
 
-        if (stopwatchTime >= timeLimit)
+        if (stopwatchTime >= timeLimit && !levelEnded)
         {
-            foreach (PlayerStats p in players)
+            levelEnded = true;
+
+            if (SpawnManager.instance != null)
             {
-                p.SendMessage("Kill");
+                SpawnManager.instance.gameObject.SetActive(false);
             }
+
+            foreach (EnemyStats e in FindObjectsByType<EnemyStats>(FindObjectsInactive.Exclude, FindObjectsSortMode.None))
+            {
+                e.SendMessage("Kill");
+            }
+
+            // Spawneme Reapera (Smrtku) mimo dohľad kamery.
+            Vector2 reaperOffset = Random.insideUnitCircle * 50f;
+            Vector2 spawnPosition = GetRandomPlayerLocation() + reaperOffset;
+
+            Instantiate(reaperPrefab, spawnPosition, Quaternion.identity);
         }
     }
 

@@ -109,6 +109,12 @@ public class EnemyStats : EntityStats
     {
         base.Start();
 
+        // Pridá globálny buff levelu, ak nejaký existuje.
+        if (UILevelSelector.globalBuff && UILevelSelector.globalBuffAffectsEnemies)
+        {
+            ApplyBuff(UILevelSelector.globalBuff);
+        }
+
         RecalculateStats();
         health = actualStats.maxHealth;
 
