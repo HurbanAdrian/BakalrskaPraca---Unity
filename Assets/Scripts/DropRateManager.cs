@@ -1,4 +1,3 @@
-using NUnit.Framework;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -27,21 +26,29 @@ public class DropRateManager : MonoBehaviour
             return;
         }
 
-        List<Drops> possibleDrops = new List<Drops>();
+        Drops rarestRolledDrop = null;
+        float lowestDropRate = 101f;
 
-        foreach (Drops rate in drops) 
+        foreach (Drops rate in drops)
         {
             float randomValue = UnityEngine.Random.Range(0f, 100f);
-            if (randomValue <= rate.dropRate) 
+
+            // 1. Skontrolujeme, Ëi predmet vÙbec padol
+            if (randomValue <= rate.dropRate)
             {
-                possibleDrops.Add(rate);
+                // 2. Ak padol, skontrolujeme, Ëi je VZ¡CNEJäÕ (m· menöie %) ako ten, Ëo sme si zatiaæ odloûili
+                if (rate.dropRate < lowestDropRate)
+                {
+                    rarestRolledDrop = rate;
+                    lowestDropRate = rate.dropRate;
+                }
             }
         }
-        // Ak su dropy tak spawneme nahodny z nich
-        if (possibleDrops.Count > 0) 
+
+        // Ak sme nieËo vyrolovali, spawneme ten najvz·cnejöÌ vÌùazn˝ predmet
+        if (rarestRolledDrop != null)
         {
-            Drops drops = possibleDrops[UnityEngine.Random.Range(0, possibleDrops.Count)];
-            Instantiate(drops.itemPrefab, transform.position, Quaternion.identity);
+            Instantiate(rarestRolledDrop.itemPrefab, transform.position, Quaternion.identity);
         }
     }
 }

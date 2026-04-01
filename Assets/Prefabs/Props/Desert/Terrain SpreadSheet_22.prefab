@@ -159,3 +159,6 @@ MonoBehaviour:
   - name: Red Potion
     itemPrefab: {fileID: 2428821176796300438, guid: 4eb3a859afa277545b9d954d1f75cb5c, type: 3}
     dropRate: 50
+  - name: Coin
+    itemPrefab: {fileID: 8040172047308066061, guid: 066f8142d8f87694482cf73ae5eb8582, type: 3}
+    dropRate: 10
