@@ -14,7 +14,8 @@ public class GameManager : MonoBehaviour
         Gameplay,
         Paused,
         GameOver,
-        LevelUp
+        LevelUp,
+        TreasureChest
     }
 
     private const float DEFAULT_TIME_LIMIT = 1800f;
@@ -133,6 +134,8 @@ public class GameManager : MonoBehaviour
                 break;
             case GameState.GameOver:
             case GameState.LevelUp:
+                break;
+            case GameState.TreasureChest:
                 break;
             default:
                 Debug.LogError("Nezn�my stav hry: " + currentState);
@@ -288,6 +291,21 @@ public class GameManager : MonoBehaviour
         ChangeState(GameState.GameOver);
         Time.timeScale = 0f;
         DisplayResults();
+
+        // Ulozenie vsetkych minci vsetkych hracov do saveFilu
+        foreach (PlayerStats p in players)
+        {
+            p.GetComponentInChildren<PlayerCollector>().SaveCoinsToStash();
+        }
+
+        // Pridanie hracovych minci na ich saveFile
+        foreach (PlayerStats p in players)
+        {
+            if (p.TryGetComponent(out PlayerCollector c))
+            {
+                c.SaveCoinsToStash();
+            }
+        }
     }
 
     void DisplayResults()

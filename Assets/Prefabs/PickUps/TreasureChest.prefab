@@ -150,3 +150,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c0d12783056a7ab4db948b05934a6c1e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::TreasureChest
+  possibleDrops: -1
+  dropCountType: 1
+  dropProfiles:
+  - {fileID: 11400000, guid: a5982d3b7b85a874bae5ece4788ffe3e, type: 2}
+  - {fileID: 11400000, guid: f6d3d4db4ea4dcd4da2b74efb5d4490f, type: 2}
+  - {fileID: 11400000, guid: 994c5f1a0a4f5cc408d331aaaeaab7ec, type: 2}
+  defaultDropSprite: {fileID: -2919979194123914017, guid: 28322b018fcad554fae1a5815d2d74d3, type: 3}

@@ -27,9 +27,9 @@ public class AuraWeapon : Weapon
         if (currentAura) Destroy(currentAura.gameObject);
     }
 
-    public override bool DoLevelUp()
+    public override bool DoLevelUp(bool updateUI = true)
     {
-        if (!base.DoLevelUp()) return false;
+        if (!base.DoLevelUp(updateUI)) return false;
 
         // Zabezpecit ze Aura bude refreshnuta ak je priradena ina na vyssom leveli
         OnEquip();

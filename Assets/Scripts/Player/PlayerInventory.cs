@@ -144,7 +144,7 @@ public class PlayerInventory : MonoBehaviour
         return false;
     }
 
-    public int Add(WeaponData data)
+    public int Add(WeaponData data, bool updateUI = true)
     {
         int slotNum = -1;
 
@@ -176,7 +176,7 @@ public class PlayerInventory : MonoBehaviour
 
             // PriraÔ zbraÚ do slotu (aktualizuje UI).
             weaponSlots[slotNum].Assign(spawnedWeapon);
-            weaponUI.Refresh();
+            if (updateUI) weaponUI.Refresh();
 
             // Zatvor UI pre Level Up, ak je zapnutÈ.
             if (GameManager.instance != null && GameManager.instance.choosingUpgrade)
@@ -199,7 +199,7 @@ public class PlayerInventory : MonoBehaviour
     }
 
     // N·jde pr·zdny slot a prid· pasÌvny predmet urËitÈho typu. Vr·ti ËÌslo slotu, do ktorÈho bol predmet vloûen˝.
-    public int Add(PassiveData data)
+    public int Add(PassiveData data, bool updateUI = true)
     {
         int slotNum = -1;
 
@@ -229,7 +229,7 @@ public class PlayerInventory : MonoBehaviour
 
         // PriradÌme pasÌvny predmet do slotu v UI.
         passiveSlots[slotNum].Assign(p);
-        passiveUI.Refresh();
+        if (updateUI) passiveUI.Refresh();
 
         // Ak je pr·ve zapnutÈ okno s v˝berom level-upu, zatvorÌme ho.
         if (GameManager.instance != null && GameManager.instance.choosingUpgrade)
@@ -244,23 +244,23 @@ public class PlayerInventory : MonoBehaviour
     }
 
     // Ak nevieme, ak˝ predmet sa prid·va, t·to funkcia to zistÌ.
-    public int Add(ItemData data)
+    public int Add(ItemData data, bool updateUI = true)
     {
-        if (data is WeaponData) return Add(data as WeaponData);
-        else if (data is PassiveData) return Add(data as PassiveData);
+        if (data is WeaponData) return Add(data as WeaponData, updateUI);
+        else if (data is PassiveData) return Add(data as PassiveData, updateUI);
         return -1;
     }
 
     // Overload, aby sme mohli pouûiù ItemData aj Item na vylepöenie predmetu v invent·ri.
-    public bool LevelUp(ItemData data)
+    public bool LevelUp(ItemData data, bool updateUI = true)
     {
         Item item = Get(data);
-        if (item) return LevelUp(item);
+        if (item) return LevelUp(item, updateUI);
         return false;
     }
 
     // Zv˝öi ˙roveÚ vybranej zbrane v invent·ri hr·Ëa.
-    public bool LevelUp(Item item)
+    public bool LevelUp(Item item, bool updateUI = true)
     {
         // Pok˙si sa zv˝öiù ˙roveÚ predmetu.
         if (!item.DoLevelUp())
@@ -272,8 +272,11 @@ public class PlayerInventory : MonoBehaviour
             return false;
         }
 
-        weaponUI.Refresh();
-        passiveUI.Refresh();
+        if (updateUI)
+        {
+            weaponUI.Refresh();
+            passiveUI.Refresh();
+        }
 
         // N·sledne zatvorÌ obrazovku v˝beru vylepöenia.
         if (GameManager.instance != null && GameManager.instance.choosingUpgrade)
@@ -352,4 +355,140 @@ public class PlayerInventory : MonoBehaviour
         ApplyUpgradeOptions();
     }
 
+    // ZÌska vöetky sloty od hr·Ëa urËitÈho typu, buÔ Weapon (ZbraÚ) alebo Passive (PasÌvny predmet).
+    // Ak zad·ö typ Item, vr·ti oba zoznamy - zbrane aj pasÌvne predmety.
+    public Slot[] GetSlots<T>() where T : Item
+    {
+        // Skontroluje, ktor˙ skupinu slotov m· vr·tiù.
+        // Ak sa p˝taö na Items, spojÌ zbrane aj pasÌvne sloty dokopy.
+        switch (typeof(T).ToString())
+        {
+            case "Passive":
+                return passiveSlots.ToArray();
+
+            case "Weapon":
+                return weaponSlots.ToArray();
+
+            case "Item":
+                List<Slot> s = new List<Slot>(passiveSlots);
+                s.AddRange(weaponSlots);
+                return s.ToArray();
+        }
+
+        // Ak by som pridal Ôalöie podtriedy Itemu, budem musieù pridaù novÈ cases hore
+        Debug.LogWarning("Generic type provided to GetSlots() call does not have a coded behaviour.");
+        return null;
+    }
+
+    // Verzia GetSlots(), ktor· pracuje s ItemData namiesto Item.
+    public Slot[] GetSlotsFor<T>() where T : ItemData
+    {
+        if (typeof(T) == typeof(PassiveData))
+        {
+            return passiveSlots.ToArray();
+        }
+        else if (typeof(T) == typeof(WeaponData))
+        {
+            return weaponSlots.ToArray();
+        }
+        else if (typeof(T) == typeof(ItemData))
+        {
+            List<Slot> s = new List<Slot>(passiveSlots);
+            s.AddRange(weaponSlots);
+            return s.ToArray();
+        }
+
+        // Ak by som pridal Ôalöie podtriedy Itemu, budem musieù pridaù novÈ cases hore
+        Debug.LogWarning("Generic type provided to GetSlotsFor() call does not have a coded behaviour.");
+        return null;
+    }
+
+    // GenerickÈ varianty GetSlotsLeft(), ktorÈ sa jednoduchöie pouûÌvaj˙.
+    // Verzia pre Item (objekty v hre)
+    public int GetSlotsLeft<T>() where T : Item
+    {
+        return GetSlotsLeft(new List<Slot>(GetSlots<T>()));
+    }
+
+    // Verzia pre ItemData (ScriptableObjects)
+    public int GetSlotsLeftFor<T>() where T : ItemData
+    {
+        return GetSlotsLeft(new List<Slot>(GetSlotsFor<T>()));
+    }
+
+    public T[] GetAvailable<T>() where T : ItemData
+    {
+        if (typeof(T) == typeof(PassiveData))
+        {
+            return availablePassives.ToArray() as T[];
+        }
+        else if (typeof(T) == typeof(WeaponData))
+        {
+            return availableWeapons.ToArray() as T[];
+        }
+        else if (typeof(T) == typeof(ItemData))
+        {
+            List<ItemData> list = new List<ItemData>(availablePassives);
+            list.AddRange(availableWeapons);
+            return list.ToArray() as T[];
+        }
+
+        Debug.LogWarning("Generic type provided to GetAvailable() call does not have a coded behaviour.");
+        return null;
+    }
+
+    // ZÌska vöetky dostupnÈ predmety (zbrane alebo pasÌvky), ktorÈ hr·Ë eöte nevlastnÌ.
+    public T[] GetUnowned<T>() where T : ItemData
+    {
+        // 1. Najprv zÌskame zoznam ˙plne vöetk˝ch predmetov danÈho typu v hre.
+        var available = GetAvailable<T>();
+
+        if (available == null || available.Length == 0)
+            return new T[0]; // Vr·ti pr·zdne pole, ak je zoznam null alebo pr·zdny.
+
+        List<T> list = new List<T>(available);
+
+        // 2. ZÌskame zoznam slotov, ktorÈ hr·Ë moment·lne pouûÌva.
+        var slots = GetSlotsFor<T>();
+        if (slots != null)
+        {
+            foreach (Slot s in slots)
+            {
+                if (s?.item?.data != null && list.Contains(s.item.data as T))
+                {
+                    list.Remove(s.item.data as T);
+                }
+            }
+        }
+
+        return list.ToArray();
+    }
+
+    public T[] GetEvolvables<T>() where T : Item
+    {
+        List<T> result = new List<T>();
+
+        foreach (Slot s in GetSlots<T>())
+        {
+            if (s.item is T t && t != null && t.CanEvolve(0).Length > 0)
+            {
+                result.Add(t);
+            }
+        }
+        return result.ToArray();
+    }
+
+    public T[] GetUpgradables<T>() where T : Item
+    {
+        List<T> result = new List<T>();
+
+        foreach (Slot s in GetSlots<T>())
+        {
+            if (s.item is T t && t.CanLevelUp())
+            {
+                result.Add(t);
+            }
+        }
+        return result.ToArray();
+    }
 }

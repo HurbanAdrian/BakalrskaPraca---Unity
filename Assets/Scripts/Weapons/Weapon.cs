@@ -82,7 +82,7 @@ public abstract class Weapon : Item
     }
 
     // Level up zbrane a vypocet jej korespondujucich statov
-    public override bool DoLevelUp()
+    public override bool DoLevelUp(bool updateUI = true)
     {
         if (!CanLevelUp())
         {
@@ -90,7 +90,7 @@ public abstract class Weapon : Item
             return false;
         }
 
-        base.DoLevelUp();
+        base.DoLevelUp(updateUI);
 
         currentStats += (Stats)data.GetLevelData(currentLevel);
         return true;

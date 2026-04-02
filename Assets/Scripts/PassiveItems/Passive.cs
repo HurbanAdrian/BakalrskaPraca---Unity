@@ -28,7 +28,7 @@ public class Passive : Item
     }
 
     // Zvýši úroveò predmetu o 1 a vypoèíta príslušné štatistiky.
-    public override bool DoLevelUp()
+    public override bool DoLevelUp(bool updateUI = true)
     {
         // Zabráni zvýšeniu úrovne, ak sme už na maximálnej úrovni.
         if (!CanLevelUp())
@@ -37,7 +37,7 @@ public class Passive : Item
             return false;
         }
 
-        base.DoLevelUp();
+        base.DoLevelUp(updateUI);
 
         currentBoosts += ((Modifier)data.GetLevelData(currentLevel)).boosts;
         return true;

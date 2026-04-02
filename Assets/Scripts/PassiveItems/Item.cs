@@ -33,14 +33,20 @@ public abstract class Item : MonoBehaviour
         owner = FindAnyObjectByType<PlayerStats>();
     }
 
-    public virtual ItemData.Evolution[] CanEvolve()
+    public virtual ItemData.Evolution[] CanEvolve(int levelUpAmount = 1)
     {
+        // Ak predmet nem· ûiadne evol˙cie, vr·time pr·zdne pole.
+        if (evolutionData == null)
+        {
+            return new ItemData.Evolution[0];
+        }
+
         List<ItemData.Evolution> possibleEvolutions = new List<ItemData.Evolution>();
 
         // Skontroluje kaûd˙ uveden˙ evol˙ciu a zistÌ, Ëi s˙ splnenÈ podmienky v invent·ri.
         foreach (ItemData.Evolution e in evolutionData)
         {
-            if (CanEvolve(e)) possibleEvolutions.Add(e);
+            if (CanEvolve(e, levelUpAmount)) possibleEvolutions.Add(e);
         }
 
         return possibleEvolutions.ToArray();
@@ -49,6 +55,13 @@ public abstract class Item : MonoBehaviour
     // Skontroluje, Ëi je öpecifick· evol˙cia moûn·.
     public virtual bool CanEvolve(ItemData.Evolution evolution, int levelUpAmount = 1)
     {
+        // k sme v Inöpektore zabudli nastaviù v˝sledok evol˙cie (Outcome), rovno to zruöÌme.
+        if (evolution.outcome.itemType == null)
+        {
+            Debug.LogWarning(string.Format("Pozor! ZbraÚ {0} sa snaûÌ vyvin˙ù, ale ch˝ba jej 'Outcome Item Type' v Inöpektore!", data.name));
+            return false;
+        }
+
         // NemÙûe sa vyvin˙ù, ak predmet nedosiahol ˙roveÚ potrebn˙ na evol˙ciu.
         if (evolution.evolutionLevel > currentLevel + levelUpAmount)
         {
@@ -71,7 +84,7 @@ public abstract class Item : MonoBehaviour
     }
 
     // AttemptEvolution spawne nov˙ zbraÚ pre postavu a odstr·ni vöetky zbrane/predmety, ktorÈ maj˙ byù pri tom konzumovanÈ (zniËenÈ).
-    public virtual bool AttemptEvolution(ItemData.Evolution evolutionData, int levelUpAmount = 1)
+    public virtual bool AttemptEvolution(ItemData.Evolution evolutionData, int levelUpAmount = 1, bool updateUI = true)
     {
         if (!CanEvolve(evolutionData, levelUpAmount))
             return false;
@@ -92,7 +105,7 @@ public abstract class Item : MonoBehaviour
         else if (this is Weapon && consumeWeapons) inventory.Remove((this as Weapon).data, true);
 
         // Prid·me nov˙ zbraÚ do n·öho invent·ra.
-        inventory.Add(evolutionData.outcome.itemType);
+        inventory.Add(evolutionData.outcome.itemType, updateUI);
 
         return true;
     }
@@ -103,7 +116,7 @@ public abstract class Item : MonoBehaviour
     }
 
     // Vûdy, keÔ sa predmet vylepöÌ na ÔalöÌ level, pok˙s sa o jeho evol˙ciu.
-    public virtual bool DoLevelUp()
+    public virtual bool DoLevelUp(bool updateUI = true)
     {
         currentLevel++;
 
@@ -113,7 +126,7 @@ public abstract class Item : MonoBehaviour
         foreach (ItemData.Evolution e in evolutionData)
         {
             if (e.condition == ItemData.Evolution.Condition.auto)
-                AttemptEvolution(e);
+                AttemptEvolution(e, 1, updateUI);
         }
         return true;
     }
