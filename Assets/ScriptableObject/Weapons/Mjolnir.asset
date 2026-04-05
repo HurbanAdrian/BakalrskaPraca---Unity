@@ -1,0 +1,217 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ccc85475ce102724d9d5cf31f1cbd061, type: 3}
+  m_Name: Mjolnir
+  m_EditorClassIdentifier: Assembly-CSharp::WeaponData
+  icon: {fileID: -7312738877382694569, guid: 372c2d8e3c97f484797e84744c165f5b, type: 3}
+  maxLevel: 8
+  evolutionData: []
+  behaviour: MjolnirWeapon
+  baseStats:
+    name: Mjolnir
+    description: Hurls a heavy hammer that returns to you. Piercing enemies calls
+      down a lightning strike.
+    projectilePrefab: {fileID: 6399134774351050387, guid: f5a9595cd72cae04c9f809b65b5bcb2e, type: 3}
+    auraPrefab: {fileID: 0}
+    hitEffect: {fileID: 4750635529850016636, guid: b14ec3e4d7a0c4841bfb99adac14ed6f, type: 3}
+    procEffect: {fileID: 0}
+    spawnVariance:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    lifeSpan: 0
+    damage: 20
+    damageVariance: 3
+    area: 1
+    speed: 8
+    cooldown: 3.5
+    projectileInterval: 0.1
+    knockback: 0
+    number: 1
+    piercing: 3
+    maxInstances: 0
+    appliedBuffs:
+    - data: {fileID: 11400000, guid: 5e6ceb0b4a16d7c4daa1a05630016113, type: 2}
+      variant: 0
+      probability: 0.1
+  linearGrowth:
+  - name: Level 2
+    description: Increases Base Damage by 10.
+    projectilePrefab: {fileID: 0}
+    auraPrefab: {fileID: 0}
+    hitEffect: {fileID: 0}
+    procEffect: {fileID: 0}
+    spawnVariance:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    lifeSpan: 0
+    damage: 10
+    damageVariance: 0
+    area: 0
+    speed: 0
+    cooldown: 0
+    projectileInterval: 0
+    knockback: 0
+    number: 0
+    piercing: 0
+    maxInstances: 0
+    appliedBuffs: []
+  - name: Level 3
+    description: The storms intensify. Increases Area.
+    projectilePrefab: {fileID: 0}
+    auraPrefab: {fileID: 0}
+    hitEffect: {fileID: 0}
+    procEffect: {fileID: 0}
+    spawnVariance:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    lifeSpan: 0
+    damage: 0
+    damageVariance: 0
+    area: 0.3
+    speed: 0
+    cooldown: 0
+    projectileInterval: 0
+    knockback: 0
+    number: 0
+    piercing: 0
+    maxInstances: 0
+    appliedBuffs: []
+  - name: Level 4
+    description: The hammer becomes sharper. Increases Piercing by 2.
+    projectilePrefab: {fileID: 0}
+    auraPrefab: {fileID: 0}
+    hitEffect: {fileID: 0}
+    procEffect: {fileID: 0}
+    spawnVariance:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    lifeSpan: 0
+    damage: 0
+    damageVariance: 0
+    area: 0
+    speed: 0
+    cooldown: 0
+    projectileInterval: 0
+    knockback: 0
+    number: 0
+    piercing: 2
+    maxInstances: 0
+    appliedBuffs: []
+  - name: Level 5
+    description: Reduces cooldown by 0.5s and increases Base Damage by 15.
+    projectilePrefab: {fileID: 0}
+    auraPrefab: {fileID: 0}
+    hitEffect: {fileID: 0}
+    procEffect: {fileID: 0}
+    spawnVariance:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    lifeSpan: 0
+    damage: 15
+    damageVariance: 0
+    area: 0
+    speed: 0
+    cooldown: 0.5
+    projectileInterval: 0
+    knockback: 0
+    number: 0
+    piercing: 0
+    maxInstances: 0
+    appliedBuffs: []
+  - name: Level 6
+    description: A second hammer joins the fray! Fires 1 extra hammer.
+    projectilePrefab: {fileID: 0}
+    auraPrefab: {fileID: 0}
+    hitEffect: {fileID: 0}
+    procEffect: {fileID: 0}
+    spawnVariance:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    lifeSpan: 0
+    damage: 0
+    damageVariance: 0
+    area: 0
+    speed: 0
+    cooldown: 0
+    projectileInterval: 0
+    knockback: 0
+    number: 1
+    piercing: 0
+    maxInstances: 0
+    appliedBuffs: []
+  - name: Level 7
+    description: Increases projectile speed and adds +2 Piercing.
+    projectilePrefab: {fileID: 0}
+    auraPrefab: {fileID: 0}
+    hitEffect: {fileID: 0}
+    procEffect: {fileID: 0}
+    spawnVariance:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    lifeSpan: 0
+    damage: 0
+    damageVariance: 0
+    area: 0
+    speed: 3
+    cooldown: 0
+    projectileInterval: 0
+    knockback: 0
+    number: 0
+    piercing: 2
+    maxInstances: 0
+    appliedBuffs: []
+  - name: Level 8
+    description: Wrath of the North. Increases Base Damage by 20 and Area by 30%.
+    projectilePrefab: {fileID: 0}
+    auraPrefab: {fileID: 0}
+    hitEffect: {fileID: 0}
+    procEffect: {fileID: 0}
+    spawnVariance:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    lifeSpan: 0
+    damage: 20
+    damageVariance: 0
+    area: 0.45
+    speed: 0
+    cooldown: 0
+    projectileInterval: 0
+    knockback: 0
+    number: 0
+    piercing: 0
+    maxInstances: 0
+    appliedBuffs: []
+  randomGrowth: []

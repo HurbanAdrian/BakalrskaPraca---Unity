@@ -1,0 +1,533 @@
+fileFormatVersion: 2
+guid: fbdd7bee307a9824c83a9157b7238c5b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2353890197135807988
+    second: Female_succubus...-2014524095-0_0
+  - first:
+      213: 1417701750943218998
+    second: Female_succubus...-2014524095-0_1
+  - first:
+      213: 8439766151322497790
+    second: Female_succubus...-2014524095-0_2
+  - first:
+      213: 6416416235846414967
+    second: Female_succubus...-2014524095-0_3
+  - first:
+      213: 7746579540633274742
+    second: Female_succubus...-2014524095-0_4
+  - first:
+      213: 3078055823853923865
+    second: Female_succubus...-2014524095-0_5
+  - first:
+      213: -7743967744969043176
+    second: Female_succubus...-2014524095-0_6
+  - first:
+      213: 8344243430455460626
+    second: Female_succubus...-2014524095-0_7
+  - first:
+      213: 9030973834267688477
+    second: Female_succubus...-2014524095-0_8
+  - first:
+      213: 1378723508101624031
+    second: Female_succubus...-2014524095-0_9
+  - first:
+      213: -3515682344614875455
+    second: Female_succubus...-2014524095-0_10
+  - first:
+      213: -9041603237978031067
+    second: Female_succubus...-2014524095-0_11
+  - first:
+      213: 7338687295662539891
+    second: Female_succubus...-2014524095-0_12
+  - first:
+      213: -5389889163385286425
+    second: Female_succubus...-2014524095-0_13
+  - first:
+      213: -1450424467605774644
+    second: Female_succubus...-2014524095-0_14
+  - first:
+      213: 110569923359845188
+    second: Female_succubus...-2014524095-0_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Female_succubus...-2014524095-0_0
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 591
+        width: 70
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0a227f465d455fd0800000000000000
+      internalID: -2353890197135807988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Female_succubus...-2014524095-0_1
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 591
+        width: 70
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63d7b6e2b30bca310800000000000000
+      internalID: 1417701750943218998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Female_succubus...-2014524095-0_2
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 591
+        width: 70
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef271fc4992102570800000000000000
+      internalID: 8439766151322497790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Female_succubus...-2014524095-0_3
+      rect:
+        serializedVersion: 2
+        x: 635
+        y: 591
+        width: 70
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 772bca42290bb0950800000000000000
+      internalID: 6416416235846414967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Female_succubus...-2014524095-0_4
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 403
+        width: 62
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67941cf8c01618b60800000000000000
+      internalID: 7746579540633274742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Female_succubus...-2014524095-0_5
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 403
+        width: 74
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91ea2aba67377ba20800000000000000
+      internalID: 3078055823853923865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Female_succubus...-2014524095-0_6
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 403
+        width: 62
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81399018d56e78490800000000000000
+      internalID: -7743967744969043176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Female_succubus...-2014524095-0_7
+      rect:
+        serializedVersion: 2
+        x: 639
+        y: 403
+        width: 70
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2134fa7b035bcc370800000000000000
+      internalID: 8344243430455460626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Female_succubus...-2014524095-0_8
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 211
+        width: 70
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1e7f57aad6745d70800000000000000
+      internalID: 9030973834267688477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Female_succubus...-2014524095-0_9
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 207
+        width: 70
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd0b0efc9b5322310800000000000000
+      internalID: 1378723508101624031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Female_succubus...-2014524095-0_10
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 211
+        width: 70
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ce2e12d889c53fc0800000000000000
+      internalID: -3515682344614875455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Female_succubus...-2014524095-0_11
+      rect:
+        serializedVersion: 2
+        x: 635
+        y: 207
+        width: 74
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52c3c4072c5c58280800000000000000
+      internalID: -9041603237978031067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Female_succubus...-2014524095-0_12
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 19
+        width: 62
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37443af963148d560800000000000000
+      internalID: 7338687295662539891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Female_succubus...-2014524095-0_13
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 19
+        width: 74
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e051bddc544335b0800000000000000
+      internalID: -5389889163385286425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Female_succubus...-2014524095-0_14
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 19
+        width: 62
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cce92d2a1ae0fdbe0800000000000000
+      internalID: -1450424467605774644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Female_succubus...-2014524095-0_15
+      rect:
+        serializedVersion: 2
+        x: 635
+        y: 23
+        width: 70
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44ba4bc62c2d88100800000000000000
+      internalID: 110569923359845188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Female_succubus...-2014524095-0_0: -2353890197135807988
+      Female_succubus...-2014524095-0_1: 1417701750943218998
+      Female_succubus...-2014524095-0_10: -3515682344614875455
+      Female_succubus...-2014524095-0_11: -9041603237978031067
+      Female_succubus...-2014524095-0_12: 7338687295662539891
+      Female_succubus...-2014524095-0_13: -5389889163385286425
+      Female_succubus...-2014524095-0_14: -1450424467605774644
+      Female_succubus...-2014524095-0_15: 110569923359845188
+      Female_succubus...-2014524095-0_2: 8439766151322497790
+      Female_succubus...-2014524095-0_3: 6416416235846414967
+      Female_succubus...-2014524095-0_4: 7746579540633274742
+      Female_succubus...-2014524095-0_5: 3078055823853923865
+      Female_succubus...-2014524095-0_6: -7743967744969043176
+      Female_succubus...-2014524095-0_7: 8344243430455460626
+      Female_succubus...-2014524095-0_8: 9030973834267688477
+      Female_succubus...-2014524095-0_9: 1378723508101624031
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

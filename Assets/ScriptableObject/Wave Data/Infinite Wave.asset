@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c6f3a1e224501ba4a8cafb6aa3702acf, type: 3}
+  m_Name: Infinite Wave
+  m_EditorClassIdentifier: Assembly-CSharp::WaveData
+  possibleSpawnPrefabs:
+  - {fileID: 6757600472617176067, guid: 388d940879e9e0145898df46fb564c68, type: 3}
+  - {fileID: 6757600472617176067, guid: 39d77c383030a6c49bcd9b2319d8cde7, type: 3}
+  - {fileID: 2748197468396091637, guid: 76dfef1b8ad0168468721287feab0d89, type: 3}
+  - {fileID: 5016923338338092061, guid: 2f05eda2b16b5c44fb8e71180bd3b225, type: 3}
+  - {fileID: 4694717501683652740, guid: 4106688b21c722e429fb5d76173d2496, type: 3}
+  - {fileID: 5138341399240579555, guid: e3bdf5a90b2324246b9dab7520da47e0, type: 3}
+  - {fileID: 8303942453634553410, guid: 6d417d8e4f235664c8147b6e8d125002, type: 3}
+  - {fileID: 6243403191378658513, guid: ff1be3ebc74966b4e89b53cddee5aeec, type: 3}
+  - {fileID: 7234549271717217131, guid: c0b6d5fe97a07be43b2ff345d725e3de, type: 3}
+  - {fileID: 3545123259382361500, guid: 5a081cfca12a39649889fdeb577c5b18, type: 3}
+  - {fileID: 7811025833945119559, guid: 94d4ffa4c4b06314eaaf9a102dcc2351, type: 3}
+  - {fileID: 8239722885579955362, guid: efd7ef2483f019e45a2a2f13896ee495, type: 3}
+  - {fileID: 6171594286594751690, guid: 7a5ba687e3f265a48b75046339984448, type: 3}
+  - {fileID: 5606840684805944494, guid: f86d3ba754c2dc542a811fb13b8b000e, type: 3}
+  - {fileID: 8528864939331261097, guid: 8f1491495656219478260d132fbe87a3, type: 3}
+  - {fileID: 6973055082777529891, guid: 1957a62a7f3154b4aa50ebc8cf3a932f, type: 3}
+  - {fileID: 6256318351799536361, guid: b153404690d43104d87b2b64e8347cce, type: 3}
+  spawnInterval: {x: 2, y: 3}
+  spawnsPerTick: {x: 1, y: 3}
+  duration: 6000
+  startingCount: 0
+  totalSpawns: 4294967295
+  exitConditions: 1
+  mustKillAll: 0
+  spawnCount: 0

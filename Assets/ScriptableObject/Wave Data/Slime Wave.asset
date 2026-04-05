@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c6f3a1e224501ba4a8cafb6aa3702acf, type: 3}
+  m_Name: Slime Wave
+  m_EditorClassIdentifier: Assembly-CSharp::WaveData
+  possibleSpawnPrefabs:
+  - {fileID: 8239722885579955362, guid: efd7ef2483f019e45a2a2f13896ee495, type: 3}
+  - {fileID: 8239722885579955362, guid: efd7ef2483f019e45a2a2f13896ee495, type: 3}
+  - {fileID: 8239722885579955362, guid: efd7ef2483f019e45a2a2f13896ee495, type: 3}
+  - {fileID: 8239722885579955362, guid: efd7ef2483f019e45a2a2f13896ee495, type: 3}
+  - {fileID: 8239722885579955362, guid: efd7ef2483f019e45a2a2f13896ee495, type: 3}
+  - {fileID: 8239722885579955362, guid: efd7ef2483f019e45a2a2f13896ee495, type: 3}
+  - {fileID: 8239722885579955362, guid: efd7ef2483f019e45a2a2f13896ee495, type: 3}
+  - {fileID: 8239722885579955362, guid: efd7ef2483f019e45a2a2f13896ee495, type: 3}
+  - {fileID: 8239722885579955362, guid: efd7ef2483f019e45a2a2f13896ee495, type: 3}
+  - {fileID: 6171594286594751690, guid: 7a5ba687e3f265a48b75046339984448, type: 3}
+  spawnInterval: {x: 2, y: 4}
+  spawnsPerTick: {x: 1, y: 5}
+  duration: 60
+  startingCount: 0
+  totalSpawns: 4294967295
+  exitConditions: 1
+  mustKillAll: 0
+  spawnCount: 0

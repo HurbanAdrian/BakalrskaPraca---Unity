@@ -1,0 +1,533 @@
+fileFormatVersion: 2
+guid: 5ae2740e9fe99254c9e4df11f031c902
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -108425775554393015
+    second: Retro_pixel_art_spri...-1166934951-0_0
+  - first:
+      213: 8797013099639677618
+    second: Retro_pixel_art_spri...-1166934951-0_1
+  - first:
+      213: -6451262783098675879
+    second: Retro_pixel_art_spri...-1166934951-0_2
+  - first:
+      213: -5368049613428706257
+    second: Retro_pixel_art_spri...-1166934951-0_3
+  - first:
+      213: -7804816053720655885
+    second: Retro_pixel_art_spri...-1166934951-0_4
+  - first:
+      213: 398516013052585069
+    second: Retro_pixel_art_spri...-1166934951-0_5
+  - first:
+      213: 6906721723058318790
+    second: Retro_pixel_art_spri...-1166934951-0_6
+  - first:
+      213: -7625257610525636197
+    second: Retro_pixel_art_spri...-1166934951-0_7
+  - first:
+      213: 6504588149850376318
+    second: Retro_pixel_art_spri...-1166934951-0_8
+  - first:
+      213: 2067891086731420731
+    second: Retro_pixel_art_spri...-1166934951-0_9
+  - first:
+      213: 6287012746151461659
+    second: Retro_pixel_art_spri...-1166934951-0_10
+  - first:
+      213: -4251388966557764211
+    second: Retro_pixel_art_spri...-1166934951-0_11
+  - first:
+      213: 5632074272398995985
+    second: Retro_pixel_art_spri...-1166934951-0_12
+  - first:
+      213: -3659781024766185824
+    second: Retro_pixel_art_spri...-1166934951-0_13
+  - first:
+      213: -4912516809246680377
+    second: Retro_pixel_art_spri...-1166934951-0_14
+  - first:
+      213: -3070985118330037622
+    second: Retro_pixel_art_spri...-1166934951-0_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 120
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Retro_pixel_art_spri...-1166934951-0_0
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 595
+        width: 90
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94c8593e45bce7ef0800000000000000
+      internalID: -108425775554393015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retro_pixel_art_spri...-1166934951-0_1
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 591
+        width: 90
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b22b783ec4451a70800000000000000
+      internalID: 8797013099639677618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retro_pixel_art_spri...-1166934951-0_2
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 595
+        width: 90
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95d94b4dda28876a0800000000000000
+      internalID: -6451262783098675879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retro_pixel_art_spri...-1166934951-0_3
+      rect:
+        serializedVersion: 2
+        x: 623
+        y: 591
+        width: 90
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f24b8e6515bd085b0800000000000000
+      internalID: -5368049613428706257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retro_pixel_art_spri...-1166934951-0_4
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 403
+        width: 82
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f7d6bc9629bfa390800000000000000
+      internalID: -7804816053720655885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retro_pixel_art_spri...-1166934951-0_5
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 403
+        width: 82
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d64ed43d330d78500800000000000000
+      internalID: 398516013052585069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retro_pixel_art_spri...-1166934951-0_6
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 403
+        width: 82
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6cd6d5150da99df50800000000000000
+      internalID: 6906721723058318790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retro_pixel_art_spri...-1166934951-0_7
+      rect:
+        serializedVersion: 2
+        x: 627
+        y: 403
+        width: 82
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9986c38a94ad2690800000000000000
+      internalID: -7625257610525636197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retro_pixel_art_spri...-1166934951-0_8
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 211
+        width: 90
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e780c02a570f44a50800000000000000
+      internalID: 6504588149850376318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retro_pixel_art_spri...-1166934951-0_9
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 207
+        width: 90
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b34a2dabcff92bc10800000000000000
+      internalID: 2067891086731420731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retro_pixel_art_spri...-1166934951-0_10
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 211
+        width: 90
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1306b858c4ff3750800000000000000
+      internalID: 6287012746151461659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retro_pixel_art_spri...-1166934951-0_11
+      rect:
+        serializedVersion: 2
+        x: 627
+        y: 207
+        width: 90
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d853f4e72480005c0800000000000000
+      internalID: -4251388966557764211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retro_pixel_art_spri...-1166934951-0_12
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 19
+        width: 82
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11275f2f5b5292e40800000000000000
+      internalID: 5632074272398995985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retro_pixel_art_spri...-1166934951-0_13
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 19
+        width: 82
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0aea81f5c88d53dc0800000000000000
+      internalID: -3659781024766185824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retro_pixel_art_spri...-1166934951-0_14
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 19
+        width: 82
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ca57b75dfb33dbb0800000000000000
+      internalID: -4912516809246680377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retro_pixel_art_spri...-1166934951-0_15
+      rect:
+        serializedVersion: 2
+        x: 635
+        y: 19
+        width: 82
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8a5d6f3e4ba165d0800000000000000
+      internalID: -3070985118330037622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Retro_pixel_art_spri...-1166934951-0_0: -108425775554393015
+      Retro_pixel_art_spri...-1166934951-0_1: 8797013099639677618
+      Retro_pixel_art_spri...-1166934951-0_10: 6287012746151461659
+      Retro_pixel_art_spri...-1166934951-0_11: -4251388966557764211
+      Retro_pixel_art_spri...-1166934951-0_12: 5632074272398995985
+      Retro_pixel_art_spri...-1166934951-0_13: -3659781024766185824
+      Retro_pixel_art_spri...-1166934951-0_14: -4912516809246680377
+      Retro_pixel_art_spri...-1166934951-0_15: -3070985118330037622
+      Retro_pixel_art_spri...-1166934951-0_2: -6451262783098675879
+      Retro_pixel_art_spri...-1166934951-0_3: -5368049613428706257
+      Retro_pixel_art_spri...-1166934951-0_4: -7804816053720655885
+      Retro_pixel_art_spri...-1166934951-0_5: 398516013052585069
+      Retro_pixel_art_spri...-1166934951-0_6: 6906721723058318790
+      Retro_pixel_art_spri...-1166934951-0_7: -7625257610525636197
+      Retro_pixel_art_spri...-1166934951-0_8: 6504588149850376318
+      Retro_pixel_art_spri...-1166934951-0_9: 2067891086731420731
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

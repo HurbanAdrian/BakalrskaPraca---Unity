@@ -1,0 +1,258 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ccc85475ce102724d9d5cf31f1cbd061, type: 3}
+  m_Name: Trick Cards
+  m_EditorClassIdentifier: Assembly-CSharp::WeaponData
+  icon: {fileID: 8254001842208436919, guid: c126f48d7cf6b7f4fbed3e99b3cf9402, type: 3}
+  maxLevel: 8
+  evolutionData: []
+  behaviour: TrickCardWeapon
+  baseStats:
+    name: Trick Cards
+    description: Throws a fan of magical cards that act like boomerangs.
+    projectilePrefab: {fileID: 7724826104715081961, guid: 739eef03f4fe7f147a31d2008f3523b7, type: 3}
+    auraPrefab: {fileID: 0}
+    hitEffect: {fileID: 0}
+    procEffect: {fileID: 0}
+    spawnVariance:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    lifeSpan: 0
+    damage: 15
+    damageVariance: 10
+    area: 1
+    speed: 8
+    cooldown: 2.5
+    projectileInterval: 0.1
+    knockback: 0.5
+    number: 3
+    piercing: 999
+    maxInstances: 0
+    appliedBuffs: []
+  linearGrowth:
+  - name: Level 2
+    description: Increases Base Damage by 5 and slightly reduces cooldown.
+    projectilePrefab: {fileID: 0}
+    auraPrefab: {fileID: 0}
+    hitEffect: {fileID: 0}
+    procEffect: {fileID: 0}
+    spawnVariance:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    lifeSpan: 0
+    damage: 5
+    damageVariance: 0
+    area: 0
+    speed: 0
+    cooldown: -0.2
+    projectileInterval: 0
+    knockback: 0
+    number: 0
+    piercing: 0
+    maxInstances: 0
+    appliedBuffs: []
+  - name: Level 3
+    description: Fires 1 extra card and increases Area by 15%.
+    projectilePrefab: {fileID: 0}
+    auraPrefab: {fileID: 0}
+    hitEffect: {fileID: 0}
+    procEffect: {fileID: 0}
+    spawnVariance:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    lifeSpan: 0
+    damage: 0
+    damageVariance: 0
+    area: 0.15
+    speed: 0
+    cooldown: 0
+    projectileInterval: 0
+    knockback: 0
+    number: 1
+    piercing: 0
+    maxInstances: 0
+    appliedBuffs: []
+  - name: Level 4
+    description: Cards now have a 10% chance to Random debuff.
+    projectilePrefab: {fileID: 0}
+    auraPrefab: {fileID: 0}
+    hitEffect: {fileID: 0}
+    procEffect: {fileID: 0}
+    spawnVariance:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    lifeSpan: 0
+    damage: 0
+    damageVariance: 0
+    area: 0
+    speed: 0
+    cooldown: 0
+    projectileInterval: 0
+    knockback: 0
+    number: 0
+    piercing: 0
+    maxInstances: 0
+    appliedBuffs:
+    - data: {fileID: 11400000, guid: 5e6ceb0b4a16d7c4daa1a05630016113, type: 2}
+      variant: 0
+      probability: 0.1
+    - data: {fileID: 11400000, guid: 4012a651dfe35e646a21e07ee7d78053, type: 2}
+      variant: 0
+      probability: 0.1
+    - data: {fileID: 11400000, guid: 681b79112c3b05346bfc32767be79b17, type: 2}
+      variant: 0
+      probability: 0.1
+  - name: Level 5
+    description: Increases Base Speed by 30% and Damage by 5.
+    projectilePrefab: {fileID: 0}
+    auraPrefab: {fileID: 0}
+    hitEffect: {fileID: 0}
+    procEffect: {fileID: 0}
+    spawnVariance:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    lifeSpan: 0
+    damage: 5
+    damageVariance: 0
+    area: 0
+    speed: 2
+    cooldown: 0
+    projectileInterval: 0
+    knockback: 0
+    number: 0
+    piercing: 0
+    maxInstances: 0
+    appliedBuffs:
+    - data: {fileID: 11400000, guid: 5e6ceb0b4a16d7c4daa1a05630016113, type: 2}
+      variant: 0
+      probability: 0.1
+  - name: Level 5
+    description: Increases Base Speed by 30% and Damage by 5.
+    projectilePrefab: {fileID: 0}
+    auraPrefab: {fileID: 0}
+    hitEffect: {fileID: 0}
+    procEffect: {fileID: 0}
+    spawnVariance:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    lifeSpan: 0
+    damage: 5
+    damageVariance: 0
+    area: 0
+    speed: 2
+    cooldown: 0
+    projectileInterval: 0
+    knockback: 0
+    number: 0
+    piercing: 0
+    maxInstances: 0
+    appliedBuffs: []
+  - name: Level 6
+    description: Fires 1 extra card and further reduces cooldown.
+    projectilePrefab: {fileID: 0}
+    auraPrefab: {fileID: 0}
+    hitEffect: {fileID: 0}
+    procEffect: {fileID: 0}
+    spawnVariance:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    lifeSpan: 0
+    damage: 0
+    damageVariance: 0
+    area: 0
+    speed: 0
+    cooldown: -0.3
+    projectileInterval: 0
+    knockback: 0
+    number: 1
+    piercing: 0
+    maxInstances: 0
+    appliedBuffs: []
+  - name: Level 7
+    description: Increases Base Damage by 10 and Random effect chance is doubled.
+    projectilePrefab: {fileID: 0}
+    auraPrefab: {fileID: 0}
+    hitEffect: {fileID: 0}
+    procEffect: {fileID: 0}
+    spawnVariance:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    lifeSpan: 0
+    damage: 10
+    damageVariance: 0
+    area: 0
+    speed: 0
+    cooldown: 0
+    projectileInterval: 0
+    knockback: 0
+    number: 0
+    piercing: 0
+    maxInstances: 0
+    appliedBuffs:
+    - data: {fileID: 11400000, guid: 5e6ceb0b4a16d7c4daa1a05630016113, type: 2}
+      variant: 0
+      probability: 0.2
+    - data: {fileID: 11400000, guid: 4012a651dfe35e646a21e07ee7d78053, type: 2}
+      variant: 0
+      probability: 0.2
+    - data: {fileID: 11400000, guid: 681b79112c3b05346bfc32767be79b17, type: 2}
+      variant: 0
+      probability: 0.2
+  - name: Level 8
+    description: Fires 2 extra cards and cards are 25% larger.
+    projectilePrefab: {fileID: 0}
+    auraPrefab: {fileID: 0}
+    hitEffect: {fileID: 0}
+    procEffect: {fileID: 0}
+    spawnVariance:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    lifeSpan: 0
+    damage: 0
+    damageVariance: 0
+    area: 0.25
+    speed: 0
+    cooldown: 0
+    projectileInterval: 0
+    knockback: 0
+    number: 2
+    piercing: 0
+    maxInstances: 0
+    appliedBuffs: []
+  randomGrowth: []

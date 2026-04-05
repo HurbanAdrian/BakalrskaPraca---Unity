@@ -23,13 +23,15 @@ public class UICoinDisplay : MonoBehaviour
         // Ak je priradený collector, zobrazujeme mince, ktoré má momentálne pri sebe.
         if (collector != null)
         {
-            displayTarget.text = Mathf.RoundToInt(collector.GetCoins()).ToString();
+            float roundedCoins = Mathf.Floor(collector.GetCoins() * 10f) / 10f;
+            displayTarget.text = roundedCoins.ToString("F1");
         }
         else
         {
             // Ak nie, naèítame a zobrazíme celkový poèet mincí zo save súboru (napr. v menu).
             float coins = SaveManager.LastLoadedGameData.coins;
-            displayTarget.text = Mathf.RoundToInt(coins).ToString();
+            float roundedCoins = Mathf.Floor(coins * 10f) / 10f;
+            displayTarget.text = roundedCoins.ToString("F1");
         }
     }
 }

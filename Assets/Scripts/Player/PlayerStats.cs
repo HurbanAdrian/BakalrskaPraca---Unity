@@ -44,6 +44,7 @@ public class PlayerStats : EntityStats
     [Header("Visuals")]
     public ParticleSystem damageEffect;
     public ParticleSystem blockedEffect;
+    public ParticleSystem revivalEffect;
 
     // Skusenosti a level hraca
     [Header("Experience/level")]
@@ -86,7 +87,12 @@ public class PlayerStats : EntityStats
         collector = GetComponentInChildren<PlayerCollector>();
 
         // Priradenie premenných
-        baseStats = actualStats = characterData.stats;
+        baseStats = characterData.stats;
+        // Najskor zoberieme baseStats, potom aplikujeme bonusy z mesta a at potomich dame do actualStats
+        ApplyCityUpgrades();
+
+        actualStats = baseStats;
+
         collector.SetRadius(actualStats.magnet);
         health = actualStats.maxHealth;
         
@@ -267,10 +273,13 @@ public class PlayerStats : EntityStats
             actualStats.revival--;
             CurrentHealth = actualStats.maxHealth / 2;
 
-            invincibilityTimer = 2f;
+            invincibilityTimer = 1f;
             isInvincible = true;
 
-            // Mozno este pridat efekt
+            if (revivalEffect)
+            {
+                Destroy(Instantiate(revivalEffect, transform.position, Quaternion.identity).gameObject, 5f);
+            }
         }
         else if (!GameManager.instance.isGameOver)
         {
@@ -307,4 +316,29 @@ public class PlayerStats : EntityStats
         }
     }
 
+    void ApplyCityUpgrades()
+    {
+        SaveManager.GameData data = SaveManager.LastLoadedGameData;
+        if (data == null) return;
+
+        // --- 1. KOVÁČ (Blacksmith) : Útok ---
+        baseStats.might += (data.blacksmith.stat1Level * 0.1f);
+        baseStats.armor += (data.blacksmith.stat2Level * 1f);
+        baseStats.amount += data.blacksmith.stat3Level;
+        if (data.blacksmith.IsMaxed()) baseStats.area += 0.5f;
+
+        // --- 2. KRČMA (Tavern) : Prežitie ---
+        baseStats.maxHealth += (data.tavern.stat1Level * 20f);
+        baseStats.moveSpeed += (data.tavern.stat2Level * 0.1f);
+        baseStats.cooldown -= (data.tavern.stat3Level * 0.05f);
+        if (data.tavern.IsMaxed()) baseStats.duration += 0.5f;
+
+        // --- 3. TRHOVISKO (Market) : Ekonómia ---
+        baseStats.greed += (data.market.stat1Level * 0.1f);
+        baseStats.luck += (data.market.stat2Level * 0.1f);
+        baseStats.expGain += (data.market.stat3Level * 0.1f);
+        if (data.market.IsMaxed()) baseStats.magnet += 2.5f;
+
+        Debug.Log("Mesto aplikované! Hráčove baseStats sú posilnené na celý run.");
+    }
 }

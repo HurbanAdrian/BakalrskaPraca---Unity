@@ -1,0 +1,533 @@
+fileFormatVersion: 2
+guid: 39965fcf0860ab245aaf965de33d736f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1069419098102061355
+    second: Pixel_art_green_skin...-702574870-0_0
+  - first:
+      213: -273663873295026323
+    second: Pixel_art_green_skin...-702574870-0_1
+  - first:
+      213: -5367007758575483983
+    second: Pixel_art_green_skin...-702574870-0_2
+  - first:
+      213: -1124157487531724466
+    second: Pixel_art_green_skin...-702574870-0_3
+  - first:
+      213: 4378956517504929141
+    second: Pixel_art_green_skin...-702574870-0_4
+  - first:
+      213: 8928725901140515719
+    second: Pixel_art_green_skin...-702574870-0_5
+  - first:
+      213: 6925024579415040139
+    second: Pixel_art_green_skin...-702574870-0_6
+  - first:
+      213: -6568208904483047599
+    second: Pixel_art_green_skin...-702574870-0_7
+  - first:
+      213: 4589404632508603195
+    second: Pixel_art_green_skin...-702574870-0_8
+  - first:
+      213: 6316943326917436346
+    second: Pixel_art_green_skin...-702574870-0_9
+  - first:
+      213: 8479896472937133414
+    second: Pixel_art_green_skin...-702574870-0_10
+  - first:
+      213: 7997431151319258157
+    second: Pixel_art_green_skin...-702574870-0_11
+  - first:
+      213: -3434173375891707698
+    second: Pixel_art_green_skin...-702574870-0_12
+  - first:
+      213: -5245206694863897946
+    second: Pixel_art_green_skin...-702574870-0_13
+  - first:
+      213: 2953938349856109934
+    second: Pixel_art_green_skin...-702574870-0_14
+  - first:
+      213: 8183850197935959557
+    second: Pixel_art_green_skin...-702574870-0_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 120
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Pixel_art_green_skin...-702574870-0_0
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 595
+        width: 102
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d6ab9d0ff8a821f0800000000000000
+      internalID: -1069419098102061355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel_art_green_skin...-702574870-0_1
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 591
+        width: 98
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d67746c3820c33cf0800000000000000
+      internalID: -273663873295026323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel_art_green_skin...-702574870-0_2
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 595
+        width: 102
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b3c75311ee8485b0800000000000000
+      internalID: -5367007758575483983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel_art_green_skin...-702574870-0_3
+      rect:
+        serializedVersion: 2
+        x: 623
+        y: 591
+        width: 94
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e41731c98b03660f0800000000000000
+      internalID: -1124157487531724466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel_art_green_skin...-702574870-0_4
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 403
+        width: 74
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57d43c080cd25cc30800000000000000
+      internalID: 4378956517504929141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel_art_green_skin...-702574870-0_5
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 403
+        width: 78
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78b5f4296e439eb70800000000000000
+      internalID: 8928725901140515719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel_art_green_skin...-702574870-0_6
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 403
+        width: 74
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b80e1e42a21aa1060800000000000000
+      internalID: 6925024579415040139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel_art_green_skin...-702574870-0_7
+      rect:
+        serializedVersion: 2
+        x: 635
+        y: 403
+        width: 82
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 157fabd1dc809d4a0800000000000000
+      internalID: -6568208904483047599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel_art_green_skin...-702574870-0_8
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 211
+        width: 102
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3b15339237d0bf30800000000000000
+      internalID: 4589404632508603195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel_art_green_skin...-702574870-0_9
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 207
+        width: 94
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab3203bbc7a4aa750800000000000000
+      internalID: 6316943326917436346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel_art_green_skin...-702574870-0_10
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 211
+        width: 102
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6657189e9e4aea570800000000000000
+      internalID: 8479896472937133414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel_art_green_skin...-702574870-0_11
+      rect:
+        serializedVersion: 2
+        x: 623
+        y: 207
+        width: 94
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d24170a82459cfe60800000000000000
+      internalID: 7997431151319258157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel_art_green_skin...-702574870-0_12
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 19
+        width: 74
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec8eed8728d5750d0800000000000000
+      internalID: -3434173375891707698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel_art_green_skin...-702574870-0_13
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 19
+        width: 78
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6aaf2232d484537b0800000000000000
+      internalID: -5245206694863897946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel_art_green_skin...-702574870-0_14
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 19
+        width: 74
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e65b39f474f7ef820800000000000000
+      internalID: 2953938349856109934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel_art_green_skin...-702574870-0_15
+      rect:
+        serializedVersion: 2
+        x: 627
+        y: 19
+        width: 82
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50eabf62560e29170800000000000000
+      internalID: 8183850197935959557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Pixel_art_green_skin...-702574870-0_0: -1069419098102061355
+      Pixel_art_green_skin...-702574870-0_1: -273663873295026323
+      Pixel_art_green_skin...-702574870-0_10: 8479896472937133414
+      Pixel_art_green_skin...-702574870-0_11: 7997431151319258157
+      Pixel_art_green_skin...-702574870-0_12: -3434173375891707698
+      Pixel_art_green_skin...-702574870-0_13: -5245206694863897946
+      Pixel_art_green_skin...-702574870-0_14: 2953938349856109934
+      Pixel_art_green_skin...-702574870-0_15: 8183850197935959557
+      Pixel_art_green_skin...-702574870-0_2: -5367007758575483983
+      Pixel_art_green_skin...-702574870-0_3: -1124157487531724466
+      Pixel_art_green_skin...-702574870-0_4: 4378956517504929141
+      Pixel_art_green_skin...-702574870-0_5: 8928725901140515719
+      Pixel_art_green_skin...-702574870-0_6: 6925024579415040139
+      Pixel_art_green_skin...-702574870-0_7: -6568208904483047599
+      Pixel_art_green_skin...-702574870-0_8: 4589404632508603195
+      Pixel_art_green_skin...-702574870-0_9: 6316943326917436346
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

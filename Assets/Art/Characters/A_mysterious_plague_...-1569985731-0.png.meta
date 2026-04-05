@@ -1,0 +1,533 @@
+fileFormatVersion: 2
+guid: 9ec7b262a6026d742a2383c8cb6dd5bf
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5377562603449921146
+    second: A_mysterious_plague_...-1569985731-0_0
+  - first:
+      213: 210295386666305417
+    second: A_mysterious_plague_...-1569985731-0_1
+  - first:
+      213: -5577968950736411391
+    second: A_mysterious_plague_...-1569985731-0_2
+  - first:
+      213: 7099608331683385143
+    second: A_mysterious_plague_...-1569985731-0_3
+  - first:
+      213: -2577682701833479817
+    second: A_mysterious_plague_...-1569985731-0_4
+  - first:
+      213: -9123835866503850943
+    second: A_mysterious_plague_...-1569985731-0_5
+  - first:
+      213: -9070462072090688673
+    second: A_mysterious_plague_...-1569985731-0_6
+  - first:
+      213: -318091973594087164
+    second: A_mysterious_plague_...-1569985731-0_7
+  - first:
+      213: 6198730020622622304
+    second: A_mysterious_plague_...-1569985731-0_8
+  - first:
+      213: -8527205586578621189
+    second: A_mysterious_plague_...-1569985731-0_9
+  - first:
+      213: 5997140602912422658
+    second: A_mysterious_plague_...-1569985731-0_10
+  - first:
+      213: -6024844610829719531
+    second: A_mysterious_plague_...-1569985731-0_11
+  - first:
+      213: 3815839041692088382
+    second: A_mysterious_plague_...-1569985731-0_12
+  - first:
+      213: -428224404984056145
+    second: A_mysterious_plague_...-1569985731-0_13
+  - first:
+      213: -6192794763480329584
+    second: A_mysterious_plague_...-1569985731-0_14
+  - first:
+      213: -7300246147163968018
+    second: A_mysterious_plague_...-1569985731-0_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: A_mysterious_plague_...-1569985731-0_0
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 595
+        width: 78
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68151ffbd4f0f55b0800000000000000
+      internalID: -5377562603449921146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A_mysterious_plague_...-1569985731-0_1
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 591
+        width: 70
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 987062c3a8e1be200800000000000000
+      internalID: 210295386666305417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A_mysterious_plague_...-1569985731-0_2
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 595
+        width: 78
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 105a23beac21792b0800000000000000
+      internalID: -5577968950736411391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A_mysterious_plague_...-1569985731-0_3
+      rect:
+        serializedVersion: 2
+        x: 635
+        y: 591
+        width: 70
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73f446e8920e68260800000000000000
+      internalID: 7099608331683385143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A_mysterious_plague_...-1569985731-0_4
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 403
+        width: 74
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 779db856d3b3a3cd0800000000000000
+      internalID: -2577682701833479817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A_mysterious_plague_...-1569985731-0_5
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 403
+        width: 74
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 144d11c9e9f916180800000000000000
+      internalID: -9123835866503850943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A_mysterious_plague_...-1569985731-0_6
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 403
+        width: 74
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5381648dce3f1280800000000000000
+      internalID: -9070462072090688673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A_mysterious_plague_...-1569985731-0_7
+      rect:
+        serializedVersion: 2
+        x: 627
+        y: 403
+        width: 86
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 401850c0909e59bf0800000000000000
+      internalID: -318091973594087164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A_mysterious_plague_...-1569985731-0_8
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 211
+        width: 78
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06ed2c98c10560650800000000000000
+      internalID: 6198730020622622304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A_mysterious_plague_...-1569985731-0_9
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 207
+        width: 70
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bfc3145b2b749a980800000000000000
+      internalID: -8527205586578621189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A_mysterious_plague_...-1569985731-0_10
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 211
+        width: 78
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20bbaa8aa9f1a3350800000000000000
+      internalID: 5997140602912422658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A_mysterious_plague_...-1569985731-0_11
+      rect:
+        serializedVersion: 2
+        x: 635
+        y: 207
+        width: 70
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51861985fb3736ca0800000000000000
+      internalID: -6024844610829719531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A_mysterious_plague_...-1569985731-0_12
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 19
+        width: 74
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e38bf18246594f430800000000000000
+      internalID: 3815839041692088382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A_mysterious_plague_...-1569985731-0_13
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 19
+        width: 74
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa6b5c82c24ae0af0800000000000000
+      internalID: -428224404984056145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A_mysterious_plague_...-1569985731-0_14
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 19
+        width: 74
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0921bd339f5ce0aa0800000000000000
+      internalID: -6192794763480329584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A_mysterious_plague_...-1569985731-0_15
+      rect:
+        serializedVersion: 2
+        x: 631
+        y: 19
+        width: 86
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eeda069bec050ba90800000000000000
+      internalID: -7300246147163968018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      A_mysterious_plague_...-1569985731-0_0: -5377562603449921146
+      A_mysterious_plague_...-1569985731-0_1: 210295386666305417
+      A_mysterious_plague_...-1569985731-0_10: 5997140602912422658
+      A_mysterious_plague_...-1569985731-0_11: -6024844610829719531
+      A_mysterious_plague_...-1569985731-0_12: 3815839041692088382
+      A_mysterious_plague_...-1569985731-0_13: -428224404984056145
+      A_mysterious_plague_...-1569985731-0_14: -6192794763480329584
+      A_mysterious_plague_...-1569985731-0_15: -7300246147163968018
+      A_mysterious_plague_...-1569985731-0_2: -5577968950736411391
+      A_mysterious_plague_...-1569985731-0_3: 7099608331683385143
+      A_mysterious_plague_...-1569985731-0_4: -2577682701833479817
+      A_mysterious_plague_...-1569985731-0_5: -9123835866503850943
+      A_mysterious_plague_...-1569985731-0_6: -9070462072090688673
+      A_mysterious_plague_...-1569985731-0_7: -318091973594087164
+      A_mysterious_plague_...-1569985731-0_8: 6198730020622622304
+      A_mysterious_plague_...-1569985731-0_9: -8527205586578621189
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

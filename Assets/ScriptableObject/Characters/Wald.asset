@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: efd64e0688633374cb69e64236dad287, type: 3}
+  m_Name: Wald
+  m_EditorClassIdentifier: Assembly-CSharp::CharacterData
+  icon: {fileID: -9021365612969202383, guid: 4e967601597830142b9f58d9a51f85ba, type: 3}
+  controller: {fileID: 22100000, guid: 444f55ed471c3f04f951fca460484e24, type: 2}
+  name: Wald
+  fullName: Lierin Sylyarus
+  characterDescription: A silent sentinel from the silver forests. With her piercing
+    gaze and unmatched archery, she turns fleeing into a deadly art, striking down
+    endless lines of enemies before they even realize they are hunted.
+  startingWeapon: {fileID: 11400000, guid: ae74b49a54c5be349950d668d7d0d943, type: 2}
+  stats:
+    maxHealth: 100
+    recovery: 0
+    armor: 0
+    moveSpeed: 1.1
+    might: 0.9
+    area: 1
+    speed: 1.1
+    duration: 1
+    amount: 1
+    cooldown: 1
+    expGain: 1
+    luck: 1.1
+    greed: 0.9
+    curse: 1
+    magnet: 1.8
+    revival: 0

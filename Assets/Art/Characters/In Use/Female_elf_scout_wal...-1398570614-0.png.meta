@@ -1,0 +1,533 @@
+fileFormatVersion: 2
+guid: 4e967601597830142b9f58d9a51f85ba
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -9021365612969202383
+    second: Female_elf_scout_wal...-1398570614-0_0
+  - first:
+      213: 6980927599689719405
+    second: Female_elf_scout_wal...-1398570614-0_1
+  - first:
+      213: -993948370888711721
+    second: Female_elf_scout_wal...-1398570614-0_2
+  - first:
+      213: 2293646075714606286
+    second: Female_elf_scout_wal...-1398570614-0_3
+  - first:
+      213: -3789022614776005527
+    second: Female_elf_scout_wal...-1398570614-0_4
+  - first:
+      213: 8645305310550145323
+    second: Female_elf_scout_wal...-1398570614-0_5
+  - first:
+      213: 1457822645013470923
+    second: Female_elf_scout_wal...-1398570614-0_6
+  - first:
+      213: -5302081417976511912
+    second: Female_elf_scout_wal...-1398570614-0_7
+  - first:
+      213: 5658294600207499873
+    second: Female_elf_scout_wal...-1398570614-0_8
+  - first:
+      213: -3116296455209952954
+    second: Female_elf_scout_wal...-1398570614-0_9
+  - first:
+      213: 8735327622052627843
+    second: Female_elf_scout_wal...-1398570614-0_10
+  - first:
+      213: 3547233616500772522
+    second: Female_elf_scout_wal...-1398570614-0_11
+  - first:
+      213: 758914121535258322
+    second: Female_elf_scout_wal...-1398570614-0_12
+  - first:
+      213: -5163143950240361642
+    second: Female_elf_scout_wal...-1398570614-0_13
+  - first:
+      213: -1432315593944943662
+    second: Female_elf_scout_wal...-1398570614-0_14
+  - first:
+      213: 3141567280060327252
+    second: Female_elf_scout_wal...-1398570614-0_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 120
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Female_elf_scout_wal...-1398570614-0_0
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 595
+        width: 86
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13deb02b5cbadc280800000000000000
+      internalID: -9021365612969202383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Female_elf_scout_wal...-1398570614-0_1
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 591
+        width: 82
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6ed9365aac31e060800000000000000
+      internalID: 6980927599689719405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Female_elf_scout_wal...-1398570614-0_2
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 595
+        width: 86
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d1a91c0939c432f0800000000000000
+      internalID: -993948370888711721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Female_elf_scout_wal...-1398570614-0_3
+      rect:
+        serializedVersion: 2
+        x: 627
+        y: 591
+        width: 86
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec4107f14faa4df10800000000000000
+      internalID: 2293646075714606286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Female_elf_scout_wal...-1398570614-0_4
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 403
+        width: 82
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96cba58c100ba6bc0800000000000000
+      internalID: -3789022614776005527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Female_elf_scout_wal...-1398570614-0_5
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 403
+        width: 82
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b29b32a006b4af770800000000000000
+      internalID: 8645305310550145323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Female_elf_scout_wal...-1398570614-0_6
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 403
+        width: 82
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bce5c85c8f93b3410800000000000000
+      internalID: 1457822645013470923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Female_elf_scout_wal...-1398570614-0_7
+      rect:
+        serializedVersion: 2
+        x: 623
+        y: 403
+        width: 86
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8528f4fba093b66b0800000000000000
+      internalID: -5302081417976511912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Female_elf_scout_wal...-1398570614-0_8
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 211
+        width: 86
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16201efb5fc468e40800000000000000
+      internalID: 5658294600207499873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Female_elf_scout_wal...-1398570614-0_9
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 207
+        width: 78
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 649d66482e0b0c4d0800000000000000
+      internalID: -3116296455209952954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Female_elf_scout_wal...-1398570614-0_10
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 211
+        width: 86
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 385ca15c03e1a3970800000000000000
+      internalID: 8735327622052627843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Female_elf_scout_wal...-1398570614-0_11
+      rect:
+        serializedVersion: 2
+        x: 627
+        y: 207
+        width: 82
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aae4ade1e2e4a3130800000000000000
+      internalID: 3547233616500772522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Female_elf_scout_wal...-1398570614-0_12
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 19
+        width: 82
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2def2256f54388a00800000000000000
+      internalID: 758914121535258322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Female_elf_scout_wal...-1398570614-0_13
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 19
+        width: 82
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65357b9cee3d858b0800000000000000
+      internalID: -5163143950240361642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Female_elf_scout_wal...-1398570614-0_14
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 19
+        width: 82
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d3b8a85e846f1ce0800000000000000
+      internalID: -1432315593944943662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Female_elf_scout_wal...-1398570614-0_15
+      rect:
+        serializedVersion: 2
+        x: 635
+        y: 19
+        width: 86
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4556cf5ebc6199b20800000000000000
+      internalID: 3141567280060327252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Female_elf_scout_wal...-1398570614-0_0: -9021365612969202383
+      Female_elf_scout_wal...-1398570614-0_1: 6980927599689719405
+      Female_elf_scout_wal...-1398570614-0_10: 8735327622052627843
+      Female_elf_scout_wal...-1398570614-0_11: 3547233616500772522
+      Female_elf_scout_wal...-1398570614-0_12: 758914121535258322
+      Female_elf_scout_wal...-1398570614-0_13: -5163143950240361642
+      Female_elf_scout_wal...-1398570614-0_14: -1432315593944943662
+      Female_elf_scout_wal...-1398570614-0_15: 3141567280060327252
+      Female_elf_scout_wal...-1398570614-0_2: -993948370888711721
+      Female_elf_scout_wal...-1398570614-0_3: 2293646075714606286
+      Female_elf_scout_wal...-1398570614-0_4: -3789022614776005527
+      Female_elf_scout_wal...-1398570614-0_5: 8645305310550145323
+      Female_elf_scout_wal...-1398570614-0_6: 1457822645013470923
+      Female_elf_scout_wal...-1398570614-0_7: -5302081417976511912
+      Female_elf_scout_wal...-1398570614-0_8: 5658294600207499873
+      Female_elf_scout_wal...-1398570614-0_9: -3116296455209952954
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

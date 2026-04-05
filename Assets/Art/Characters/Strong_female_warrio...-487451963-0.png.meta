@@ -1,0 +1,585 @@
+fileFormatVersion: 2
+guid: f45d652eab960064182bd77656173f6d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7264712086601771287
+    second: Strong_female_warrio...-487451963-0_0
+  - first:
+      213: 1831457525668542386
+    second: Strong_female_warrio...-487451963-0_1
+  - first:
+      213: -9056767239449308581
+    second: Strong_female_warrio...-487451963-0_2
+  - first:
+      213: 4510980594018760342
+    second: Strong_female_warrio...-487451963-0_3
+  - first:
+      213: 3321472457200497905
+    second: Strong_female_warrio...-487451963-0_4
+  - first:
+      213: 7249642683148711529
+    second: Strong_female_warrio...-487451963-0_5
+  - first:
+      213: -6895124628960125659
+    second: Strong_female_warrio...-487451963-0_6
+  - first:
+      213: -5224632118875300542
+    second: Strong_female_warrio...-487451963-0_7
+  - first:
+      213: 7859505929162574335
+    second: Strong_female_warrio...-487451963-0_8
+  - first:
+      213: 1223791516774810321
+    second: Strong_female_warrio...-487451963-0_9
+  - first:
+      213: 3615322475835456563
+    second: Strong_female_warrio...-487451963-0_10
+  - first:
+      213: -7767241011407216228
+    second: Strong_female_warrio...-487451963-0_11
+  - first:
+      213: -5596330172429567982
+    second: Strong_female_warrio...-487451963-0_12
+  - first:
+      213: 1871112269225652287
+    second: Strong_female_warrio...-487451963-0_13
+  - first:
+      213: -8067205205282055955
+    second: Strong_female_warrio...-487451963-0_14
+  - first:
+      213: -7118490359358870206
+    second: Strong_female_warrio...-487451963-0_15
+  - first:
+      213: 7618348521359706429
+    second: Strong_female_warrio...-487451963-0_16
+  - first:
+      213: 8664641437901605575
+    second: Strong_female_warrio...-487451963-0_17
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Strong_female_warrio...-487451963-0_0
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 595
+        width: 106
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 719a265172171d460800000000000000
+      internalID: 7264712086601771287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Strong_female_warrio...-487451963-0_1
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 591
+        width: 90
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b770b68ae4aa6910800000000000000
+      internalID: 1831457525668542386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Strong_female_warrio...-487451963-0_2
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 595
+        width: 110
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b529a373e26ef4280800000000000000
+      internalID: -9056767239449308581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Strong_female_warrio...-487451963-0_3
+      rect:
+        serializedVersion: 2
+        x: 611
+        y: 591
+        width: 106
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6963b2733f83a9e30800000000000000
+      internalID: 4510980594018760342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Strong_female_warrio...-487451963-0_4
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 403
+        width: 74
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f4fda61a9d381e20800000000000000
+      internalID: 3321472457200497905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Strong_female_warrio...-487451963-0_5
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 403
+        width: 86
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 966b69d2c97eb9460800000000000000
+      internalID: 7249642683148711529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Strong_female_warrio...-487451963-0_6
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 403
+        width: 78
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52dd8c09ea89f40a0800000000000000
+      internalID: -6895124628960125659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Strong_female_warrio...-487451963-0_7
+      rect:
+        serializedVersion: 2
+        x: 611
+        y: 403
+        width: 98
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24d5758e4c06e77b0800000000000000
+      internalID: -5224632118875300542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Strong_female_warrio...-487451963-0_8
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 211
+        width: 106
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff9cfc94003921d60800000000000000
+      internalID: 7859505929162574335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Strong_female_warrio...-487451963-0_9
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 207
+        width: 86
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d2cf7c86e7cbf010800000000000000
+      internalID: 1223791516774810321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Strong_female_warrio...-487451963-0_10
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 359
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33c78a013a43c2230800000000000000
+      internalID: 3615322475835456563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Strong_female_warrio...-487451963-0_11
+      rect:
+        serializedVersion: 2
+        x: 499
+        y: 359
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c912a36e377353490800000000000000
+      internalID: -7767241011407216228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Strong_female_warrio...-487451963-0_12
+      rect:
+        serializedVersion: 2
+        x: 619
+        y: 207
+        width: 94
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 218f88adb57d552b0800000000000000
+      internalID: -5596330172429567982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Strong_female_warrio...-487451963-0_13
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 211
+        width: 106
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f30f11ef1b687f910800000000000000
+      internalID: 1871112269225652287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Strong_female_warrio...-487451963-0_14
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 19
+        width: 78
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de81bf09b978b0090800000000000000
+      internalID: -8067205205282055955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Strong_female_warrio...-487451963-0_15
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 19
+        width: 86
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24d2f59cbba063d90800000000000000
+      internalID: -7118490359358870206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Strong_female_warrio...-487451963-0_16
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 19
+        width: 78
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3984cecd9fc9b960800000000000000
+      internalID: 7618348521359706429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Strong_female_warrio...-487451963-0_17
+      rect:
+        serializedVersion: 2
+        x: 635
+        y: 19
+        width: 98
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ca41440b7dfe3870800000000000000
+      internalID: 8664641437901605575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Strong_female_warrio...-487451963-0_0: 7264712086601771287
+      Strong_female_warrio...-487451963-0_1: 1831457525668542386
+      Strong_female_warrio...-487451963-0_10: 3615322475835456563
+      Strong_female_warrio...-487451963-0_11: -7767241011407216228
+      Strong_female_warrio...-487451963-0_12: -5596330172429567982
+      Strong_female_warrio...-487451963-0_13: 1871112269225652287
+      Strong_female_warrio...-487451963-0_14: -8067205205282055955
+      Strong_female_warrio...-487451963-0_15: -7118490359358870206
+      Strong_female_warrio...-487451963-0_16: 7618348521359706429
+      Strong_female_warrio...-487451963-0_17: 8664641437901605575
+      Strong_female_warrio...-487451963-0_2: -9056767239449308581
+      Strong_female_warrio...-487451963-0_3: 4510980594018760342
+      Strong_female_warrio...-487451963-0_4: 3321472457200497905
+      Strong_female_warrio...-487451963-0_5: 7249642683148711529
+      Strong_female_warrio...-487451963-0_6: -6895124628960125659
+      Strong_female_warrio...-487451963-0_7: -5224632118875300542
+      Strong_female_warrio...-487451963-0_8: 7859505929162574335
+      Strong_female_warrio...-487451963-0_9: 1223791516774810321
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

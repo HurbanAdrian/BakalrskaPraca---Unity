@@ -1,0 +1,533 @@
+fileFormatVersion: 2
+guid: de6939d47fd477245ad5e14cbbae50a8
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4173885209979986432
+    second: Elegant_male_paladin...-281878583-0_0
+  - first:
+      213: -6707590765365747519
+    second: Elegant_male_paladin...-281878583-0_1
+  - first:
+      213: -5331569578208749644
+    second: Elegant_male_paladin...-281878583-0_2
+  - first:
+      213: -3677638485358415664
+    second: Elegant_male_paladin...-281878583-0_3
+  - first:
+      213: -6698004922528570315
+    second: Elegant_male_paladin...-281878583-0_4
+  - first:
+      213: -1254165917675814158
+    second: Elegant_male_paladin...-281878583-0_5
+  - first:
+      213: 2172389838419548148
+    second: Elegant_male_paladin...-281878583-0_6
+  - first:
+      213: -1042597001945700203
+    second: Elegant_male_paladin...-281878583-0_7
+  - first:
+      213: -9071091816613966694
+    second: Elegant_male_paladin...-281878583-0_8
+  - first:
+      213: 6256848084131988684
+    second: Elegant_male_paladin...-281878583-0_9
+  - first:
+      213: 22812843391347659
+    second: Elegant_male_paladin...-281878583-0_10
+  - first:
+      213: 1416232411365935939
+    second: Elegant_male_paladin...-281878583-0_11
+  - first:
+      213: 6074846180641490124
+    second: Elegant_male_paladin...-281878583-0_12
+  - first:
+      213: 5733630396398304904
+    second: Elegant_male_paladin...-281878583-0_13
+  - first:
+      213: 4658507547052501478
+    second: Elegant_male_paladin...-281878583-0_14
+  - first:
+      213: -2248200742810101179
+    second: Elegant_male_paladin...-281878583-0_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Elegant_male_paladin...-281878583-0_0
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 595
+        width: 94
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0022d1afb7e9ce930800000000000000
+      internalID: 4173885209979986432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elegant_male_paladin...-281878583-0_1
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 591
+        width: 98
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c02fabbcb9d9e2a0800000000000000
+      internalID: -6707590765365747519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elegant_male_paladin...-281878583-0_2
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 595
+        width: 98
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b7969b67b57206b0800000000000000
+      internalID: -5331569578208749644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elegant_male_paladin...-281878583-0_3
+      rect:
+        serializedVersion: 2
+        x: 623
+        y: 591
+        width: 90
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d0f7e3584766fcc0800000000000000
+      internalID: -3677638485358415664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elegant_male_paladin...-281878583-0_4
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 403
+        width: 78
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 534edd0b208eb03a0800000000000000
+      internalID: -6698004922528570315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elegant_male_paladin...-281878583-0_5
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 403
+        width: 90
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f208832ebe489ee0800000000000000
+      internalID: -1254165917675814158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elegant_male_paladin...-281878583-0_6
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 403
+        width: 82
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f75aa85c01e52e10800000000000000
+      internalID: 2172389838419548148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elegant_male_paladin...-281878583-0_7
+      rect:
+        serializedVersion: 2
+        x: 619
+        y: 403
+        width: 90
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 598a327fc83f781f0800000000000000
+      internalID: -1042597001945700203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elegant_male_paladin...-281878583-0_8
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 211
+        width: 94
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9c85c1bd020d1280800000000000000
+      internalID: -9071091816613966694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elegant_male_paladin...-281878583-0_9
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 207
+        width: 90
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc4454cae2ac4d650800000000000000
+      internalID: 6256848084131988684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elegant_male_paladin...-281878583-0_10
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 211
+        width: 94
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bcb68a2092c015000800000000000000
+      internalID: 22812843391347659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elegant_male_paladin...-281878583-0_11
+      rect:
+        serializedVersion: 2
+        x: 623
+        y: 207
+        width: 90
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34b8cd6efd777a310800000000000000
+      internalID: 1416232411365935939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elegant_male_paladin...-281878583-0_12
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 19
+        width: 82
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc446465a603e4450800000000000000
+      internalID: 6074846180641490124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elegant_male_paladin...-281878583-0_13
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 19
+        width: 94
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88ef3baa772f19f40800000000000000
+      internalID: 5733630396398304904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elegant_male_paladin...-281878583-0_14
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 19
+        width: 82
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e96a85aee756a040800000000000000
+      internalID: 4658507547052501478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elegant_male_paladin...-281878583-0_15
+      rect:
+        serializedVersion: 2
+        x: 635
+        y: 23
+        width: 90
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54ad80df559ccc0e0800000000000000
+      internalID: -2248200742810101179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Elegant_male_paladin...-281878583-0_0: 4173885209979986432
+      Elegant_male_paladin...-281878583-0_1: -6707590765365747519
+      Elegant_male_paladin...-281878583-0_10: 22812843391347659
+      Elegant_male_paladin...-281878583-0_11: 1416232411365935939
+      Elegant_male_paladin...-281878583-0_12: 6074846180641490124
+      Elegant_male_paladin...-281878583-0_13: 5733630396398304904
+      Elegant_male_paladin...-281878583-0_14: 4658507547052501478
+      Elegant_male_paladin...-281878583-0_15: -2248200742810101179
+      Elegant_male_paladin...-281878583-0_2: -5331569578208749644
+      Elegant_male_paladin...-281878583-0_3: -3677638485358415664
+      Elegant_male_paladin...-281878583-0_4: -6698004922528570315
+      Elegant_male_paladin...-281878583-0_5: -1254165917675814158
+      Elegant_male_paladin...-281878583-0_6: 2172389838419548148
+      Elegant_male_paladin...-281878583-0_7: -1042597001945700203
+      Elegant_male_paladin...-281878583-0_8: -9071091816613966694
+      Elegant_male_paladin...-281878583-0_9: 6256848084131988684
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

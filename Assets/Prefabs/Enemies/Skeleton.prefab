@@ -268,6 +268,15 @@ MonoBehaviour:
   - name: BlueGem
     itemPrefab: {fileID: 1222974267670475714, guid: 53400b4a5de059a449a4e75e6179cf5b, type: 3}
     dropRate: 50
+  - name: Treasure Chest
+    itemPrefab: {fileID: 1055815876130076236, guid: f29bda2bae97431448cb4887a7b0fe4c, type: 3}
+    dropRate: 1
+  - name: Red Gem
+    itemPrefab: {fileID: 1716396255576501282, guid: 77c958285754f414ab2760e08d57b33f, type: 3}
+    dropRate: 10
+  - name: Green Gem
+    itemPrefab: {fileID: 1716396255576501282, guid: 77c958285754f414ab2760e08d57b33f, type: 3}
+    dropRate: 25
 --- !u!50 &-4702409726320527233
 Rigidbody2D:
   serializedVersion: 5

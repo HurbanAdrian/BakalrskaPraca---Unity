@@ -1,0 +1,533 @@
+fileFormatVersion: 2
+guid: 102aca63fc0529c46bea1bbf0c868859
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2049676030482068892
+    second: Female_Kunoichi_in_a...-980793275-0_0
+  - first:
+      213: -8323554415735059577
+    second: Female_Kunoichi_in_a...-980793275-0_1
+  - first:
+      213: -6588540834703120694
+    second: Female_Kunoichi_in_a...-980793275-0_2
+  - first:
+      213: 1768483625492121947
+    second: Female_Kunoichi_in_a...-980793275-0_3
+  - first:
+      213: -2190174189089447054
+    second: Female_Kunoichi_in_a...-980793275-0_4
+  - first:
+      213: -3411036649004977167
+    second: Female_Kunoichi_in_a...-980793275-0_5
+  - first:
+      213: 7775460200679995614
+    second: Female_Kunoichi_in_a...-980793275-0_6
+  - first:
+      213: -8068908871149741274
+    second: Female_Kunoichi_in_a...-980793275-0_7
+  - first:
+      213: 7911804196489256401
+    second: Female_Kunoichi_in_a...-980793275-0_8
+  - first:
+      213: -2163844942088290137
+    second: Female_Kunoichi_in_a...-980793275-0_9
+  - first:
+      213: -1650469063913757839
+    second: Female_Kunoichi_in_a...-980793275-0_10
+  - first:
+      213: 6338484713124314926
+    second: Female_Kunoichi_in_a...-980793275-0_11
+  - first:
+      213: 2076954033747196186
+    second: Female_Kunoichi_in_a...-980793275-0_12
+  - first:
+      213: -5291021546345480037
+    second: Female_Kunoichi_in_a...-980793275-0_13
+  - first:
+      213: -5635466938184552747
+    second: Female_Kunoichi_in_a...-980793275-0_14
+  - first:
+      213: -1423149903247135062
+    second: Female_Kunoichi_in_a...-980793275-0_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Female_Kunoichi_in_a...-980793275-0_0
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 595
+        width: 86
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46acb7a82861e83e0800000000000000
+      internalID: -2049676030482068892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Female_Kunoichi_in_a...-980793275-0_1
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 591
+        width: 90
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78b4a75eb5bcc7c80800000000000000
+      internalID: -8323554415735059577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Female_Kunoichi_in_a...-980793275-0_2
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 595
+        width: 90
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac66d57b40dc094a0800000000000000
+      internalID: -6588540834703120694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Female_Kunoichi_in_a...-980793275-0_3
+      rect:
+        serializedVersion: 2
+        x: 623
+        y: 591
+        width: 90
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b598d80dc7aea8810800000000000000
+      internalID: 1768483625492121947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Female_Kunoichi_in_a...-980793275-0_4
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 403
+        width: 98
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2732817dd20fa91e0800000000000000
+      internalID: -2190174189089447054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Female_Kunoichi_in_a...-980793275-0_5
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 403
+        width: 98
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f3383c7d3099a0d0800000000000000
+      internalID: -3411036649004977167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Female_Kunoichi_in_a...-980793275-0_6
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 407
+        width: 98
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed8f7ba3bdbf7eb60800000000000000
+      internalID: 7775460200679995614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Female_Kunoichi_in_a...-980793275-0_7
+      rect:
+        serializedVersion: 2
+        x: 611
+        y: 403
+        width: 98
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62b1f12f12a750090800000000000000
+      internalID: -8068908871149741274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Female_Kunoichi_in_a...-980793275-0_8
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 211
+        width: 98
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1dddf288fff5ccd60800000000000000
+      internalID: 7911804196489256401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Female_Kunoichi_in_a...-980793275-0_9
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 211
+        width: 94
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a04dcd5d7a78f1e0800000000000000
+      internalID: -2163844942088290137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Female_Kunoichi_in_a...-980793275-0_10
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 215
+        width: 98
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17326a4812b5819e0800000000000000
+      internalID: -1650469063913757839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Female_Kunoichi_in_a...-980793275-0_11
+      rect:
+        serializedVersion: 2
+        x: 619
+        y: 211
+        width: 90
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2fb40c8342d6f750800000000000000
+      internalID: 6338484713124314926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Female_Kunoichi_in_a...-980793275-0_12
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 19
+        width: 98
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a19f05480b2d2dc10800000000000000
+      internalID: 2076954033747196186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Female_Kunoichi_in_a...-980793275-0_13
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 19
+        width: 102
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b90c327cfe38296b0800000000000000
+      internalID: -5291021546345480037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Female_Kunoichi_in_a...-980793275-0_14
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 19
+        width: 102
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5de2d0e7daccac1b0800000000000000
+      internalID: -5635466938184552747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Female_Kunoichi_in_a...-980793275-0_15
+      rect:
+        serializedVersion: 2
+        x: 631
+        y: 23
+        width: 102
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aaea2d204b4ff3ce0800000000000000
+      internalID: -1423149903247135062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Female_Kunoichi_in_a...-980793275-0_0: -2049676030482068892
+      Female_Kunoichi_in_a...-980793275-0_1: -8323554415735059577
+      Female_Kunoichi_in_a...-980793275-0_10: -1650469063913757839
+      Female_Kunoichi_in_a...-980793275-0_11: 6338484713124314926
+      Female_Kunoichi_in_a...-980793275-0_12: 2076954033747196186
+      Female_Kunoichi_in_a...-980793275-0_13: -5291021546345480037
+      Female_Kunoichi_in_a...-980793275-0_14: -5635466938184552747
+      Female_Kunoichi_in_a...-980793275-0_15: -1423149903247135062
+      Female_Kunoichi_in_a...-980793275-0_2: -6588540834703120694
+      Female_Kunoichi_in_a...-980793275-0_3: 1768483625492121947
+      Female_Kunoichi_in_a...-980793275-0_4: -2190174189089447054
+      Female_Kunoichi_in_a...-980793275-0_5: -3411036649004977167
+      Female_Kunoichi_in_a...-980793275-0_6: 7775460200679995614
+      Female_Kunoichi_in_a...-980793275-0_7: -8068908871149741274
+      Female_Kunoichi_in_a...-980793275-0_8: 7911804196489256401
+      Female_Kunoichi_in_a...-980793275-0_9: -2163844942088290137
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,533 @@
+fileFormatVersion: 2
+guid: c249179d56f9df741b8fd630835b2bff
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1340634594175196118
+    second: succubus_gladia...-1793081215-0_0
+  - first:
+      213: -8221566380196567260
+    second: succubus_gladia...-1793081215-0_1
+  - first:
+      213: -6365407320362306849
+    second: succubus_gladia...-1793081215-0_2
+  - first:
+      213: -3282264266844390966
+    second: succubus_gladia...-1793081215-0_3
+  - first:
+      213: -5241647085821579696
+    second: succubus_gladia...-1793081215-0_4
+  - first:
+      213: 2465727375019669209
+    second: succubus_gladia...-1793081215-0_5
+  - first:
+      213: -7183153925193087826
+    second: succubus_gladia...-1793081215-0_6
+  - first:
+      213: 893699046660054859
+    second: succubus_gladia...-1793081215-0_7
+  - first:
+      213: 8275216255109466397
+    second: succubus_gladia...-1793081215-0_8
+  - first:
+      213: -9010432297250041079
+    second: succubus_gladia...-1793081215-0_9
+  - first:
+      213: -5447642604197040837
+    second: succubus_gladia...-1793081215-0_10
+  - first:
+      213: 2777662096135010985
+    second: succubus_gladia...-1793081215-0_11
+  - first:
+      213: 8833876004523494397
+    second: succubus_gladia...-1793081215-0_12
+  - first:
+      213: -1677681450929412241
+    second: succubus_gladia...-1793081215-0_13
+  - first:
+      213: -5854655898244082775
+    second: succubus_gladia...-1793081215-0_14
+  - first:
+      213: 6603242283940785662
+    second: succubus_gladia...-1793081215-0_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: succubus_gladia...-1793081215-0_0
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 595
+        width: 134
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6db99677f04ea9210800000000000000
+      internalID: 1340634594175196118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: succubus_gladia...-1793081215-0_1
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 591
+        width: 130
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 427e61bdfe027ed80800000000000000
+      internalID: -8221566380196567260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: succubus_gladia...-1793081215-0_2
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 595
+        width: 134
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd2322b74c789a7a0800000000000000
+      internalID: -6365407320362306849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: succubus_gladia...-1793081215-0_3
+      rect:
+        serializedVersion: 2
+        x: 607
+        y: 591
+        width: 126
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac938cb1a0e0372d0800000000000000
+      internalID: -3282264266844390966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: succubus_gladia...-1793081215-0_4
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 403
+        width: 82
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05ea4a33fbde147b0800000000000000
+      internalID: -5241647085821579696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: succubus_gladia...-1793081215-0_5
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 403
+        width: 94
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d6f00dcbf5083220800000000000000
+      internalID: 2465727375019669209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: succubus_gladia...-1793081215-0_6
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 403
+        width: 86
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea4c9e1209f405c90800000000000000
+      internalID: -7183153925193087826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: succubus_gladia...-1793081215-0_7
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 403
+        width: 86
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4f17444c8e076c00800000000000000
+      internalID: 893699046660054859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: succubus_gladia...-1793081215-0_8
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 211
+        width: 78
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d19865d075977d270800000000000000
+      internalID: 8275216255109466397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: succubus_gladia...-1793081215-0_9
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 207
+        width: 70
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90354b1a09384f280800000000000000
+      internalID: -9010432297250041079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: succubus_gladia...-1793081215-0_10
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 211
+        width: 78
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3d2d811ae51664b0800000000000000
+      internalID: -5447642604197040837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: succubus_gladia...-1793081215-0_11
+      rect:
+        serializedVersion: 2
+        x: 635
+        y: 207
+        width: 70
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9aab132b5fc3c8620800000000000000
+      internalID: 2777662096135010985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: succubus_gladia...-1793081215-0_12
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 19
+        width: 86
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dfb48771c6b389a70800000000000000
+      internalID: 8833876004523494397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: succubus_gladia...-1793081215-0_13
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 19
+        width: 94
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f67271feb9da7b8e0800000000000000
+      internalID: -1677681450929412241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: succubus_gladia...-1793081215-0_14
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 19
+        width: 86
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a31407da7510cea0800000000000000
+      internalID: -5854655898244082775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: succubus_gladia...-1793081215-0_15
+      rect:
+        serializedVersion: 2
+        x: 643
+        y: 19
+        width: 86
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: efd212c2fdd63ab50800000000000000
+      internalID: 6603242283940785662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      succubus_gladia...-1793081215-0_0: 1340634594175196118
+      succubus_gladia...-1793081215-0_1: -8221566380196567260
+      succubus_gladia...-1793081215-0_10: -5447642604197040837
+      succubus_gladia...-1793081215-0_11: 2777662096135010985
+      succubus_gladia...-1793081215-0_12: 8833876004523494397
+      succubus_gladia...-1793081215-0_13: -1677681450929412241
+      succubus_gladia...-1793081215-0_14: -5854655898244082775
+      succubus_gladia...-1793081215-0_15: 6603242283940785662
+      succubus_gladia...-1793081215-0_2: -6365407320362306849
+      succubus_gladia...-1793081215-0_3: -3282264266844390966
+      succubus_gladia...-1793081215-0_4: -5241647085821579696
+      succubus_gladia...-1793081215-0_5: 2465727375019669209
+      succubus_gladia...-1793081215-0_6: -7183153925193087826
+      succubus_gladia...-1793081215-0_7: 893699046660054859
+      succubus_gladia...-1793081215-0_8: 8275216255109466397
+      succubus_gladia...-1793081215-0_9: -9010432297250041079
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,533 @@
+fileFormatVersion: 2
+guid: 7785070d3da53954a95fb578addaa338
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3429054790245346552
+    second: Male_Viking_chieftai...-548416355-0_0
+  - first:
+      213: 1003172239813326279
+    second: Male_Viking_chieftai...-548416355-0_1
+  - first:
+      213: -8232755271078528145
+    second: Male_Viking_chieftai...-548416355-0_2
+  - first:
+      213: 6002308424767250470
+    second: Male_Viking_chieftai...-548416355-0_3
+  - first:
+      213: 4451569519448284554
+    second: Male_Viking_chieftai...-548416355-0_4
+  - first:
+      213: 6041709712640847690
+    second: Male_Viking_chieftai...-548416355-0_5
+  - first:
+      213: -7656467205254508129
+    second: Male_Viking_chieftai...-548416355-0_6
+  - first:
+      213: -8320447345427371983
+    second: Male_Viking_chieftai...-548416355-0_7
+  - first:
+      213: -1451046841774055416
+    second: Male_Viking_chieftai...-548416355-0_8
+  - first:
+      213: 2250419940325679246
+    second: Male_Viking_chieftai...-548416355-0_9
+  - first:
+      213: 1079629407354629138
+    second: Male_Viking_chieftai...-548416355-0_10
+  - first:
+      213: -881166894839195602
+    second: Male_Viking_chieftai...-548416355-0_11
+  - first:
+      213: -8728299684206033962
+    second: Male_Viking_chieftai...-548416355-0_12
+  - first:
+      213: 6388604836182144496
+    second: Male_Viking_chieftai...-548416355-0_13
+  - first:
+      213: -2625633933062910579
+    second: Male_Viking_chieftai...-548416355-0_14
+  - first:
+      213: 6253746461739676291
+    second: Male_Viking_chieftai...-548416355-0_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 120
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Male_Viking_chieftai...-548416355-0_0
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 595
+        width: 98
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 803131016dc8960d0800000000000000
+      internalID: -3429054790245346552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Male_Viking_chieftai...-548416355-0_1
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 591
+        width: 94
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c53b9a46dbfbed00800000000000000
+      internalID: 1003172239813326279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Male_Viking_chieftai...-548416355-0_2
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 595
+        width: 98
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6bb3a033b06fbd80800000000000000
+      internalID: -8232755271078528145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Male_Viking_chieftai...-548416355-0_3
+      rect:
+        serializedVersion: 2
+        x: 623
+        y: 591
+        width: 94
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6202692f5bb7c4350800000000000000
+      internalID: 6002308424767250470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Male_Viking_chieftai...-548416355-0_4
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 403
+        width: 74
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8ddbab74e627cd30800000000000000
+      internalID: 4451569519448284554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Male_Viking_chieftai...-548416355-0_5
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 403
+        width: 86
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4f2cf929f678d350800000000000000
+      internalID: 6041709712640847690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Male_Viking_chieftai...-548416355-0_6
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 403
+        width: 78
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f91906c74a3ceb590800000000000000
+      internalID: -7656467205254508129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Male_Viking_chieftai...-548416355-0_7
+      rect:
+        serializedVersion: 2
+        x: 631
+        y: 403
+        width: 74
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 138a5731935d78c80800000000000000
+      internalID: -8320447345427371983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Male_Viking_chieftai...-548416355-0_8
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 207
+        width: 102
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 800ea9bd598dcdbe0800000000000000
+      internalID: -1451046841774055416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Male_Viking_chieftai...-548416355-0_9
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 207
+        width: 94
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e80619233091b3f10800000000000000
+      internalID: 2250419940325679246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Male_Viking_chieftai...-548416355-0_10
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 207
+        width: 102
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21c2072d93d9bfe00800000000000000
+      internalID: 1079629407354629138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Male_Viking_chieftai...-548416355-0_11
+      rect:
+        serializedVersion: 2
+        x: 623
+        y: 207
+        width: 94
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e289645b06775c3f0800000000000000
+      internalID: -881166894839195602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Male_Viking_chieftai...-548416355-0_12
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 19
+        width: 78
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d3ceb58ea9ded680800000000000000
+      internalID: -8728299684206033962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Male_Viking_chieftai...-548416355-0_13
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 19
+        width: 86
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f5bafe0042e8a850800000000000000
+      internalID: 6388604836182144496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Male_Viking_chieftai...-548416355-0_14
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 19
+        width: 78
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8dc29d59dfdf8bd0800000000000000
+      internalID: -2625633933062910579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Male_Viking_chieftai...-548416355-0_15
+      rect:
+        serializedVersion: 2
+        x: 639
+        y: 19
+        width: 74
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 382795fe545c9c650800000000000000
+      internalID: 6253746461739676291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Male_Viking_chieftai...-548416355-0_0: -3429054790245346552
+      Male_Viking_chieftai...-548416355-0_1: 1003172239813326279
+      Male_Viking_chieftai...-548416355-0_10: 1079629407354629138
+      Male_Viking_chieftai...-548416355-0_11: -881166894839195602
+      Male_Viking_chieftai...-548416355-0_12: -8728299684206033962
+      Male_Viking_chieftai...-548416355-0_13: 6388604836182144496
+      Male_Viking_chieftai...-548416355-0_14: -2625633933062910579
+      Male_Viking_chieftai...-548416355-0_15: 6253746461739676291
+      Male_Viking_chieftai...-548416355-0_2: -8232755271078528145
+      Male_Viking_chieftai...-548416355-0_3: 6002308424767250470
+      Male_Viking_chieftai...-548416355-0_4: 4451569519448284554
+      Male_Viking_chieftai...-548416355-0_5: 6041709712640847690
+      Male_Viking_chieftai...-548416355-0_6: -7656467205254508129
+      Male_Viking_chieftai...-548416355-0_7: -8320447345427371983
+      Male_Viking_chieftai...-548416355-0_8: -1451046841774055416
+      Male_Viking_chieftai...-548416355-0_9: 2250419940325679246
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,533 @@
+fileFormatVersion: 2
+guid: 77d5dbfef3424df47bbf8f2bb081a915
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -965435439471144837
+    second: Female_ninja_in_dash...-597447799-0_0
+  - first:
+      213: -1043464577608367132
+    second: Female_ninja_in_dash...-597447799-0_1
+  - first:
+      213: -8912025322641358555
+    second: Female_ninja_in_dash...-597447799-0_2
+  - first:
+      213: -8833853331854362659
+    second: Female_ninja_in_dash...-597447799-0_3
+  - first:
+      213: 4004528503366829233
+    second: Female_ninja_in_dash...-597447799-0_4
+  - first:
+      213: 4852229898416974046
+    second: Female_ninja_in_dash...-597447799-0_5
+  - first:
+      213: -7666964031993761695
+    second: Female_ninja_in_dash...-597447799-0_6
+  - first:
+      213: -3461437834883096265
+    second: Female_ninja_in_dash...-597447799-0_7
+  - first:
+      213: 3963578875632757170
+    second: Female_ninja_in_dash...-597447799-0_8
+  - first:
+      213: 2695317689738510792
+    second: Female_ninja_in_dash...-597447799-0_9
+  - first:
+      213: -3979462099500943548
+    second: Female_ninja_in_dash...-597447799-0_10
+  - first:
+      213: 7071990288535382280
+    second: Female_ninja_in_dash...-597447799-0_11
+  - first:
+      213: 4271523365349923551
+    second: Female_ninja_in_dash...-597447799-0_12
+  - first:
+      213: 502569519413850243
+    second: Female_ninja_in_dash...-597447799-0_13
+  - first:
+      213: -1337576033515651820
+    second: Female_ninja_in_dash...-597447799-0_14
+  - first:
+      213: -5336894190232346717
+    second: Female_ninja_in_dash...-597447799-0_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Female_ninja_in_dash...-597447799-0_0
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 595
+        width: 82
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b70dfb835951a92f0800000000000000
+      internalID: -965435439471144837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Female_ninja_in_dash...-597447799-0_1
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 591
+        width: 78
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e343f3ce7ed481f0800000000000000
+      internalID: -1043464577608367132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Female_ninja_in_dash...-597447799-0_2
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 595
+        width: 82
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5210daedf20225480800000000000000
+      internalID: -8912025322641358555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Female_ninja_in_dash...-597447799-0_3
+      rect:
+        serializedVersion: 2
+        x: 639
+        y: 591
+        width: 90
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd77becc239d76580800000000000000
+      internalID: -8833853331854362659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Female_ninja_in_dash...-597447799-0_4
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 403
+        width: 74
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b44b18f471f29730800000000000000
+      internalID: 4004528503366829233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Female_ninja_in_dash...-597447799-0_5
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 403
+        width: 98
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed86ca76265965340800000000000000
+      internalID: 4852229898416974046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Female_ninja_in_dash...-597447799-0_6
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 403
+        width: 86
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 160b05f85d8799590800000000000000
+      internalID: -7666964031993761695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Female_ninja_in_dash...-597447799-0_7
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 403
+        width: 98
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73122bfe0a086ffc0800000000000000
+      internalID: -3461437834883096265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Female_ninja_in_dash...-597447799-0_8
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 211
+        width: 78
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b92559ccf5710730800000000000000
+      internalID: 3963578875632757170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Female_ninja_in_dash...-597447799-0_9
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 207
+        width: 86
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c1c0bd8821b76520800000000000000
+      internalID: 2695317689738510792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Female_ninja_in_dash...-597447799-0_10
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 211
+        width: 78
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 447bd1afd4c16c8c0800000000000000
+      internalID: -3979462099500943548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Female_ninja_in_dash...-597447799-0_11
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 207
+        width: 86
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 809e92bc2b1c42260800000000000000
+      internalID: 7071990288535382280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Female_ninja_in_dash...-597447799-0_12
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 19
+        width: 70
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fda96798edf774b30800000000000000
+      internalID: 4271523365349923551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Female_ninja_in_dash...-597447799-0_13
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 19
+        width: 98
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 380f99fa05c79f600800000000000000
+      internalID: 502569519413850243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Female_ninja_in_dash...-597447799-0_14
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 19
+        width: 74
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41d393e2fa9ff6de0800000000000000
+      internalID: -1337576033515651820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Female_ninja_in_dash...-597447799-0_15
+      rect:
+        serializedVersion: 2
+        x: 631
+        y: 19
+        width: 102
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3afda53920b8fe5b0800000000000000
+      internalID: -5336894190232346717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Female_ninja_in_dash...-597447799-0_0: -965435439471144837
+      Female_ninja_in_dash...-597447799-0_1: -1043464577608367132
+      Female_ninja_in_dash...-597447799-0_10: -3979462099500943548
+      Female_ninja_in_dash...-597447799-0_11: 7071990288535382280
+      Female_ninja_in_dash...-597447799-0_12: 4271523365349923551
+      Female_ninja_in_dash...-597447799-0_13: 502569519413850243
+      Female_ninja_in_dash...-597447799-0_14: -1337576033515651820
+      Female_ninja_in_dash...-597447799-0_15: -5336894190232346717
+      Female_ninja_in_dash...-597447799-0_2: -8912025322641358555
+      Female_ninja_in_dash...-597447799-0_3: -8833853331854362659
+      Female_ninja_in_dash...-597447799-0_4: 4004528503366829233
+      Female_ninja_in_dash...-597447799-0_5: 4852229898416974046
+      Female_ninja_in_dash...-597447799-0_6: -7666964031993761695
+      Female_ninja_in_dash...-597447799-0_7: -3461437834883096265
+      Female_ninja_in_dash...-597447799-0_8: 3963578875632757170
+      Female_ninja_in_dash...-597447799-0_9: 2695317689738510792
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

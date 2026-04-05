@@ -1,0 +1,533 @@
+fileFormatVersion: 2
+guid: 3c60170322995c245a212c42544fcdb3
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 676241359304713157
+    second: Undead_Roman_centuri...-1845261409-0_0
+  - first:
+      213: 4259007873330097682
+    second: Undead_Roman_centuri...-1845261409-0_1
+  - first:
+      213: -220597477548903886
+    second: Undead_Roman_centuri...-1845261409-0_2
+  - first:
+      213: -4459749732213383195
+    second: Undead_Roman_centuri...-1845261409-0_3
+  - first:
+      213: -6294989875216378470
+    second: Undead_Roman_centuri...-1845261409-0_4
+  - first:
+      213: 3092606104237238405
+    second: Undead_Roman_centuri...-1845261409-0_5
+  - first:
+      213: -4382626577003083687
+    second: Undead_Roman_centuri...-1845261409-0_6
+  - first:
+      213: 4493229084413989187
+    second: Undead_Roman_centuri...-1845261409-0_7
+  - first:
+      213: -5120238709505375536
+    second: Undead_Roman_centuri...-1845261409-0_8
+  - first:
+      213: -4558928056450973632
+    second: Undead_Roman_centuri...-1845261409-0_9
+  - first:
+      213: -5590204353519858892
+    second: Undead_Roman_centuri...-1845261409-0_10
+  - first:
+      213: 4554795536928582048
+    second: Undead_Roman_centuri...-1845261409-0_11
+  - first:
+      213: 7487334964649879050
+    second: Undead_Roman_centuri...-1845261409-0_12
+  - first:
+      213: 4385282876705665498
+    second: Undead_Roman_centuri...-1845261409-0_13
+  - first:
+      213: -7376895758126309008
+    second: Undead_Roman_centuri...-1845261409-0_14
+  - first:
+      213: 8719633661753093388
+    second: Undead_Roman_centuri...-1845261409-0_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Undead_Roman_centuri...-1845261409-0_0
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 595
+        width: 94
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c3e8c3feed726900800000000000000
+      internalID: 676241359304713157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Undead_Roman_centuri...-1845261409-0_1
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 591
+        width: 78
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21eae6978190b1b30800000000000000
+      internalID: 4259007873330097682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Undead_Roman_centuri...-1845261409-0_2
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 595
+        width: 94
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 232b95053c740fcf0800000000000000
+      internalID: -220597477548903886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Undead_Roman_centuri...-1845261409-0_3
+      rect:
+        serializedVersion: 2
+        x: 635
+        y: 591
+        width: 70
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ef17405f39cb12c0800000000000000
+      internalID: -4459749732213383195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Undead_Roman_centuri...-1845261409-0_4
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 403
+        width: 78
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a951c0f8f04b3a8a0800000000000000
+      internalID: -6294989875216378470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Undead_Roman_centuri...-1845261409-0_5
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 403
+        width: 86
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 588e341ddd42bea20800000000000000
+      internalID: 3092606104237238405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Undead_Roman_centuri...-1845261409-0_6
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 403
+        width: 78
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9588b8e2958cd23c0800000000000000
+      internalID: -4382626577003083687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Undead_Roman_centuri...-1845261409-0_7
+      rect:
+        serializedVersion: 2
+        x: 619
+        y: 403
+        width: 90
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34113fecb082b5e30800000000000000
+      internalID: 4493229084413989187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Undead_Roman_centuri...-1845261409-0_8
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 211
+        width: 94
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d24aba950241f8b0800000000000000
+      internalID: -5120238709505375536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Undead_Roman_centuri...-1845261409-0_9
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 207
+        width: 82
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0408dae361f6bb0c0800000000000000
+      internalID: -4558928056450973632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Undead_Roman_centuri...-1845261409-0_10
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 211
+        width: 94
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43b4b9632ca9b62b0800000000000000
+      internalID: -5590204353519858892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Undead_Roman_centuri...-1845261409-0_11
+      rect:
+        serializedVersion: 2
+        x: 619
+        y: 207
+        width: 90
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a9a9239862e53f30800000000000000
+      internalID: 4554795536928582048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Undead_Roman_centuri...-1845261409-0_12
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 19
+        width: 78
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0661521b7b58e760800000000000000
+      internalID: 7487334964649879050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Undead_Roman_centuri...-1845261409-0_13
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 19
+        width: 86
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad1f4a9ca87abdc30800000000000000
+      internalID: 4385282876705665498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Undead_Roman_centuri...-1845261409-0_14
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 19
+        width: 78
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 071abc7746000a990800000000000000
+      internalID: -7376895758126309008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Undead_Roman_centuri...-1845261409-0_15
+      rect:
+        serializedVersion: 2
+        x: 635
+        y: 19
+        width: 90
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0de454ed9c520970800000000000000
+      internalID: 8719633661753093388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Undead_Roman_centuri...-1845261409-0_0: 676241359304713157
+      Undead_Roman_centuri...-1845261409-0_1: 4259007873330097682
+      Undead_Roman_centuri...-1845261409-0_10: -5590204353519858892
+      Undead_Roman_centuri...-1845261409-0_11: 4554795536928582048
+      Undead_Roman_centuri...-1845261409-0_12: 7487334964649879050
+      Undead_Roman_centuri...-1845261409-0_13: 4385282876705665498
+      Undead_Roman_centuri...-1845261409-0_14: -7376895758126309008
+      Undead_Roman_centuri...-1845261409-0_15: 8719633661753093388
+      Undead_Roman_centuri...-1845261409-0_2: -220597477548903886
+      Undead_Roman_centuri...-1845261409-0_3: -4459749732213383195
+      Undead_Roman_centuri...-1845261409-0_4: -6294989875216378470
+      Undead_Roman_centuri...-1845261409-0_5: 3092606104237238405
+      Undead_Roman_centuri...-1845261409-0_6: -4382626577003083687
+      Undead_Roman_centuri...-1845261409-0_7: 4493229084413989187
+      Undead_Roman_centuri...-1845261409-0_8: -5120238709505375536
+      Undead_Roman_centuri...-1845261409-0_9: -4558928056450973632
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

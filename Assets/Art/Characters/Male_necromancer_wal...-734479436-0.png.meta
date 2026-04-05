@@ -1,0 +1,533 @@
+fileFormatVersion: 2
+guid: 42933678e6637f14884464c28feabb03
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2409274137076558814
+    second: Male_necromancer_wal...-734479436-0_0
+  - first:
+      213: 1040126620102403249
+    second: Male_necromancer_wal...-734479436-0_1
+  - first:
+      213: 2571037619678466460
+    second: Male_necromancer_wal...-734479436-0_2
+  - first:
+      213: -8434147210894744756
+    second: Male_necromancer_wal...-734479436-0_3
+  - first:
+      213: -7615838644232816875
+    second: Male_necromancer_wal...-734479436-0_4
+  - first:
+      213: -2794175537803839568
+    second: Male_necromancer_wal...-734479436-0_5
+  - first:
+      213: -4172390114781711193
+    second: Male_necromancer_wal...-734479436-0_6
+  - first:
+      213: -3906684031483196049
+    second: Male_necromancer_wal...-734479436-0_7
+  - first:
+      213: -4749188714355552999
+    second: Male_necromancer_wal...-734479436-0_8
+  - first:
+      213: 3478016376885938015
+    second: Male_necromancer_wal...-734479436-0_9
+  - first:
+      213: -3929237216271547488
+    second: Male_necromancer_wal...-734479436-0_10
+  - first:
+      213: -3212591039930708865
+    second: Male_necromancer_wal...-734479436-0_11
+  - first:
+      213: -6287073571103240105
+    second: Male_necromancer_wal...-734479436-0_12
+  - first:
+      213: -2658228160238394178
+    second: Male_necromancer_wal...-734479436-0_13
+  - first:
+      213: 1150129642988375738
+    second: Male_necromancer_wal...-734479436-0_14
+  - first:
+      213: -6545750761129762331
+    second: Male_necromancer_wal...-734479436-0_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Male_necromancer_wal...-734479436-0_0
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 595
+        width: 78
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 224140defe9809ed0800000000000000
+      internalID: -2409274137076558814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Male_necromancer_wal...-734479436-0_1
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 591
+        width: 78
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b4a1a076a54f6e00800000000000000
+      internalID: 1040126620102403249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Male_necromancer_wal...-734479436-0_2
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 595
+        width: 78
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c91d919d7192ea320800000000000000
+      internalID: 2571037619678466460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Male_necromancer_wal...-734479436-0_3
+      rect:
+        serializedVersion: 2
+        x: 631
+        y: 591
+        width: 78
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4364473cc3e3fa80800000000000000
+      internalID: -8434147210894744756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Male_necromancer_wal...-734479436-0_4
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 403
+        width: 82
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5177fcf7a1b1f4690800000000000000
+      internalID: -7615838644232816875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Male_necromancer_wal...-734479436-0_5
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 403
+        width: 74
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b7bd1d07281939d0800000000000000
+      internalID: -2794175537803839568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Male_necromancer_wal...-734479436-0_6
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 403
+        width: 82
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a4b5100c41b816c0800000000000000
+      internalID: -4172390114781711193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Male_necromancer_wal...-734479436-0_7
+      rect:
+        serializedVersion: 2
+        x: 627
+        y: 403
+        width: 82
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6dc0c5629ba8c9c0800000000000000
+      internalID: -3906684031483196049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Male_necromancer_wal...-734479436-0_8
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 211
+        width: 78
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91d0b8dc60e771eb0800000000000000
+      internalID: -4749188714355552999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Male_necromancer_wal...-734479436-0_9
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 207
+        width: 78
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f57074ba775644030800000000000000
+      internalID: 3478016376885938015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Male_necromancer_wal...-734479436-0_10
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 211
+        width: 78
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a3c3edd19b8879c0800000000000000
+      internalID: -3929237216271547488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Male_necromancer_wal...-734479436-0_11
+      rect:
+        serializedVersion: 2
+        x: 631
+        y: 207
+        width: 78
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7cc35068759a63d0800000000000000
+      internalID: -3212591039930708865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Male_necromancer_wal...-734479436-0_12
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 19
+        width: 78
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75015adb5e3dfb8a0800000000000000
+      internalID: -6287073571103240105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Male_necromancer_wal...-734479436-0_13
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 19
+        width: 82
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb4ec0972931c1bd0800000000000000
+      internalID: -2658228160238394178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Male_necromancer_wal...-734479436-0_14
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 19
+        width: 82
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: abe08ff01d416ff00800000000000000
+      internalID: 1150129642988375738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Male_necromancer_wal...-734479436-0_15
+      rect:
+        serializedVersion: 2
+        x: 635
+        y: 19
+        width: 82
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e12e961d52d825a0800000000000000
+      internalID: -6545750761129762331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Male_necromancer_wal...-734479436-0_0: -2409274137076558814
+      Male_necromancer_wal...-734479436-0_1: 1040126620102403249
+      Male_necromancer_wal...-734479436-0_10: -3929237216271547488
+      Male_necromancer_wal...-734479436-0_11: -3212591039930708865
+      Male_necromancer_wal...-734479436-0_12: -6287073571103240105
+      Male_necromancer_wal...-734479436-0_13: -2658228160238394178
+      Male_necromancer_wal...-734479436-0_14: 1150129642988375738
+      Male_necromancer_wal...-734479436-0_15: -6545750761129762331
+      Male_necromancer_wal...-734479436-0_2: 2571037619678466460
+      Male_necromancer_wal...-734479436-0_3: -8434147210894744756
+      Male_necromancer_wal...-734479436-0_4: -7615838644232816875
+      Male_necromancer_wal...-734479436-0_5: -2794175537803839568
+      Male_necromancer_wal...-734479436-0_6: -4172390114781711193
+      Male_necromancer_wal...-734479436-0_7: -3906684031483196049
+      Male_necromancer_wal...-734479436-0_8: -4749188714355552999
+      Male_necromancer_wal...-734479436-0_9: 3478016376885938015
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

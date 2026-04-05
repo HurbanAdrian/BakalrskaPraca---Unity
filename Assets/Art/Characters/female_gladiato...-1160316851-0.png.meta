@@ -1,0 +1,533 @@
+fileFormatVersion: 2
+guid: d7b6e4e4a6533204c87de5c5eb2a319a
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1231673550182941551
+    second: female_gladiato...-1160316851-0_0
+  - first:
+      213: 4027266190934459988
+    second: female_gladiato...-1160316851-0_1
+  - first:
+      213: 4276659362866961023
+    second: female_gladiato...-1160316851-0_2
+  - first:
+      213: 3878758413339764997
+    second: female_gladiato...-1160316851-0_3
+  - first:
+      213: 2744815694236497627
+    second: female_gladiato...-1160316851-0_4
+  - first:
+      213: 7673016951218364600
+    second: female_gladiato...-1160316851-0_5
+  - first:
+      213: 5898216376955189771
+    second: female_gladiato...-1160316851-0_6
+  - first:
+      213: 7859993562007431878
+    second: female_gladiato...-1160316851-0_7
+  - first:
+      213: -7455981587836437158
+    second: female_gladiato...-1160316851-0_8
+  - first:
+      213: 9009778020518940594
+    second: female_gladiato...-1160316851-0_9
+  - first:
+      213: 5911570339138863087
+    second: female_gladiato...-1160316851-0_10
+  - first:
+      213: -579125343837877596
+    second: female_gladiato...-1160316851-0_11
+  - first:
+      213: -621362920782783605
+    second: female_gladiato...-1160316851-0_12
+  - first:
+      213: -271993125329819000
+    second: female_gladiato...-1160316851-0_13
+  - first:
+      213: 1964504841887748812
+    second: female_gladiato...-1160316851-0_14
+  - first:
+      213: -8419860653939534599
+    second: female_gladiato...-1160316851-0_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: female_gladiato...-1160316851-0_0
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 595
+        width: 70
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19cf91a8e6738eee0800000000000000
+      internalID: -1231673550182941551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: female_gladiato...-1160316851-0_1
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 591
+        width: 66
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 456c6966349b3e730800000000000000
+      internalID: 4027266190934459988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: female_gladiato...-1160316851-0_2
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 595
+        width: 70
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7a9805280fb95b30800000000000000
+      internalID: 4276659362866961023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: female_gladiato...-1160316851-0_3
+      rect:
+        serializedVersion: 2
+        x: 635
+        y: 591
+        width: 70
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 509aca4f93e14d530800000000000000
+      internalID: 3878758413339764997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: female_gladiato...-1160316851-0_4
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 403
+        width: 58
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd632ecc45b871620800000000000000
+      internalID: 2744815694236497627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: female_gladiato...-1160316851-0_5
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 403
+        width: 70
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b0ebe483480c7a60800000000000000
+      internalID: 7673016951218364600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: female_gladiato...-1160316851-0_6
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 403
+        width: 62
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0a3ec47b8caad150800000000000000
+      internalID: 5898216376955189771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: female_gladiato...-1160316851-0_7
+      rect:
+        serializedVersion: 2
+        x: 631
+        y: 403
+        width: 70
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ca6f48208e441d60800000000000000
+      internalID: 7859993562007431878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: female_gladiato...-1160316851-0_8
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 211
+        width: 70
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5df725df38078890800000000000000
+      internalID: -7455981587836437158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: female_gladiato...-1160316851-0_9
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 207
+        width: 62
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2bf4722bf59290d70800000000000000
+      internalID: 9009778020518940594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: female_gladiato...-1160316851-0_10
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 211
+        width: 70
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fef7b1117ed1a0250800000000000000
+      internalID: 5911570339138863087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: female_gladiato...-1160316851-0_11
+      rect:
+        serializedVersion: 2
+        x: 631
+        y: 207
+        width: 70
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4aa0e10719886f7f0800000000000000
+      internalID: -579125343837877596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: female_gladiato...-1160316851-0_12
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 19
+        width: 62
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8b942637b97067f0800000000000000
+      internalID: -621362920782783605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: female_gladiato...-1160316851-0_13
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 19
+        width: 70
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88a2e5f81bfa93cf0800000000000000
+      internalID: -271993125329819000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: female_gladiato...-1160316851-0_14
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 19
+        width: 62
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc2114cceb2534b10800000000000000
+      internalID: 1964504841887748812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: female_gladiato...-1160316851-0_15
+      rect:
+        serializedVersion: 2
+        x: 643
+        y: 19
+        width: 66
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f455a77855a62b80800000000000000
+      internalID: -8419860653939534599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      female_gladiato...-1160316851-0_0: -1231673550182941551
+      female_gladiato...-1160316851-0_1: 4027266190934459988
+      female_gladiato...-1160316851-0_10: 5911570339138863087
+      female_gladiato...-1160316851-0_11: -579125343837877596
+      female_gladiato...-1160316851-0_12: -621362920782783605
+      female_gladiato...-1160316851-0_13: -271993125329819000
+      female_gladiato...-1160316851-0_14: 1964504841887748812
+      female_gladiato...-1160316851-0_15: -8419860653939534599
+      female_gladiato...-1160316851-0_2: 4276659362866961023
+      female_gladiato...-1160316851-0_3: 3878758413339764997
+      female_gladiato...-1160316851-0_4: 2744815694236497627
+      female_gladiato...-1160316851-0_5: 7673016951218364600
+      female_gladiato...-1160316851-0_6: 5898216376955189771
+      female_gladiato...-1160316851-0_7: 7859993562007431878
+      female_gladiato...-1160316851-0_8: -7455981587836437158
+      female_gladiato...-1160316851-0_9: 9009778020518940594
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

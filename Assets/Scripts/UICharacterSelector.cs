@@ -58,16 +58,28 @@ public class UICharacterSelector : MonoBehaviour
 
     public static CharacterData GetData()
     {
-        // Použije vybranú postavu zvolenú vo funkcii Select().
+        // 1. Ak prichádzame z Menu a postava je vybraná, použi ju
         if (selected)
-            return selected;
-        else
         {
-            // Ak hráme priamo z Editora a žiadna postava nie je vybraná, vyberie jednu náhodne.
-            CharacterData[] characters = GetAllCharacterDataAssets();
-            if (characters.Length > 0)
-                return characters[Random.Range(0, characters.Length)];
+            return selected;
         }
+
+        // 2. Ak sme scénu spustili na priamo, h¾adáme náš bezpeèný DevSettings skript
+        DevSettings devSettings = FindFirstObjectByType<DevSettings>();
+        if (devSettings != null && devSettings.debugCharacter != null)
+        {
+            Debug.Log("DEV TESTING: Naèítavam testovaciu postavu: " + devSettings.debugCharacter.name);
+            return devSettings.debugCharacter;
+        }
+
+        // 3. Ak hráme priamo z Editora a žiadna postava nie je v DevSettings vybraná, hodí náhodnú
+        Debug.Log("DEV TESTING: Žiadna postava nebola zvolená, hádžem náhodnú.");
+        CharacterData[] characters = GetAllCharacterDataAssets();
+        if (characters.Length > 0)
+        {
+            return characters[Random.Range(0, characters.Length)];
+        }
+
         return null;
     }
 

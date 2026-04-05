@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: efd64e0688633374cb69e64236dad287, type: 3}
+  m_Name: Kapitan
+  m_EditorClassIdentifier: Assembly-CSharp::CharacterData
+  icon: {fileID: -4254978518688308770, guid: d290ae8366ff3464b819e35dcff4c907, type: 3}
+  controller: {fileID: 22100000, guid: 9dab6ce06a2f03546a890d2c58a88ef9, type: 2}
+  name: Kapitan
+  fullName: Alia Leibnitz
+  characterDescription: Once the undisputed ruler of the Southern Seas, Captain Leibnitz
+    was betrayed by her own officers and left to perish on a monster-infested continent.
+    Her only remaining loyal companions are a fierce flock of razor-beaked parrots
+    that tirelessly orbit her.
+  startingWeapon: {fileID: 11400000, guid: 33670f3b0ee34454f8e783b04709cbde, type: 2}
+  stats:
+    maxHealth: 90
+    recovery: 0
+    armor: 0
+    moveSpeed: 1.1
+    might: 1
+    area: 1
+    speed: 1
+    duration: 1
+    amount: 0
+    cooldown: 1
+    expGain: 1
+    luck: 1.1
+    growth: 1
+    greed: 1.2
+    curse: 1
+    magnet: 2
+    revival: 0

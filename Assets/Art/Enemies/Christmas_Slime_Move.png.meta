@@ -1,0 +1,741 @@
+fileFormatVersion: 2
+guid: 67ba6e587163dd04fafdf6c4ad19cab2
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2666403344626110157
+    second: Christmas_Slime_Move_0
+  - first:
+      213: -2967722089404175491
+    second: Christmas_Slime_Move_1
+  - first:
+      213: 598932713373506893
+    second: Christmas_Slime_Move_2
+  - first:
+      213: -7463593726506080249
+    second: Christmas_Slime_Move_3
+  - first:
+      213: -1559926707858495281
+    second: Christmas_Slime_Move_4
+  - first:
+      213: -4896532010893037321
+    second: Christmas_Slime_Move_5
+  - first:
+      213: -453175241049106114
+    second: Christmas_Slime_Move_6
+  - first:
+      213: 7091862995086704924
+    second: Christmas_Slime_Move_7
+  - first:
+      213: 6392698537632056410
+    second: Christmas_Slime_Move_8
+  - first:
+      213: -1629634978271604938
+    second: Christmas_Slime_Move_9
+  - first:
+      213: 481484739165084680
+    second: Christmas_Slime_Move_10
+  - first:
+      213: 3288455579596160757
+    second: Christmas_Slime_Move_11
+  - first:
+      213: 7531044351555982503
+    second: Christmas_Slime_Move_12
+  - first:
+      213: 5357631562123744135
+    second: Christmas_Slime_Move_13
+  - first:
+      213: 2068880006459523266
+    second: Christmas_Slime_Move_14
+  - first:
+      213: 4381473973003546566
+    second: Christmas_Slime_Move_15
+  - first:
+      213: 241689506990287383
+    second: Christmas_Slime_Move_16
+  - first:
+      213: 4296032401557192230
+    second: Christmas_Slime_Move_17
+  - first:
+      213: 7622441561107217285
+    second: Christmas_Slime_Move_18
+  - first:
+      213: 677810233514369276
+    second: Christmas_Slime_Move_19
+  - first:
+      213: -6581199241150417047
+    second: Christmas_Slime_Move_20
+  - first:
+      213: 5674842214974061211
+    second: Christmas_Slime_Move_21
+  - first:
+      213: 5267534671916245612
+    second: Christmas_Slime_Move_22
+  - first:
+      213: 367834906880763817
+    second: Christmas_Slime_Move_23
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 30
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Christmas_Slime_Move_0
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 426
+        width: 18
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dce4a58f6b7f00520800000000000000
+      internalID: 2666403344626110157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Christmas_Slime_Move_1
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 427
+        width: 18
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7bebfcbb7880d6d0800000000000000
+      internalID: -2967722089404175491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Christmas_Slime_Move_2
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 429
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4d1df82126df4800800000000000000
+      internalID: 598932713373506893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Christmas_Slime_Move_3
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 430
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70865cfac0dfb6890800000000000000
+      internalID: -7463593726506080249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Christmas_Slime_Move_4
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 430
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc8237e8ce60a5ae0800000000000000
+      internalID: -1559926707858495281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Christmas_Slime_Move_5
+      rect:
+        serializedVersion: 2
+        x: 694
+        y: 428
+        width: 20
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f0346b34160c0cb0800000000000000
+      internalID: -4896532010893037321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Christmas_Slime_Move_6
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 303
+        width: 22
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e391440f48ff5b9f0800000000000000
+      internalID: -453175241049106114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Christmas_Slime_Move_7
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 303
+        width: 20
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1181e9d1db5b6260800000000000000
+      internalID: 7091862995086704924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Christmas_Slime_Move_8
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 303
+        width: 17
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a54c7b3337d67b850800000000000000
+      internalID: 6392698537632056410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Christmas_Slime_Move_9
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 306
+        width: 19
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63fc1961f9f5269e0800000000000000
+      internalID: -1629634978271604938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Christmas_Slime_Move_10
+      rect:
+        serializedVersion: 2
+        x: 566
+        y: 304
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80cd4bab1d39ea600800000000000000
+      internalID: 481484739165084680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Christmas_Slime_Move_11
+      rect:
+        serializedVersion: 2
+        x: 693
+        y: 303
+        width: 19
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5fefa793de0f2ad20800000000000000
+      internalID: 3288455579596160757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Christmas_Slime_Move_12
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 175
+        width: 22
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a4d432cfe4a38860800000000000000
+      internalID: 7531044351555982503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Christmas_Slime_Move_13
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 175
+        width: 20
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7839ec115812a5a40800000000000000
+      internalID: 5357631562123744135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Christmas_Slime_Move_14
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 175
+        width: 17
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c08deb876326bc10800000000000000
+      internalID: 2068880006459523266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Christmas_Slime_Move_15
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 178
+        width: 19
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6cfee794d5f1ecc30800000000000000
+      internalID: 4381473973003546566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Christmas_Slime_Move_16
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 176
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71a681a7357aa5300800000000000000
+      internalID: 241689506990287383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Christmas_Slime_Move_17
+      rect:
+        serializedVersion: 2
+        x: 696
+        y: 175
+        width: 19
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62e726635b29e9b30800000000000000
+      internalID: 4296032401557192230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Christmas_Slime_Move_18
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 47
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58b38f2e63a58c960800000000000000
+      internalID: 7622441561107217285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Christmas_Slime_Move_19
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 47
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf0afb1f0d0186900800000000000000
+      internalID: 677810233514369276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Christmas_Slime_Move_20
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 49
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 967b82ba822eaa4a0800000000000000
+      internalID: -6581199241150417047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Christmas_Slime_Move_21
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 51
+        width: 18
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9a7beb8de611ce40800000000000000
+      internalID: 5674842214974061211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Christmas_Slime_Move_22
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 49
+        width: 18
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c622f9120ea0a1940800000000000000
+      internalID: 5267534671916245612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Christmas_Slime_Move_23
+      rect:
+        serializedVersion: 2
+        x: 694
+        y: 47
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a7ed9026efca1500800000000000000
+      internalID: 367834906880763817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Christmas_Slime_Move_0: 2666403344626110157
+      Christmas_Slime_Move_1: -2967722089404175491
+      Christmas_Slime_Move_10: 481484739165084680
+      Christmas_Slime_Move_11: 3288455579596160757
+      Christmas_Slime_Move_12: 7531044351555982503
+      Christmas_Slime_Move_13: 5357631562123744135
+      Christmas_Slime_Move_14: 2068880006459523266
+      Christmas_Slime_Move_15: 4381473973003546566
+      Christmas_Slime_Move_16: 241689506990287383
+      Christmas_Slime_Move_17: 4296032401557192230
+      Christmas_Slime_Move_18: 7622441561107217285
+      Christmas_Slime_Move_19: 677810233514369276
+      Christmas_Slime_Move_2: 598932713373506893
+      Christmas_Slime_Move_20: -6581199241150417047
+      Christmas_Slime_Move_21: 5674842214974061211
+      Christmas_Slime_Move_22: 5267534671916245612
+      Christmas_Slime_Move_23: 367834906880763817
+      Christmas_Slime_Move_3: -7463593726506080249
+      Christmas_Slime_Move_4: -1559926707858495281
+      Christmas_Slime_Move_5: -4896532010893037321
+      Christmas_Slime_Move_6: -453175241049106114
+      Christmas_Slime_Move_7: 7091862995086704924
+      Christmas_Slime_Move_8: 6392698537632056410
+      Christmas_Slime_Move_9: -1629634978271604938
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

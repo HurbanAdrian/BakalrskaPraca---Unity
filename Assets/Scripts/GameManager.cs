@@ -18,7 +18,7 @@ public class GameManager : MonoBehaviour
         TreasureChest
     }
 
-    private const float DEFAULT_TIME_LIMIT = 1800f;
+    private const float DEFAULT_TIME_LIMIT = 1200f;
     private const float DEFAULT_CLOCK_SPEED = 1f;
 
     // Helper properties
@@ -155,6 +155,7 @@ public class GameManager : MonoBehaviour
         textMeshPro.fontSize = textFontSize;
         textMeshPro.horizontalAlignment = HorizontalAlignmentOptions.Center;
         textMeshPro.verticalAlignment = VerticalAlignmentOptions.Middle;
+        textMeshPro.raycastTarget = false;
         if (textFont)
         {
             textMeshPro.font = textFont;
@@ -292,16 +293,11 @@ public class GameManager : MonoBehaviour
         Time.timeScale = 0f;
         DisplayResults();
 
-        // Ulozenie vsetkych minci vsetkych hracov do saveFilu
-        foreach (PlayerStats p in players)
-        {
-            p.GetComponentInChildren<PlayerCollector>().SaveCoinsToStash();
-        }
-
         // Pridanie hracovych minci na ich saveFile
         foreach (PlayerStats p in players)
         {
-            if (p.TryGetComponent(out PlayerCollector c))
+            PlayerCollector c = p.GetComponentInChildren<PlayerCollector>();
+            if (c != null)
             {
                 c.SaveCoinsToStash();
             }

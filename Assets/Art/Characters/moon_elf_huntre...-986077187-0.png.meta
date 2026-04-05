@@ -1,0 +1,533 @@
+fileFormatVersion: 2
+guid: ac00b6e81dbd4e04b825c34e9b8bca70
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 9096461596165079252
+    second: moon_elf_huntre...-986077187-0_0
+  - first:
+      213: 4254625482769600345
+    second: moon_elf_huntre...-986077187-0_1
+  - first:
+      213: -6432412024351869329
+    second: moon_elf_huntre...-986077187-0_2
+  - first:
+      213: 8014494392989780031
+    second: moon_elf_huntre...-986077187-0_3
+  - first:
+      213: -3050180669807456907
+    second: moon_elf_huntre...-986077187-0_4
+  - first:
+      213: 1860012357153412277
+    second: moon_elf_huntre...-986077187-0_5
+  - first:
+      213: -1049640378377565870
+    second: moon_elf_huntre...-986077187-0_6
+  - first:
+      213: -8745391613794331232
+    second: moon_elf_huntre...-986077187-0_7
+  - first:
+      213: -3999150846988913024
+    second: moon_elf_huntre...-986077187-0_8
+  - first:
+      213: 7137691646514415398
+    second: moon_elf_huntre...-986077187-0_9
+  - first:
+      213: 3689328222297564076
+    second: moon_elf_huntre...-986077187-0_10
+  - first:
+      213: -6656814927585344541
+    second: moon_elf_huntre...-986077187-0_11
+  - first:
+      213: -5469698518671905050
+    second: moon_elf_huntre...-986077187-0_12
+  - first:
+      213: 3610447876678486422
+    second: moon_elf_huntre...-986077187-0_13
+  - first:
+      213: 6338464985558953998
+    second: moon_elf_huntre...-986077187-0_14
+  - first:
+      213: 8715344695860550415
+    second: moon_elf_huntre...-986077187-0_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: moon_elf_huntre...-986077187-0_0
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 599
+        width: 86
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d0076860af1d3e70800000000000000
+      internalID: 9096461596165079252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moon_elf_huntre...-986077187-0_1
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 591
+        width: 90
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95f8ec8a5577b0b30800000000000000
+      internalID: 4254625482769600345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moon_elf_huntre...-986077187-0_2
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 599
+        width: 86
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f663e8f185b7bb6a0800000000000000
+      internalID: -6432412024351869329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moon_elf_huntre...-986077187-0_3
+      rect:
+        serializedVersion: 2
+        x: 627
+        y: 591
+        width: 86
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3804841034393f60800000000000000
+      internalID: 8014494392989780031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moon_elf_huntre...-986077187-0_4
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 407
+        width: 82
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57d0d5367d49ba5d0800000000000000
+      internalID: -3050180669807456907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moon_elf_huntre...-986077187-0_5
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 403
+        width: 86
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b457f1526710d910800000000000000
+      internalID: 1860012357153412277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moon_elf_huntre...-986077187-0_6
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 407
+        width: 86
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25906e813adee61f0800000000000000
+      internalID: -1049640378377565870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moon_elf_huntre...-986077187-0_7
+      rect:
+        serializedVersion: 2
+        x: 619
+        y: 403
+        width: 86
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a5db1e89a022a680800000000000000
+      internalID: -8745391613794331232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moon_elf_huntre...-986077187-0_8
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 211
+        width: 90
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 086f50a3e792088c0800000000000000
+      internalID: -3999150846988913024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moon_elf_huntre...-986077187-0_9
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 207
+        width: 86
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 627c3c24cbc2e0360800000000000000
+      internalID: 7137691646514415398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moon_elf_huntre...-986077187-0_10
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 211
+        width: 86
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca3aed5a870233330800000000000000
+      internalID: 3689328222297564076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moon_elf_huntre...-986077187-0_11
+      rect:
+        serializedVersion: 2
+        x: 627
+        y: 207
+        width: 86
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e302c9b71e3e93a0800000000000000
+      internalID: -6656814927585344541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moon_elf_huntre...-986077187-0_12
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 19
+        width: 82
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6eea41e4d2ab714b0800000000000000
+      internalID: -5469698518671905050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moon_elf_huntre...-986077187-0_13
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 19
+        width: 86
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6990c710733ea1230800000000000000
+      internalID: 3610447876678486422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moon_elf_huntre...-986077187-0_14
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 19
+        width: 86
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e003e7d5250c6f750800000000000000
+      internalID: 6338464985558953998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moon_elf_huntre...-986077187-0_15
+      rect:
+        serializedVersion: 2
+        x: 639
+        y: 23
+        width: 86
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0b5ad333df13f870800000000000000
+      internalID: 8715344695860550415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      moon_elf_huntre...-986077187-0_0: 9096461596165079252
+      moon_elf_huntre...-986077187-0_1: 4254625482769600345
+      moon_elf_huntre...-986077187-0_10: 3689328222297564076
+      moon_elf_huntre...-986077187-0_11: -6656814927585344541
+      moon_elf_huntre...-986077187-0_12: -5469698518671905050
+      moon_elf_huntre...-986077187-0_13: 3610447876678486422
+      moon_elf_huntre...-986077187-0_14: 6338464985558953998
+      moon_elf_huntre...-986077187-0_15: 8715344695860550415
+      moon_elf_huntre...-986077187-0_2: -6432412024351869329
+      moon_elf_huntre...-986077187-0_3: 8014494392989780031
+      moon_elf_huntre...-986077187-0_4: -3050180669807456907
+      moon_elf_huntre...-986077187-0_5: 1860012357153412277
+      moon_elf_huntre...-986077187-0_6: -1049640378377565870
+      moon_elf_huntre...-986077187-0_7: -8745391613794331232
+      moon_elf_huntre...-986077187-0_8: -3999150846988913024
+      moon_elf_huntre...-986077187-0_9: 7137691646514415398
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

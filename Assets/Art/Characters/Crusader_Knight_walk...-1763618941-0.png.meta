@@ -1,0 +1,533 @@
+fileFormatVersion: 2
+guid: 24144d322b1930d45a86db235ba9fba4
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8853444563866437579
+    second: Crusader_Knight_walk...-1763618941-0_0
+  - first:
+      213: 5514148602392568666
+    second: Crusader_Knight_walk...-1763618941-0_1
+  - first:
+      213: -4734874966169030252
+    second: Crusader_Knight_walk...-1763618941-0_2
+  - first:
+      213: -669608723481676794
+    second: Crusader_Knight_walk...-1763618941-0_3
+  - first:
+      213: -483177033902359293
+    second: Crusader_Knight_walk...-1763618941-0_4
+  - first:
+      213: -2021558058184064381
+    second: Crusader_Knight_walk...-1763618941-0_5
+  - first:
+      213: 2107762418450911964
+    second: Crusader_Knight_walk...-1763618941-0_6
+  - first:
+      213: 5451470290730589594
+    second: Crusader_Knight_walk...-1763618941-0_7
+  - first:
+      213: 6745186695763083490
+    second: Crusader_Knight_walk...-1763618941-0_8
+  - first:
+      213: -5802869990003295396
+    second: Crusader_Knight_walk...-1763618941-0_9
+  - first:
+      213: 804495713407275194
+    second: Crusader_Knight_walk...-1763618941-0_10
+  - first:
+      213: -5574609919390560657
+    second: Crusader_Knight_walk...-1763618941-0_11
+  - first:
+      213: 3815436569804875091
+    second: Crusader_Knight_walk...-1763618941-0_12
+  - first:
+      213: -3371946765161217304
+    second: Crusader_Knight_walk...-1763618941-0_13
+  - first:
+      213: 8131460904198323288
+    second: Crusader_Knight_walk...-1763618941-0_14
+  - first:
+      213: -2100829726622890094
+    second: Crusader_Knight_walk...-1763618941-0_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Crusader_Knight_walk...-1763618941-0_0
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 595
+        width: 82
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 538b024a31f322580800000000000000
+      internalID: -8853444563866437579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crusader_Knight_walk...-1763618941-0_1
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 591
+        width: 82
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a53635c40f0368c40800000000000000
+      internalID: 5514148602392568666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crusader_Knight_walk...-1763618941-0_2
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 595
+        width: 86
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 491fa910e485a4eb0800000000000000
+      internalID: -4734874966169030252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crusader_Knight_walk...-1763618941-0_3
+      rect:
+        serializedVersion: 2
+        x: 627
+        y: 591
+        width: 82
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6043f5ae96215b6f0800000000000000
+      internalID: -669608723481676794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crusader_Knight_walk...-1763618941-0_4
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 403
+        width: 62
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30d7f923c096b49f0800000000000000
+      internalID: -483177033902359293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crusader_Knight_walk...-1763618941-0_5
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 403
+        width: 66
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3824c1128abf1f3e0800000000000000
+      internalID: -2021558058184064381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crusader_Knight_walk...-1763618941-0_6
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 403
+        width: 62
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd25fae80c6404d10800000000000000
+      internalID: 2107762418450911964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crusader_Knight_walk...-1763618941-0_7
+      rect:
+        serializedVersion: 2
+        x: 623
+        y: 403
+        width: 78
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9d9796a85387ab40800000000000000
+      internalID: 5451470290730589594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crusader_Knight_walk...-1763618941-0_8
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 211
+        width: 86
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e046a0ff87bb9d50800000000000000
+      internalID: 6745186695763083490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crusader_Knight_walk...-1763618941-0_9
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 207
+        width: 70
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5b34103d70187fa0800000000000000
+      internalID: -5802869990003295396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crusader_Knight_walk...-1763618941-0_10
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 211
+        width: 86
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab017f4c6942a2b00800000000000000
+      internalID: 804495713407275194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crusader_Knight_walk...-1763618941-0_11
+      rect:
+        serializedVersion: 2
+        x: 635
+        y: 207
+        width: 70
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6e4b5950d103a2b0800000000000000
+      internalID: -5574609919390560657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crusader_Knight_walk...-1763618941-0_12
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 19
+        width: 62
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 355214e585723f430800000000000000
+      internalID: 3815436569804875091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crusader_Knight_walk...-1763618941-0_13
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 19
+        width: 66
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e2c90d48407431d0800000000000000
+      internalID: -3371946765161217304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crusader_Knight_walk...-1763618941-0_14
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 19
+        width: 62
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85cb7bb2c90c8d070800000000000000
+      internalID: 8131460904198323288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crusader_Knight_walk...-1763618941-0_15
+      rect:
+        serializedVersion: 2
+        x: 643
+        y: 19
+        width: 78
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 297cf0b8e7a58d2e0800000000000000
+      internalID: -2100829726622890094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Crusader_Knight_walk...-1763618941-0_0: -8853444563866437579
+      Crusader_Knight_walk...-1763618941-0_1: 5514148602392568666
+      Crusader_Knight_walk...-1763618941-0_10: 804495713407275194
+      Crusader_Knight_walk...-1763618941-0_11: -5574609919390560657
+      Crusader_Knight_walk...-1763618941-0_12: 3815436569804875091
+      Crusader_Knight_walk...-1763618941-0_13: -3371946765161217304
+      Crusader_Knight_walk...-1763618941-0_14: 8131460904198323288
+      Crusader_Knight_walk...-1763618941-0_15: -2100829726622890094
+      Crusader_Knight_walk...-1763618941-0_2: -4734874966169030252
+      Crusader_Knight_walk...-1763618941-0_3: -669608723481676794
+      Crusader_Knight_walk...-1763618941-0_4: -483177033902359293
+      Crusader_Knight_walk...-1763618941-0_5: -2021558058184064381
+      Crusader_Knight_walk...-1763618941-0_6: 2107762418450911964
+      Crusader_Knight_walk...-1763618941-0_7: 5451470290730589594
+      Crusader_Knight_walk...-1763618941-0_8: 6745186695763083490
+      Crusader_Knight_walk...-1763618941-0_9: -5802869990003295396
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

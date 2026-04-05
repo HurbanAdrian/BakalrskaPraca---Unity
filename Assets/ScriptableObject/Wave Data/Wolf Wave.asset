@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c6f3a1e224501ba4a8cafb6aa3702acf, type: 3}
+  m_Name: Wolf Wave
+  m_EditorClassIdentifier: Assembly-CSharp::WaveData
+  possibleSpawnPrefabs:
+  - {fileID: 8528864939331261097, guid: 8f1491495656219478260d132fbe87a3, type: 3}
+  - {fileID: 6256318351799536361, guid: b153404690d43104d87b2b64e8347cce, type: 3}
+  - {fileID: 6973055082777529891, guid: 1957a62a7f3154b4aa50ebc8cf3a932f, type: 3}
+  - {fileID: 6973055082777529891, guid: 1957a62a7f3154b4aa50ebc8cf3a932f, type: 3}
+  - {fileID: 4987897542571321157, guid: ea517f6b60d38c94b97c43bf1512ba63, type: 3}
+  - {fileID: 4987897542571321157, guid: ea517f6b60d38c94b97c43bf1512ba63, type: 3}
+  - {fileID: 4987897542571321157, guid: ea517f6b60d38c94b97c43bf1512ba63, type: 3}
+  - {fileID: 4987897542571321157, guid: ea517f6b60d38c94b97c43bf1512ba63, type: 3}
+  spawnInterval: {x: 2, y: 4}
+  spawnsPerTick: {x: 2, y: 8}
+  duration: 60
+  startingCount: 0
+  totalSpawns: 4294967295
+  exitConditions: 1
+  mustKillAll: 0
+  spawnCount: 0

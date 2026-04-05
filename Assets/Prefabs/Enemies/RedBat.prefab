@@ -176,8 +176,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ee5e21282ee13094a9fdf74b2e5d2386, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemyMovement
+  sortingActive: 1
+  deactivateOffScreen: 0
+  destroyDistance: 200
   outOfFrameAction: 1
   knockbackVariance: 2
+  obstacleLayer:
+    serializedVersion: 2
+    m_Bits: 0
+  obstacleCheckDistance: 0.5
+  avoidanceRadius: 0.25
 --- !u!114 &1341883916288525644
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -201,6 +209,7 @@ MonoBehaviour:
       debuff: 0
     curseBoosts: 3
     levelBoosts: 0
+  attackEffects: []
   damageColor: {r: 1, g: 0, b: 0, a: 1}
   damageFlashDuration: 0.2
   deathFadeTime: 0.6
@@ -221,6 +230,15 @@ MonoBehaviour:
   - name: BlueGem
     itemPrefab: {fileID: 1222974267670475714, guid: 53400b4a5de059a449a4e75e6179cf5b, type: 3}
     dropRate: 50
+  - name: Treasure Chest
+    itemPrefab: {fileID: 1055815876130076236, guid: f29bda2bae97431448cb4887a7b0fe4c, type: 3}
+    dropRate: 1
+  - name: Red Gem
+    itemPrefab: {fileID: 1716396255576501282, guid: 77c958285754f414ab2760e08d57b33f, type: 3}
+    dropRate: 10
+  - name: Green Gem
+    itemPrefab: {fileID: 1716396255576501282, guid: 77c958285754f414ab2760e08d57b33f, type: 3}
+    dropRate: 25
 --- !u!50 &1915359811163589684
 Rigidbody2D:
   serializedVersion: 5

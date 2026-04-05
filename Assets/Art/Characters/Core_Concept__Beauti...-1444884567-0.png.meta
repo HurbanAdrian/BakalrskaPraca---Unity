@@ -1,0 +1,533 @@
+fileFormatVersion: 2
+guid: bcba9179a37a1a84aa6856682cd780ee
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3133920715717739742
+    second: Core_Concept__Beauti...-1444884567-0_0
+  - first:
+      213: -3433517783822370007
+    second: Core_Concept__Beauti...-1444884567-0_1
+  - first:
+      213: 180074232555498532
+    second: Core_Concept__Beauti...-1444884567-0_2
+  - first:
+      213: -2912746749092812997
+    second: Core_Concept__Beauti...-1444884567-0_3
+  - first:
+      213: 3493483850920493686
+    second: Core_Concept__Beauti...-1444884567-0_4
+  - first:
+      213: 1244174197383370656
+    second: Core_Concept__Beauti...-1444884567-0_5
+  - first:
+      213: 707318911884977610
+    second: Core_Concept__Beauti...-1444884567-0_6
+  - first:
+      213: 1650732921440549945
+    second: Core_Concept__Beauti...-1444884567-0_7
+  - first:
+      213: -7764419301710002446
+    second: Core_Concept__Beauti...-1444884567-0_8
+  - first:
+      213: 8795865337989239853
+    second: Core_Concept__Beauti...-1444884567-0_9
+  - first:
+      213: -2971458200479093518
+    second: Core_Concept__Beauti...-1444884567-0_10
+  - first:
+      213: 4499790913755806023
+    second: Core_Concept__Beauti...-1444884567-0_11
+  - first:
+      213: -7910129043614659633
+    second: Core_Concept__Beauti...-1444884567-0_12
+  - first:
+      213: 56855499419607774
+    second: Core_Concept__Beauti...-1444884567-0_13
+  - first:
+      213: 4555384716285914278
+    second: Core_Concept__Beauti...-1444884567-0_14
+  - first:
+      213: -3482239714068992556
+    second: Core_Concept__Beauti...-1444884567-0_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Core_Concept__Beauti...-1444884567-0_0
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 595
+        width: 74
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22bf76996b31284d0800000000000000
+      internalID: -3133920715717739742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Core_Concept__Beauti...-1444884567-0_1
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 591
+        width: 70
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92bf74564c1b950d0800000000000000
+      internalID: -3433517783822370007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Core_Concept__Beauti...-1444884567-0_2
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 595
+        width: 78
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42ceba87f80cf7200800000000000000
+      internalID: 180074232555498532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Core_Concept__Beauti...-1444884567-0_3
+      rect:
+        serializedVersion: 2
+        x: 635
+        y: 591
+        width: 70
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3726ab9348d397d0800000000000000
+      internalID: -2912746749092812997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Core_Concept__Beauti...-1444884567-0_4
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 403
+        width: 62
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6720eaa9d095b7030800000000000000
+      internalID: 3493483850920493686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Core_Concept__Beauti...-1444884567-0_5
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 403
+        width: 70
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a71eb137d1344110800000000000000
+      internalID: 1244174197383370656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Core_Concept__Beauti...-1444884567-0_6
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 403
+        width: 66
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac5e1d58dc6e0d900800000000000000
+      internalID: 707318911884977610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Core_Concept__Beauti...-1444884567-0_7
+      rect:
+        serializedVersion: 2
+        x: 631
+        y: 403
+        width: 74
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93cb18998d498e610800000000000000
+      internalID: 1650732921440549945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Core_Concept__Beauti...-1444884567-0_8
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 211
+        width: 78
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f6836268cd3f3490800000000000000
+      internalID: -7764419301710002446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Core_Concept__Beauti...-1444884567-0_9
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 207
+        width: 70
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2415032ce0311a70800000000000000
+      internalID: 8795865337989239853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Core_Concept__Beauti...-1444884567-0_10
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 211
+        width: 78
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2fca587928243c6d0800000000000000
+      internalID: -2971458200479093518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Core_Concept__Beauti...-1444884567-0_11
+      rect:
+        serializedVersion: 2
+        x: 635
+        y: 207
+        width: 70
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 749f1f1cef7727e30800000000000000
+      internalID: 4499790913755806023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Core_Concept__Beauti...-1444884567-0_12
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 19
+        width: 66
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fcb09d36b83993290800000000000000
+      internalID: -7910129043614659633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Core_Concept__Beauti...-1444884567-0_13
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 19
+        width: 74
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed2ee6686cdf9c000800000000000000
+      internalID: 56855499419607774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Core_Concept__Beauti...-1444884567-0_14
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 19
+        width: 66
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ac2775934af73f30800000000000000
+      internalID: 4555384716285914278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Core_Concept__Beauti...-1444884567-0_15
+      rect:
+        serializedVersion: 2
+        x: 639
+        y: 19
+        width: 74
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4dde8240e699cafc0800000000000000
+      internalID: -3482239714068992556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Core_Concept__Beauti...-1444884567-0_0: -3133920715717739742
+      Core_Concept__Beauti...-1444884567-0_1: -3433517783822370007
+      Core_Concept__Beauti...-1444884567-0_10: -2971458200479093518
+      Core_Concept__Beauti...-1444884567-0_11: 4499790913755806023
+      Core_Concept__Beauti...-1444884567-0_12: -7910129043614659633
+      Core_Concept__Beauti...-1444884567-0_13: 56855499419607774
+      Core_Concept__Beauti...-1444884567-0_14: 4555384716285914278
+      Core_Concept__Beauti...-1444884567-0_15: -3482239714068992556
+      Core_Concept__Beauti...-1444884567-0_2: 180074232555498532
+      Core_Concept__Beauti...-1444884567-0_3: -2912746749092812997
+      Core_Concept__Beauti...-1444884567-0_4: 3493483850920493686
+      Core_Concept__Beauti...-1444884567-0_5: 1244174197383370656
+      Core_Concept__Beauti...-1444884567-0_6: 707318911884977610
+      Core_Concept__Beauti...-1444884567-0_7: 1650732921440549945
+      Core_Concept__Beauti...-1444884567-0_8: -7764419301710002446
+      Core_Concept__Beauti...-1444884567-0_9: 8795865337989239853
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

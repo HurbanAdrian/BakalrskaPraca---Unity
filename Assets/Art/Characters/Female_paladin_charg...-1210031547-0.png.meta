@@ -1,0 +1,533 @@
+fileFormatVersion: 2
+guid: 17ea607dd74fbe14c9e1b21bef62f310
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7600246210797980536
+    second: Female_paladin_charg...-1210031547-0_0
+  - first:
+      213: -7890866684930263730
+    second: Female_paladin_charg...-1210031547-0_1
+  - first:
+      213: 4210287571976732203
+    second: Female_paladin_charg...-1210031547-0_2
+  - first:
+      213: -8592774136870347098
+    second: Female_paladin_charg...-1210031547-0_3
+  - first:
+      213: -3135874334930253600
+    second: Female_paladin_charg...-1210031547-0_4
+  - first:
+      213: 3022538511150707924
+    second: Female_paladin_charg...-1210031547-0_5
+  - first:
+      213: -5373926544038325371
+    second: Female_paladin_charg...-1210031547-0_6
+  - first:
+      213: -8959708642701828986
+    second: Female_paladin_charg...-1210031547-0_7
+  - first:
+      213: -7913873771748341592
+    second: Female_paladin_charg...-1210031547-0_8
+  - first:
+      213: 5040150395938299995
+    second: Female_paladin_charg...-1210031547-0_9
+  - first:
+      213: -903120071845744008
+    second: Female_paladin_charg...-1210031547-0_10
+  - first:
+      213: 1550172369486934413
+    second: Female_paladin_charg...-1210031547-0_11
+  - first:
+      213: -4151666120274288201
+    second: Female_paladin_charg...-1210031547-0_12
+  - first:
+      213: -1905975099672235660
+    second: Female_paladin_charg...-1210031547-0_13
+  - first:
+      213: 5719569393082763390
+    second: Female_paladin_charg...-1210031547-0_14
+  - first:
+      213: -1137040819667271131
+    second: Female_paladin_charg...-1210031547-0_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Female_paladin_charg...-1210031547-0_0
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 595
+        width: 82
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87b4f1039af797960800000000000000
+      internalID: 7600246210797980536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Female_paladin_charg...-1210031547-0_1
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 591
+        width: 86
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4574c2ce820e7290800000000000000
+      internalID: -7890866684930263730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Female_paladin_charg...-1210031547-0_2
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 595
+        width: 82
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2e3ae95d32fd6a30800000000000000
+      internalID: 4210287571976732203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Female_paladin_charg...-1210031547-0_3
+      rect:
+        serializedVersion: 2
+        x: 627
+        y: 591
+        width: 86
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6aedda0f27550c880800000000000000
+      internalID: -8592774136870347098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Female_paladin_charg...-1210031547-0_4
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 403
+        width: 78
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e8c73e28e22b74d0800000000000000
+      internalID: -3135874334930253600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Female_paladin_charg...-1210031547-0_5
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 403
+        width: 82
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d4731503c632f920800000000000000
+      internalID: 3022538511150707924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Female_paladin_charg...-1210031547-0_6
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 403
+        width: 78
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5839d8dc74afb65b0800000000000000
+      internalID: -5373926544038325371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Female_paladin_charg...-1210031547-0_7
+      rect:
+        serializedVersion: 2
+        x: 627
+        y: 403
+        width: 78
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68c92c4c578b8a380800000000000000
+      internalID: -8959708642701828986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Female_paladin_charg...-1210031547-0_8
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 211
+        width: 86
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a8c8adebb54c2290800000000000000
+      internalID: -7913873771748341592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Female_paladin_charg...-1210031547-0_9
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 207
+        width: 94
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b50627cc41632f540800000000000000
+      internalID: 5040150395938299995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Female_paladin_charg...-1210031547-0_10
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 215
+        width: 86
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 872fb1064197773f0800000000000000
+      internalID: -903120071845744008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Female_paladin_charg...-1210031547-0_11
+      rect:
+        serializedVersion: 2
+        x: 627
+        y: 207
+        width: 90
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d81f4ef8e81538510800000000000000
+      internalID: 1550172369486934413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Female_paladin_charg...-1210031547-0_12
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 19
+        width: 78
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b1e60bf8a15266c0800000000000000
+      internalID: -4151666120274288201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Female_paladin_charg...-1210031547-0_13
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 19
+        width: 82
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 471fb41cebd9c85e0800000000000000
+      internalID: -1905975099672235660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Female_paladin_charg...-1210031547-0_14
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 19
+        width: 78
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7805e63f0eff5f40800000000000000
+      internalID: 5719569393082763390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Female_paladin_charg...-1210031547-0_15
+      rect:
+        serializedVersion: 2
+        x: 639
+        y: 19
+        width: 78
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5220d98166b6830f0800000000000000
+      internalID: -1137040819667271131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Female_paladin_charg...-1210031547-0_0: 7600246210797980536
+      Female_paladin_charg...-1210031547-0_1: -7890866684930263730
+      Female_paladin_charg...-1210031547-0_10: -903120071845744008
+      Female_paladin_charg...-1210031547-0_11: 1550172369486934413
+      Female_paladin_charg...-1210031547-0_12: -4151666120274288201
+      Female_paladin_charg...-1210031547-0_13: -1905975099672235660
+      Female_paladin_charg...-1210031547-0_14: 5719569393082763390
+      Female_paladin_charg...-1210031547-0_15: -1137040819667271131
+      Female_paladin_charg...-1210031547-0_2: 4210287571976732203
+      Female_paladin_charg...-1210031547-0_3: -8592774136870347098
+      Female_paladin_charg...-1210031547-0_4: -3135874334930253600
+      Female_paladin_charg...-1210031547-0_5: 3022538511150707924
+      Female_paladin_charg...-1210031547-0_6: -5373926544038325371
+      Female_paladin_charg...-1210031547-0_7: -8959708642701828986
+      Female_paladin_charg...-1210031547-0_8: -7913873771748341592
+      Female_paladin_charg...-1210031547-0_9: 5040150395938299995
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

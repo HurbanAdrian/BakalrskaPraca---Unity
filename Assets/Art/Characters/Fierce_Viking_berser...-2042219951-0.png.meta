@@ -1,0 +1,533 @@
+fileFormatVersion: 2
+guid: 1657cb2edaeeb444b9598de919b6c625
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3132601164718384767
+    second: Fierce_Viking_berser...-2042219951-0_0
+  - first:
+      213: 2156994708775862901
+    second: Fierce_Viking_berser...-2042219951-0_1
+  - first:
+      213: -4226070843317831835
+    second: Fierce_Viking_berser...-2042219951-0_2
+  - first:
+      213: -2958438722922353413
+    second: Fierce_Viking_berser...-2042219951-0_3
+  - first:
+      213: 6381697362230425838
+    second: Fierce_Viking_berser...-2042219951-0_4
+  - first:
+      213: 1439260078594290470
+    second: Fierce_Viking_berser...-2042219951-0_5
+  - first:
+      213: 6752964049206211051
+    second: Fierce_Viking_berser...-2042219951-0_6
+  - first:
+      213: -8595755791109787330
+    second: Fierce_Viking_berser...-2042219951-0_7
+  - first:
+      213: -1212056332208990142
+    second: Fierce_Viking_berser...-2042219951-0_8
+  - first:
+      213: -6748443551040670249
+    second: Fierce_Viking_berser...-2042219951-0_9
+  - first:
+      213: -5542299406066852808
+    second: Fierce_Viking_berser...-2042219951-0_10
+  - first:
+      213: 8880495608802255580
+    second: Fierce_Viking_berser...-2042219951-0_11
+  - first:
+      213: -3943731227750296294
+    second: Fierce_Viking_berser...-2042219951-0_12
+  - first:
+      213: 3219106822432957023
+    second: Fierce_Viking_berser...-2042219951-0_13
+  - first:
+      213: -5991098396949577467
+    second: Fierce_Viking_berser...-2042219951-0_14
+  - first:
+      213: -1534311862282216731
+    second: Fierce_Viking_berser...-2042219951-0_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Fierce_Viking_berser...-2042219951-0_0
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 595
+        width: 98
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f76a30e792c397b20800000000000000
+      internalID: 3132601164718384767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fierce_Viking_berser...-2042219951-0_1
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 591
+        width: 82
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5728bf6624f2fed10800000000000000
+      internalID: 2156994708775862901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fierce_Viking_berser...-2042219951-0_2
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 595
+        width: 102
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 567b76c65faf955c0800000000000000
+      internalID: -4226070843317831835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fierce_Viking_berser...-2042219951-0_3
+      rect:
+        serializedVersion: 2
+        x: 623
+        y: 591
+        width: 86
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bfce37ee7a381f6d0800000000000000
+      internalID: -2958438722922353413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fierce_Viking_berser...-2042219951-0_4
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 403
+        width: 74
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee8bac370f7509850800000000000000
+      internalID: 6381697362230425838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fierce_Viking_berser...-2042219951-0_5
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 403
+        width: 74
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 623730c7a6749f310800000000000000
+      internalID: 1439260078594290470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fierce_Viking_berser...-2042219951-0_6
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 403
+        width: 74
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be17be5260957bd50800000000000000
+      internalID: 6752964049206211051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fierce_Viking_berser...-2042219951-0_7
+      rect:
+        serializedVersion: 2
+        x: 627
+        y: 403
+        width: 86
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e31f4e676adb5b880800000000000000
+      internalID: -8595755791109787330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fierce_Viking_berser...-2042219951-0_8
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 211
+        width: 102
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2489be60039ed2fe0800000000000000
+      internalID: -1212056332208990142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fierce_Viking_berser...-2042219951-0_9
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 207
+        width: 86
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d5f1795856b852a0800000000000000
+      internalID: -6748443551040670249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fierce_Viking_berser...-2042219951-0_10
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 211
+        width: 102
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83cd686fd0cc513b0800000000000000
+      internalID: -5542299406066852808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fierce_Viking_berser...-2042219951-0_11
+      rect:
+        serializedVersion: 2
+        x: 631
+        y: 207
+        width: 86
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd2231094bbdd3b70800000000000000
+      internalID: 8880495608802255580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fierce_Viking_berser...-2042219951-0_12
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 19
+        width: 78
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a151458d75d0549c0800000000000000
+      internalID: -3943731227750296294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fierce_Viking_berser...-2042219951-0_13
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 19
+        width: 78
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f52272579909cac20800000000000000
+      internalID: 3219106822432957023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fierce_Viking_berser...-2042219951-0_14
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 19
+        width: 74
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 501886b00c75bdca0800000000000000
+      internalID: -5991098396949577467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fierce_Viking_berser...-2042219951-0_15
+      rect:
+        serializedVersion: 2
+        x: 631
+        y: 19
+        width: 86
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ea100a8d7705bae0800000000000000
+      internalID: -1534311862282216731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Fierce_Viking_berser...-2042219951-0_0: 3132601164718384767
+      Fierce_Viking_berser...-2042219951-0_1: 2156994708775862901
+      Fierce_Viking_berser...-2042219951-0_10: -5542299406066852808
+      Fierce_Viking_berser...-2042219951-0_11: 8880495608802255580
+      Fierce_Viking_berser...-2042219951-0_12: -3943731227750296294
+      Fierce_Viking_berser...-2042219951-0_13: 3219106822432957023
+      Fierce_Viking_berser...-2042219951-0_14: -5991098396949577467
+      Fierce_Viking_berser...-2042219951-0_15: -1534311862282216731
+      Fierce_Viking_berser...-2042219951-0_2: -4226070843317831835
+      Fierce_Viking_berser...-2042219951-0_3: -2958438722922353413
+      Fierce_Viking_berser...-2042219951-0_4: 6381697362230425838
+      Fierce_Viking_berser...-2042219951-0_5: 1439260078594290470
+      Fierce_Viking_berser...-2042219951-0_6: 6752964049206211051
+      Fierce_Viking_berser...-2042219951-0_7: -8595755791109787330
+      Fierce_Viking_berser...-2042219951-0_8: -1212056332208990142
+      Fierce_Viking_berser...-2042219951-0_9: -6748443551040670249
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

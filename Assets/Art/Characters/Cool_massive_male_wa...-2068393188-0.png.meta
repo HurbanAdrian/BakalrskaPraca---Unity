@@ -1,0 +1,533 @@
+fileFormatVersion: 2
+guid: b68a40964656fb242a9156dfdd95ce1e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1494618199092594046
+    second: Cool_massive_male_wa...-2068393188-0_0
+  - first:
+      213: 4475865901652816061
+    second: Cool_massive_male_wa...-2068393188-0_1
+  - first:
+      213: -8880179066185632703
+    second: Cool_massive_male_wa...-2068393188-0_2
+  - first:
+      213: 4124705470653677094
+    second: Cool_massive_male_wa...-2068393188-0_3
+  - first:
+      213: 5847080605896227629
+    second: Cool_massive_male_wa...-2068393188-0_4
+  - first:
+      213: 7110248361767906607
+    second: Cool_massive_male_wa...-2068393188-0_5
+  - first:
+      213: 4834196416586667867
+    second: Cool_massive_male_wa...-2068393188-0_6
+  - first:
+      213: -2517916821818578061
+    second: Cool_massive_male_wa...-2068393188-0_7
+  - first:
+      213: 3253567292750399875
+    second: Cool_massive_male_wa...-2068393188-0_8
+  - first:
+      213: 2522111993153183967
+    second: Cool_massive_male_wa...-2068393188-0_9
+  - first:
+      213: -2042197167509008170
+    second: Cool_massive_male_wa...-2068393188-0_10
+  - first:
+      213: 1550820035509365614
+    second: Cool_massive_male_wa...-2068393188-0_11
+  - first:
+      213: 6170646188762381989
+    second: Cool_massive_male_wa...-2068393188-0_12
+  - first:
+      213: -8526478611683780668
+    second: Cool_massive_male_wa...-2068393188-0_13
+  - first:
+      213: 8214820191857015270
+    second: Cool_massive_male_wa...-2068393188-0_14
+  - first:
+      213: -62342908785680205
+    second: Cool_massive_male_wa...-2068393188-0_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Cool_massive_male_wa...-2068393188-0_0
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 595
+        width: 94
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28a7040baac024be0800000000000000
+      internalID: -1494618199092594046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cool_massive_male_wa...-2068393188-0_1
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 591
+        width: 114
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db0bc4ac2587d1e30800000000000000
+      internalID: 4475865901652816061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cool_massive_male_wa...-2068393188-0_2
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 595
+        width: 94
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1443522403443c480800000000000000
+      internalID: -8880179066185632703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cool_massive_male_wa...-2068393188-0_3
+      rect:
+        serializedVersion: 2
+        x: 623
+        y: 591
+        width: 94
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62e3c6d95c5ed3930800000000000000
+      internalID: 4124705470653677094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cool_massive_male_wa...-2068393188-0_4
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 403
+        width: 94
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2b3587f4d0052150800000000000000
+      internalID: 5847080605896227629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cool_massive_male_wa...-2068393188-0_5
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 403
+        width: 98
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2daafb963daca260800000000000000
+      internalID: 7110248361767906607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cool_massive_male_wa...-2068393188-0_6
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 403
+        width: 94
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b575d193704861340800000000000000
+      internalID: 4834196416586667867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cool_massive_male_wa...-2068393188-0_7
+      rect:
+        serializedVersion: 2
+        x: 611
+        y: 403
+        width: 94
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37be585bdff8e0dd0800000000000000
+      internalID: -2517916821818578061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cool_massive_male_wa...-2068393188-0_8
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 211
+        width: 94
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3898731f63ef62d20800000000000000
+      internalID: 3253567292750399875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cool_massive_male_wa...-2068393188-0_9
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 207
+        width: 118
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd0e5abbe77500320800000000000000
+      internalID: 2522111993153183967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cool_massive_male_wa...-2068393188-0_10
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 211
+        width: 94
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d011550f78a8a3e0800000000000000
+      internalID: -2042197167509008170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cool_massive_male_wa...-2068393188-0_11
+      rect:
+        serializedVersion: 2
+        x: 623
+        y: 207
+        width: 114
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6b281f0b9e958510800000000000000
+      internalID: 1550820035509365614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cool_massive_male_wa...-2068393188-0_12
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 19
+        width: 90
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5aebcc3e30a82a550800000000000000
+      internalID: 6170646188762381989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cool_massive_male_wa...-2068393188-0_13
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 19
+        width: 98
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c75f9db0ecdba980800000000000000
+      internalID: -8526478611683780668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cool_massive_male_wa...-2068393188-0_14
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 19
+        width: 94
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e9f755c077e00270800000000000000
+      internalID: 8214820191857015270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cool_massive_male_wa...-2068393188-0_15
+      rect:
+        serializedVersion: 2
+        x: 639
+        y: 19
+        width: 98
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b0a09b6473822ff0800000000000000
+      internalID: -62342908785680205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Cool_massive_male_wa...-2068393188-0_0: -1494618199092594046
+      Cool_massive_male_wa...-2068393188-0_1: 4475865901652816061
+      Cool_massive_male_wa...-2068393188-0_10: -2042197167509008170
+      Cool_massive_male_wa...-2068393188-0_11: 1550820035509365614
+      Cool_massive_male_wa...-2068393188-0_12: 6170646188762381989
+      Cool_massive_male_wa...-2068393188-0_13: -8526478611683780668
+      Cool_massive_male_wa...-2068393188-0_14: 8214820191857015270
+      Cool_massive_male_wa...-2068393188-0_15: -62342908785680205
+      Cool_massive_male_wa...-2068393188-0_2: -8880179066185632703
+      Cool_massive_male_wa...-2068393188-0_3: 4124705470653677094
+      Cool_massive_male_wa...-2068393188-0_4: 5847080605896227629
+      Cool_massive_male_wa...-2068393188-0_5: 7110248361767906607
+      Cool_massive_male_wa...-2068393188-0_6: 4834196416586667867
+      Cool_massive_male_wa...-2068393188-0_7: -2517916821818578061
+      Cool_massive_male_wa...-2068393188-0_8: 3253567292750399875
+      Cool_massive_male_wa...-2068393188-0_9: 2522111993153183967
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

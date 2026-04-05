@@ -1,0 +1,533 @@
+fileFormatVersion: 2
+guid: 45a6d9117bafb1443af36913207b2244
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2909286828421981116
+    second: Female_ninja_mid_lea...-1079276988-0_0
+  - first:
+      213: 8379591333302842308
+    second: Female_ninja_mid_lea...-1079276988-0_1
+  - first:
+      213: -2582160634560864523
+    second: Female_ninja_mid_lea...-1079276988-0_2
+  - first:
+      213: -5287401157272495615
+    second: Female_ninja_mid_lea...-1079276988-0_3
+  - first:
+      213: -2122340782977377934
+    second: Female_ninja_mid_lea...-1079276988-0_4
+  - first:
+      213: -1619244540743865080
+    second: Female_ninja_mid_lea...-1079276988-0_5
+  - first:
+      213: -414934326377031007
+    second: Female_ninja_mid_lea...-1079276988-0_6
+  - first:
+      213: 1033803276728334803
+    second: Female_ninja_mid_lea...-1079276988-0_7
+  - first:
+      213: -8248476113680248494
+    second: Female_ninja_mid_lea...-1079276988-0_8
+  - first:
+      213: -4040579223138306172
+    second: Female_ninja_mid_lea...-1079276988-0_9
+  - first:
+      213: -8023787938893092858
+    second: Female_ninja_mid_lea...-1079276988-0_10
+  - first:
+      213: 7601786943145082776
+    second: Female_ninja_mid_lea...-1079276988-0_11
+  - first:
+      213: -7619027873529667144
+    second: Female_ninja_mid_lea...-1079276988-0_12
+  - first:
+      213: -2026878497104636072
+    second: Female_ninja_mid_lea...-1079276988-0_13
+  - first:
+      213: -3504252869159842805
+    second: Female_ninja_mid_lea...-1079276988-0_14
+  - first:
+      213: 5227009698613231674
+    second: Female_ninja_mid_lea...-1079276988-0_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Female_ninja_mid_lea...-1079276988-0_0
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 595
+        width: 86
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44c5f2a2b0320a7d0800000000000000
+      internalID: -2909286828421981116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Female_ninja_mid_lea...-1079276988-0_1
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 591
+        width: 86
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c33570bbe94a4470800000000000000
+      internalID: 8379591333302842308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Female_ninja_mid_lea...-1079276988-0_2
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 595
+        width: 86
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5fe900075925a2cd0800000000000000
+      internalID: -2582160634560864523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Female_ninja_mid_lea...-1079276988-0_3
+      rect:
+        serializedVersion: 2
+        x: 627
+        y: 591
+        width: 86
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10a98cb49a06f96b0800000000000000
+      internalID: -5287401157272495615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Female_ninja_mid_lea...-1079276988-0_4
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 403
+        width: 90
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2791f427d4eeb82e0800000000000000
+      internalID: -2122340782977377934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Female_ninja_mid_lea...-1079276988-0_5
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 407
+        width: 90
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80da8785ba94789e0800000000000000
+      internalID: -1619244540743865080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Female_ninja_mid_lea...-1079276988-0_6
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 403
+        width: 90
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1aa5e27bd6bdd3af0800000000000000
+      internalID: -414934326377031007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Female_ninja_mid_lea...-1079276988-0_7
+      rect:
+        serializedVersion: 2
+        x: 627
+        y: 403
+        width: 90
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d9f6055a9ec85e00800000000000000
+      internalID: 1033803276728334803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Female_ninja_mid_lea...-1079276988-0_8
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 211
+        width: 86
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2515bc94da6878d80800000000000000
+      internalID: -8248476113680248494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Female_ninja_mid_lea...-1079276988-0_9
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 207
+        width: 86
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 487740eba9afce7c0800000000000000
+      internalID: -4040579223138306172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Female_ninja_mid_lea...-1079276988-0_10
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 215
+        width: 86
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 608a635a167c5a090800000000000000
+      internalID: -8023787938893092858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Female_ninja_mid_lea...-1079276988-0_11
+      rect:
+        serializedVersion: 2
+        x: 627
+        y: 207
+        width: 86
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89f7d54e2f8fe7960800000000000000
+      internalID: 7601786943145082776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Female_ninja_mid_lea...-1079276988-0_12
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 19
+        width: 90
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b1e6703486c34690800000000000000
+      internalID: -7619027873529667144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Female_ninja_mid_lea...-1079276988-0_13
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 19
+        width: 86
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8575339eeb41fd3e0800000000000000
+      internalID: -2026878497104636072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Female_ninja_mid_lea...-1079276988-0_14
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 19
+        width: 90
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0c8592f4946e5fc0800000000000000
+      internalID: -3504252869159842805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Female_ninja_mid_lea...-1079276988-0_15
+      rect:
+        serializedVersion: 2
+        x: 627
+        y: 19
+        width: 90
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a300d5380a11a8840800000000000000
+      internalID: 5227009698613231674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Female_ninja_mid_lea...-1079276988-0_0: -2909286828421981116
+      Female_ninja_mid_lea...-1079276988-0_1: 8379591333302842308
+      Female_ninja_mid_lea...-1079276988-0_10: -8023787938893092858
+      Female_ninja_mid_lea...-1079276988-0_11: 7601786943145082776
+      Female_ninja_mid_lea...-1079276988-0_12: -7619027873529667144
+      Female_ninja_mid_lea...-1079276988-0_13: -2026878497104636072
+      Female_ninja_mid_lea...-1079276988-0_14: -3504252869159842805
+      Female_ninja_mid_lea...-1079276988-0_15: 5227009698613231674
+      Female_ninja_mid_lea...-1079276988-0_2: -2582160634560864523
+      Female_ninja_mid_lea...-1079276988-0_3: -5287401157272495615
+      Female_ninja_mid_lea...-1079276988-0_4: -2122340782977377934
+      Female_ninja_mid_lea...-1079276988-0_5: -1619244540743865080
+      Female_ninja_mid_lea...-1079276988-0_6: -414934326377031007
+      Female_ninja_mid_lea...-1079276988-0_7: 1033803276728334803
+      Female_ninja_mid_lea...-1079276988-0_8: -8248476113680248494
+      Female_ninja_mid_lea...-1079276988-0_9: -4040579223138306172
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

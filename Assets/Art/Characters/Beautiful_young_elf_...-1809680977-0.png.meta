@@ -1,0 +1,533 @@
+fileFormatVersion: 2
+guid: ab2f67cebe15a014c9b66591b682cb37
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6349051396769568189
+    second: Beautiful_young_elf_...-1809680977-0_0
+  - first:
+      213: 6811877274856966778
+    second: Beautiful_young_elf_...-1809680977-0_1
+  - first:
+      213: -9206313072579196877
+    second: Beautiful_young_elf_...-1809680977-0_2
+  - first:
+      213: -2469870149197427048
+    second: Beautiful_young_elf_...-1809680977-0_3
+  - first:
+      213: -4929420833782893634
+    second: Beautiful_young_elf_...-1809680977-0_4
+  - first:
+      213: -5931236372954189578
+    second: Beautiful_young_elf_...-1809680977-0_5
+  - first:
+      213: 4589178376167981428
+    second: Beautiful_young_elf_...-1809680977-0_6
+  - first:
+      213: 5504380988247338356
+    second: Beautiful_young_elf_...-1809680977-0_7
+  - first:
+      213: -8737520102431756930
+    second: Beautiful_young_elf_...-1809680977-0_8
+  - first:
+      213: 1026003827979577169
+    second: Beautiful_young_elf_...-1809680977-0_9
+  - first:
+      213: 3051509419687631559
+    second: Beautiful_young_elf_...-1809680977-0_10
+  - first:
+      213: -3452202230784006083
+    second: Beautiful_young_elf_...-1809680977-0_11
+  - first:
+      213: -405492176313312050
+    second: Beautiful_young_elf_...-1809680977-0_12
+  - first:
+      213: -28926607697320173
+    second: Beautiful_young_elf_...-1809680977-0_13
+  - first:
+      213: 4206887150069108174
+    second: Beautiful_young_elf_...-1809680977-0_14
+  - first:
+      213: -5253266060652368827
+    second: Beautiful_young_elf_...-1809680977-0_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Beautiful_young_elf_...-1809680977-0_0
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 595
+        width: 94
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db5d52d4b9c5c1850800000000000000
+      internalID: 6349051396769568189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beautiful_young_elf_...-1809680977-0_1
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 591
+        width: 90
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7ac7656a46a88e50800000000000000
+      internalID: 6811877274856966778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beautiful_young_elf_...-1809680977-0_2
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 595
+        width: 94
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 338c1e1a90b9c3080800000000000000
+      internalID: -9206313072579196877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beautiful_young_elf_...-1809680977-0_3
+      rect:
+        serializedVersion: 2
+        x: 623
+        y: 591
+        width: 94
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89e0fbb6f2249bdd0800000000000000
+      internalID: -2469870149197427048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beautiful_young_elf_...-1809680977-0_4
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 403
+        width: 90
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb3f5fd6edd279bb0800000000000000
+      internalID: -4929420833782893634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beautiful_young_elf_...-1809680977-0_5
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 403
+        width: 94
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f0703f91f300bda0800000000000000
+      internalID: -5931236372954189578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beautiful_young_elf_...-1809680977-0_6
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 403
+        width: 90
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 471856a2b6900bf30800000000000000
+      internalID: 4589178376167981428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beautiful_young_elf_...-1809680977-0_7
+      rect:
+        serializedVersion: 2
+        x: 619
+        y: 403
+        width: 90
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47d65e8685d736c40800000000000000
+      internalID: 5504380988247338356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beautiful_young_elf_...-1809680977-0_8
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 211
+        width: 86
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7d68bc92c71eb680800000000000000
+      internalID: -8737520102431756930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beautiful_young_elf_...-1809680977-0_9
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 207
+        width: 86
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 157e9e8ab091d3e00800000000000000
+      internalID: 1026003827979577169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beautiful_young_elf_...-1809680977-0_10
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 211
+        width: 86
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ca5d3d46a3295a20800000000000000
+      internalID: 3051509419687631559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beautiful_young_elf_...-1809680977-0_11
+      rect:
+        serializedVersion: 2
+        x: 627
+        y: 207
+        width: 86
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d38ee459c505710d0800000000000000
+      internalID: -3452202230784006083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beautiful_young_elf_...-1809680977-0_12
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 19
+        width: 90
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ecc15a793076f5af0800000000000000
+      internalID: -405492176313312050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beautiful_young_elf_...-1809680977-0_13
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 19
+        width: 90
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 317e4af476b399ff0800000000000000
+      internalID: -28926607697320173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beautiful_young_elf_...-1809680977-0_14
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 19
+        width: 90
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ecd460ee29dd16a30800000000000000
+      internalID: 4206887150069108174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beautiful_young_elf_...-1809680977-0_15
+      rect:
+        serializedVersion: 2
+        x: 635
+        y: 19
+        width: 90
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54c2330d956a817b0800000000000000
+      internalID: -5253266060652368827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Beautiful_young_elf_...-1809680977-0_0: 6349051396769568189
+      Beautiful_young_elf_...-1809680977-0_1: 6811877274856966778
+      Beautiful_young_elf_...-1809680977-0_10: 3051509419687631559
+      Beautiful_young_elf_...-1809680977-0_11: -3452202230784006083
+      Beautiful_young_elf_...-1809680977-0_12: -405492176313312050
+      Beautiful_young_elf_...-1809680977-0_13: -28926607697320173
+      Beautiful_young_elf_...-1809680977-0_14: 4206887150069108174
+      Beautiful_young_elf_...-1809680977-0_15: -5253266060652368827
+      Beautiful_young_elf_...-1809680977-0_2: -9206313072579196877
+      Beautiful_young_elf_...-1809680977-0_3: -2469870149197427048
+      Beautiful_young_elf_...-1809680977-0_4: -4929420833782893634
+      Beautiful_young_elf_...-1809680977-0_5: -5931236372954189578
+      Beautiful_young_elf_...-1809680977-0_6: 4589178376167981428
+      Beautiful_young_elf_...-1809680977-0_7: 5504380988247338356
+      Beautiful_young_elf_...-1809680977-0_8: -8737520102431756930
+      Beautiful_young_elf_...-1809680977-0_9: 1026003827979577169
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

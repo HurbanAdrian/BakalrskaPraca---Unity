@@ -1,0 +1,533 @@
+fileFormatVersion: 2
+guid: ab0e560c94cf23142ae3f58959047556
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1358717931027309230
+    second: Pixel_art_knight_cha...-32962109-0_0
+  - first:
+      213: 2310800295783135528
+    second: Pixel_art_knight_cha...-32962109-0_1
+  - first:
+      213: -8250607679207569788
+    second: Pixel_art_knight_cha...-32962109-0_2
+  - first:
+      213: 48355541463082455
+    second: Pixel_art_knight_cha...-32962109-0_3
+  - first:
+      213: -8901001042017554473
+    second: Pixel_art_knight_cha...-32962109-0_4
+  - first:
+      213: -7648664014761718940
+    second: Pixel_art_knight_cha...-32962109-0_5
+  - first:
+      213: 2072131275352045228
+    second: Pixel_art_knight_cha...-32962109-0_6
+  - first:
+      213: -6608130764762724154
+    second: Pixel_art_knight_cha...-32962109-0_7
+  - first:
+      213: -5369223356784218046
+    second: Pixel_art_knight_cha...-32962109-0_8
+  - first:
+      213: -6042901244699929125
+    second: Pixel_art_knight_cha...-32962109-0_9
+  - first:
+      213: 1939950047869841881
+    second: Pixel_art_knight_cha...-32962109-0_10
+  - first:
+      213: -1248618689044737996
+    second: Pixel_art_knight_cha...-32962109-0_11
+  - first:
+      213: 8160508788822581896
+    second: Pixel_art_knight_cha...-32962109-0_12
+  - first:
+      213: 5171321603747249145
+    second: Pixel_art_knight_cha...-32962109-0_13
+  - first:
+      213: 7434724674063208967
+    second: Pixel_art_knight_cha...-32962109-0_14
+  - first:
+      213: 8984756009361977561
+    second: Pixel_art_knight_cha...-32962109-0_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 120
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Pixel_art_knight_cha...-32962109-0_0
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 595
+        width: 82
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25dd9239d3dd42de0800000000000000
+      internalID: -1358717931027309230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel_art_knight_cha...-32962109-0_1
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 591
+        width: 78
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 829750930ac911020800000000000000
+      internalID: 2310800295783135528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel_art_knight_cha...-32962109-0_2
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 595
+        width: 86
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48609b38704ff7d80800000000000000
+      internalID: -8250607679207569788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel_art_knight_cha...-32962109-0_3
+      rect:
+        serializedVersion: 2
+        x: 635
+        y: 591
+        width: 78
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d524d7db1bcba000800000000000000
+      internalID: 48355541463082455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel_art_knight_cha...-32962109-0_4
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 403
+        width: 62
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7df692936ba497480800000000000000
+      internalID: -8901001042017554473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel_art_knight_cha...-32962109-0_5
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 403
+        width: 78
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46b80d95a9c7ad590800000000000000
+      internalID: -7648664014761718940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel_art_knight_cha...-32962109-0_6
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 403
+        width: 70
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca6f5539a60b1cc10800000000000000
+      internalID: 2072131275352045228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel_art_knight_cha...-32962109-0_7
+      rect:
+        serializedVersion: 2
+        x: 631
+        y: 403
+        width: 74
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c8ccf0b4143b44a0800000000000000
+      internalID: -6608130764762724154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel_art_knight_cha...-32962109-0_8
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 211
+        width: 86
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 240752bedcfac75b0800000000000000
+      internalID: -5369223356784218046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel_art_knight_cha...-32962109-0_9
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 207
+        width: 82
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd515e8a55d432ca0800000000000000
+      internalID: -6042901244699929125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel_art_knight_cha...-32962109-0_10
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 211
+        width: 86
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d1b84d4a461cea10800000000000000
+      internalID: 1939950047869841881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel_art_knight_cha...-32962109-0_11
+      rect:
+        serializedVersion: 2
+        x: 635
+        y: 207
+        width: 74
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4301393fae30caee0800000000000000
+      internalID: -1248618689044737996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel_art_knight_cha...-32962109-0_12
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 19
+        width: 66
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8822938d183ff3170800000000000000
+      internalID: 8160508788822581896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel_art_knight_cha...-32962109-0_13
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 19
+        width: 78
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9fb78aa899934c740800000000000000
+      internalID: 5171321603747249145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel_art_knight_cha...-32962109-0_14
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 19
+        width: 70
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7029e5043b27d2760800000000000000
+      internalID: 7434724674063208967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel_art_knight_cha...-32962109-0_15
+      rect:
+        serializedVersion: 2
+        x: 639
+        y: 19
+        width: 74
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d0b39bbcf340bc70800000000000000
+      internalID: 8984756009361977561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Pixel_art_knight_cha...-32962109-0_0: -1358717931027309230
+      Pixel_art_knight_cha...-32962109-0_1: 2310800295783135528
+      Pixel_art_knight_cha...-32962109-0_10: 1939950047869841881
+      Pixel_art_knight_cha...-32962109-0_11: -1248618689044737996
+      Pixel_art_knight_cha...-32962109-0_12: 8160508788822581896
+      Pixel_art_knight_cha...-32962109-0_13: 5171321603747249145
+      Pixel_art_knight_cha...-32962109-0_14: 7434724674063208967
+      Pixel_art_knight_cha...-32962109-0_15: 8984756009361977561
+      Pixel_art_knight_cha...-32962109-0_2: -8250607679207569788
+      Pixel_art_knight_cha...-32962109-0_3: 48355541463082455
+      Pixel_art_knight_cha...-32962109-0_4: -8901001042017554473
+      Pixel_art_knight_cha...-32962109-0_5: -7648664014761718940
+      Pixel_art_knight_cha...-32962109-0_6: 2072131275352045228
+      Pixel_art_knight_cha...-32962109-0_7: -6608130764762724154
+      Pixel_art_knight_cha...-32962109-0_8: -5369223356784218046
+      Pixel_art_knight_cha...-32962109-0_9: -6042901244699929125
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

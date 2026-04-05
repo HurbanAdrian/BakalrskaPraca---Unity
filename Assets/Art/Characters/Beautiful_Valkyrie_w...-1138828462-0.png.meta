@@ -1,0 +1,533 @@
+fileFormatVersion: 2
+guid: 53c3a58b7a7b8714a9e86d63ec9359ce
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3588665398376014746
+    second: Beautiful_Valkyrie_w...-1138828462-0_0
+  - first:
+      213: 6834937854533211417
+    second: Beautiful_Valkyrie_w...-1138828462-0_1
+  - first:
+      213: -4042510864008324320
+    second: Beautiful_Valkyrie_w...-1138828462-0_2
+  - first:
+      213: -3602872840755107136
+    second: Beautiful_Valkyrie_w...-1138828462-0_3
+  - first:
+      213: -7738097882552390227
+    second: Beautiful_Valkyrie_w...-1138828462-0_4
+  - first:
+      213: -5316860189898297980
+    second: Beautiful_Valkyrie_w...-1138828462-0_5
+  - first:
+      213: 2492639417236928259
+    second: Beautiful_Valkyrie_w...-1138828462-0_6
+  - first:
+      213: 6487148918698149275
+    second: Beautiful_Valkyrie_w...-1138828462-0_7
+  - first:
+      213: 6700954395599730878
+    second: Beautiful_Valkyrie_w...-1138828462-0_8
+  - first:
+      213: 3680292803579453188
+    second: Beautiful_Valkyrie_w...-1138828462-0_9
+  - first:
+      213: 1039579690096763129
+    second: Beautiful_Valkyrie_w...-1138828462-0_10
+  - first:
+      213: -4041976327838887125
+    second: Beautiful_Valkyrie_w...-1138828462-0_11
+  - first:
+      213: 402776946187547256
+    second: Beautiful_Valkyrie_w...-1138828462-0_12
+  - first:
+      213: 556742254315559137
+    second: Beautiful_Valkyrie_w...-1138828462-0_13
+  - first:
+      213: 7563745482495158248
+    second: Beautiful_Valkyrie_w...-1138828462-0_14
+  - first:
+      213: -4889474786721750488
+    second: Beautiful_Valkyrie_w...-1138828462-0_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Beautiful_Valkyrie_w...-1138828462-0_0
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 595
+        width: 82
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9320ff8a208dc130800000000000000
+      internalID: 3588665398376014746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beautiful_Valkyrie_w...-1138828462-0_1
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 591
+        width: 70
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 915925104c39ade50800000000000000
+      internalID: 6834937854533211417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beautiful_Valkyrie_w...-1138828462-0_2
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 595
+        width: 78
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02b502e89cd16e7c0800000000000000
+      internalID: -4042510864008324320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beautiful_Valkyrie_w...-1138828462-0_3
+      rect:
+        serializedVersion: 2
+        x: 635
+        y: 591
+        width: 70
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0caa3eb7d36000ec0800000000000000
+      internalID: -3602872840755107136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beautiful_Valkyrie_w...-1138828462-0_4
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 403
+        width: 66
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dad234959f0cc9490800000000000000
+      internalID: -7738097882552390227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beautiful_Valkyrie_w...-1138828462-0_5
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 403
+        width: 82
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48d22b4c3d7b636b0800000000000000
+      internalID: -5316860189898297980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beautiful_Valkyrie_w...-1138828462-0_6
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 407
+        width: 66
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3073b89e752a79220800000000000000
+      internalID: 2492639417236928259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beautiful_Valkyrie_w...-1138828462-0_7
+      rect:
+        serializedVersion: 2
+        x: 631
+        y: 407
+        width: 74
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b950018329bf60a50800000000000000
+      internalID: 6487148918698149275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beautiful_Valkyrie_w...-1138828462-0_8
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 207
+        width: 78
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb870d505829efc50800000000000000
+      internalID: 6700954395599730878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beautiful_Valkyrie_w...-1138828462-0_9
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 207
+        width: 74
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40f97ca4ec6031330800000000000000
+      internalID: 3680292803579453188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beautiful_Valkyrie_w...-1138828462-0_10
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 207
+        width: 78
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f0adef58345d6e00800000000000000
+      internalID: 1039579690096763129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beautiful_Valkyrie_w...-1138828462-0_11
+      rect:
+        serializedVersion: 2
+        x: 635
+        y: 207
+        width: 70
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2310a4f1f308e7c0800000000000000
+      internalID: -4041976327838887125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beautiful_Valkyrie_w...-1138828462-0_12
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 19
+        width: 66
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 872b931af73f69500800000000000000
+      internalID: 402776946187547256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beautiful_Valkyrie_w...-1138828462-0_13
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 19
+        width: 78
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e8ddeb6122f9b700800000000000000
+      internalID: 556742254315559137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beautiful_Valkyrie_w...-1138828462-0_14
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 19
+        width: 70
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e7e69f1172d7f860800000000000000
+      internalID: 7563745482495158248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beautiful_Valkyrie_w...-1138828462-0_15
+      rect:
+        serializedVersion: 2
+        x: 639
+        y: 23
+        width: 74
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 822a8374698152cb0800000000000000
+      internalID: -4889474786721750488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Beautiful_Valkyrie_w...-1138828462-0_0: 3588665398376014746
+      Beautiful_Valkyrie_w...-1138828462-0_1: 6834937854533211417
+      Beautiful_Valkyrie_w...-1138828462-0_10: 1039579690096763129
+      Beautiful_Valkyrie_w...-1138828462-0_11: -4041976327838887125
+      Beautiful_Valkyrie_w...-1138828462-0_12: 402776946187547256
+      Beautiful_Valkyrie_w...-1138828462-0_13: 556742254315559137
+      Beautiful_Valkyrie_w...-1138828462-0_14: 7563745482495158248
+      Beautiful_Valkyrie_w...-1138828462-0_15: -4889474786721750488
+      Beautiful_Valkyrie_w...-1138828462-0_2: -4042510864008324320
+      Beautiful_Valkyrie_w...-1138828462-0_3: -3602872840755107136
+      Beautiful_Valkyrie_w...-1138828462-0_4: -7738097882552390227
+      Beautiful_Valkyrie_w...-1138828462-0_5: -5316860189898297980
+      Beautiful_Valkyrie_w...-1138828462-0_6: 2492639417236928259
+      Beautiful_Valkyrie_w...-1138828462-0_7: 6487148918698149275
+      Beautiful_Valkyrie_w...-1138828462-0_8: 6700954395599730878
+      Beautiful_Valkyrie_w...-1138828462-0_9: 3680292803579453188
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

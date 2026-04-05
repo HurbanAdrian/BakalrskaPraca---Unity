@@ -1,0 +1,533 @@
+fileFormatVersion: 2
+guid: 0ec48d12a46e02b46966ef5354190124
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1899511796863434298
+    second: Mythic_male_shaman_w...-1945075284-0_0
+  - first:
+      213: -6062145993698084411
+    second: Mythic_male_shaman_w...-1945075284-0_1
+  - first:
+      213: 974972995766973173
+    second: Mythic_male_shaman_w...-1945075284-0_2
+  - first:
+      213: -2583688055588364523
+    second: Mythic_male_shaman_w...-1945075284-0_3
+  - first:
+      213: -6539602130643319579
+    second: Mythic_male_shaman_w...-1945075284-0_4
+  - first:
+      213: 5908436489485411730
+    second: Mythic_male_shaman_w...-1945075284-0_5
+  - first:
+      213: 2297013329271642324
+    second: Mythic_male_shaman_w...-1945075284-0_6
+  - first:
+      213: 7153518083509842987
+    second: Mythic_male_shaman_w...-1945075284-0_7
+  - first:
+      213: -3888640930847495099
+    second: Mythic_male_shaman_w...-1945075284-0_8
+  - first:
+      213: 1785697877294832470
+    second: Mythic_male_shaman_w...-1945075284-0_9
+  - first:
+      213: -4906859990759538710
+    second: Mythic_male_shaman_w...-1945075284-0_10
+  - first:
+      213: -6815238860084178651
+    second: Mythic_male_shaman_w...-1945075284-0_11
+  - first:
+      213: -8901939668597219710
+    second: Mythic_male_shaman_w...-1945075284-0_12
+  - first:
+      213: 5087395549898881376
+    second: Mythic_male_shaman_w...-1945075284-0_13
+  - first:
+      213: 6127333553736938885
+    second: Mythic_male_shaman_w...-1945075284-0_14
+  - first:
+      213: 4049613028152829536
+    second: Mythic_male_shaman_w...-1945075284-0_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Mythic_male_shaman_w...-1945075284-0_0
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 595
+        width: 78
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c18a45b51493a5e0800000000000000
+      internalID: -1899511796863434298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mythic_male_shaman_w...-1945075284-0_1
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 591
+        width: 78
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c9711d565eeedba0800000000000000
+      internalID: -6062145993698084411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mythic_male_shaman_w...-1945075284-0_2
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 595
+        width: 82
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f2f94626ccc78d00800000000000000
+      internalID: 974972995766973173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mythic_male_shaman_w...-1945075284-0_3
+      rect:
+        serializedVersion: 2
+        x: 631
+        y: 591
+        width: 78
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51f5c340765e42cd0800000000000000
+      internalID: -2583688055588364523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mythic_male_shaman_w...-1945075284-0_4
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 403
+        width: 66
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e40e9ea28aae35a0800000000000000
+      internalID: -6539602130643319579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mythic_male_shaman_w...-1945075284-0_5
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 403
+        width: 74
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 295ebb5deabfef150800000000000000
+      internalID: 5908436489485411730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mythic_male_shaman_w...-1945075284-0_6
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 403
+        width: 66
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d8d29fe371a0ef10800000000000000
+      internalID: 2297013329271642324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mythic_male_shaman_w...-1945075284-0_7
+      rect:
+        serializedVersion: 2
+        x: 627
+        y: 403
+        width: 74
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b24ffe5cbc6664360800000000000000
+      internalID: 7153518083509842987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mythic_male_shaman_w...-1945075284-0_8
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 211
+        width: 82
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54c6ac12da5c80ac0800000000000000
+      internalID: -3888640930847495099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mythic_male_shaman_w...-1945075284-0_9
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 207
+        width: 78
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65bd35422c218c810800000000000000
+      internalID: 1785697877294832470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mythic_male_shaman_w...-1945075284-0_10
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 211
+        width: 82
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aef733806d457ebb0800000000000000
+      internalID: -4906859990759538710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mythic_male_shaman_w...-1945075284-0_11
+      rect:
+        serializedVersion: 2
+        x: 631
+        y: 207
+        width: 78
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5219e3d8d586b61a0800000000000000
+      internalID: -6815238860084178651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mythic_male_shaman_w...-1945075284-0_12
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 19
+        width: 66
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28edd413905f57480800000000000000
+      internalID: -8901939668597219710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mythic_male_shaman_w...-1945075284-0_13
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 19
+        width: 74
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06930a76c4f0a9640800000000000000
+      internalID: 5087395549898881376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mythic_male_shaman_w...-1945075284-0_14
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 19
+        width: 66
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58572d23769a80550800000000000000
+      internalID: 6127333553736938885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mythic_male_shaman_w...-1945075284-0_15
+      rect:
+        serializedVersion: 2
+        x: 643
+        y: 19
+        width: 70
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 066e7d4e79d133830800000000000000
+      internalID: 4049613028152829536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Mythic_male_shaman_w...-1945075284-0_0: -1899511796863434298
+      Mythic_male_shaman_w...-1945075284-0_1: -6062145993698084411
+      Mythic_male_shaman_w...-1945075284-0_10: -4906859990759538710
+      Mythic_male_shaman_w...-1945075284-0_11: -6815238860084178651
+      Mythic_male_shaman_w...-1945075284-0_12: -8901939668597219710
+      Mythic_male_shaman_w...-1945075284-0_13: 5087395549898881376
+      Mythic_male_shaman_w...-1945075284-0_14: 6127333553736938885
+      Mythic_male_shaman_w...-1945075284-0_15: 4049613028152829536
+      Mythic_male_shaman_w...-1945075284-0_2: 974972995766973173
+      Mythic_male_shaman_w...-1945075284-0_3: -2583688055588364523
+      Mythic_male_shaman_w...-1945075284-0_4: -6539602130643319579
+      Mythic_male_shaman_w...-1945075284-0_5: 5908436489485411730
+      Mythic_male_shaman_w...-1945075284-0_6: 2297013329271642324
+      Mythic_male_shaman_w...-1945075284-0_7: 7153518083509842987
+      Mythic_male_shaman_w...-1945075284-0_8: -3888640930847495099
+      Mythic_male_shaman_w...-1945075284-0_9: 1785697877294832470
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

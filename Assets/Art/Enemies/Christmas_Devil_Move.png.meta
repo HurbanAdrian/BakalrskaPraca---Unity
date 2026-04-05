@@ -1,0 +1,741 @@
+fileFormatVersion: 2
+guid: 2061ab43f5f425348bb1bb8589b5de0c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 79809905972860014
+    second: Christmas_Devil_Move_0
+  - first:
+      213: 9066136887690617167
+    second: Christmas_Devil_Move_1
+  - first:
+      213: -4350421948131517130
+    second: Christmas_Devil_Move_2
+  - first:
+      213: 6219476530157884134
+    second: Christmas_Devil_Move_3
+  - first:
+      213: 3473400020669425333
+    second: Christmas_Devil_Move_4
+  - first:
+      213: -4421779027584960955
+    second: Christmas_Devil_Move_5
+  - first:
+      213: 4639200789464369608
+    second: Christmas_Devil_Move_6
+  - first:
+      213: -8458116668844458591
+    second: Christmas_Devil_Move_7
+  - first:
+      213: -2451786247438401052
+    second: Christmas_Devil_Move_8
+  - first:
+      213: 4183011054779009516
+    second: Christmas_Devil_Move_9
+  - first:
+      213: 863360264183979685
+    second: Christmas_Devil_Move_10
+  - first:
+      213: 1220274783889292684
+    second: Christmas_Devil_Move_11
+  - first:
+      213: -7329747670449700108
+    second: Christmas_Devil_Move_12
+  - first:
+      213: 2966053969780752801
+    second: Christmas_Devil_Move_13
+  - first:
+      213: -7395252832162001297
+    second: Christmas_Devil_Move_14
+  - first:
+      213: -1527620625060798595
+    second: Christmas_Devil_Move_15
+  - first:
+      213: 1932433658365479735
+    second: Christmas_Devil_Move_16
+  - first:
+      213: 7897885055913183237
+    second: Christmas_Devil_Move_17
+  - first:
+      213: 3060780880746214046
+    second: Christmas_Devil_Move_18
+  - first:
+      213: 2720304406960634080
+    second: Christmas_Devil_Move_19
+  - first:
+      213: -6389176971531031640
+    second: Christmas_Devil_Move_20
+  - first:
+      213: 1854706198381348707
+    second: Christmas_Devil_Move_21
+  - first:
+      213: 4385194142431052486
+    second: Christmas_Devil_Move_22
+  - first:
+      213: 6450123301640421464
+    second: Christmas_Devil_Move_23
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 30
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Christmas_Devil_Move_0
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 431
+        width: 21
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e64d117cfaa8b1100800000000000000
+      internalID: 79809905972860014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Christmas_Devil_Move_1
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 431
+        width: 20
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f416dd3077361dd70800000000000000
+      internalID: 9066136887690617167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Christmas_Devil_Move_2
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 431
+        width: 21
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63dde86a94230a3c0800000000000000
+      internalID: -4350421948131517130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Christmas_Devil_Move_3
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 431
+        width: 20
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e290f4b3f4005650800000000000000
+      internalID: 6219476530157884134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Christmas_Devil_Move_4
+      rect:
+        serializedVersion: 2
+        x: 565
+        y: 431
+        width: 21
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b6e5da7aeef33030800000000000000
+      internalID: 3473400020669425333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Christmas_Devil_Move_5
+      rect:
+        serializedVersion: 2
+        x: 693
+        y: 431
+        width: 21
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 546b689e66fa2a2c0800000000000000
+      internalID: -4421779027584960955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Christmas_Devil_Move_6
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 303
+        width: 27
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c94cb9d980c16040800000000000000
+      internalID: 4639200789464369608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Christmas_Devil_Move_7
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 303
+        width: 29
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ad37b4e3bbbe9a80800000000000000
+      internalID: -8458116668844458591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Christmas_Devil_Move_8
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 303
+        width: 31
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e10f38e56189fdd0800000000000000
+      internalID: -2451786247438401052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Christmas_Devil_Move_9
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 303
+        width: 31
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce982ab446a0d0a30800000000000000
+      internalID: 4183011054779009516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Christmas_Devil_Move_10
+      rect:
+        serializedVersion: 2
+        x: 565
+        y: 303
+        width: 32
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ae9fd306954bfb00800000000000000
+      internalID: 863360264183979685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Christmas_Devil_Move_11
+      rect:
+        serializedVersion: 2
+        x: 693
+        y: 303
+        width: 28
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8d761e53794fe010800000000000000
+      internalID: 1220274783889292684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Christmas_Devil_Move_12
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 175
+        width: 27
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f249911451874a90800000000000000
+      internalID: -7329747670449700108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Christmas_Devil_Move_13
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 175
+        width: 29
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a14b65ee5a892920800000000000000
+      internalID: 2966053969780752801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Christmas_Devil_Move_14
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 175
+        width: 31
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6e48ca1bb8ce5990800000000000000
+      internalID: -7395252832162001297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Christmas_Devil_Move_15
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 175
+        width: 31
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7fd0bb922dcccae0800000000000000
+      internalID: -1527620625060798595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Christmas_Devil_Move_16
+      rect:
+        serializedVersion: 2
+        x: 555
+        y: 175
+        width: 32
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73b02ee7c2261da10800000000000000
+      internalID: 1932433658365479735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Christmas_Devil_Move_17
+      rect:
+        serializedVersion: 2
+        x: 687
+        y: 175
+        width: 28
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50842921d9cea9d60800000000000000
+      internalID: 7897885055913183237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Christmas_Devil_Move_18
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 47
+        width: 20
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e927f2c8ef31a7a20800000000000000
+      internalID: 3060780880746214046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Christmas_Devil_Move_19
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 47
+        width: 20
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e871d1027670c520800000000000000
+      internalID: 2720304406960634080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Christmas_Devil_Move_20
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 47
+        width: 20
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ab69cc45651557a0800000000000000
+      internalID: -6389176971531031640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Christmas_Devil_Move_21
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 47
+        width: 20
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3674c35f57d3db910800000000000000
+      internalID: 1854706198381348707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Christmas_Devil_Move_22
+      rect:
+        serializedVersion: 2
+        x: 565
+        y: 47
+        width: 21
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c20abab6d65bdc30800000000000000
+      internalID: 4385194142431052486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Christmas_Devil_Move_23
+      rect:
+        serializedVersion: 2
+        x: 693
+        y: 47
+        width: 21
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8504fb7f7f0738950800000000000000
+      internalID: 6450123301640421464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Christmas_Devil_Move_0: 79809905972860014
+      Christmas_Devil_Move_1: 9066136887690617167
+      Christmas_Devil_Move_10: 863360264183979685
+      Christmas_Devil_Move_11: 1220274783889292684
+      Christmas_Devil_Move_12: -7329747670449700108
+      Christmas_Devil_Move_13: 2966053969780752801
+      Christmas_Devil_Move_14: -7395252832162001297
+      Christmas_Devil_Move_15: -1527620625060798595
+      Christmas_Devil_Move_16: 1932433658365479735
+      Christmas_Devil_Move_17: 7897885055913183237
+      Christmas_Devil_Move_18: 3060780880746214046
+      Christmas_Devil_Move_19: 2720304406960634080
+      Christmas_Devil_Move_2: -4350421948131517130
+      Christmas_Devil_Move_20: -6389176971531031640
+      Christmas_Devil_Move_21: 1854706198381348707
+      Christmas_Devil_Move_22: 4385194142431052486
+      Christmas_Devil_Move_23: 6450123301640421464
+      Christmas_Devil_Move_3: 6219476530157884134
+      Christmas_Devil_Move_4: 3473400020669425333
+      Christmas_Devil_Move_5: -4421779027584960955
+      Christmas_Devil_Move_6: 4639200789464369608
+      Christmas_Devil_Move_7: -8458116668844458591
+      Christmas_Devil_Move_8: -2451786247438401052
+      Christmas_Devil_Move_9: 4183011054779009516
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

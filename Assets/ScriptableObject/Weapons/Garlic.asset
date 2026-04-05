@@ -28,7 +28,7 @@ MonoBehaviour:
   behaviour: AuraWeapon
   baseStats:
     name: Garlic
-    description: Damages nearby enemies.
+    description: Damages nearby enemies. Reduces Resistances
     projectilePrefab: {fileID: 0}
     auraPrefab: {fileID: -6151144943378912021, guid: 11b4daa245124ac47b4fbb2c56e8c5cd, type: 3}
     hitEffect: {fileID: 0}
@@ -50,7 +50,10 @@ MonoBehaviour:
     number: 1
     piercing: 0
     maxInstances: 50
-    appliedBuffs: []
+    appliedBuffs:
+    - data: {fileID: 11400000, guid: b3565711c558a5a41a084199b70c8e37, type: 2}
+      variant: 0
+      probability: 1
   linearGrowth:
   - name: Level 2
     description: 'Base Area up by 40%. Base Damage up by 2. '

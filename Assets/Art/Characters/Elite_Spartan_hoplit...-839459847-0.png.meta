@@ -1,0 +1,533 @@
+fileFormatVersion: 2
+guid: 16cfcb3d9b5aec04087e5d900fe7329e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1544914730031697398
+    second: Elite_Spartan_hoplit...-839459847-0_0
+  - first:
+      213: -5777911914943469783
+    second: Elite_Spartan_hoplit...-839459847-0_1
+  - first:
+      213: -6649875022140054418
+    second: Elite_Spartan_hoplit...-839459847-0_2
+  - first:
+      213: 2250944659824716361
+    second: Elite_Spartan_hoplit...-839459847-0_3
+  - first:
+      213: 722739614047503716
+    second: Elite_Spartan_hoplit...-839459847-0_4
+  - first:
+      213: 6220558192660480190
+    second: Elite_Spartan_hoplit...-839459847-0_5
+  - first:
+      213: 7971576848215430319
+    second: Elite_Spartan_hoplit...-839459847-0_6
+  - first:
+      213: 1636220916691876814
+    second: Elite_Spartan_hoplit...-839459847-0_7
+  - first:
+      213: -8189535190408742073
+    second: Elite_Spartan_hoplit...-839459847-0_8
+  - first:
+      213: 9142033822532376721
+    second: Elite_Spartan_hoplit...-839459847-0_9
+  - first:
+      213: 1718884027470213056
+    second: Elite_Spartan_hoplit...-839459847-0_10
+  - first:
+      213: -4569128150544290847
+    second: Elite_Spartan_hoplit...-839459847-0_11
+  - first:
+      213: -7792768913521638492
+    second: Elite_Spartan_hoplit...-839459847-0_12
+  - first:
+      213: -2779778358842528533
+    second: Elite_Spartan_hoplit...-839459847-0_13
+  - first:
+      213: 2178853649151260494
+    second: Elite_Spartan_hoplit...-839459847-0_14
+  - first:
+      213: -6340445297387521203
+    second: Elite_Spartan_hoplit...-839459847-0_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Elite_Spartan_hoplit...-839459847-0_0
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 595
+        width: 82
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6fdcecbf2c3a07510800000000000000
+      internalID: 1544914730031697398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elite_Spartan_hoplit...-839459847-0_1
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 591
+        width: 82
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9272c4ed9bbb0dfa0800000000000000
+      internalID: -5777911914943469783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elite_Spartan_hoplit...-839459847-0_2
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 595
+        width: 86
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e64699066e5e6b3a0800000000000000
+      internalID: -6649875022140054418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elite_Spartan_hoplit...-839459847-0_3
+      rect:
+        serializedVersion: 2
+        x: 631
+        y: 591
+        width: 82
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94a2ae9fd36fc3f10800000000000000
+      internalID: 2250944659824716361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elite_Spartan_hoplit...-839459847-0_4
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 403
+        width: 70
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 465876889dfa70a00800000000000000
+      internalID: 722739614047503716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elite_Spartan_hoplit...-839459847-0_5
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 403
+        width: 78
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb08c22e7bcd35650800000000000000
+      internalID: 6220558192660480190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elite_Spartan_hoplit...-839459847-0_6
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 403
+        width: 70
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa4db9188eab0ae60800000000000000
+      internalID: 7971576848215430319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elite_Spartan_hoplit...-839459847-0_7
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 403
+        width: 94
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ecbbb71314605b610800000000000000
+      internalID: 1636220916691876814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elite_Spartan_hoplit...-839459847-0_8
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 211
+        width: 86
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74b3024622de85e80800000000000000
+      internalID: -8189535190408742073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elite_Spartan_hoplit...-839459847-0_9
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 207
+        width: 78
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19816a433570fde70800000000000000
+      internalID: 9142033822532376721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elite_Spartan_hoplit...-839459847-0_10
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 211
+        width: 86
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0cf647b7ae3bad710800000000000000
+      internalID: 1718884027470213056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elite_Spartan_hoplit...-839459847-0_11
+      rect:
+        serializedVersion: 2
+        x: 631
+        y: 207
+        width: 78
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ebe195c7223790c0800000000000000
+      internalID: -4569128150544290847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elite_Spartan_hoplit...-839459847-0_12
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 19
+        width: 70
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a306d406f58ad390800000000000000
+      internalID: -7792768913521638492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elite_Spartan_hoplit...-839459847-0_13
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 19
+        width: 78
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bec6fde7f4e3c69d0800000000000000
+      internalID: -2779778358842528533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elite_Spartan_hoplit...-839459847-0_14
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 19
+        width: 70
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e47793f89d7dc3e10800000000000000
+      internalID: 2178853649151260494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elite_Spartan_hoplit...-839459847-0_15
+      rect:
+        serializedVersion: 2
+        x: 635
+        y: 19
+        width: 94
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4bbb6b58963208a0800000000000000
+      internalID: -6340445297387521203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Elite_Spartan_hoplit...-839459847-0_0: 1544914730031697398
+      Elite_Spartan_hoplit...-839459847-0_1: -5777911914943469783
+      Elite_Spartan_hoplit...-839459847-0_10: 1718884027470213056
+      Elite_Spartan_hoplit...-839459847-0_11: -4569128150544290847
+      Elite_Spartan_hoplit...-839459847-0_12: -7792768913521638492
+      Elite_Spartan_hoplit...-839459847-0_13: -2779778358842528533
+      Elite_Spartan_hoplit...-839459847-0_14: 2178853649151260494
+      Elite_Spartan_hoplit...-839459847-0_15: -6340445297387521203
+      Elite_Spartan_hoplit...-839459847-0_2: -6649875022140054418
+      Elite_Spartan_hoplit...-839459847-0_3: 2250944659824716361
+      Elite_Spartan_hoplit...-839459847-0_4: 722739614047503716
+      Elite_Spartan_hoplit...-839459847-0_5: 6220558192660480190
+      Elite_Spartan_hoplit...-839459847-0_6: 7971576848215430319
+      Elite_Spartan_hoplit...-839459847-0_7: 1636220916691876814
+      Elite_Spartan_hoplit...-839459847-0_8: -8189535190408742073
+      Elite_Spartan_hoplit...-839459847-0_9: 9142033822532376721
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

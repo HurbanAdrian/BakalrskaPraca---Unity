@@ -1,0 +1,533 @@
+fileFormatVersion: 2
+guid: 46b1e64c34f76ff45a28d86cfdc00907
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8537462208104767628
+    second: Beautiful_Chinese_ma...-1217739620-0_0
+  - first:
+      213: -4896714374529418205
+    second: Beautiful_Chinese_ma...-1217739620-0_1
+  - first:
+      213: 5334828552750337646
+    second: Beautiful_Chinese_ma...-1217739620-0_2
+  - first:
+      213: -8080455372636595139
+    second: Beautiful_Chinese_ma...-1217739620-0_3
+  - first:
+      213: 7954108007868921093
+    second: Beautiful_Chinese_ma...-1217739620-0_4
+  - first:
+      213: 3245602583662296258
+    second: Beautiful_Chinese_ma...-1217739620-0_5
+  - first:
+      213: -1760999205436228557
+    second: Beautiful_Chinese_ma...-1217739620-0_6
+  - first:
+      213: -506883469465171310
+    second: Beautiful_Chinese_ma...-1217739620-0_7
+  - first:
+      213: -7371753029957136512
+    second: Beautiful_Chinese_ma...-1217739620-0_8
+  - first:
+      213: -7828270992953939893
+    second: Beautiful_Chinese_ma...-1217739620-0_9
+  - first:
+      213: 7730160890025972287
+    second: Beautiful_Chinese_ma...-1217739620-0_10
+  - first:
+      213: -2070018178599605951
+    second: Beautiful_Chinese_ma...-1217739620-0_11
+  - first:
+      213: -5194115558330074832
+    second: Beautiful_Chinese_ma...-1217739620-0_12
+  - first:
+      213: -8277556820089983867
+    second: Beautiful_Chinese_ma...-1217739620-0_13
+  - first:
+      213: 5741112796516045806
+    second: Beautiful_Chinese_ma...-1217739620-0_14
+  - first:
+      213: 4564987952337543450
+    second: Beautiful_Chinese_ma...-1217739620-0_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Beautiful_Chinese_ma...-1217739620-0_0
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 595
+        width: 70
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47fd79aea57d48980800000000000000
+      internalID: -8537462208104767628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beautiful_Chinese_ma...-1217739620-0_1
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 591
+        width: 62
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32cff9368306b0cb0800000000000000
+      internalID: -4896714374529418205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beautiful_Chinese_ma...-1217739620-0_2
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 595
+        width: 70
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6e8b48bd4e190a40800000000000000
+      internalID: 5334828552750337646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beautiful_Chinese_ma...-1217739620-0_3
+      rect:
+        serializedVersion: 2
+        x: 639
+        y: 591
+        width: 62
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3c599296a47cdf80800000000000000
+      internalID: -8080455372636595139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beautiful_Chinese_ma...-1217739620-0_4
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 403
+        width: 62
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 505fd1a271ba26e60800000000000000
+      internalID: 7954108007868921093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beautiful_Chinese_ma...-1217739620-0_5
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 403
+        width: 74
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ccf7499a52ba0d20800000000000000
+      internalID: 3245602583662296258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beautiful_Chinese_ma...-1217739620-0_6
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 403
+        width: 66
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33c7a368d8caf87e0800000000000000
+      internalID: -1760999205436228557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beautiful_Chinese_ma...-1217739620-0_7
+      rect:
+        serializedVersion: 2
+        x: 635
+        y: 403
+        width: 70
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29ac20c8b2037f8f0800000000000000
+      internalID: -506883469465171310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beautiful_Chinese_ma...-1217739620-0_8
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 211
+        width: 70
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08fce7d2da542b990800000000000000
+      internalID: -7371753029957136512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beautiful_Chinese_ma...-1217739620-0_9
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 207
+        width: 62
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b486c7302056c5390800000000000000
+      internalID: -7828270992953939893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beautiful_Chinese_ma...-1217739620-0_10
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 211
+        width: 70
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f329d929f5c074b60800000000000000
+      internalID: 7730160890025972287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beautiful_Chinese_ma...-1217739620-0_11
+      rect:
+        serializedVersion: 2
+        x: 639
+        y: 207
+        width: 62
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14928f91f61d543e0800000000000000
+      internalID: -2070018178599605951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beautiful_Chinese_ma...-1217739620-0_12
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 19
+        width: 66
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 039f7675b6bcae7b0800000000000000
+      internalID: -5194115558330074832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beautiful_Chinese_ma...-1217739620-0_13
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 19
+        width: 74
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58cac62bde5302d80800000000000000
+      internalID: -8277556820089983867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beautiful_Chinese_ma...-1217739620-0_14
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 19
+        width: 66
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee3d9c3bba78caf40800000000000000
+      internalID: 5741112796516045806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beautiful_Chinese_ma...-1217739620-0_15
+      rect:
+        serializedVersion: 2
+        x: 639
+        y: 19
+        width: 70
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1164073b581a5f30800000000000000
+      internalID: 4564987952337543450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Beautiful_Chinese_ma...-1217739620-0_0: -8537462208104767628
+      Beautiful_Chinese_ma...-1217739620-0_1: -4896714374529418205
+      Beautiful_Chinese_ma...-1217739620-0_10: 7730160890025972287
+      Beautiful_Chinese_ma...-1217739620-0_11: -2070018178599605951
+      Beautiful_Chinese_ma...-1217739620-0_12: -5194115558330074832
+      Beautiful_Chinese_ma...-1217739620-0_13: -8277556820089983867
+      Beautiful_Chinese_ma...-1217739620-0_14: 5741112796516045806
+      Beautiful_Chinese_ma...-1217739620-0_15: 4564987952337543450
+      Beautiful_Chinese_ma...-1217739620-0_2: 5334828552750337646
+      Beautiful_Chinese_ma...-1217739620-0_3: -8080455372636595139
+      Beautiful_Chinese_ma...-1217739620-0_4: 7954108007868921093
+      Beautiful_Chinese_ma...-1217739620-0_5: 3245602583662296258
+      Beautiful_Chinese_ma...-1217739620-0_6: -1760999205436228557
+      Beautiful_Chinese_ma...-1217739620-0_7: -506883469465171310
+      Beautiful_Chinese_ma...-1217739620-0_8: -7371753029957136512
+      Beautiful_Chinese_ma...-1217739620-0_9: -7828270992953939893
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

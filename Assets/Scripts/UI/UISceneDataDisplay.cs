@@ -46,7 +46,7 @@ public class UISceneDataDisplay : UIPropertyDisplay
         ProcessValue(dat.playerModifier.moveSpeed, allStats[1], characterDataStats.GetField("moveSpeed"));
         ProcessValue(dat.playerModifier.greed, allStats[1], characterDataStats.GetField("greed"));
         ProcessValue(dat.playerModifier.luck, allStats[1], characterDataStats.GetField("luck"));
-        ProcessValue(dat.playerModifier.growth, allStats[1], characterDataStats.GetField("growth"));
+        ProcessValue(dat.playerModifier.expGain, allStats[1], characterDataStats.GetField("expGain"));
 
         // Spracujeme hodnoty z enemyModifier (nepriate¾ské posilnenia).
         Type enemyStats = typeof(EnemyStats.Stats);
@@ -69,7 +69,7 @@ public class UISceneDataDisplay : UIPropertyDisplay
             case "moveSpeed":
             case "greed":
             case "luck":
-            case "growth":
+            case "expGain":
             case "maxHealth":
                 return true;
         }
@@ -113,7 +113,7 @@ public class UISceneDataDisplay : UIPropertyDisplay
             case "moveSpeed":
             case "greed":
             case "luck":
-            case "growth":
+            case "expGain":
                 // Formátovanie štatistík ako percentuálny bonus (napr. +20%).
                 fval = value is int ? (int)value : (float)value;
                 float percentage = Mathf.Round(fval * 100);

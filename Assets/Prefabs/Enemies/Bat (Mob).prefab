@@ -60,6 +60,46 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5791092344264768520, guid: 388d940879e9e0145898df46fb564c68, type: 3}
+      propertyPath: drops.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5791092344264768520, guid: 388d940879e9e0145898df46fb564c68, type: 3}
+      propertyPath: drops.Array.data[1].name
+      value: Treasure Chest
+      objectReference: {fileID: 0}
+    - target: {fileID: 5791092344264768520, guid: 388d940879e9e0145898df46fb564c68, type: 3}
+      propertyPath: drops.Array.data[2].name
+      value: Red Gem
+      objectReference: {fileID: 0}
+    - target: {fileID: 5791092344264768520, guid: 388d940879e9e0145898df46fb564c68, type: 3}
+      propertyPath: drops.Array.data[3].name
+      value: Green Gem
+      objectReference: {fileID: 0}
+    - target: {fileID: 5791092344264768520, guid: 388d940879e9e0145898df46fb564c68, type: 3}
+      propertyPath: drops.Array.data[1].dropRate
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5791092344264768520, guid: 388d940879e9e0145898df46fb564c68, type: 3}
+      propertyPath: drops.Array.data[2].dropRate
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 5791092344264768520, guid: 388d940879e9e0145898df46fb564c68, type: 3}
+      propertyPath: drops.Array.data[3].dropRate
+      value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 5791092344264768520, guid: 388d940879e9e0145898df46fb564c68, type: 3}
+      propertyPath: drops.Array.data[1].itemPrefab
+      value: 
+      objectReference: {fileID: 1055815876130076236, guid: f29bda2bae97431448cb4887a7b0fe4c, type: 3}
+    - target: {fileID: 5791092344264768520, guid: 388d940879e9e0145898df46fb564c68, type: 3}
+      propertyPath: drops.Array.data[2].itemPrefab
+      value: 
+      objectReference: {fileID: 1716396255576501282, guid: 77c958285754f414ab2760e08d57b33f, type: 3}
+    - target: {fileID: 5791092344264768520, guid: 388d940879e9e0145898df46fb564c68, type: 3}
+      propertyPath: drops.Array.data[3].itemPrefab
+      value: 
+      objectReference: {fileID: 1716396255576501282, guid: 77c958285754f414ab2760e08d57b33f, type: 3}
     - target: {fileID: 6757600472617176067, guid: 388d940879e9e0145898df46fb564c68, type: 3}
       propertyPath: m_Name
       value: Bat (Mob)
@@ -93,8 +133,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ed6a0e24aa7bda742b1c83ad2605b5ce, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ChargingEnemyMovement
+  sortingActive: 1
+  deactivateOffScreen: 0
+  destroyDistance: 200
   outOfFrameAction: 2
   knockbackVariance: 2
+  obstacleLayer:
+    serializedVersion: 2
+    m_Bits: 0
+  obstacleCheckDistance: 0.5
+  avoidanceRadius: 0.25
 --- !u!50 &-3617499289175555247
 Rigidbody2D:
   serializedVersion: 5

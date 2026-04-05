@@ -1,0 +1,533 @@
+fileFormatVersion: 2
+guid: 69966bb6146d4894a99c21dec4e0a4be
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5772814581316531208
+    second: Stunning_royal_mistr...-1650285298-0_0
+  - first:
+      213: -3972046050104080869
+    second: Stunning_royal_mistr...-1650285298-0_1
+  - first:
+      213: 6590190267851656408
+    second: Stunning_royal_mistr...-1650285298-0_2
+  - first:
+      213: -7370182792192786391
+    second: Stunning_royal_mistr...-1650285298-0_3
+  - first:
+      213: 5023009584085786725
+    second: Stunning_royal_mistr...-1650285298-0_4
+  - first:
+      213: 422322261849037391
+    second: Stunning_royal_mistr...-1650285298-0_5
+  - first:
+      213: 1983396119659919159
+    second: Stunning_royal_mistr...-1650285298-0_6
+  - first:
+      213: 6684420871146233634
+    second: Stunning_royal_mistr...-1650285298-0_7
+  - first:
+      213: 322834773975903715
+    second: Stunning_royal_mistr...-1650285298-0_8
+  - first:
+      213: -3490539778329794925
+    second: Stunning_royal_mistr...-1650285298-0_9
+  - first:
+      213: 4850112179584101864
+    second: Stunning_royal_mistr...-1650285298-0_10
+  - first:
+      213: -1959510056324603390
+    second: Stunning_royal_mistr...-1650285298-0_11
+  - first:
+      213: -163358972294451426
+    second: Stunning_royal_mistr...-1650285298-0_12
+  - first:
+      213: 3505461696095126836
+    second: Stunning_royal_mistr...-1650285298-0_13
+  - first:
+      213: 4796791196729998450
+    second: Stunning_royal_mistr...-1650285298-0_14
+  - first:
+      213: 5488885610449833440
+    second: Stunning_royal_mistr...-1650285298-0_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Stunning_royal_mistr...-1650285298-0_0
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 595
+        width: 74
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8fbce6659b7d2efa0800000000000000
+      internalID: -5772814581316531208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stunning_royal_mistr...-1650285298-0_1
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 591
+        width: 74
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b168d08892570e8c0800000000000000
+      internalID: -3972046050104080869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stunning_royal_mistr...-1650285298-0_2
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 595
+        width: 74
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8dcc88dd12f057b50800000000000000
+      internalID: 6590190267851656408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stunning_royal_mistr...-1650285298-0_3
+      rect:
+        serializedVersion: 2
+        x: 627
+        y: 591
+        width: 78
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92007a5acc9d7b990800000000000000
+      internalID: -7370182792192786391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stunning_royal_mistr...-1650285298-0_4
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 403
+        width: 70
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 560e0da8a9055b540800000000000000
+      internalID: 5023009584085786725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stunning_royal_mistr...-1650285298-0_5
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 403
+        width: 74
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4a504e0cd36cd500800000000000000
+      internalID: 422322261849037391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stunning_royal_mistr...-1650285298-0_6
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 403
+        width: 70
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 737b7392340768b10800000000000000
+      internalID: 1983396119659919159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stunning_royal_mistr...-1650285298-0_7
+      rect:
+        serializedVersion: 2
+        x: 631
+        y: 403
+        width: 74
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22fd0e1ed55d3cc50800000000000000
+      internalID: 6684420871146233634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stunning_royal_mistr...-1650285298-0_8
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 207
+        width: 78
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ed2af73480fa7400800000000000000
+      internalID: 322834773975903715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stunning_royal_mistr...-1650285298-0_9
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 207
+        width: 78
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3962846b09c1f8fc0800000000000000
+      internalID: -3490539778329794925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stunning_royal_mistr...-1650285298-0_10
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 207
+        width: 78
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ede7e0945f0f4340800000000000000
+      internalID: 4850112179584101864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stunning_royal_mistr...-1650285298-0_11
+      rect:
+        serializedVersion: 2
+        x: 631
+        y: 207
+        width: 78
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20267f65cfb6ec4e0800000000000000
+      internalID: -1959510056324603390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stunning_royal_mistr...-1650285298-0_12
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 19
+        width: 70
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1f248551e1abbdf0800000000000000
+      internalID: -163358972294451426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stunning_royal_mistr...-1650285298-0_13
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 19
+        width: 78
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4350d7107d6e5a030800000000000000
+      internalID: 3505461696095126836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stunning_royal_mistr...-1650285298-0_14
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 19
+        width: 70
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27cffcecd20a19240800000000000000
+      internalID: 4796791196729998450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stunning_royal_mistr...-1650285298-0_15
+      rect:
+        serializedVersion: 2
+        x: 639
+        y: 19
+        width: 70
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ed8d9f91607c2c40800000000000000
+      internalID: 5488885610449833440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Stunning_royal_mistr...-1650285298-0_0: -5772814581316531208
+      Stunning_royal_mistr...-1650285298-0_1: -3972046050104080869
+      Stunning_royal_mistr...-1650285298-0_10: 4850112179584101864
+      Stunning_royal_mistr...-1650285298-0_11: -1959510056324603390
+      Stunning_royal_mistr...-1650285298-0_12: -163358972294451426
+      Stunning_royal_mistr...-1650285298-0_13: 3505461696095126836
+      Stunning_royal_mistr...-1650285298-0_14: 4796791196729998450
+      Stunning_royal_mistr...-1650285298-0_15: 5488885610449833440
+      Stunning_royal_mistr...-1650285298-0_2: 6590190267851656408
+      Stunning_royal_mistr...-1650285298-0_3: -7370182792192786391
+      Stunning_royal_mistr...-1650285298-0_4: 5023009584085786725
+      Stunning_royal_mistr...-1650285298-0_5: 422322261849037391
+      Stunning_royal_mistr...-1650285298-0_6: 1983396119659919159
+      Stunning_royal_mistr...-1650285298-0_7: 6684420871146233634
+      Stunning_royal_mistr...-1650285298-0_8: 322834773975903715
+      Stunning_royal_mistr...-1650285298-0_9: -3490539778329794925
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
